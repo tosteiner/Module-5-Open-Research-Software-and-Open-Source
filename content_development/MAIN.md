@@ -30,7 +30,7 @@ Welcome to **Module 5** of the Open Science MOOC: **Open Research Software and O
 
 This module has been developed [in the open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) through collaboration by an international team of [Open Source afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Everything you see here has been developed in the open through interactive feedback and collaboration from the wider community. It comprises a series of videos, infographics, text-based reading, and practical tasks for you to sink you teeth into.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://openmooc-ers-slackin.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
 
 ### Who is this module for?
 
@@ -124,7 +124,7 @@ Now, this all might be a little complex to remember. However, it can be summaris
 
 ## An Open Source checklist
 
-There are a number of existing platforms and tools that support OSS and collaboration. The [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/es/02opensciencebasics/03openresearchsoftwareandopensource#knowledge) provides a check-list to use for evaluating the 'openness' of existing research software, based on the Open Source Definition above:
+There are a number of existing platforms and tools that support OSS and collaboration. The [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) provides a check-list to use for evaluating the 'openness' of existing research software, based on the Open Source Definition above:
 
 - [ ] Is the software available to download and install?
 
@@ -154,13 +154,13 @@ These definitions have now become widely adopted, both by international governme
 
 ### For individual projects
 
-Within OSS projects, there are typically three main formal roles:
+A typical open source project has the following types of formal roles:
 
-* **Maintainer**;
-* **Contributor**; and
-* **Committer**.
-
-A **maintainer** is a user with 'commit' access to implement suggested changes to the project. They have responsibility for the direction and improvement of the project. A **contributor** is someone who directly adds value to the project through issue resolution, code writing, or even external activities such as communications and event organisation. A **committer** is someone who can make 'commits' to the project (see [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)).
+- **Author**: It is the  person that created the project
+- **Owner**: The person/s who has administrative ownership over the organization or repository 
+- **Maintainers**: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. (They may also be authors or owners of the project.)
+- **Contributors**: The user that has already contributed to the project.
+- **Community Members**: People who use the project. They might be active in conversations, create new issues or express their opinion on the future project improvements.
 
 Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
 
@@ -453,6 +453,7 @@ However, your Open Source journey does not stop here! This was just the beginnin
 - [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Italy.
 - [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Denmark.
 - [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Naturalis Biodiversity Center, the Netherlands.
+- [Julien Colomb](https://twitter.com/j_colomb), Open Ninja, Berlin.
 - [Jon Tennant](https://twitter.com/protohedgehog), Dinosaur Whisperer.
 
 **Know a way this content can be improved?**

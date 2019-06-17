@@ -15,23 +15,17 @@ Welcome to Module 5 of the Open Science MOOC! Here you can find important inform
 
 **STATUS**: LIVE
 
-This module us now LIVE on [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).
+This module us now LIVE on [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html). Check out the latest [video online here](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
-The second release for this module is now also ready, and has been published on Zenodo: 
+The third release for this module is now also ready, and has been published on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288)
 
-Ver. 1: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1325081.svg)](https://doi.org/10.5281/zenodo.1325081)
-
-Ver. 2: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288)
-
-To cite this work, please use the following:
-
-Tennant, J. et al. (23/09/2018) Open Science MOOC: Module 5, Open Research Software and Open Source (Version 2.0) Zenodo. [http://doi.org/10.5281/zenodo.1434288](http://doi.org/10.5281/zenodo.1434288)
+Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. [http://doi.org/10.5281/zenodo.1937708](http://doi.org/10.5281/zenodo.1937708).
 
 - [**Content Development**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) - This is where you can find all content currently being developed for the MOOC, and also contribute yourself.
 
 - [**Production Toolkit**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit) - This is where the basic protocols and outline for the module development are kept. It includes a tracking scheme as the content development progresses.
 
-Don't forget to join us in our open [Slack group](https://openmooc-ers-slackin.herokuapp.com/)! The channel for this module is #module5opensource. You can also sign up to our mailing list [here](https://opensciencemooc.eu/contact/). To join the development team for the Open Science MOOC, anyone can openly add themselves [here](https://open-science-mooc-invite.herokuapp.com/).
+Don't forget to join us in our open [Slack group](https://osmooc.herokuapp.com/)! The channel for this module is #module5opensource. You can also sign up to our mailing list [here](https://opensciencemooc.eu/contact/). To join the development team for the Open Science MOOC, anyone can openly add themselves [here](https://open-science-mooc-invite.herokuapp.com/).
 
 
 ## Rationale <a name="Rationale"></a>
@@ -57,6 +51,7 @@ Software and technology underpin modern science. There is an increasing demand f
 - [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Italy.
 - [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Denmark.
 - [Jon Tennant](https://twitter.com/protohedgehog), Rogue scientist, World.
+- [Julien Colomb](https://twitter.com/j_colomb), Open Science Ninja, Berlin, Germany
 
 
 ## Key documents <a name="Key_documents"></a>
@@ -77,3 +72,5 @@ MOOC content license: [![CC0 Public Domain Dedication](https://img.shields.io/ba
 
 ### Code and software   
 Software associated with the MOOCs, or any code snippets contained in the MOOCs, carry the following default license: [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). If needed a different [OSI approved software license](https://opensource.org/licenses) may be chosen.
+
+All hyperlinks work?: [![Build Status](https://travis-ci.org/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.svg?branch=master)](https://travis-ci.org/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)

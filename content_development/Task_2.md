@@ -8,11 +8,12 @@ output:
 
 This task is designed for students and researchers who want to create and re-use GitHub-based projects/repositories in the academic literature.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://openmooc-ers-slackin.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
 
 Estimated time to complete: 45-60 minutes.
 
 ## Table of contents
+- [Foreword](#Foreword)
 - [Set up a GitHub repository](#Setup)
 - [Choose your GitHub repository](#Choose)
 - [Login to Zenodo](#Login)
@@ -31,6 +32,10 @@ Estimated time to complete: 45-60 minutes.
 <p align="center"><i>The workflow for Task 2. Keep this handy as you work through the task!</i></p>
 
 <br/>
+## Foreword <a name="Foreword"></a>
+
+Although the integration of GitHub and Zenodo makes it really easier to work with these tools nowadays (January 2019), it is important to stress that there are alternatives to GitHub (Gitlab, Bitbucket,...) and alternatives to Zenodo (Other repositories might be more suited to your community, you might ask your colleagues). For instance, one can work with Gitlab and manually upload each new versions to your university repository, getting a DOI. The principles (working with a version control system online, and archiving major versions 
+in a repository which provides a persistent unique identifier) can be applied in different workflow. 
 
 ## Set up a GitHub repository <a name="Setup"></a>
 

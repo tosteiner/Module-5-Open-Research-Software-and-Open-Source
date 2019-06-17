@@ -2,23 +2,19 @@
 
 These are the main content development files for this MOOC module.
 
-**STATUS**: 
+**STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
 
-**LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).**
+The third release for this module is now also ready, and has been published on Zenodo: 
 
-The second release for this module is now also ready, and has been published on Zenodo: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
-Version 2: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288)
+To cite this work, please use the following reference:
 
-Version 1: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1325081.svg)](https://doi.org/10.5281/zenodo.1325081)
-
-To cite this work, please use the following:
-
-Tennant, J. et al. (23/09/2018) Open Science MOOC: Module 5, Open Research Software and Open Source (Version 2.0) Zenodo. [http://doi.org/10.5281/zenodo.1434288](http://doi.org/10.5281/zenodo.1434288)
+Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. [http://doi.org/10.5281/zenodo.1937708](http://doi.org/10.5281/zenodo.1937708).
 
 Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
 
-Anyone can join our [open Slack channel](https://openmooc-ers-slackin.herokuapp.com/) and [team on GitHub](https://open-science-mooc-invite.herokuapp.com/) for the whole MOOC project.
+Anyone can join our [open Slack channel](https://osmooc.herokuapp.com/) and [open team on GitHub](https://open-science-mooc-invite.herokuapp.com/) for the whole MOOC project.
 
 ## Core content
 
@@ -34,10 +30,10 @@ For notedown:
 
 ### In markdown format
 
-- [**MAIN CONTENT**](MAIN.md) - The main content for this Module.
-- [**TASK 1**](Task_1.md) - How to set up your first repository on GitHub.
-- [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo.
-- [**TASK 3**](Task_3.md) - How to integrate Git with RStudio.
+- [**MAIN CONTENT**](MAIN.md) - The main content for this Module. ([YouTube video](https://www.youtube.com/watch?v=BHrOEmKk5zM))
+- [**TASK 1**](Task_1.md) - How to set up your first repository on GitHub. ([YouTube video](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
+- [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo. ([YouTube video](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
+- [**TASK 3**](Task_3.md) - How to integrate Git with RStudio. ([YouTube video](https://www.youtube.com/watch?v=Q-6jfjSAspA))
 
 ### In iPython notebook format
 
