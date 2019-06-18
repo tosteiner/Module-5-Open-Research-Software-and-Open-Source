@@ -1,14 +1,14 @@
-## Module 5: Design
+## 模块5：设计
 
-1. Identify key resources (including those already gathered)
+1. 确定关键资源(包括已经收集的资源)
     
-    - [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) 
-    - [Journal of Open Source Software](https://joss.theoj.org/)
-    - [InsideDNA](https://insidedna.me/) 
-    - [Galaxy](https://galaxyproject.org/)
-    - [Google Compute Engine](https://cloud.google.com/compute/) 
-    - [Amazon Web Services](https://aws.amazon.com/)
-    - [Software Citation Tools](https://github.com/mozillascience/software-citation-tools)
+    - [开放研究软件期刊](https://openresearchsoftware.metajnl.com/) 
+    - [开放源软件期刊](https://joss.theoj.org/)
+    - [内置DNA](https://insidedna.me/) 
+    - [星系](https://galaxyproject.org/)
+    - [Google 计算机引擎](https://cloud.google.com/compute/) 
+    - [亚马逊网络服务](https://aws.amazon.com/)
+    - [软件引文工具](https://github.com/mozillascience/software-citation-tools)
     - [Open Science, Open Data, Open Source](https://pfern.github.io/OSODOS/gitbook/)
     - [Choose an open source license](https://choosealicense.com/).
 
@@ -26,19 +26,19 @@
 - [Upon the Shoulders of Giants: Open-Source Hardware and Software in Analytical Chemistry](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.7b00485) (Dryden et al., 2017).
 - [Four simple recommendations to encourage best practices in research software](https://f1000research.com/articles/6-876/v1) (Jimanez et al., 2017).
 - [Perspectives on Reproducibility and Sustainability of Open-Source Scientific Software from Seven Years of the Dedalus Project](https://arxiv.org/abs/1801.08200) (Oishi et al., 2018).
-- [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510) (Wilson et al. ,2017).
+- [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510) (Wilson et al. 页：1
     
-    2. Design learner activities with clear instructions (completed)
-    - Task 1: Create your first GitHub project
-    - Task 2: Integrate a GitHub project with Zenodo
-    - Task 3: Integrating Git and R Studio
-    3. Find resources (video, illustrations, screencasts, podcasts, assignments, quizzes, presentations)
-    - Completed (including 2 quizzes)
-    4. Write concise, engaging video (and audio) scripts
-    - Completed
-    5. Review all learning resources, adjusting as needed
-    - In preparation
+    2. 设计具有明确指示的学习活动(完成)
+    - 任务1：创建您的第一个 GitHub 项目
+    - 任务2：将GitHub项目与Zendoudo合并
+    - 任务3：整合Git和R Studio
+    3. 查找资源 (视频、插图、屏幕播客、播客、任务、测验、演讲)
+    - 已完成 (包括2个测验)
+    4. 写简洁、使用视频(和音频)脚本
+    - 已完成
+    5. 审查所有学习资源，视需要调整
+    - 准备中
     6. Finalise all scripts
-    - Completed
+    - 已完成
     7. Copyright strategy
-    - Completed
+    - 已完成
