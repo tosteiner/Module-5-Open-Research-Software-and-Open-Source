@@ -34,17 +34,17 @@ Não se esqueça de que você pode participar das discussões no nosso fórum ab
 
 ### Para quem é este módulo?
 
-This module is designed primarily for computational researchers at the graduate and undergraduate level, as well as budding data scientists and any other researcher who uses analytical code or software. In a modern day research environment, this covers pretty much anyone who uses a computer for ther work.
+Este módulo é projetado principalmente para pesquisadores computacionais no nível de graduação e pós-graduação, bem como cientistas de dados iniciantes e qualquer outro pesquisador que use código analítico ou software. Em um ambiente de pesquisa moderno, isso abrange praticamente qualquer pessoa que usa um computador para o trabalho.
 
 > "An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result." - J. Buckheit and D. L. Donoho, 1995.
 
-Software and technology underpin much of modern research, which is now almost inevitably computational in one way or another - search engines, social networking platforms, analytical software, and digital publishing. With this, there is an ever-increasing demand for more sophisticated Open Source Software, matched by an increasing willingness for researchers to openly collaborate on new tools.
+O software e a tecnologia sustentam grande parte da pesquisa moderna, que agora é quase inevitavelmente computacional de uma forma ou de outra - mecanismos de pesquisa, plataformas de redes sociais, software analítico e publicação digital. Com isso, há uma demanda cada vez maior por softwares de código aberto mais sofisticados, combinados com uma crescente disposição dos pesquisadores em colaborar abertamente em novas ferramentas.
 
-The power of Open Source is in that it lowers the barriers to collaboration and adoption, therefore allowing ideas and technology to spread more rapidly. This Module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
+O poder do Código Aberto está em reduzir as barreiras à colaboração e adoção, permitindo assim que as ideias e a tecnologia se espalhem mais rapidamente. Este módulo apresentará as ferramentas necessárias para transformar o software em algo que possa ser acessado abertamente e reutilizado por outros.
 
 <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/open_research_software_open_source.png?raw=true" width="800" />
 
-<p align="center"><i>Image by Patrick Hochstenbach (CC0 1.0 Universal)</i></p>
+<p align="center"><i>Imagem de Patrick Hochstenbach (CC0 1.0 Universal)</i></p>
 
   
 
