@@ -1,75 +1,75 @@
-# Module 5 content development
+# Модуль 5 Разработка контента
 
-These are the main content development files for this MOOC module.
+Это основные файлы разработки контента для этого модуля MOOC.
 
-**STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
+**СТАТУС**: **ЖИТЬ! Этот модуль сейчас в сети и готов к работе через [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
 
-The third release for this module is now also ready, and has been published on Zenodo:
+Третий выпуск для этого модуля теперь также готов и опубликован на Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) и вступительное видео было также [опубликовано](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
-To cite this work, please use the following reference:
+Чтобы процитировать эту работу, пожалуйста, используйте следующую ссылку:
 
-Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
+Джон Теннант; Саймон Уортингтон; Таня Аллард; Филипп Цумштайн; Даниэль С. Кац; Александр Морли; Стефан Друскат; Жюльен Коломб; Арфон Смит; Инна Смит; Тобиас Штайнер; Рутгер Вос; Конрад Фёрстнер; Хайди Сейбольд; Алессандро Сарретта; Эбигейл Кабунок Майес. (2018 г., 4 декабря). OpenScienceMOOC / Module-5-Open-Research-Software-and-Open-Source: третий выпуск (версия 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
 
-Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
+Пожалуйста, обратитесь к [руководящим принципам](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) прежде чем вносить изменения здесь.
 
-Anyone can join our [open Slack channel](https://osmooc.herokuapp.com/) and [open team on GitHub](https://open-science-mooc-invite.herokuapp.com/) for the whole MOOC project.
+Любой желающий может присоединиться к нашей [открытому натяжному каналу](https://osmooc.herokuapp.com/) и [открытой команда на GitHub](https://open-science-mooc-invite.herokuapp.com/) для всего проекта Mooc.
 
-## Core content
+## Основной контент
 
-These are the draft content files. The content is fully accessible, and can be used for learning purposes, either individually or as a group, and can be shared and re-used as you wish. However, they have not been integrated into a formal MOOC platform yet. At the moment, they are being written in markdown format, and then using the [notedown](https://github.com/aaren/notedown) tool to convert into iPython notebook format. PDF and HTML versions are created using [pandoc](https://pandoc.org/demos.html) and the [markdown to PDF](https://atom.io/packages/markdown-pdf) package for [Atom](https://atom.io/).
+Это файлы с черновым содержимым. Содержимое полностью доступно и может использоваться в учебных целях, индивидуально или в группе, а также может использоваться и использоваться по вашему желанию. Тем не менее, они еще не были интегрированы в официальную платформу MOOC. На данный момент они записываются в формате уценки, а затем с помощью инструмента [отмеченных](https://github.com/aaren/notedown) для преобразования в формат записной книжки iPython. PDF и HTML версии создаются с использованием пакета [pandoc](https://pandoc.org/demos.html) и пакета [markdown to PDF](https://atom.io/packages/markdown-pdf) для [Atom](https://atom.io/).
 
-For notedown:
+Для заметок:
 
-1. Make sure you're working in Linux or Debian
-2. Change working directory: eg `cd /mnt/c/users/pc/desktop/`
-3. Install notedown: `pip install notedown`
-4. Convert files: `notedown input.md > output.ipynb`
+1. Убедитесь, что вы работаете в Linux или Debian
+2. Изменить рабочий каталог: например, `cd / mnt / c / users / pc / desktop /`
+3. Установить отмеченное значение: `пунктов установить отмеченное значение`
+4. Конвертируйте файлы: `отмеченных: input.md > output.ipynb`
 
-**IMPORTANT** Please edit the **markdown** files, not the iPython/HTML files. These will be periodically converted and synchronised as needed.
+**ВАЖНО** Отредактируйте **файла markdown** , а не файлы iPython / HTML. Они будут периодически преобразовываться и синхронизироваться по мере необходимости.
 
-### In markdown format
+### В формате уценки
 
-- [**MAIN CONTENT**](MAIN.md) - The main content for this Module. ([YouTube video](https://www.youtube.com/watch?v=BHrOEmKk5zM))
-- [**TASK 1**](Task_1.md) - How to set up your first repository on GitHub. ([YouTube video](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
-- [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo. ([YouTube video](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
-- [**TASK 3**](Task_3.md) - How to integrate Git with RStudio. ([YouTube video](https://www.youtube.com/watch?v=Q-6jfjSAspA))
+- [**ОСНОВНОЕ СОДЕРЖАНИЕ**](MAIN.md) - Основное содержание этого модуля. ([YouTube видео](https://www.youtube.com/watch?v=BHrOEmKk5zM))
+- [**ЗАДАЧА 1**](Task_1.md) - Как настроить свой первый репозиторий на GitHub. ([YouTube видео](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
+- [**ЗАДАЧА 2**](Task_2.md) - Как сделать ваш код цитируемым, используя GitHub и Zenodo. ([YouTube видео](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
+- [**ЗАДАЧА 3**](Task_3.md) - Как интегрировать Git с RStudio. ([YouTube видео](https://www.youtube.com/watch?v=Q-6jfjSAspA))
 
-### In iPython notebook format
+### В формате записной книжки iPython
 
-Note: These are best viewed in Juypter for full functionality, as opposed to the GitHub viewer.
+Примечание. Их лучше всего просматривать в Juypter для полной функциональности, в отличие от средства просмотра GitHub.
 
-- [**MAIN CONTENT**](MAIN.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) to view)
-- [**TASK 1**](Task_1.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) to view)
-- [**TASK 2**](Task_2.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) to view)
-- [**TASK 3**](Task_3.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) to view)
+- [**ГЛАВНОЕ СОДЕРЖАНИЕ**](MAIN.ipynb) (нажмите [здесь](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) для просмотра)
+- [**ЗАДАЧА 1**](Task_1.ipynb) (нажмите [здесь](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) для просмотра)
+- [**ЗАДАЧА 2**](Task_2.ipynb) (нажмите [здесь](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) для просмотра)
+- [**ЗАДАЧА 3**](Task_3.ipynb) (нажмите [здесь](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) для просмотра)
 
-## In PDF format
+## В формате PDF
 
-- [**MAIN CONTENT**](MAIN.pdf)
-- [**TASK 1**](Task_1.pdf)
-- [**TASK 2**](Task_2.pdf)
-- [**TASK 3**](Task_3.pdf)
+- [**ОСНОВНОЕ СОДЕРЖАНИЕ**](MAIN.pdf)
+- [**ЗАДАНИЕ 1**](Task_1.pdf)
+- [**ЗАДАЧА 2**](Task_2.pdf)
+- [**ЗАДАЧА 3**](Task_3.pdf)
 
-## In HTML format
+## В формате HTML
 
-- [**MAIN CONTENT**](MAIN.html)
-- [**TASK 1**](Task_1.html)
-- [**TASK 2**](Task_2.html)
-- [**TASK 3**](Task_3.html)
+- [**ОСНОВНОЕ СОДЕРЖАНИЕ**](MAIN.html)
+- [**ЗАДАНИЕ 1**](Task_1.html)
+- [**ЗАДАЧА 2**](Task_2.html)
+- [**ЗАДАЧА 3**](Task_3.html)
 
-## Production files
+## Производственные файлы
 
-1. [Plan](01-plan.md) 
-2. [Design](02-design.md)
-3. [Recording and editing](03-recording.md)
-4. [Internal reviewing](04-quizzes.md)
+1. [План](01-plan.md) 
+2. [дизайн](02-design.md)
+3. [Запись и редактирование](03-recording.md)
+4. [Внутренняя рецензия](04-quizzes.md)
 
-## Key resources from [production toolkit](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)
+## Ключевые ресурсы от [производственного инструментария](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)
 
-- [Module design protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
-- [MOOC planning template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
-- [Script template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
-- [Video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
-- [Writing a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
+- [Протокол проектирования модуля](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
+- [Шаблон планирования MOOC](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
+- [Шаблон скрипта](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
+- [Протокол управления видео](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
+- [Написание сценария](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
