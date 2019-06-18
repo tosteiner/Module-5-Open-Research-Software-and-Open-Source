@@ -1,3 +1,3 @@
 files:
   - source: /content_development/*.md
-    translation: /translations/%two_letters_code%/%original_file_name%-%two_letters_code%
+    translation: /translations/%locale%/%original_file_name%-%locale%.%file_extension%
