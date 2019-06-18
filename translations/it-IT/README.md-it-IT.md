@@ -1,16 +1,16 @@
-# Module 5 content development
+# Modulo 5 sviluppo contenuto
 
-These are the main content development files for this MOOC module.
+Questi sono i principali file di sviluppo del contenuto per questo modulo MOOC.
 
 **STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
 
-The third release for this module is now also ready, and has been published on Zenodo:
+La terza versione per questo modulo è ora pronta, ed è stata pubblicata su Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
-To cite this work, please use the following reference:
+Per citare questo lavoro, utilizza il seguente riferimento:
 
-Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
+Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, 4 dicembre). OpenScienceMOOC/Modulo-5-Open-Research-Software-and-Open-Source: Terza versione (versione 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
 
 Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
 
@@ -36,16 +36,16 @@ For notedown:
 - [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo. ([YouTube video](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
 - [**TASK 3**](Task_3.md) - How to integrate Git with RStudio. ([YouTube video](https://www.youtube.com/watch?v=Q-6jfjSAspA))
 
-### In iPython notebook format
+### In formato di nota iPython
 
-Note: These are best viewed in Juypter for full functionality, as opposed to the GitHub viewer.
+Nota: Questi sono i migliori visti in Juypter per la funzionalità completa, a differenza del visualizzatore GitHub.
 
 - [**MAIN CONTENT**](MAIN.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) to view)
 - [**TASK 1**](Task_1.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) to view)
 - [**TASK 2**](Task_2.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) to view)
 - [**TASK 3**](Task_3.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) to view)
 
-## In PDF format
+## In formato PDF
 
 - [**MAIN CONTENT**](MAIN.pdf)
 - [**TASK 1**](Task_1.pdf)
