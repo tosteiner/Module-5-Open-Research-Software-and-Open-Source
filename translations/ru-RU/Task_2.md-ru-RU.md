@@ -1,14 +1,14 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: по умолчанию
+  pdf_document: по умолчанию
 ---
 
 # Task 2: How to make your code citable using GitHub and Zenodo
 
 This task is designed for students and researchers who want to create and re-use GitHub-based projects/repositories in the academic literature.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Не забудьте присоединиться к обсуждению на нашем открытом канале [**Slack**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
 
 Estimated time to complete: 45-60 minutes.
 
