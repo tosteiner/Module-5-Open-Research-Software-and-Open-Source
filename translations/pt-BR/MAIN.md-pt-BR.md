@@ -60,7 +60,7 @@ O poder do Código Aberto está em reduzir as barreiras à colaboração e adoç
   
 
 
-## What is Open Source Software <a name="What_OSS"></a>
+## O que é um Software de código-fonte aberto <a name="What_OSS"></a>
 
 Virtually all modern scientific research workflows rely on a range of software tools, either operating on different datasets, with different parameters, and applied iteratively in various ways (data science) or operating on different inputs and using models and methods to predict some output state (computational science). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.
 
@@ -95,7 +95,7 @@ Some regard the OSS movement to represent a counter-movement to neoliberalism an
   
 
 
-## Principles of Open Source Software <a name="Principles"></a>
+## Princípios do Software de Código-fonte aberto <a name="Principles"></a>
 
 The [Open Source Initiative](https://opensource.org/), one of the pioneers of OSS, offers the following [definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
 
@@ -172,7 +172,7 @@ Typically, roles are made public through either the `README` file, a Contributor
   
 
 
-## Existing platforms and tools for Open Source Software <a name="Platforms"></a>
+## Plataformas e ferramentas de software com código-fonte aberto existentes <a name="Platforms"></a>
 
 Virtual environments and machines are becoming increasingly popular as high-powered research workflow enablers, and many of these are built upon OSS (e.g., operating systems, programming languages, and data processing frameworks). Popular services include [Google Cloud](https://cloud.google.com/compute/) and [Amazon Web Services](https://aws.amazon.com/), which also assist with database storage and content delivery, as well as computational power. [InsideDNA](https://insidedna.me/) is a computing platform for reproducible research in bioinformatics, genomics and the life sciences.
 
@@ -239,7 +239,7 @@ Tools such as R and Python are essentially software for writing software. Althou
 Lastly, OSS is also used in scientific research for reasons that more closely mirror those that drive the adoption of OSS in wider society, namely that it is cheap. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in [**'free beer'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and 'free speech'). Likewise, the choice to switch from ArcGIS to [QGIS](https://www.qgis.org/en/site/) for the analysis of geographic information might be prompted simply by cost considerations.   
 
 
-## Getting Started with OSS - FAQ <a name="FAQ"></a>
+## Começando com OSS - FAQ <a name="FAQ"></a>
 
 **I'm using X[e.g. Matlab,STATA,Excel] and I want to transition to something more open. What are the next steps?**
 
@@ -261,7 +261,7 @@ If that's enough for you for now great! If not for most pieces of proprietary so
 
 Good question! The answer is it depends. The best thing to do is find someone who's made the switch before and learn from their experience. Or just do a Google search! Some OSS is much better than their closed counterparts, some aren't, so it's worth choosing carefully.
 
-## Making good software for re-use <a name="Reuse"></a>
+## Fazendo um bom software para reutilização <a name="Reuse"></a>
 
 The most likely person who might want to re-use your software in the future is...you! So while sharing is always better than not sharing, you can make your own life, and that of others, much easier through appropriate documentation. Documentation can include several things, such as including helpful comments and annotations in the code that help to explain why a particular action was performed, rather than what it is intended to achieve.
 
@@ -305,7 +305,7 @@ If you follow these steps, along with the processes in [**Task 1**](https://gith
   
 
 
-## Open Source licensing <a name="Licensing"></a>
+## Licenças de código aberto <a name="Licensing"></a>
 
 An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
 
@@ -330,7 +330,7 @@ Thankfully, the process of selecting an Open Source license is relatively trivia
   
 
 
-## Software citation <a name="Citation"></a>
+## Citação de software <a name="Citation"></a>
 
 Citations provide one of the most important interactions in scholarly research, forming the basis of our referencing and metrics systems. Typically, this is performed thanks to the assistance of a permanent unique identifier such as a [Digital Object Identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI). A DOI is a persistent identifier, implemented in the [Handle System](https://en.wikipedia.org/wiki/Handle_System), that meets a common standard, depending on the purpose, such as for identifying academic information. Such identification is critical for tracking the genealogy and provenance of research, for reproducibility, as well as for giving appropriate credit to those who have created the software. Importantly, software should be considered a legitimate output from scholarly research, and citation is becoming an increasingly common way to indicate that.
 
@@ -360,7 +360,7 @@ Note: For instructions on 'how to make your software citable' see the section [*
   
 
 
-## Using GitHub and Zenodo <a name="GitHub_Zenodo"></a>
+## Usando o GitHub e o Zenodo <a name="GitHub_Zenodo"></a>
 
 [GitHub](#GitHub) is a popular tool for project management, content storage, and version control. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this [MOOC](https://github.com/OpenScienceMOOC/)!
 
@@ -388,7 +388,7 @@ OSS projects rely heavily on volunteer collaboration, which often entails a cons
   
 
 
-## Where to go from here <a name="Future_OSS"></a>
+## Onde ir a partir daqui <a name="Future_OSS"></a>
 
 Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.
 
