@@ -21,9 +21,9 @@ Opening: MOOC main logo, MOOC module logo, title of this video.
 Presenters:
 
 - [Jon Tennant](https://twitter.com/protohedgehog) - HOST
-- [Peter Murray-Rust](https://twitter.com/petermurrayrust)
-- [Heidi Seibold](https://twitter.com/HeidiBaya)
-- [Konrad Foerstner](https://twitter.com/konradfoerstner)
+- [Петер Мурай-Руст](https://twitter.com/petermurrayrust)
+- [Хайди Сенболд](https://twitter.com/HeidiBaya)
+- [Конрад Форстнер](https://twitter.com/konradfoerstner)
 - [Anna Kostikova](https://twitter.com/oxytheca)
 - [Ina Smith](https://twitter.com/ismonet)
 - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
@@ -88,7 +88,7 @@ Signed:
 
 [please add names here]
 
-- Heidi Seibold
+- Хайди Сенболд
 - Konrad Förstner
 - Ina Smith
 - Abigail Cabunoc Mayes
