@@ -1,14 +1,14 @@
-# Module 5: Recording and editing
+# Модуль 5: Запись и редактирование
 
-1. Record either on location, online, or within studio 
-2. Preference to non-'floating head' styles 
-3. Edit all audio/visual material 
+1. Записать в месте, в сети или в студии 
+2. Предпочтение стилям не-плавающей головы 
+3. Редактировать все аудио/визуальные материалы 
 
-## Confirmed:
+## Подтверждено:
 
-* [Peter Murray-Rust](https://twitter.com/petermurrayrust)
-* [Heidi Seibold](https://twitter.com/HeidiBaya)
-* [Konrad Foerstner](https://twitter.com/konradfoerstner)
+* [Петер Мурай-Руст](https://twitter.com/petermurrayrust)
+* [Хайди Сенболд](https://twitter.com/HeidiBaya)
+* [Конрад Форстнер](https://twitter.com/konradfoerstner)
 * [Anna Kostikova](https://twitter.com/oxytheca)
 * [Ina Smith](https://twitter.com/ismonet)
 * [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
