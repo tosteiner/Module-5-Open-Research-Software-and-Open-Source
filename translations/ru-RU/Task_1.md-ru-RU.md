@@ -1,14 +1,14 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: по умолчанию
+  pdf_document: по умолчанию
 ---
 
-# Task 1: How to set up a repository on GitHub
+# Задача 1: Как настроить репозиторий на GitHub
 
-This task is designed for students and researchers who want to create their first Open Source project (software or non-software) on GitHub. GitHub is a place for you to come and play and experiment with new research workflows, and is really just the beginning to help set the stage for your own pathways and ideas.
+Эта задача предназначена для студентов и исследователей, которые хотят создать свой первый проект Open Source (программное обеспечение или не программное обеспечение) на GitHub. GitHub - это место для вас, чтобы начать и экспериментировать с новыми исследовательскими процессами, и это действительно просто начало помочь установить сцену для ваших собственных путей и идей.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Не забудьте присоединиться к обсуждению на нашем открытом канале [**Slack**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
 
 **PLEASE NOTE** that a screen recording for this task is also available via [YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&).
 
