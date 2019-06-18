@@ -2,15 +2,15 @@
 
 ### Zielgruppen definieren
 
-- Recherche
+- Simulationswissenschaftler*innen (Computational Science and Engineering (CSE))
 - BA/MA-Studierende, Promovierende
-- Datenwissenschaftler
-- Jeder andere Forscher, der analytischen Code/Software verwendet
+- Datenwissenschaftler/Data scientists
+- Alle anderen Forschenden, die analytischen Code/Software verwenden
 
-### Refine the learning objectives and results
+### Die Lernziele und -ergebnisse verfeinern
 
-- Der Lernende kann die Eigenschaften von Open-Source-Forschungssoftware, sowie die ethischen, rechtlichen, wirtschaftlichen und wissenschaftlichen Argumente für und gegen sie identifizieren.
-- Auf Basis von Gemeinschaftsstandards können die Lernenden die Qualitätsanforderungen des Teilen und der Wiederverwendung von Open-Code beschreiben.
+- Lernende können die Eigenschaften von Open-Source-Forschungssoftware, sowie die ethischen, rechtlichen, wirtschaftlichen und wissenschaftlichen Argumente für und gegen sie identifizieren.
+- Auf Basis von Gemeinschaftsstandards können Lernende die Qualitätsanforderungen des Teilens und der Wiederverwendung von offenem Code beschreiben.
 - Der Lerner kann eine Reihe von Forschungstools verwenden, die Open Source Software nutzen.
 - Lernende werden in der Lage sein, für ihren persönlichen Gebrauch entwickelten Code in Code umzuwandeln, der für andere zugänglich und wiederverwendbar ist.
 
@@ -61,23 +61,23 @@
     - [Jan Gondol](https://twitter.com/jangondol)
     - [Konrad Foerstner](https://twitter.com/konradfoerstner)
     - [Ina Smith](https://twitter.com/ismonet)
-    - [Coko-Stiftung](https://twitter.com/CokoFoundation)
+    - [Coko Foundation](https://twitter.com/CokoFoundation)
     - [Google Open Source](https://twitter.com/GoogleOSS)
     - [Carl Malamud](https://twitter.com/carlmalamud)
-    - [Code ist Wissenschaft](https://twitter.com/codeisscience)
+    - [Code Is Science](https://twitter.com/codeisscience)
 
 - Organisationen:
     
-    - [Software-Zimmerei](https://software-carpentry.org/)
-    - [Nachhaltiges Software-Institut](https://www.software.ac.uk/software-sustainability-institute)
-    - [COKO-Stiftung](https://coko.foundation/)
+    - [Software Carpentry](https://software-carpentry.org/)
+    - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
+    - [COKO Foundation](https://coko.foundation/)
     - [Free Software Foundation](https://www.fsf.org/licensing/)
-    - [WSSSPE-Community](http://wssspe.researchcomputing.org.uk)
-    - [Öffnen Sie die Forschungssoftware](http://openresearchsoftware.metajnl.com)
+    - [WSSSPE community](http://wssspe.researchcomputing.org.uk)
+    - [Open Research Software](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
     - [Free Software Foundation](https://www.fsf.org/)
     - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (Beachten Sie, dass die Website im Januar 2019 defekt zu sein scheint.)
+    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (Website scheint defekt zu sein; Stand Januar 2019)
     - [Ada Initiative](https://adainitiative.org/)
 
 - Mailinglisten:
