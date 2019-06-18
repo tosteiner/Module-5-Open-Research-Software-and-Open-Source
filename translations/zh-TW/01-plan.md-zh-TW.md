@@ -7,14 +7,14 @@
 - 數據科學家
 - 任何使用分析代碼或軟體的研究人員
 
-### Refine the learning objectives and outcomes
+### 優化學習目標和成果
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
+- 學習者將能夠定義開源程式研究軟體的特徵，以及支持和反對它的道德、法律、經濟和研究影響論點。
 - Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
 - The learner will be able to use a range of research tools that utilise open source software.
 - Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
 
-### Design the course outline
+### 設計課程大綱
 
 1. What is Open Source Software, including background and examples.
 2. Principles of Open Source Software.
@@ -80,6 +80,6 @@
     - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
     - [Ada Initiative](https://adainitiative.org/)
 
-- Mailing lists:
+- 郵寄列表
     
-    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [開放科學](https://lists.okfn.org/mailman/listinfo/open-science)
