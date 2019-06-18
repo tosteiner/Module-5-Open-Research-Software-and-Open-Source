@@ -14,19 +14,19 @@ output:
 - [A comunidade Open Source, governança e contribuições](#OS_Community)
 - [Plataformas e ferramentas de software com código-fonte aberto existentes](#Platforms)
 - [Open Source Software used in research](#Research)
-- [Getting Started with OSS - FAQ](#FAQ)
-- [Making good software for re-use](#Reuse)
-- [Open Source licensing](#Licensing)
-- [Software citation](#Citation)
-- [Using GitHub and Zenodo](#GitHub_Zenodo)
-- [Collaborating through Open Source](#Collaborating)
-- [Where to go from here](#Future_OSS)
+- [Começando com OSS - FAQ](#FAQ)
+- [Fazendo um bom software para reutilização](#Reuse)
+- [Licenças de código aberto](#Licensing)
+- [Citação de software](#Citation)
+- [Usando o GitHub e o Zenodo](#GitHub_Zenodo)
+- [Colaborando através do código aberto](#Collaborating)
+- [Onde ir a partir daqui](#Future_OSS)
 
-**PLEASE NOTE** that an audio version of this is available to download via [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) and [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM).
+**OBSERVAÇÃO** Há uma versão em áudio disponível no [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) e uma no [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM).
 
-## Introduction <a name="Introduction"></a>
+## Introdução<a name="Introduction"></a>
 
-Welcome to **Module 5** of the Open Science MOOC: **Open Research Software and Open Source**.
+Bem-vindo ao **Módulo 5** do curso Ciência Aberta: ** Software de Pesquisa e código-fonte aberto **.
 
 This module has been developed [in the open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) through collaboration by an international team of [Open Source afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Everything you see here has been developed in the open through interactive feedback and collaboration from the wider community. It comprises a series of videos, infographics, text-based reading, and practical tasks for you to sink you teeth into.
 
