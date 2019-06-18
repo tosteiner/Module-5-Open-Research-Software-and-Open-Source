@@ -50,7 +50,7 @@
     
     - [Twitter開源](https://twitter.com/twitteross)
     - [開源電視](https://twitter.com/opensourcetv)
-    - [開源計劃](https://twitter.com/OpenSourceOrg)
+    - [開放原始碼促進會](https://twitter.com/OpenSourceOrg)
     - [O'Reilly OSCON](https://twitter.com/oscon)
     - [Chris Holdgraf](https://twitter.com/choldgraf)
     - [尼爾桑德斯](https://twitter.com/neilfws)
