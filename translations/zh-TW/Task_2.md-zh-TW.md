@@ -1,181 +1,181 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: 默認
+  pdf_document: 默認
 ---
 
-# Task 2: How to make your code citable using GitHub and Zenodo
+# 任務2：如何使用GitHub和Zenodo使您的代碼可以使用
 
-This task is designed for students and researchers who want to create and re-use GitHub-based projects/repositories in the academic literature.
+此任務專為希望在學術文獻中創建和重複使用基於GitHub的項目/存儲庫的學生和研究人員而設計。
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+不要忘記你可以參加我們的開放 [**Slack頻道**](https://osmooc.herokuapp.com/)。 請在＃module5opensource上自我介紹一下，並告訴我們你是誰，你的背景，以及你如何在這裡結束！
 
-Estimated time to complete: 45-60 minutes.
+預計完成時間：45-60分鐘。
 
-## Table of contents
+## 目錄
 
-- [Foreword](#Foreword)
-- [Set up a GitHub repository](#Setup)
-- [Choose your GitHub repository](#Choose)
-- [Login to Zenodo](#Login)
-- [Authorise GitHub to connect with Zenodo](#Authorise)
-- [Select the repository to archive](#Archive)
-- [Check repository settings](#Check)
-- [Create a new release](#Release)
-- [Getting a DOI](#DOI)
-- [Checklist for citing your project](#Checklist)
-- [Additional resources](#Resources)
+- [前言](#Foreword)
+- [設置GitHub存儲庫](#Setup)
+- [選擇您的GitHub存儲庫](#Choose)
+- [登錄Zenodo](#Login)
+- [授權GitHub與Zenodo聯繫](#Authorise)
+- [選擇要存檔的存儲庫](#Archive)
+- [檢查存儲庫設置](#Check)
+- [創建一個新版本](#Release)
+- [獲得DOI](#DOI)
+- [引用項目的清單](#Checklist)
+- [其他資源](#Resources)
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Task 2 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
+  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="任務2工作流程" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
-<p align="center"><i>The workflow for Task 2. Keep this handy as you work through the task!</i></p>
+<p align="center"><i>任務2的工作流程。 在完成任務時保持這個方便！</i></p>
 
   
 
 
-## Foreword <a name="Foreword"></a>
+## 前言 <a name="Foreword"></a>
 
-Although the integration of GitHub and Zenodo makes it really easier to work with these tools nowadays (January 2019), it is important to stress that there are alternatives to GitHub (Gitlab, Bitbucket,...) and alternatives to Zenodo (Other repositories might be more suited to your community, you might ask your colleagues). For instance, one can work with Gitlab and manually upload each new versions to your university repository, getting a DOI. The principles (working with a version control system online, and archiving major versions in a repository which provides a persistent unique identifier) can be applied in different workflow.
+雖然GitHub和Zenodo的集成使得現在使用這些工具變得更加容易（2019年1月），但重要的是要強調GitHub（Gitlab，Bitbucket，...）的替代品和Zenodo的替代品（其他存儲庫可能更適合您的社區，您可能會問您的同事）。 例如，可以使用Gitlab並手動將每個新版本上傳到您的大學存儲庫，獲取DOI。 原則（在線使用版本控制系統，並在存儲庫中存檔提供持久唯一標識符的主要版本 ）可以應用於不同的工作流程。
 
-## Set up a GitHub repository <a name="Setup"></a>
+## 設置GitHub存儲庫 <a name="Setup"></a>
 
-> **Pro-tip**: Make sure to include a LICENSE and README file in your repository. This will indicate to people the purpose of the project, and how they can engage with it in the future.
+> **專業提示**：確保在存儲庫中包含LICENSE和README文件。 這將向人們表明項目的目的，以及他們將來如何與之合作。
 
-Find out how to set up a GitHub repository in this other guide [Task 1: Building a GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) which is also part of 'Module 5: Open Research Software and Open Source'.
+了解如何在其他指南中設置GitHub存儲庫 [任務1：構建GitHub存儲庫](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) ，它也是“模塊5：開放研究軟件和開放源代碼”的一部分。
 
-## Choose your GitHub repository <a name="Choose"></a>
+## 選擇您的GitHub存儲庫 <a name="Choose"></a>
 
-Once on your GitHub project listings page at [github.com](https://github.com) head to the 'Repositories' tab. Select which repository you would like to archive, and open it up.
+進入GitHub項目列表頁面 [github.com](https://github.com) ，前往“存儲庫”選項卡。 選擇要存檔的存儲庫，然後將其打開。
 
   
 
 
-## Login to Zenodo <a name="Login"></a>
+## 登錄Zenodo <a name="Login"></a>
 
-Now head over to [zenodo.org](https://zenodo.org). Zenodo is a platform where you can permanently archive your code and other project elements. Zenodo does this by assigning projects a **Digital Object Identifier** (DOI), which also helps to make the work more citable. This is different to GitHub, which acts as a place where the actual work on a project takes place, rather than long-term archiving of it. At GitHub, content can be modified, deleted, rewritten, and irreversibly changed, which makes it a bit concerning to be used for longer lasting referencing purposes. Zenodo offers more security and permanence for research outputs.
+現在轉到 [zenodo.org](https://zenodo.org)。 Zenodo是一個可以永久存檔代碼和其他項目元素的平台。 Zenodo通過為項目分配 **數字對象標識符** （DOI）來實現這一點，這也有助於使工作更加可信。 這與GitHub不同，GitHub充當項目實際工作的地方，而不是長期存檔。 在GitHub中，可以修改，刪除，重寫和不可逆轉地更改內容，這使得用於更長時間的參考目的有點令人擔憂。 Zenodo為研究成果提供更多安全性和持久性。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Sign up for Zenodo</i></p>
+<p align="center"><i>註冊Zenodo</i></p>
 
   
 
 
-If you already have a Zenodo account, this is easy. If not, follow the steps to create one — you can even login using your GitHub account or ORCID profile to make things simpler, as Zenodo has a built in integration for it. This might be easier than creating yet another research account and profile.
+如果您已經擁有Zenodo帳戶，這很容易。 如果沒有，請按照步驟創建一個 - 您甚至可以使用GitHub帳戶或ORCID配置文件登錄以簡化操作，因為Zenodo具有內置的集成功能。 這可能比創建另一個研究帳戶和個人資料更容易。
 
   
 
 
-## Authorise GitHub to connect with Zenodo <a name="Authorise"></a>
+## 授權GitHub與Zenodo聯繫 <a name="Authorise"></a>
 
-On the Zenodo website authorise it to connect to your GitHub account in the '[Using GitHub](https://zenodo.org/account/settings/github/)' section. Here, Zenodo will redirect you to GitHub to ask for permissions to use '[webhooks](https://developer.github.com/webhooks/)' on your repositories. You want to authorise Zenodo here with the permissions it needs to form those links.
+在Zenodo網站上，授權它在'[Using GitHub](https://zenodo.org/account/settings/github/)'部分中連接到您的GitHub帳戶。 在這裡，Zenodo會將您重定向到GitHub，要求獲取在您的存儲庫中使用“[webhooks](https://developer.github.com/webhooks/)”的權限。 您想在此處使用構成這些鏈接所需的權限來授權Zenodo。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo_github.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Authorize Zenodo to connect with GitHub</i></p>
+<p align="center"><i>授權Zenodo與GitHub連接</i></p>
 
   
 
 
-If you are trying to give Zenodo access to an organisational repository, you (or an administrator) will need to make sure that Zenodo is granted third party access permissions. GitHub will send an authorisation email that needs confirming. At this point, back in the settings of your repository on GitHub, you also need to make sure that the repository is set to 'public', not private.
+如果您嘗試授予Zenodo訪問組織存儲庫的權限，您（或管理員）將需要確保Zenodo被授予第三方訪問權限。 GitHub將發送需要確認的授權電子郵件。 此時，回到GitHub上的存儲庫設置中，您還需要確保將存儲庫設置為“public”，而不是私有。
 
   
 
 
-## Select the repository to archive <a name="Archive"></a>
+## 選擇要存檔的存儲庫 <a name="Archive"></a>
 
-If you have got this far, this means that Zenodo is now authorised to configure the repository webhooks that it needs to archive the repository and issue it a DOI. To do this, on the Zenodo website navigate to the [GitHub repository listing page](https://zenodo.org/account/settings/github/) and simply click the 'on' button next to your repository.
+如果你已經做到這一點，這意味著Zenodo現在被授權配置存儲庫webhooks，它需要存檔存儲庫並向它發出一個DOI。 要執行此操作，請在Zenodo網站上導航到 [GitHub存儲庫列表第](https://zenodo.org/account/settings/github/) 頁，然後只需單擊存儲庫旁邊的“打開”按鈕。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/enabled_repos.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Enable individual GitHub repositories to be preserved in Zenodo</i></p>
+<p align="center"><i>允許在Zenodo中保留單個GitHub存儲庫</i></p>
 
   
 
 
-## Check repository settings <a name="Check"></a>
+## 檢查存儲庫設置 <a name="Check"></a>
 
-Now you have set up a new webhook between Zenodo and your repository. In GitHub, click on the settings for your repository, and the Webhooks tab on the left hand side menu. This should display the new Zenodo webhook configured to Zenodo. Note, it may take a little time for the webhook listing to show up.
+現在，您已在Zenodo和您的存儲庫之間設置了一個新的webhook。 在GitHub中，單擊存儲庫的設置，然後單擊左側菜單中的Webhooks選項卡。 這應該顯示配置為Zenodo的新Zenodo webhook。 請注意，webhook列表可能需要一些時間才能顯示出來。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/webhooks.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that webhooks are enabled for your GitHub repository. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>檢查是否為GitHub存儲庫啟用了webhooks。 這裡使用開放獎學金策略的示例</i></p>
 
   
 
 
-## Create a new release <a name="Release"></a>
+## 創建一個新版本 <a name="Release"></a>
 
-The first time you archive a repository is known as the 'first release'. Each time you create a new version of that repository and archive it, you create a new release. This can be tracked in the 'releases' tab for your repository on GitHub (top center).
+您第一次存檔存儲庫稱為“第一個版本”。 每次創建該存儲庫的新版本並將其存檔時，都會創建一個新版本。 這可以在GitHub（頂部中心）的存儲庫的“版本”選項卡中進行跟踪。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/first_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that the repository first release was successful. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>檢查存儲庫第一次發布是否成功。 這裡使用開放獎學金策略的示例</i></p>
 
   
 
 
-For the first archived version of your repository, click 'Create a new release' back in Zenodo. Fill in the form and give some details as to what the release entails. For the first release, make sure to call it v1.0.0, as is standard practice.
+對於存儲庫的第一個存檔版本，請單擊Zenodo中的“創建新版本”。 填寫表格並提供有關發佈內容的詳細信息。 對於第一個版本，請確保將其稱為v1.0.0，這是標準做法。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/create_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Create a new release. Example here using the Open Scholarship Strategy, for which a first release already exists</i></p>
+<p align="center"><i>創建一個新版本。 這裡使用開放獎學金策略的示例，已經存在第一個版本</i></p>
 
   
 
 
-Finally, click 'publish release', and your archive will be published and versioned on GitHub.
+最後，單擊“發布版本”，您的存檔將在GitHub上發布和版本化。
 
-To view your release on Zenodo you need to visit the [Upload](https://zenodo.org/deposit) tab. To finish the archiving a few more details are needed on Zenodo.
+要在Zenodo上查看您的版本，您需要訪問 [上傳](https://zenodo.org/deposit) 選項卡。 要完成歸檔，Zenodo需要更多細節。
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/upload_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check the new release has been uploaded. Example here shown using the Open Scholarship Strategy</i></p>
+<p align="center"><i>檢查新版本是否已上傳。 此處使用開放獎學金策略顯示示例</i></p>
 
   
 
 
-## Getting a DOI <a name="DOI"></a>
+## 獲得DOI <a name="DOI"></a>
 
-This is sometimes referred to as DOI 'minting', and requires a couple of extra bits of information about the repository on Zenodo. On Zenodo click the [Upload](https://zenodo.org/deposit) tab in the main menu, and your newly uploaded repository should be there. Scroll down the page and fill in the extra information as needed, required fields are marked with a red asterisk, and then click 'Publish'.
+這有時被稱為DOI'minting'，並且需要關於Zenodo上的存儲庫的一些額外信息。 在Zenodo上，單擊主菜單中的 [Upload](https://zenodo.org/deposit) 選項卡，您新上載的存儲庫應該在那裡。 向下滾動頁面並根據需要填寫額外信息，必填字段標有紅色星號，然後單擊“發布”。
 
-**Note**: Only after this extra information has been added will your DOI become live. It may also take a short time for the DOI to become active. Example DOI shown below (for the Open Scholarship Strategy again).
+**注**：只有在添加了這些額外信息後，您的DOI才會生效。 DOI可能還需要很短的時間才能生效。 示例DOI如下所示（再次針對開放獎學金策略）。
 
-> **Pro-tip**: Copy the URL for the DOI into the README file for your GitHub repo to make cross-linking even easier, as well as present a clear highlighted DOI badge for users to see and make use of your DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
+> **專業提示**：將DOI的URL複製到GitHub倉庫的README文件中，以便更輕鬆地進行交叉鏈接，並提供清晰的突出顯示的DOI徽章，供用戶查看和使用您的DOI。 您只需要在第一次發布DOI時執行此操作，因為它充當“概念DOI”並且鏈接到所有後續版本DOI。
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437)
 
-The GitHub/Zenodo integration will now assign a DOI to each version/release of a project repository. This enables users to refer to and cite specific versions of projects. Also, the list of authors for the citation is automatically determined by the GitHub user account names used by the repository - this means no-one gets left out. Author details can be edited later on Zenodo. DOIs used in Zenodo are registered through the [DataCite](https://www.datacite.org/) service.
+GitHub / Zenodo集成現在將為項目存儲庫的每個版本/版本分配DOI。 這使用戶能夠引用和引用特定版本的項目。 此外，引用的作者列表由存儲庫使用的GitHub用戶帳戶名自動確定 - 這意味著沒有人被遺漏。 以後可以在Zenodo上編輯作者詳細信息。 Zenodo中使用的DOI通過 [DataCite](https://www.datacite.org/) 服務註冊。
 
-> **Pro-tip**: Create a 'human-readable' version of this citation in your project's README file. This will be helpful to researchers who might not be familiar with using DOIs to create citations, and make it easier for others to cite your software and acknowledge your work. An example of this could be: Jon Tennant. (2018, July 30). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. <http://doi.org/10.5281/zenodo.1323437>
+> **專業提示**：在項目的自述文件中創建此引文的“人類可讀”版本。 這對於可能不熟悉使用DOI創建引文的研究人員很有幫助，並且可以讓其他人更容易引用您的軟件並確認您的工作。 這方面的一個例子可能是： Jon Tennant。 （2018年7月30日）。 開放獎學金戰略發展的基礎：第一次正式發布（1.2版）。 Zenodo。 <http://doi.org/10.5281/zenodo.1323437>
 
-**CONGRATULATIONS!!**
+**恭喜！**
 
-Your GitHub repository is now archived in Zenodo, and with a DOI that can be versioned to reflect updates to the repository version through time. You should be able to see details of this on the GitHub Zenodo page for your repository. This also means that your archived projects can get picked up by other indexing services and search engines that use DOIs too.
+您的GitHub存儲庫現在存檔在Zenodo中，並且可以對DOI進行版本控制，以反映存儲庫版本隨時間的更新。 您應該可以在GitHub Zenodo頁面上查看存儲庫的詳細信息。 這也意味著您的歸檔項目也可以被其他使用DOI的索引服務和搜索引擎所接受。
 
-Providing a long-term archive and a DOI for your work is required for others to be able to properly cite it, as this provides basic citation metadata. For Open Science, it is important to be able to cite the software that you use in your research, and this integrated workflow enables that to happen, in line with best practices for research citation. Furthermore, this practice is important in elevating the standard of software (and related projects) to that of the standard of other research outputs.
+為其他人提供長期存檔和DOI以便能夠正確引用它，因為這提供了基本的引文元數據。 對於開放科學，重要的是能夠引用您在研究中使用的軟件，並且這種集成的工作流程可以實現這一點，符合研究引用的最佳實踐。 此外，這種做法對於將軟件（和相關項目）的標準提升到其他研究成果的標準非常重要。
 
-> **Pro-tip**: Is your research funded by an EU grant? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
+> **專業提示**：您的研究是否由歐盟資助資助？ 現在，您可以通過更新項目Zenodo記錄中元數據的授權部分，將已歸檔項目直接連接到您的授權。 這大大有助於提高其可發現性！
 
   
 
 
-## Checklist for citing your project <a name="Checklist"></a>
+## 引用項目的清單 <a name="Checklist"></a>
 
-So now you have a sustainably archived GitHub repository in Zenodo that is ready to be re-used and cited! Before continuing, make sure that you have:
+所以現在你在Zenodo有一個可持續存檔的GitHub存儲庫，可以重複使用和引用！ 在繼續之前，請確保您擁有：
 
-- [ ] Linked your GitHub project to Zenodo. If you see a complete copy of your GitHub repository in Zenodo then things are working.
-- [ ] Zenodo and GitHub integrated setup works nicely. For example have all the author names, and correct project title come across to Zenodo. If not, or if authors just have nicknames you can edit these details in Zenodo.
-- [ ] Project has a first release, with a DOI. You should have a DOI displayed on your projects Zenodo page. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
+- []將您的GitHub項目鏈接到Zenodo。 如果您在Zenodo中看到GitHub存儲庫的完整副本，那麼一切正常。
+- [] Zenodo和GitHub集成設置工作得很好。 例如，擁有所有作者姓名，並且正確的項目標題會傳到Zenodo。 如果沒有，或者如果作者只有暱稱，您可以在Zenodo中編輯這些詳細信息。
+- []項目有第一個版本，帶有DOI。 您應該在項目Zenodo頁面上顯示DOI。 第一個DOI稱為“概念DOI”，是連接所有後續版本DOI的主DOI。 複製此DOI鏈接並將其嵌入GitHub項目README頁面。 你完成了！
 
-### Additional resources <a name="Resources"></a>
+### 其他資源 <a name="Resources"></a>
 
-[Making your code citable](https://guides.github.com/activities/citable-code/) - GitHub Guides.
+[使您的代碼可信](https://guides.github.com/activities/citable-code/) - GitHub指南。
 
-**Know a way this content can be improved?**
+**知道這種內容可以改進的方式嗎？**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+是時候將新的GitHub技能用於測試運行了！ 所有內容的開發主要發生 [這裡](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)。 如果您對內容，佈局或其他任何內容有建議的改進，您可以製作它，然後在主持人驗證後它將自動成為MOOC內容的一部分！
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
