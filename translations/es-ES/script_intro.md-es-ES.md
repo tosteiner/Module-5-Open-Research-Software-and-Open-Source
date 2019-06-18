@@ -1,24 +1,24 @@
-# Script
+# Guión
 
-Course title: **Open Science MOOC**
+Título del curso: **Open Science MOOC**
 
-Module title: **Open Source and Open Research Software**
+Título del módulo: **Software de código abierto y de investigación abierta**
 
-Video title: **Why Open Source is important for researchers**
+Título del video: **¿Por qué Open Source es importante para los investigadores**
 
-Location: Dependent on presenter
+Ubicación: Depende del presentador
 
-Recording device: Depending on what is available, either webcam, mobile phone, or camera. If Jon can get to you on location, then we can use professional equipment.
+Dispositivo de grabación: dependiendo de lo que esté disponible, ya sea una cámara web, un teléfono móvil o una cámara. Si Jon puede localizarlo, entonces podemos usar equipo profesional.
 
-Proposed style: Monologue
+Estilo propuesto: Monólogo.
 
-Content visualisations: None (optional)
+Visualizaciones de contenido: Ninguna (opcional)
 
-Format: Informal, casual, outside of classroom/lab
+Formato: informal, informal, fuera del aula / laboratorio
 
-Opening: MOOC main logo, MOOC module logo, title of this video.
+Inauguración: logotipo principal de MOOC, logotipo del módulo MOOC, título de este video.
 
-Presenters:
+Presentadores:
 
 - [Jon Tennant](https://twitter.com/protohedgehog) - HOST
 - [Peter Murray-Rust](https://twitter.com/petermurrayrust)
@@ -28,65 +28,65 @@ Presenters:
 - [Ina Smith](https://twitter.com/ismonet)
 - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
 
-## Background
+## Fondo
 
-The intention of this video is to explain to learners *why* they should be doing this module. What the advantage of learning this material is, in terms of how it will affect their daily research practices. For this, it has to be personal stories: How OSS has impacted you, why it is important to you, and a real world experience of it. So, for example, "Using Open Source Software, I was able to remotely collaborate with researcher X in country Y, which led to the sharing of research code and data and ultimately a publication in journal Z."
+La intención de este video es explicar a los alumnos *por qué* deberían estar haciendo este módulo. Cuál es la ventaja de aprender este material, en términos de cómo afectará sus prácticas de investigación diarias. Para esto, tiene que ser historias personales: cómo OSS te ha impactado, por qué es importante para ti y una experiencia real de ello. Así, por ejemplo, "Al utilizar el software de código abierto, pude colaborar de forma remota con el investigador X en el país Y, lo que me permitió compartir el código y los datos de la investigación y, en última instancia, una publicación en la revista Z".
 
-This video will come in at the Introduction just before the learning outcomes, and really nail why people should be taking this module by prociding a real human component and narrative.
+Este video aparecerá en la Introducción justo antes de los resultados del aprendizaje, y realmente determinará por qué las personas deberían estar tomando este módulo al proporcionar un componente humano real y una narrativa.
 
-Now, importantly, I want this video to be completely distinct from something like a formal university lecture, where the learning is plain and uni-directional from teacher to learner. I want it to be personal, natural, and engaging - you are all members of the community, and I see this ss more peer-to-peer. So less floating heads and instructional, and more casual. What I want produce ultimately is something inspirational that gets people to go 'OK, this sounds useful to me and I should take and complete this module'.
+Ahora, lo que es más importante, quiero que este video sea completamente distinto de algo así como una conferencia formal de la universidad, donde el aprendizaje es simple y unidireccional de un maestro a otro. Quiero que sea personal, natural y atractivo; todos ustedes son miembros de la comunidad, y veo que esto es más de igual a igual. Tan menos cabezas flotantes e instructivas, y más informales. Lo que quiero producir en última instancia es algo inspirador que hace que la gente se vaya 'Bien, esto me parece útil y debería tomar y completar este módulo'.
 
-## Brief layout
+## Breve diseño
 
-1. Introductory section (Jon)
-2. Middle section, comprising 6 short 30-120 second statements from each presenter (all)
-3. Conclusions (Jon)
+1. Sección introductoria (Jon)
+2. Sección intermedia, que comprende 6 declaraciones cortas de 30-120 segundos de cada presentador (todos)
+3. Conclusiones (Jon)
 
-## Introduction - Jon
+## Introducción - Jon
 
-"Welcome to Module 5 of the Open Science MOOC, on Open Research Software and Open Source. In this module, we will learn about the importance of open source software in modern research. The module will help to equip us the relevant knowledge and tools to transform software into something that can be openly accessed and re-used by others.
+"Bienvenido al Módulo 5 de Open Science MOOC, sobre Open Research Software y Open Source. En este módulo, aprenderemos sobre la importancia del software de código abierto en la investigación moderna. El módulo nos ayudará a equiparnos con el conocimiento relevante y las herramientas para transformar el software en algo que otros puedan acceder y reutilizar abiertamente.
 
-This video will answer a key question: Why is Open Source Software important for you and your research? To help with this, we have spoken with 6 researchers across the world who use Open Source Software in their daily practices, and can testify to the great impact it can have on their research workflows. Because Open Source is just as much about the people as it is the technology."
+Este video responderá una pregunta clave: ¿Por qué es importante el software de código abierto para usted y su investigación? Para ayudar con esto, hemos hablado con 6 investigadores de todo el mundo que utilizan el software de código abierto en sus prácticas diarias, y podemos demostrar el gran impacto que puede tener en sus flujos de trabajo de investigación. Porque Open Source es tanto sobre la gente como sobre la tecnología ".
 
-## Middle (body) - All
+## Medio (cuerpo) - Todos
 
-[Per presenter]
+[Por presentador]
 
-- Intro - name, discipline, affiliation.
-- When you became interested in OSS.
-- A specific example of how using OSS has impacted you and your research.
-- Name the software and specific outcomes from using it. Use names of others if needed.
-- Finish each story relating to the overall impact it has had on your research.
+- Intro - nombre, disciplina, afiliación.
+- Cuando te interesaste en OSS.
+- Un ejemplo específico de cómo el uso de OSS lo ha impactado a usted y a su investigación.
+- Nombre el software y los resultados específicos de usarlo. Use nombres de otros si es necesario.
+- Termine cada historia relacionada con el impacto general que ha tenido en su investigación.
 
-## Conclusions - Jon
+## Conclusiones - Jon
 
-"So there we have it, 6 awesome stories from some talented researchers about the transformation that Open Source Software can have on our research practices. These tools have the potential to make our lives as researchers much easier, making our research more efficient, cost-effective, and transparent.
+"Así que ahí lo tenemos, 6 historias asombrosas de algunos investigadores talentosos sobre la transformación que puede tener el software de código abierto en nuestras prácticas de investigación. Estas herramientas tienen el potencial de hacer nuestras vidas como investigadores mucho más fáciles, haciendo que nuestra investigación sea más eficiente, rentable y transparente.
 
-In the rest of this module, we will learn a little more about the principles and community behind Open Source Software, how to make our own good software for re-use, and also how to cite any software we use in our own research. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
+En el resto de este módulo, aprenderemos un poco más acerca de los principios y la comunidad detrás del software de código abierto, cómo hacer que nuestro propio software sea bueno para su reutilización y también cómo citar cualquier software que usemos en nuestra propia investigación. Además de esto, tenemos tres tareas prácticas, que nos ayudarán primero a configurar su propio proyecto en GitHub, y luego cómo archivar este proyecto en Zenodo, y finalmente cómo integrar Git con el lenguaje de programación, R.
 
-Hopefully, by the end of the module, you will be able to apply these skills and knowledge to make your daily activities as a researcher more efficient. The next part of this module is just what is Open Source Software - enjoy!"
+Con suerte, al final del módulo, podrá aplicar estas habilidades y conocimientos para hacer que sus actividades diarias como investigador sean más eficientes. La siguiente parte de este módulo es exactamente lo que es el software de código abierto: ¡disfrútalo!
 
-## Post-recording tasks
+## Tareas posteriores a la grabación
 
-- Create a transcript and subtitle file (for translations)
-- Add start and end slides
-- Add screen information for each presenter
-- Edit videos together for continuity
-- Add statements between presenters in middle parts if needed *or* add a brief pause with a slide of information between each presenter (name, discipline, software name, affiliation)
+- Crear un archivo de transcripción y subtítulos (para traducciones)
+- Añadir diapositivas de inicio y fin
+- Agregar información de pantalla para cada presentador
+- Edite videos juntos para la continuidad
+- Agregue declaraciones entre los presentadores en las partes intermedias, si es necesario *o* agregue una breve pausa con una diapositiva de información entre cada presentador (nombre, disciplina, nombre del software, afiliación)
 
-## Licensing statement
+## Declaración de licencia
 
-I/we grant the Open Science MOOC the right to re-use the content that I/we provide for the project. Specifically, I/we give permission to:
+Yo / Nosotros concedo la Ciencia Abierta MOOC el derecho de volver a utilizar el contenido que I / Proporcionamos para el proyecto. Específicamente, yo / nosotros damos permiso para:
 
-- Use the material for educational purposes for the project
+- Utilizar el material con fines educativos para el proyecto.
 
-- Publish the educational videos to the MOOC platform(s), and share any relevant ones on social media
+- Publique los videos educativos en la (s) plataforma (s) MOOC y comparta los relevantes en las redes sociales
 
-- Release the content under a Creative Commons CC BY 4.0 International license
+- Libere el contenido bajo una licencia internacional Creative Commons CC BY 4.0 
 
-Signed:
+Firmado:
 
-[please add names here]
+[por favor agregue nombres aquí]
 
 - Heidi Seibold
 - Konrad Förstner
