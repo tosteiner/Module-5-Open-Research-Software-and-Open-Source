@@ -1,224 +1,224 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: Standard
+  pdf_document: Standard
 ---
 
-# Module 5: Open Research Software and Open Source
+# Modul 5: Open Research Software und Open Source
 
-## Table of Contents
+## Inhaltsverzeichnis
 
-- [Introduction](#Introduction)
-- [What is Open Source Software](#What_OSS)
-- [Principles of Open Source Software](#Principles)
-- [The Open Source community, governance, and contributions](#OS_Community)
-- [Existing platforms and tools for Open Source Software](#Platforms)
-- [Open Source Software used in research](#Research)
-- [Getting Started with OSS - FAQ](#FAQ)
-- [Making good software for re-use](#Reuse)
-- [Open Source licensing](#Licensing)
-- [Software citation](#Citation)
-- [Using GitHub and Zenodo](#GitHub_Zenodo)
-- [Collaborating through Open Source](#Collaborating)
-- [Where to go from here](#Future_OSS)
+- [Einführung](#Introduction)
+- [Was ist Open Source Software?](#What_OSS)
+- [Prinzipien von Open Source Software](#Principles)
+- [Die Open Source Community, Governance und Beiträge](#OS_Community)
+- [Bestehende Plattformen und Tools für Open Source Software](#Platforms)
+- [Open Source Software für Forschungszwecke](#Research)
+- [Erste Schritte mit OSS - FAQ](#FAQ)
+- [Gute Software zur Wiederverwendung machen](#Reuse)
+- [Open Source Lizenzierung](#Licensing)
+- [Software-Zitat](#Citation)
+- [Mit GitHub und Zenodo](#GitHub_Zenodo)
+- [Zusammenarbeit durch Open Source](#Collaborating)
+- [Wohin soll es von hier aus gehen?](#Future_OSS)
 
-**PLEASE NOTE** that an audio version of this is available to download via [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) and [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM).
+**BITTE BEACHTEN SIE** dass eine Audioversion davon über [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) und [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM)zum Herunterladen verfügbar ist.
 
-## Introduction <a name="Introduction"></a>
+## Einführung <a name="Introduction"></a>
 
-Welcome to **Module 5** of the Open Science MOOC: **Open Research Software and Open Source**.
+Willkommen zu **Modul 5** des Open Science MOOC: **Open Research Software und Open Source**.
 
-This module has been developed [in the open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) through collaboration by an international team of [Open Source afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Everything you see here has been developed in the open through interactive feedback and collaboration from the wider community. It comprises a series of videos, infographics, text-based reading, and practical tasks for you to sink you teeth into.
+Dieses Modul wurde [in the open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) in Zusammenarbeit mit einem internationalen Team von [Open Source-Afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Alles, was Sie hier sehen, wurde offen durch interaktives Feedback und die Zusammenarbeit mit der breiteren Community entwickelt. Es umfasst eine Reihe von Videos, Infografiken, textbasiertes Lesen und praktische Aufgaben, in die Sie sich hineinversetzen können.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Vergiss nicht, dass du in unserem offenen [**Slack Channel**](https://osmooc.herokuapp.com/)mitdiskutieren kannst. Bitte stellen Sie sich unter # module5opensource vor und erzählen Sie uns, wer Sie sind, welchen Hintergrund Sie haben und wie Sie hier gelandet sind!
 
-### Who is this module for?
+### Für wen ist dieses Modul?
 
-This module is designed primarily for computational researchers at the graduate and undergraduate level, as well as budding data scientists and any other researcher who uses analytical code or software. In a modern day research environment, this covers pretty much anyone who uses a computer for ther work.
+Dieses Modul richtet sich in erster Linie an Computerforscher mit und ohne Hochschulabschluss sowie angehende Datenwissenschaftler und andere Forscher, die analytischen Code oder Software verwenden. In einer modernen Forschungsumgebung sind damit so ziemlich alle abgedeckt, die einen Computer für ihre Arbeit verwenden.
 
-> "An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result." - J. Buckheit and D. L. Donoho, 1995.
+> "Ein Artikel über das Rechenergebnis ist Werbung, kein Stipendium. Das eigentliche Stipendium ist die vollständige Softwareumgebung, Code und Daten, die das Ergebnis hervorgebracht haben. "- J. Buckheit und DL Donoho, 1995.
 
-Software and technology underpin much of modern research, which is now almost inevitably computational in one way or another - search engines, social networking platforms, analytical software, and digital publishing. With this, there is an ever-increasing demand for more sophisticated Open Source Software, matched by an increasing willingness for researchers to openly collaborate on new tools.
+Software und Technologie untermauern einen Großteil der modernen Forschung, die heutzutage auf die eine oder andere Weise fast unweigerlich rechenintensiv ist - Suchmaschinen, Plattformen für soziale Netzwerke, Analysesoftware und digitales Publishing. Mit dieser Tatsache steigt die Nachfrage nach anspruchsvollerer Open Source-Software, verbunden mit der zunehmenden Bereitschaft der Forscher, offen an neuen Tools zusammenzuarbeiten.
 
-The power of Open Source is in that it lowers the barriers to collaboration and adoption, therefore allowing ideas and technology to spread more rapidly. This Module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
+Die Stärke von Open Source besteht darin, dass die Hindernisse für die Zusammenarbeit und Akzeptanz gesenkt werden, sodass sich Ideen und Technologien schneller verbreiten können. In diesem Modul werden die erforderlichen Tools vorgestellt, um Software in etwas zu verwandeln, auf das offen zugegriffen und von anderen wiederverwendet werden kann.
 
 <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/open_research_software_open_source.png?raw=true" width="800" />
 
-<p align="center"><i>Image by Patrick Hochstenbach (CC0 1.0 Universal)</i></p>
+<p align="center"><i>Bild von Patrick Hochstenbach (CC0 1.0 Universal)</i></p>
 
   
 
 
-### **Specific learning objectives for this Module**:
+### **Spezifische Lernziele für dieses Modul**:
 
-1. Learn the characteristics of open software; understand the **ethical, legal, economic, and research impact arguments for and against Open Source Software**, and further understand the quality requirements of open code.
+1. Lernen Sie die Eigenschaften offener Software kennen. verstehen , die **ethischen, rechtlichen, wirtschaftlichen und Forschung Auswirkungen Argumente für und gegen Open Source Software**, und weiter die Qualitätsanforderungen der offenen Code verstehen.
 
-2. Be able to turn code made for personal use into open code which is accessible by others.
+2. Sie können Code, der für den persönlichen Gebrauch erstellt wurde, in offenen Code umwandeln, auf den andere zugreifen können.
 
-3. Use software (tools) that utilizes open content and encourages wider collaboration.
-
-  
-
-
-## What is Open Source Software <a name="What_OSS"></a>
-
-Virtually all modern scientific research workflows rely on a range of software tools, either operating on different datasets, with different parameters, and applied iteratively in various ways (data science) or operating on different inputs and using models and methods to predict some output state (computational science). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.
-
-OSS fits into the broader scheme of Open Science as it helps to make the full research environment, including the software that produced the research results, fully accessible and re-usable. As such, it forms a necessary component for the best practices ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) and repeatability and reproducibility of research (both personally and by others), along with other components, such as sharing data ([Stodden, 2010](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
-
-In some cases, sharing of source code can even be conditional for the acceptance of associated research manuscripts ([Shamir et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Shamir%20et%20al.%2C%202013.pdf)). It is also generally perceived to increase research impact ([Vandwalle, 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Vandewalle%2C%202012.pdf)).
-
-Some of common advantages for developers include:
-
-- Increased developer loyalty and empowerment;
-
-- Lower costs of services and marketing;
-
-- Increased branding of services and products;
-
-- Production of high quality software at lower expense;
-
-- Flexibility and rapid innovation;
-
-- Customisation and modular integration;
-
-- Increased reliability and independence; and
-
-- Based on open standards available to everyone.
-
-As such, the main advantages for researchers (users) include **lower costs**, **increased transparency**, **increased security and stability**, **no vendor 'lock in' with increased user control**, and **overall higher quality**. Furthermore, sharing OSS allows researchers to receive credit for their efforts, for example through direct software citation [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
-
-Commonly used OSS include the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) internet browser and the [LibreOffice](https://www.libreoffice.org/) full office suite. LibreOffice is similar to the popular Microsoft Office, including a word processor, spreadsheet manager, and slide presentation software, but is completely free and Open Source.
-
-Some regard the OSS movement to represent a counter-movement to neoliberalism and privatisation, through defiance of regulations and norms in the construction and re-use of information, and a potential transformation of modern-day capitalism through making software abundantly available with minimal effort. See [The free/open source software movement: Resistance or change?](http://www.redalyc.org/html/742/74212712006/) by Panayiota Georgopoulou for more on this topic.
+3. Verwenden Sie Software (Tools), die offene Inhalte verwendet und eine breitere Zusammenarbeit fördert.
 
   
 
 
-## Principles of Open Source Software <a name="Principles"></a>
+## Was ist Open Source Software? <a name="What_OSS"></a>
 
-The [Open Source Initiative](https://opensource.org/), one of the pioneers of OSS, offers the following [definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
+Nahezu alle modernen wissenschaftlichen Forschungsabläufe basieren auf einer Reihe von Softwaretools, die entweder auf unterschiedlichen Datensätzen mit unterschiedlichen Parametern und iterativ auf verschiedene Arten (Data Science) angewendet werden oder auf unterschiedlichen Eingaben und unter Verwendung von Modellen und Methoden zur Vorhersage eines bestimmten Ausgabezustands ( Computerwissenschaft). Open Source Software (OSS) ist eine Computersoftware, in der der vollständige Quellcode unter einer bestimmten Lizenz verfügbar ist, die es anderen Benutzern ermöglicht, auf diesen Code für beliebige Zwecke zuzugreifen, ihn anzuzeigen, zu ändern und weiterzugeben. Da für OSS eine solche Lizenz erforderlich ist, ist diese in der Regel weiterhin kostenlos. Diese explizite Lizenzierung unterscheidet OSS auch von freier Software. Die Wiederverwendung von OSS zur Analyse, Simulation und Visualisierung für Forschungszwecke ist im Vergleich zu proprietärer Software in der Regel einfacher und flexibler. Unabhängig davon, ob wir es wissen oder nicht, verwenden wir OSS häufig bereits als Teil unserer eigenen Forschungsabläufe.
 
-*Don't worry, you don't need to memorise all of this, but it's good to know the principles that OSS is coming from.*
+OSS fügt sich in das umfassendere Schema von Open Science ein, da es dazu beiträgt, die gesamte Forschungsumgebung, einschließlich der Software, die die Forschungsergebnisse erstellt hat, vollständig zugänglich und wiederverwendbar zu machen. Als solches bildet es eine notwendige Komponente für die Best Practices ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) und die Wiederholbarkeit und Reproduzierbarkeit der Forschung (sowohl persönlich als auch durch andere) sowie für andere Komponenten wie den Datenaustausch ([Stodden, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
 
-- **Free Redistribution**: The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
-    
-    - **Source Code**: The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost preferably, downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
-    
-    - **Derived Works**: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
-    
-    - **Integrity of The Author's Source Code**: The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
-    
-    - **No Discrimination Against Persons or Groups**: The license must not discriminate against any person or group of persons.
-    
-    - **No Discrimination Against Fields of Endeavour**: The license must not restrict anyone from making use of the program in a specific field of endeavour. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
-    
-    - **Distribution of License**: The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
-    
-    - **License Must Not Be Specific to a Product**: The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
-    
-    - **License Must Not Restrict Other Software**: The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
-    
-    - **License Must Be Technology-Neutral**: No provision of the license may be predicated on any individual technology or style of interface.
+In einigen Fällen kann die Weitergabe von Quellcode sogar von der Akzeptanz der zugehörigen Forschungsmanuskripte abhängig gemacht werden ([Shamir et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Shamir%20et%20al.%2C%202013.pdf)). Es wird auch allgemein angenommen, dass die Auswirkungen auf die Forschung zunehmen ([Vandwalle, 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Vandewalle%2C%202012.pdf)).
 
-Now, this all might be a little complex to remember. However, it can be summarised as *making software as re-usable as possible for future works, while also being freely available*.
+Einige der allgemeinen Vorteile für Entwickler sind:
 
-  
+- Erhöhte Entwicklerloyalität und -ermächtigung;
 
+- Geringere Kosten für Dienstleistungen und Marketing;
 
-## An Open Source checklist
+- Verstärktes Branding von Dienstleistungen und Produkten;
 
-There are a number of existing platforms and tools that support OSS and collaboration. The [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) provides a check-list to use for evaluating the 'openness' of existing research software, based on the Open Source Definition above:
+- Produktion hochwertiger Software zu geringeren Kosten;
 
-- [ ] Is the software available to download and install?
+- Flexibilität und schnelle Innovation;
 
-- [ ] Can the software easily be installed on different platforms?
+- Anpassung und modulare Integration;
 
-- [ ] Does the software have conditions on the use?
+- Erhöhte Zuverlässigkeit und Unabhängigkeit; und
 
-- [ ] Is the source code available for inspection?
+- Basierend auf offenen Standards, die für alle verfügbar sind.
 
-- [ ] Is the full history of the source code available for inspection through a publicly available version history?
+Die Hauptvorteile für Forscher (Benutzer) sind daher: **geringere Kosten**, **erhöhte Transparenz**, **erhöhte Sicherheit und Stabilität**, **kein "Einschließen" des Anbieters mit erhöhter Benutzerkontrolle**und **insgesamt höhere Qualität**. Durch die gemeinsame Nutzung von OSS können Forscher ihre Bemühungen honorieren, beispielsweise durch direktes Zitieren von Software [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
 
-- [ ] Are the dependencies of the software (hardware and software) described properly? Do these dependencies require only a reasonably minimal amount of effort to obtain and use?
+Zu den häufig verwendeten OSS gehören der Internetbrowser [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) und die vollständige Office-Suite [LibreOffice](https://www.libreoffice.org/). LibreOffice ähnelt dem beliebten Microsoft Office, einschließlich eines Textverarbeitungsprogramms, eines Tabellenkalkulations-Managers und einer Folienpräsentationssoftware, ist jedoch völlig kostenlos und Open Source.
 
-Check, check, check, done! Simples.
+Einige sehen in der OSS-Bewegung eine Gegenbewegung zu Neoliberalismus und Privatisierung, die sich gegen Vorschriften und Normen bei der Konstruktion und Wiederverwendung von Informationen richtet, und eine potenzielle Transformation des modernen Kapitalismus durch die Bereitstellung von Software in Hülle und Fülle mit minimalem Aufwand. Siehe [Die Free / Open Source Software Bewegung: Widerstand oder Veränderung?](http://www.redalyc.org/html/742/74212712006/) von Panayiota Georgopoulou für mehr zu diesem Thema.
 
   
 
 
-## The Open Source community and its governance <a name="OS_Community"></a>
+## Prinzipien von Open Source Software <a name="Principles"></a>
 
-There are two main camps within the free software community: The **free software movement**, and the **OSS movement**. Both have differing ideologies based on user liberties and the practical applications of software. Often, the term 'FLOSS' is used to reconcile these two political camps, and means 'Free/Libre and Open Source Software'; Libre being French and Spanish for 'free' in the context of freedom.
+Die [Open Source Initiative](https://opensource.org/), einer der Pioniere von OSS, bietet die folgende [Definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
 
-The core principle of re-use is what separates OSS from 'Free Software'. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the [Ubuntu Linux](https://www.ubuntu.com/) operation system.
+*Keine Sorge, Sie müssen sich das alles nicht merken, aber es ist gut, die Prinzipien zu kennen, von denen OSS kommt.*
 
-The big difference between free software and OSS is that the former must distribute updated versions under the same license as the original, whereas newer versions of OSS can be distributed under different licenses. FOSS combines the best of both worlds.
+- **Kostenlose Weiterverteilung**: Die Lizenz darf keine Partei daran hindern, die Software als Bestandteil einer aggregierten Softwareverteilung zu verkaufen oder weiterzugeben, die Programme aus verschiedenen Quellen enthält. Für diesen Verkauf ist für die Lizenz keine Lizenzgebühr oder sonstige Gebühr erforderlich.
+    
+    - **Quellcode**: Das Programm muss Quellcode enthalten und die Verteilung im Quellcode sowie in kompilierter Form ermöglichen. Wenn eine Form eines Produkts nicht mit Quellcode vertrieben wird, muss es ein gut bekanntes Mittel geben, um den Quellcode für nicht mehr als einen angemessenen Vervielfältigungspreis zu erhalten, vorzugsweise zum kostenfreien Herunterladen über das Internet. Der Quellcode muss die bevorzugte Form sein, in der ein Programmierer das Programm ändern würde. Absichtlich verschleierter Quellcode ist nicht erlaubt. Zwischenformulare wie die Ausgabe eines Präprozessors oder Übersetzers sind nicht zulässig.
+    
+    - **Abgeleitete Werke**: Die Lizenz muss Änderungen und abgeleitete Werke zulassen und die Weitergabe unter denselben Bedingungen wie die Lizenz der Originalsoftware zulassen.
+    
+    - **Integrität des Quellcodes des Autors**: Die Lizenz darf die Weitergabe von Quellcode in geänderter Form nur einschränken, wenn die Lizenz die Weitergabe von "Patch-Dateien" mit dem Quellcode zum Zweck der Änderung des Programms zum Zeitpunkt der Erstellung zulässt. Die Lizenz muss die Weitergabe von Software, die aus geändertem Quellcode erstellt wurde, ausdrücklich gestatten. Die Lizenz erfordert möglicherweise abgeleitete Werke, die einen anderen Namen oder eine andere Versionsnummer als die ursprüngliche Software tragen.
+    
+    - **Keine Diskriminierung von Personen oder Gruppen**: Die Lizenz darf keine Person oder Personengruppe diskriminieren.
+    
+    - **Keine Diskriminierung von Handlungsfeldern**: Die Lizenz darf niemanden daran hindern, das Programm in einem bestimmten Handlungsfeld zu nutzen. Beispielsweise darf es das Programm nicht daran hindern, in einem Unternehmen oder für die genetische Forschung verwendet zu werden.
+    
+    - **Verteilung der Lizenz**: Die mit dem Programm verbundenen Rechte müssen für alle gelten, an die das Programm weitergegeben wird, ohne dass diese Parteien eine zusätzliche Lizenz ausführen müssen.
+    
+    - **Lizenz darf nicht produktspezifisch sein**: Die mit dem Programm verbundenen Rechte dürfen nicht davon abhängen, ob das Programm Teil einer bestimmten Softwareverteilung ist. Wenn das Programm aus dieser Distribution extrahiert und im Rahmen der Lizenzbedingungen des Programms verwendet oder verbreitet wird, sollten alle Parteien, an die das Programm weitergegeben wird, die gleichen Rechte haben, die im Zusammenhang mit der ursprünglichen Softwareverteilung gewährt werden.
+    
+    - **Lizenz darf andere Software nicht einschränken**: Die Lizenz darf keine Einschränkungen für andere Software enthalten, die zusammen mit der lizenzierten Software vertrieben wird. Beispielsweise darf die Lizenz nicht darauf bestehen, dass alle anderen auf demselben Medium verteilten Programme Open-Source-Software sein müssen.
+    
+    - **Lizenz muss technologieneutral sein.**: Die Bereitstellung der Lizenz darf nicht auf einer bestimmten Technologie oder einem bestimmten Schnittstellentyp beruhen.
 
-These definitions have now become widely adopted, both by international governments, as well as some large organisations such as the [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) and the [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Major organisations in the FLOSS space include the UK's [Software Sustainability Institute](https://www.software.ac.uk/), who produce valuable resources such as their recent [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/).
-
-### For individual projects
-
-A typical open source project has the following types of formal roles:
-
-- **Author**: It is the person that created the project
-- **Owner**: The person/s who has administrative ownership over the organization or repository 
-- **Maintainers**: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. (They may also be authors or owners of the project.)
-- **Contributors**: The user that has already contributed to the project.
-- **Community Members**: People who use the project. They might be active in conversations, create new issues or express their opinion on the future project improvements.
-
-Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
+Nun, das alles könnte ein wenig kompliziert sein, um sich zu erinnern. Es kann jedoch als *wodurch die Software für zukünftige Arbeiten so weit wie möglich wiederverwendbar wird und gleichzeitig frei verfügbar ist*.
 
   
 
 
-## Existing platforms and tools for Open Source Software <a name="Platforms"></a>
+## Eine Open Source Checkliste
 
-Virtual environments and machines are becoming increasingly popular as high-powered research workflow enablers, and many of these are built upon OSS (e.g., operating systems, programming languages, and data processing frameworks). Popular services include [Google Cloud](https://cloud.google.com/compute/) and [Amazon Web Services](https://aws.amazon.com/), which also assist with database storage and content delivery, as well as computational power. [InsideDNA](https://insidedna.me/) is a computing platform for reproducible research in bioinformatics, genomics and the life sciences.
+Es gibt eine Reihe vorhandener Plattformen und Tools, die OSS und die Zusammenarbeit unterstützen. Das [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) enthält eine Checkliste zur Bewertung der Offenheit vorhandener Forschungssoftware auf der Grundlage der obigen Open Source-Definition:
 
-As mentioned [above](#What_OSS), LibreOffice provides an Open Source alternative to Microsoft Office. The two are almost completely compatible, just with different default file formats. For citation managers, [Zotero](https://www.zotero.org/) is the most popular Open Source alternative to proprietary platforms such as Mendeley or EndNote.
+- [] Ist die Software zum Herunterladen und Installieren verfügbar?
 
-[Zotero](https://www.zotero.org/) uses the BibTeX (pronounced 'bib-tech') format, based on LaTeX (pronounced 'lay-tech'), and has browser plugins to make citation management simple. By integrating this with other software such as LibreOffice, it is now possible to have a fully Open Source research workflow in many cases.
+- [] Kann die Software problemlos auf verschiedenen Plattformen installiert werden?
+
+- [] Hat die Software Nutzungsbedingungen?
+
+- [] Steht der Quellcode zur Einsicht zur Verfügung?
+
+- [] Ist der vollständige Verlauf des Quellcodes über einen öffentlich zugänglichen Versionsverlauf zur Einsicht verfügbar?
+
+- [] Sind die Abhängigkeiten der Software (Hardware und Software) richtig beschrieben? Benötigen diese Abhängigkeiten nur einen relativ geringen Aufwand, um sie zu erhalten und zu verwenden?
+
+Überprüfen, überprüfen, überprüfen, fertig! Simples.
+
+  
+
+
+## Die Open Source Community und ihre Governance <a name="OS_Community"></a>
+
+Es gibt zwei Hauptcamps in der Community der Freien Software: Die **Freie Software Bewegung**und die **OSS Bewegung**. Beide haben unterschiedliche Ideologien, die auf den Benutzerfreiheiten und den praktischen Anwendungen von Software beruhen. Oft wird der Begriff "FLOSS" verwendet, um diese beiden politischen Lager zu versöhnen und bedeutet "Freie / Libre- und Open Source-Software". Libre ist Französisch und Spanisch für "frei" im Kontext der Freiheit.
+
+Das Kernprinzip der Wiederverwendung ist das, was OSS von „Freier Software“ unterscheidet. Freie und Open Source Software (FOSS) ist ein umfassender Begriff zur Beschreibung von Software, die sowohl als freie als auch als Open Source klassifiziert werden kann. Ein gutes Beispiel für FOSS ist das Betriebssystem [Ubuntu Linux](https://www.ubuntu.com/).
+
+Der große Unterschied zwischen Freier Software und OSS besteht darin, dass erstere aktualisierte Versionen unter derselben Lizenz wie das Original vertreiben müssen, während neuere Versionen von OSS unter verschiedenen Lizenzen vertrieben werden können. FOSS vereint das Beste aus beiden Welten.
+
+Diese Definitionen sind inzwischen weit verbreitet, sowohl von internationalen Regierungen als auch von einigen großen Organisationen wie der [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) und der [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Zu den wichtigsten Organisationen im FLOSS-Bereich gehört das britische [Software Sustainability Institute](https://www.software.ac.uk/), das wertvolle Ressourcen produziert, z. B. die jüngsten [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/).
+
+### Für einzelne Projekte
+
+Ein typisches Open Source-Projekt hat die folgenden Arten formaler Rollen:
+
+- **Autor**: Es ist die Person, die das Projekt erstellt hat
+- **Eigentümer**: Die Person (en), die über Administratorrechte für die Organisation oder das Repository verfügt 
+- **Betreuer**: Mitwirkende, die für die Umsetzung der Vision und das Management der organisatorischen Aspekte des Projekts verantwortlich sind. (Sie können auch Autoren oder Eigentümer des Projekts sein.)
+- **Mitwirkende**: Der Benutzer, der bereits zu dem Projekt beigetragen hat.
+- **Community-Mitglieder**: Personen, die das Projekt nutzen. Sie können aktiv an Gesprächen teilnehmen, neue Themen erstellen oder ihre Meinung zu zukünftigen Projektverbesserungen äußern.
+
+Normalerweise werden Rollen entweder über die Datei `README` , eine Contributors-Datei oder eine separate Teamseite für das Projekt veröffentlicht.
+
+  
+
+
+## Bestehende Plattformen und Tools für Open Source Software <a name="Platforms"></a>
+
+Virtuelle Umgebungen und Maschinen werden immer beliebter, da sie leistungsstarke Workflow-Funktionen für die Forschung ermöglichen. Viele davon basieren auf OSS (z. B. Betriebssysteme, Programmiersprachen und Datenverarbeitungs-Frameworks). Zu den gängigen Diensten zählen [Google Cloud](https://cloud.google.com/compute/) und [Amazon Web Services](https://aws.amazon.com/), die auch die Speicherung von Datenbanken und die Bereitstellung von Inhalten sowie die Rechenleistung unterstützen. [InsideDNA](https://insidedna.me/) ist eine Computerplattform für reproduzierbare Forschung in den Bereichen Bioinformatik, Genomik und Life Sciences.
+
+Wie bereits erwähnt [über](#What_OSS)stellt Libreoffice eine Open - Source - Alternative zu Microsoft Office. Die beiden sind fast vollständig kompatibel, nur mit verschiedenen Standarddateiformaten. Für Zitiermanager ist [Zotero](https://www.zotero.org/) die beliebteste Open Source-Alternative zu proprietären Plattformen wie Mendeley oder EndNote.
+
+[Zotero](https://www.zotero.org/) verwendet das BibTeX-Format (ausgesprochen "bib-tech"), das auf LaTeX (ausgesprochen "lay-tech") basiert, und verfügt über Browser-Plug-ins, um das Zitiermanagement zu vereinfachen. Durch die Integration mit anderer Software wie LibreOffice ist es jetzt in vielen Fällen möglich, einen vollständigen Open Source-Forschungsworkflow zu haben.
 
 ### GitHub <a name="GitHub"></a>
 
-> Did you know that this entire project was build as an open and collaborative community effort in [GitHub](https://github.com/OpenScienceMOOC/)?
+> Wussten Sie, dass dieses gesamte Projekt als offene und kollaborative Community in [GitHub](https://github.com/OpenScienceMOOC/)?
 
-[GitHub](https://github.com/) is a popular hosting site for both software and non-software content (often called 'notebooks'), with added capabilities for version control, project management and tracking, and storage services. GitHub is built on top of the OSS [Git](https://git-scm.com/), which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.
+[GitHub](https://github.com/) ist eine beliebte Hosting-Site für Software- und Nicht-Software-Inhalte (häufig als "Notizbücher" bezeichnet) mit zusätzlichen Funktionen für Versionskontrolle, Projektmanagement und -verfolgung sowie für Speicherdienste. GitHub baut auf dem OSS [Git](https://git-scm.com/), mit dem Benutzer remote arbeiten können, um Forschungssoftware und andere nicht auf Software basierende Projekte zu warten, gemeinsam zu nutzen und zusammenzuarbeiten.
 
-Version control is essentially a process that takes snapshots of the files in a repository, and tracks modifications to them. It records when the changes were made, what they were, and who did them. If several people are working on one file at once, any overlapping changes are detected, and must be resolved prior to continuing. This provides a much more streamlined and automated process than manually saving and recording changes as projects develop. It also avoids the inevitable lists of confusing named file versions...
+Die Versionskontrolle ist im Wesentlichen ein Prozess, der Momentaufnahmen der Dateien in einem Repository erstellt und Änderungen daran nachverfolgt. Es wird aufgezeichnet, wann die Änderungen vorgenommen wurden, was sie waren und wer sie vorgenommen hat. Wenn mehrere Personen gleichzeitig an einer Datei arbeiten, werden überlappende Änderungen erkannt und müssen behoben werden, bevor Sie fortfahren können. Dies bietet einen wesentlich effizienteren und automatisierten Prozess als das manuelle Speichern und Aufzeichnen von Änderungen während der Projektentwicklung. Außerdem werden die unvermeidlichen Listen verwirrender benannter Dateiversionen vermieden ...
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/xkcd.png?raw=true" width="200" /></p>
 
-<p align="center"><i>GitHub helps us to avoid, er, sub-optimal file naming conventions (source: XKCD)</i></p>
+<p align="center"><i>GitHub hilft uns, suboptimale Dateinamenskonventionen zu vermeiden (Quelle: XKCD)</i></p>
 
   
 
 
-One of the more popular and useful functions of GitHub is the [issue tracker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), which is used to organise OSS development. The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!
+Eine der beliebtesten und nützlichsten Funktionen von GitHub ist der [Issue-Tracker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), mit dem die OSS-Entwicklung organisiert wird. Über den obigen Link gelangen Sie zum Issue Tracker für die Entwicklung dieses Moduls! Wenn Sie der Meinung sind, dass sich hier etwas verbessern lässt, oder wenn Sie etwas kommentieren möchten, kann jeder dort ein Problem hinzufügen oder dazu beitragen!
 
-Other similar project hosting services include [BitBucket](https://bitbucket.org/), [GitLab](https://about.gitlab.com/), and [Launchpad](https://launchpad.net/). If the recent acquisition of GitHub by Microsoft is a bit off-putting to you, these are great alternatives.
+Andere ähnliche Projekt-Hosting-Dienste umfassen [BitBucket](https://bitbucket.org/), [GitLab](https://about.gitlab.com/)und [Launchpad](https://launchpad.net/). Wenn die kürzlich erfolgte Akquisition von GitHub durch Microsoft Sie etwas abschreckt, sind dies großartige Alternativen.
 
-However, we also know that GitHub can have quite a high learning curve. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!
+Wir wissen jedoch auch, dass GitHub eine recht hohe Lernkurve aufweisen kann. Aus diesem Grund lernen Sie in der ersten praktischen Aufgabe für dieses MOOC, wie Sie Ihr erstes GitHub-Projekt-Repository einrichten!
 
-**[GO TO TASK 1: Building your first GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
+**[WEITER ZU AUFGABE 1: Erstellen Sie Ihr erstes GitHub-Repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
 
   
 
 
-## Open Source Software used in research <a name="Research"></a>
+## Open Source Software für Forschungszwecke <a name="Research"></a>
 
-Especially in scientific research, Open Source Software usage and development has become practically the norm. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
+Insbesondere in der wissenschaftlichen Forschung ist der Einsatz und die Entwicklung von Open Source-Software praktisch zur Norm geworden. Hierfür gibt es eine Reihe von Gründen, die über die allgemeine Akzeptanz von OSS hinausgehen, beispielsweise bei Verbrauchern, der Industrie oder der Regierung. Zu diesen Gründen gehören:
 
-- Increasingly, algorithms implemented in analysis software form an integral part of the methods described in scholarly publications. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.
+- Zunehmend sind in Analysesoftware implementierte Algorithmen ein wesentlicher Bestandteil der in wissenschaftlichen Veröffentlichungen beschriebenen Methoden. Insofern widerspricht es einem strengen Peer Review, wenn diese Algorithmusimplementierungen für Außenstehende nicht zugänglich sind.
 
-- Scientific collaboration more often than not spans multiple institutions and distributed research networks where secrecy and command hierarchy is not maintained in a way that is 'necessary' for closed source development.
+- Die wissenschaftliche Zusammenarbeit erstreckt sich häufig über mehrere Institutionen und verteilte Forschungsnetzwerke, in denen Geheimhaltung und Befehlshierarchie nicht in einer Weise aufrechterhalten werden, die für die Entwicklung geschlossener Quellen "notwendig" ist.
 
-- Many computational analyses are run in virtualized environments (such as institutional, national, or international 'cloud' infrastructures) and hosted on multi-user servers. Closed-source, commercial software often disallows such usage.
+- Viele Computeranalysen werden in virtualisierten Umgebungen (z. B. institutionellen, nationalen oder internationalen Cloud-Infrastrukturen) ausgeführt und auf Mehrbenutzerservern gehostet. Kommerzielle Closed-Source-Software lässt eine solche Verwendung häufig nicht zu.
 
-- OSS development often relies on volunteers. In a time of budgetary constraints for scientific research, this is a clear advantage.
+- Die OSS-Entwicklung beruht häufig auf Freiwilligen. In Zeiten knapper Haushaltsmittel für die wissenschaftliche Forschung ist dies ein klarer Vorteil.
 
-For these and other reasons, Open Source tools are very commonly used in scientific research. This includes usage in fields where many researchers are amateur developers themselves and rely on tools such as [R](https://www.r-project.org/) for statistical analysis and scripting, which, in the last decade, has almost completely displaced commercial software for statistical analysis such as SPSS or JMP in a lot of fields. In fields such as bioinformatics, that involve a lot of file handling of the outputs of DNA sequencing platforms, general purpose scripting languages such as [Python](https://www.python.org/) and commonly used libraries built on top of it (such as [biopython](http://biopython.org)) have become a vital part of the toolkit of many researchers.
+Aus diesen und anderen Gründen werden Open Source-Tools in der wissenschaftlichen Forschung sehr häufig verwendet. Dies schließt den Einsatz in Bereichen ein, in denen viele Forscher selbst Amateurentwickler sind und auf Tools wie [R](https://www.r-project.org/) für statistische Analysen und Skripterstellung zurückgreifen, die im letzten Jahrzehnt kommerzielle Software für statistische Analysen wie SPSS oder JMP in einem fast vollständig verdrängt haben viele Felder. In Bereichen wie der Bioinformatik, in denen die Ausgabe von DNA-Sequenzierungsplattformen häufig in Dateien verarbeitet wird, sind Allzweck-Skriptsprachen wie [Python](https://www.python.org/) und häufig verwendete Bibliotheken (wie [Biopython](http://biopython.org)) von entscheidender Bedeutung Teil des Toolkits vieler Forscher.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/python.png?raw=true" width="400" /></p>
 
@@ -227,7 +227,7 @@ For these and other reasons, Open Source tools are very commonly used in scienti
   
 
 
-Tools such as R and Python are essentially software for writing software. Although programming is an increasingly common activity among researchers, of course not *every* scientist does this. One step away from programming is the chaining together of the inputs and outputs of various analysis tools in longer workflows. As an example from genomics, a very common workflow is to start out with high-throughput sequencing reads and then i) do basic quality control checks; ii) map the reads against a reference genome; iii) identify the points where the new data are at variance with the reference. These steps are routinely executed as a workflow where a different Open Source executable is run in a Linux command-line environment for each of the three steps. Although this is arguably not quite open source software development, it does involve the usage and production of open source artifacts (such as Linux shell scripts) for which the principles that we discuss in this module are applicable.
+Tools wie R und Python sind im Wesentlichen Software zum Schreiben von Software. Obwohl die Programmierung immer häufige Aktivität unter den Forschern ist natürlich nicht *jeder* Wissenschaftler tut dies. Ein Schritt weg von der Programmierung ist die Verkettung der Ein- und Ausgänge verschiedener Analysetools in längeren Workflows. Als ein Beispiel aus der Genomik ist es ein sehr häufiger Arbeitsablauf, mit Sequenzen mit hohem Durchsatz zu beginnen und dann i) grundlegende Qualitätskontrollprüfungen durchzuführen; ii) die gelesenen Werte gegen ein Referenzgenom abbilden; iii) Identifizieren Sie die Punkte, an denen die neuen Daten von der Referenz abweichen. Diese Schritte werden routinemäßig als Workflow ausgeführt, in dem für jeden der drei Schritte eine andere ausführbare Open Source-Datei in einer Linux-Befehlszeilenumgebung ausgeführt wird. Obwohl dies wohl keine Open-Source-Softwareentwicklung ist, werden Open-Source-Artefakte (z. B. Linux-Shell-Skripte) verwendet und produziert, für die die in diesem Modul beschriebenen Prinzipien gelten.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/r.png?raw=true" width="200" /></p>
 
@@ -236,247 +236,247 @@ Tools such as R and Python are essentially software for writing software. Althou
   
 
 
-Lastly, OSS is also used in scientific research for reasons that more closely mirror those that drive the adoption of OSS in wider society, namely that it is cheap. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in [**'free beer'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and 'free speech'). Likewise, the choice to switch from ArcGIS to [QGIS](https://www.qgis.org/en/site/) for the analysis of geographic information might be prompted simply by cost considerations.   
+Schließlich wird OSS auch in der wissenschaftlichen Forschung aus Gründen verwendet, die denen, die die Einführung von OSS in einer breiteren Gesellschaft vorantreiben, genauer entsprechen, nämlich, dass es billig ist. Einzelpersonen oder Organisationen könnten sich beispielsweise dafür entscheiden, von Microsoft Office zu LibreOffice zu wechseln, um Manuskripte zu schreiben oder Tabellenkalkulationen zu verarbeiten, da letztere kostenlos sind (sowohl in [**'Freibier'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) als auch in 'Redefreiheit'). Ebenso kann die Auswahl eines Wechsels von ArcGIS zu [QGIS](https://www.qgis.org/en/site/) für die Analyse von geografischen Informationen einfach aus Kostengründen erfolgen.   
 
 
-## Getting Started with OSS - FAQ <a name="FAQ"></a>
+## Erste Schritte mit OSS - FAQ <a name="FAQ"></a>
 
-**I'm using X[e.g. Matlab,STATA,Excel] and I want to transition to something more open. What are the next steps?**
+**Ich verwende X [zB Matlab, STATA, Excel] und möchte auf etwas Offeneres umsteigen. Was sind die nächsten Schritte?**
 
-Even if you are using proprietary software, you can usually still share your source code/documents etc. *The best first step is sharing whatever you can*.
+Selbst wenn Sie proprietäre Software verwenden, können Sie in der Regel Ihren Quellcode / Ihre Dokumente usw. weitergeben. *Der beste erste Schritt ist, alles zu teilen, was Sie können*.
 
-**Great! I can put them in my new github repo.**
+**Großartig! Ich kann sie in mein neues Github-Repo legen.**
 
-If that's enough for you for now great! If not for most pieces of proprietary software there are Open Source equivalents. Have a go with one and see what you think.
+Wenn es dir jetzt reicht, großartig! Wenn nicht für die meisten proprietären Softwareprodukte, gibt es Open Source-Entsprechungen. Probieren Sie es aus und sehen Sie, was Sie denken.
 
-| Closed                                                                                                  | Open                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Matlab                                                                                                  | Python, Julia                                                                                                                                                     |
-| STATA/SPSS                                                                                              | R                                                                                                                                                                 |
-| MS Office                                                                                               | LibreOffice                                                                                                                                                       |
-| Mathematica                                                                                             | JupyterLab                                                                                                                                                        |
-| Test out your new [Pull Request -PR-](https://help.github.com/articles/about-pull-requests/) Skills ... | ... by adding your own example [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
+| Geschlossen                                                                                                 | Öffnen                                                                                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Matlab                                                                                                      | Python, Julia                                                                                                                                                                    |
+| STATA / SPSS                                                                                                | R                                                                                                                                                                                |
+| MS Office                                                                                                   | LibreOffice                                                                                                                                                                      |
+| Mathematica                                                                                                 | JupyterLab                                                                                                                                                                       |
+| Testen Sie Ihre neuen [Pull Request -PR-](https://help.github.com/articles/about-pull-requests/) Skills ... | ... indem Sie hier Ihr eigenes Beispiel [hinzufügen](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
 
-**Cool! But if I make the switch will I be stuck: taking ages to learn a new tool/ without support /with buggy software.**
+**Cool! Aber wenn ich den Wechsel mache, stecke ich fest: Es dauert ewig, ein neues Tool / ohne Support / mit Buggy-Software zu erlernen.**
 
-Good question! The answer is it depends. The best thing to do is find someone who's made the switch before and learn from their experience. Or just do a Google search! Some OSS is much better than their closed counterparts, some aren't, so it's worth choosing carefully.
+Gute Frage! Die Antwort ist, es kommt darauf an. Das Beste, was Sie tun können, ist, jemanden zu finden, der zuvor den Wechsel vorgenommen hat, und aus seinen Erfahrungen zu lernen. Oder führen Sie einfach eine Google-Suche durch! Einige OSS sind viel besser als ihre geschlossenen Gegenstücke, andere nicht, daher lohnt es sich, sorgfältig zu wählen.
 
-## Making good software for re-use <a name="Reuse"></a>
+## Gute Software zur Wiederverwendung machen <a name="Reuse"></a>
 
-The most likely person who might want to re-use your software in the future is...you! So while sharing is always better than not sharing, you can make your own life, and that of others, much easier through appropriate documentation. Documentation can include several things, such as including helpful comments and annotations in the code that help to explain why a particular action was performed, rather than what it is intended to achieve.
+Die wahrscheinlichste Person, die Ihre Software in Zukunft wiederverwenden möchte, ist ... Sie! Während das Teilen immer besser ist als das Nicht-Teilen, können Sie durch entsprechende Dokumentation Ihr eigenes Leben und das anderer einfacher gestalten. Die Dokumentation kann verschiedene Dinge enthalten, z. B. hilfreiche Kommentare und Anmerkungen im Code, die erklären, warum eine bestimmte Aktion ausgeführt wurde und nicht, was erreicht werden soll.
 
-One of the most critical aspects of this is including an informative `README` file, that accompanies almost every OSS project, and some times even more than one. It can be a good practice to include one such file in every directory, that includes a list of files, a table of contents, and what the purpose of the directory is. The `README` file is typically just plain text or markdown (again, such as all of the ones for the MOOC!), and can include critical information for how to install and run software, previous dependencies and requirements, as well as tutorials or examples.
+Einer der kritischsten Aspekte dabei ist eine informative `README` Datei, die zu fast jedem OSS-Projekt und manchmal sogar zu mehreren gehört. Es kann eine gute Praxis sein, eine solche Datei in jedes Verzeichnis aufzunehmen, die eine Liste von Dateien, ein Inhaltsverzeichnis und den Zweck des Verzeichnisses enthält. Die `README` Datei ist in der Regel nur einfacher Text oder eine Abschrift (wie alle für das MOOC!) Und kann wichtige Informationen zur Installation und Ausführung von Software, frühere Abhängigkeiten und Anforderungen sowie Lernprogramme oder Anleitungen enthalten Beispiele.
 
-> **Did you know...** The term `README` is some times playfully ascribed to the famous scene in Lewis Carroll's Alice's Adventures In Wonderland in which Alice confronts magic munchies labeled with "Eat Me"" and "Drink Me". Potent.
+> **Wussten Sie, dass ...** Der Begriff `README` wird manchmal spielerisch der berühmten Szene in Lewis Carrolls Alice im Wunderland zugeschrieben, in der Alice mit magischen Knabbereien konfrontiert wird, die mit "Eat Me" und "Drink Me" gekennzeichnet sind. Potent.
 
-The purpose here is to provide sufficient information to maximise the re-use and reproducibility of the computational environment, such that someone with no experience with the project can easily access and re-use the software ([Sandve et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)). By lowering the barriers to entry, you increase the chances of others being able to re-use your work, which is one of the ultimate goals of OSS ([Ince et al., 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf)).
+Ziel ist es, ausreichende Informationen bereitzustellen, um die Wiederverwendung und Reproduzierbarkeit der Computerumgebung zu maximieren, sodass Personen ohne Projekterfahrung problemlos auf die Software zugreifen und sie erneut verwenden können ([Sandve et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)). Indem Sie die Eintrittsbarrieren senken, erhöhen Sie die Wahrscheinlichkeit, dass andere Ihre Arbeit wiederverwenden können, was eines der obersten Ziele von OSS ist ([Ince et al., 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf)).
 
-An extension of this that can help to make things even easier for future re-use is 'container' technology. Containers are like an ecosystem frozen in time, where the code, the data, any other dependencies, are all perfectly preserved, packaged and saved in the present functioning versions. This means that anyone in the future any one can come in and run the analyses again. As such, they are generally good for re-use, but this can come at the sacrifice of modification or understanding by others, as often a lot of details can be hidden within the source code and its dependencies. Common examples of container implementation in research include [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) (a Docker container for the R language), [Binder](https://mybinder.readthedocs.io/en/latest/), and [Code Ocean](https://codeocean.com/).
+Eine Erweiterung davon, die dazu beitragen kann, die Dinge für die zukünftige Wiederverwendung noch einfacher zu machen, ist die Containertechnologie. Container sind wie ein in der Zeit eingefrorenes Ökosystem, in dem der Code, die Daten und alle anderen Abhängigkeiten in den gegenwärtigen funktionierenden Versionen perfekt erhalten, verpackt und gespeichert werden. Dies bedeutet, dass in Zukunft jeder die Analysen erneut ausführen kann. Als solche sind sie in der Regel gut für die Wiederverwendung geeignet. Dies kann jedoch dazu führen, dass andere Benutzer Änderungen vornehmen oder verstehen, da im Quellcode und seinen Abhängigkeiten häufig viele Details verborgen sind. Häufige Beispiele für die Implementierung von Containern in der Forschung sind [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) (ein Docker-Container für die R-Sprache), [Binder](https://mybinder.readthedocs.io/en/latest/)und [Code Ocean](https://codeocean.com/).
 
-**Sustainable software is good software.**
+**Nachhaltige Software ist gute Software.**
 
   
 
 
-## 10 simple rules for reproducible computational research
+## 10 einfache Regeln für reproduzierbare Computerforschung
 
-The 10 simple rules for making computational research more reproducible, based on [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), are:
+Die 10 einfachen Regeln zur besseren Reproduzierbarkeit von Computerrecherchen, basierend auf [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), lauten:
 
-1. For every result, keep track of how it was produced.
-2. Avoid manual data manipulation steps.
-3. Archive the exact versions of all external programs used.
-4. Version control all custom scripts.
-5. Record all intermediate results, when possible in standardised formats.
-6. For analyses that include randomness, note underlying random seeds.
-7. Always store raw data behind plots.
-8. Generate hierarchical analysis output, allowing layers of increasing detail to be inspected.
-9. Connect textual statements to underlying results.
-10. Provide public access to scripts, runs, and results.
+1. Verfolgen Sie für jedes Ergebnis, wie es hergestellt wurde.
+2. Vermeiden Sie manuelle Datenmanipulationsschritte.
+3. Archivieren Sie die genauen Versionen aller verwendeten externen Programme.
+4. Versionskontrolle aller benutzerdefinierten Skripte.
+5. Erfassen Sie alle Zwischenergebnisse, wenn möglich, in standardisierten Formaten.
+6. Beachten Sie für Analysen, die Zufälligkeiten enthalten, die zugrunde liegenden zufälligen Seeds.
+7. Speichern Sie Rohdaten immer hinter Plots.
+8. Generieren Sie hierarchische Analyseausgaben, damit Ebenen mit zunehmenden Details untersucht werden können.
+9. Verbinden Sie Textaussagen mit den zugrunde liegenden Ergebnissen.
+10. Bieten Sie öffentlichen Zugriff auf Skripts, Ausführungen und Ergebnisse.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/simple_rules.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Infographic adapted from Sandve et al., (2013). Feel free to download this and print it out to keep handy during your research!</i></p>
+<p align="center"><i>Infografik adaptiert von Sandve et al., (2013). Laden Sie dieses Dokument herunter und drucken Sie es aus, damit Sie es während Ihrer Recherche immer zur Hand haben!</i></p>
 
   
 
 
-If you follow these steps, along with the processes in [**Task 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [**Task 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), you should be fine!
+Wenn Sie diese Schritte zusammen mit den Prozessen in [**Aufgabe 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) und [**Aufgabe 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)ausführen, sollte es Ihnen gut gehen!
 
   
 
 
-## Open Source licensing <a name="Licensing"></a>
+## Open Source Lizenzierung <a name="Licensing"></a>
 
-An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
+Eine Open Source-Lizenz ist eine Art von Lizenz, die speziell für Software und Code entwickelt wurde, um die rechtlichen Bedingungen für die Weitergabe und Wiederverwendung zu erläutern. Wie bereits erwähnt [über](#What_OSS)ist die Zugabe eines geeigneten Lizenz , welche Software von OSS öffentlich geteilt differenziert. Zum Beispiel ist das weit verbreitete [MATLAB](https://www.mathworks.com/products/matlab.html) proprietäre Software, und [Octave](https://www.gnu.org/software/octave/) ist eine offen lizenzierte alternative Programmiersprache.
 
-There are currently more than 1,400 unique Open Source licenses, a complexity born from the difficulty in understanding the differences between the legal implications across different license.
+Derzeit gibt es mehr als 1.400 einzigartige Open Source-Lizenzen. Diese Komplexität resultiert aus der Schwierigkeit, die Unterschiede zwischen den rechtlichen Auswirkungen verschiedener Lizenzen zu verstehen.
 
-Some of the more common licenses include:
+Einige der gebräuchlichsten Lizenzen umfassen:
 
 - [Berkeley Software Distribution ("BSD")](https://en.wikipedia.org/wiki/BSD_licenses),
 - [Apache](https://www.apache.org/licenses/LICENSE-2.0),
-- [MIT-style (Massachusetts Institute of Technology)](https://opensource.org/licenses/MIT), or
+- [MIT-Stil (Massachusetts Institute of Technology)](https://opensource.org/licenses/MIT)oder
 - [GNU General Public License ("GPL")](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-You don't need to know all the legal itty gritty behind all of these, but it is good to at least know what options are avaiilable to you.
+Sie müssen nicht alle rechtlichen Details kennen, aber es ist gut zu wissen, welche Optionen Ihnen zur Verfügung stehen.
 
-There are two ways in which contributions to a project become licensed:
+Es gibt zwei Möglichkeiten, wie Beiträge zu einem Projekt lizenziert werden:
 
-1. *Explicitly*, whereby the individual contribution has a clearly indicated license independent of the main project; or
-2. *Implicitly*, whereby the contribution falls under the original licensing code of the main project.
+1. *Ausdrücklich*, wobei der einzelne Beitrag unabhängig vom Hauptprojekt eine eindeutig gekennzeichnete Lizenz hat; oder
+2. *Implizit*, wobei der Beitrag unter den ursprünglichen Lizenzcode des Hauptprojekts fällt.
 
-Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
-
-  
-
-
-## Software citation <a name="Citation"></a>
-
-Citations provide one of the most important interactions in scholarly research, forming the basis of our referencing and metrics systems. Typically, this is performed thanks to the assistance of a permanent unique identifier such as a [Digital Object Identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI). A DOI is a persistent identifier, implemented in the [Handle System](https://en.wikipedia.org/wiki/Handle_System), that meets a common standard, depending on the purpose, such as for identifying academic information. Such identification is critical for tracking the genealogy and provenance of research, for reproducibility, as well as for giving appropriate credit to those who have created the software. Importantly, software should be considered a legitimate output from scholarly research, and citation is becoming an increasingly common way to indicate that.
-
-In 2016, [Smith et al., 2016](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) wrote a research paper about the principles of software citation as part of the FORCE11 Software Citation Working Group. In the same way that you would want to cite software that you have used as part of good research practices, it is important to make your research easily citable too. When citing any software used for your own research, you should include at minimum:
-
-- The author name(s),
-- Software title,
-- Version number, and
-- The unique identifier/locator (DOI or URL).
-
-The six principles of software citation by [Smith et al., (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) are provided here:
-
-- **Importance**: Software should be considered a legitimate and citable product of research. Software citations should be accorded the same importance in the scholarly record as citations of other research products, such as publications and data; they should be included in the metadata of the citing work, for example in the reference list of a journal article, and should not be omitted or separated. Software should be cited on the same basis as any other research product such as a paper or a book, that is, authors should cite the appropriate set of software products just as they cite the appropriate set of papers.
-
-- **Credit and attribution**: Software citations should facilitate giving scholarly credit and normative, legal attribution to all contributors to the software, recognizing that a single style or mechanism of attribution may not be applicable to all software.
-
-- **Unique identification**: A software citation should include a method for identification that is machine actionable, globally unique, interoperable, and recognized by at least a community of the corresponding domain experts, and preferably by general public researchers.
-
-- **Persistence**: Unique identifiers and metadata describing the software and its disposition should persist - even beyond the lifespan of the software they describe.
-
-- **Accessibility**: Software citations should facilitate access to the software itself and to its associated metadata, documentation, data, and other materials necessary for both humans and machines to make informed use of the referenced software.
-
-- **Specificity**: Software citations should facilitate identification of, and access to, the specific version of software that was used. Software identification should be as specific as necessary, such as using version numbers, revision numbers, or variants such as platforms.
-
-Note: For instructions on 'how to make your software citable' see the section [**Using GitHub and Zenodo**](#GitHub_Zenodo) below and [**Task 2: Linking GitHub and Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
+Zum Glück ist die Auswahl einer Open Source-Lizenz dank benutzerfreundlicher Tools wie [Choose A License](https://choosealicense.com/)relativ einfach. Jede dieser Lizenzen ermöglicht es anderen Benutzern, Ihre Arbeit zu nutzen, zu kopieren, zu verteilen und darauf aufzubauen, und gleichzeitig sicherzustellen, dass die Urheber für ihre Arbeit angemessen anerkannt werden. Hier ist der Schlüssel die Auswahl einer geeigneten Lizenz für Ihre Arbeit, je nachdem, was andere damit machen möchten oder nicht.
 
   
 
 
-## Using GitHub and Zenodo <a name="GitHub_Zenodo"></a>
+## Software-Zitat <a name="Citation"></a>
 
-[GitHub](#GitHub) is a popular tool for project management, content storage, and version control. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this [MOOC](https://github.com/OpenScienceMOOC/)!
+Zitate stellen eine der wichtigsten Wechselwirkungen in der wissenschaftlichen Forschung dar und bilden die Grundlage für unsere Referenzierungs- und Metriksysteme. In der Regel wird dies mithilfe einer permanenten eindeutigen Kennung durchgeführt, beispielsweise einer [Digital Object Identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI). Ein DOI ist eine permanente Kennung, die im [Handle-System](https://en.wikipedia.org/wiki/Handle_System)implementiert ist und je nach Verwendungszweck einem gemeinsamen Standard entspricht, z. B. zur Identifizierung akademischer Informationen. Eine solche Identifizierung ist entscheidend für die Verfolgung der Genealogie und Herkunft der Forschung, für die Reproduzierbarkeit sowie für die angemessene Anerkennung derjenigen, die die Software erstellt haben. Wichtig ist, dass Software als legitimes Ergebnis wissenschaftlicher Forschung betrachtet werden sollte, und Zitate werden immer häufiger als Hinweis darauf verwendet.
 
-However, getting research onto GitHub is just the first step. It is equally important to make it persistent and re-usable, which is why having a Digital Object Identifier (DOI) associated with it can be useful. The simplest way to do this is through a service called [Zenodo](https://zenodo.org/), which is a free and open source multi-disciplinary repository created by OpenAIRE and CERN, and can be used to assign a DOI to individual GitHub repositories. There is a [GitHub Guide](https://guides.github.com/activities/citable-code/) that explains the details, which involve linking GitHub repositories directly through to Zenodo so that when developers create formal releases for their software, Zenodo creates and archives a that version of the software.
+Im Jahr 2016 haben [Smith et al., 2016](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) im Rahmen der FORCE11 Software Citation Working Group ein Forschungspapier über die Prinzipien des Software Citation verfasst. Ebenso wie Sie Software zitieren möchten, die Sie im Rahmen guter Forschungspraktiken verwendet haben, ist es wichtig, dass Ihre Forschung auch leicht zitierbar ist. Wenn Sie Software zitieren, die für Ihre eigene Forschung verwendet wird, sollten Sie mindestens Folgendes angeben:
 
-There's nothing special about using Zenodo for creating DOIs, other than its **free of cost**; other general repositories can also be used, such as [DataCite DOI Fabrica](https://doi.datacite.org/), or your own institutional repositories such as [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
+- Die Namen der Autoren,
+- Softwaretitel,
+- Versionsnummer und
+- Der eindeutige Bezeichner / Locator (DOI oder URL).
 
-A lot of researchers might typically be afraid of sharing code which is incomplete, buggy, or imperfect. However, in the OSS community, such a practice of sharing 'raw' code is fairly commonplace. Sharing code openly enables others to re-use and improve it, as well as to engage in a deeper way with any research associated with it. This is one of the fundamental aspects of peer-collaboration, perhaps best exemplified by the traditional process of research manuscript peer review.
+Die sechs Prinzipien der Software-Zitierung von [Smith et al. (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) werden hier bereitgestellt:
 
-Task 2 will guide you through the process of linking a GitHub repository to Zenodo for archiving.
+- **Wichtigkeit**: Software sollte als legitimes und zitierfähiges Forschungsprodukt betrachtet werden. Softwarezitate sollten in der wissenschaftlichen Dokumentation dieselbe Bedeutung haben wie Zitate anderer Forschungsprodukte wie Veröffentlichungen und Daten. Sie sollten in die Metadaten der zitierenden Arbeit aufgenommen werden, beispielsweise in die Referenzliste eines Zeitschriftenartikels, und nicht weggelassen oder getrennt werden. Software sollte auf der gleichen Grundlage zitiert werden wie jedes andere Forschungsprodukt, z. B. ein Papier oder ein Buch. Das heißt, Autoren sollten die entsprechenden Softwareprodukte genauso zitieren, wie sie die entsprechenden Papiere zitieren.
 
-> **Did you know...** All content produced for this MOOC is available as part of a community in [Zenodo](https://zenodo.org/communities/open-science-mooc/)?
+- **Anrechnung und Zuschreibung**: Softwarezitate sollen die wissenschaftliche Anrechnung und die normative, rechtliche Zuschreibung für alle Mitwirkenden an der Software erleichtern, wobei zu berücksichtigen ist, dass ein einziger Stil oder Mechanismus der Zuschreibung möglicherweise nicht für alle Software anwendbar ist.
 
-**[GO TO TASK 2: Linking GitHub and Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
+- **Eindeutige Identifizierung**: Ein Software-Zitat sollte eine Methode zur Identifizierung enthalten, die maschinenlesbar, global eindeutig, interoperabel und von mindestens einer Community der entsprechenden Domain-Experten und vorzugsweise von Forschern der allgemeinen Öffentlichkeit anerkannt ist.
 
-  
+- **Persistenz**: Eindeutige Kennungen und Metadaten, die die Software und ihre Anordnung beschreiben, sollten bestehen bleiben - auch über die Lebensdauer der von ihnen beschriebenen Software hinaus.
 
+- **Barrierefreiheit**: Softwarezitate sollten den Zugriff auf die Software selbst und die zugehörigen Metadaten, Dokumentationen, Daten und sonstigen Materialien erleichtern, die sowohl für den Menschen als auch für die Maschine erforderlich sind, um die referenzierte Software sachkundig zu nutzen.
 
-## Collaborating and contributing through Open Source <a name="Collaborating"></a>
+- **Spezifität**: Softwarezitate sollten die Identifizierung und den Zugriff auf die spezifische Version der verwendeten Software erleichtern. Die Identifizierung der Software sollte so spezifisch wie nötig sein, z. B. mithilfe von Versionsnummern, Versionsnummern oder Varianten wie Plattformen.
 
-Often, OSS is developed in a public, decentralised, collaborative manner between multiple contributors. The purpose of this is to enhance the diversity and scope of a project and its design, in order to become more beneficial and sustainable. Such an approach was famously likened to a 'bazaar' model by Eric Raymond, an early OSS proponent. One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
-
-OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.
-
-  
-
-
-## Where to go from here <a name="Future_OSS"></a>
-
-Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.
-
-The **learning outcomes** from this should be:
-
-1. You will now be able to define the characteristics of OSS, and some of the ethical, legal, economic and research impact arguments for and against it.
-
-2. Based on community standards, you will now be able to describe the quality requirements of sharing and re-using open code.
-
-3. You will now be able to use a range of research tools that utilise OSS.
-
-4. You will now be able to transform code designed for their personal use into code that is accessible and re-usable by others.
-
-5. Software developers will be able to make their software citable, and software users will know how to cite the software they use.
+Hinweis: Anweisungen zum Zitieren Ihrer Software finden Sie in den Abschnitten [**Verwenden von GitHub und Zenodo**](#GitHub_Zenodo) und [**Aufgabe 2: Verknüpfen von GitHub und Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
 
   
 
 
-**BONUS TASK**
+## Mit GitHub und Zenodo <a name="GitHub_Zenodo"></a>
 
-If you have completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), we also have a **BONUS TASK** for you, if you want to take your skills a step further. [Task 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) will take you a step deeper into integrating Git into a typical research workflow by showing you how to integrate it with R Studio. It is recommended that you have completed the first 2 tasks before proceeding with this one.
+[GitHub](#GitHub) ist ein beliebtes Tool für die Projektverwaltung, Inhaltsspeicherung und Versionskontrolle. Beachten Sie, dass GitHub selbst kein OSS ist. Git ist jedoch das Werkzeug, auf dem es basiert. Git wurde entwickelt, um die Quellcodedateien und deren Aktualisierungen für ein Softwareprojekt zu verwalten. Es kann jedoch auch auf andere Nicht-Software-Projekte ausgeweitet werden. Zum Beispiel diese [MOOC](https://github.com/OpenScienceMOOC/)!
 
-However, your Open Source journey does not stop here! This was just the beginning, and there are some incredible resources out there if you would like to do or learn more:
+Die Erforschung von GitHub ist jedoch nur der erste Schritt. Es ist ebenso wichtig, es dauerhaft und wiederverwendbar zu machen, weshalb es nützlich sein kann, einen Digital Object Identifier (DOI) zu verwenden. Der einfachste Weg, dies zu tun, ist ein Service namens [Zenodo](https://zenodo.org/), ein kostenloses und Open-Source-Repository für mehrere Disziplinen, das von OpenAIRE und CERN erstellt wurde und verwendet werden kann, um einzelnen GitHub-Repositories eine DOI zuzuweisen. Es gibt einen [GitHub-Leitfaden](https://guides.github.com/activities/citable-code/) , der die Details erklärt, bei denen GitHub-Repositorys direkt mit Zenodo verknüpft werden, sodass Zenodo beim Erstellen formaler Releases für ihre Software eine solche Version der Software erstellt und archiviert.
 
-- If you feel particularly inspired by this, you can endorse the [Science Code Manifesto](http://sciencecodemanifesto.org/), which is based on the five principles of code, copyright, citation, credit, and curation.
+Es ist nichts Besonderes, Zenodo zum Erstellen von DOIs zu verwenden, außer die **kostenlos ist**; Es können auch andere allgemeine Repositorys wie [DataCite DOI Fabrica](https://doi.datacite.org/)oder Ihre eigenen institutionellen Repositorys wie [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
 
-- To launch and develop your own project, the [Open Source Guides](https://opensource.guide/) program offers a range of practical guides and skills to help launch and advance your OSS projects.
+Viele Forscher haben möglicherweise Angst, unvollständigen, fehlerhaften oder fehlerhaften Code weiterzugeben. In der OSS-Community ist eine solche Praxis des Austauschs von 'rohem' Code jedoch weit verbreitet. Das offene Teilen von Code ermöglicht es anderen, ihn wiederzuverwenden und zu verbessern sowie sich eingehender mit der damit verbundenen Forschung zu befassen. Dies ist einer der grundlegenden Aspekte der Peer-Collaboration, die am besten durch den traditionellen Prozess der Peer-Review von Forschungsmanuskripten veranschaulicht werden kann.
 
-- For a detailed look at OSS-based research workflows, the [Open Science, Open Data, Open Source](https://pfern.github.io/OSODOS/gitbook/) hand-guide by Pedro L. Fernandes and Rutger A. Vos is one of the top resources online.
+Aufgabe 2 führt Sie durch den Prozess der Verknüpfung eines GitHub-Repositorys mit Zenodo zur Archivierung.
 
-- More formalised journal venues also exist for software-based articles, including [The Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) and [The Journal of Open Source Software](https://joss.theoj.org/). A list of such venues is also [available](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
+> **Wussten Sie schon ...** Alle für dieses MOOC erstellten Inhalte sind als Teil einer Community in [Zenodo](https://zenodo.org/communities/open-science-mooc/)verfügbar?
 
-- The [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit) provides a global forum for Open Source hardware and software research and applications.
+**[WEITER ZU AUFGABE 2: Verbinden von GitHub und Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
 
-- The [NumFOCUS](http://www.numfocus.org) is a nonprofit organization that supports and promotes world-class, innovative, open source scientific software. Some of the projects they sponsor include:
+  
+
+
+## Zusammenarbeit und Mitwirkung durch Open Source <a name="Collaborating"></a>
+
+Oft wird OSS in einer öffentlichen, dezentralen und kollaborativen Weise zwischen mehreren Mitwirkenden entwickelt. Ziel ist es, die Vielfalt und den Umfang eines Projekts und seine Gestaltung zu verbessern, um mehr Nutzen und Nachhaltigkeit zu erzielen. Ein solcher Ansatz wurde von Eric Raymond, einem frühen Befürworter der OSS, mit einem Basarmodell verglichen. Eines der wichtigsten Leitprinzipien dabei ist das der **Peer Production**, die sich auf selbstorganisierte Gemeinschaften stützt, um die Entwicklung von Inhalten zu regulieren, die auf ein gemeinsames Ziel oder Ergebnis abgestimmt sind.
+
+OSS-Projekte stützen sich in hohem Maße auf die freiwillige Zusammenarbeit, die häufig einen ständigen Zustrom von Neuankömmlingen nach sich zieht, um produktiv und nachhaltig zu werden ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Die Schaffung der richtigen sozialen Atmosphäre für ein Projekt und ein einladendes Umfeld für das Engagement sind häufig entscheidend für eine erfolgreiche Zusammenarbeit in OSS.
+
+  
+
+
+## Wohin soll es von hier aus gehen? <a name="Future_OSS"></a>
+
+Hoffentlich sehen Sie jetzt die Bedeutung von Software als Eckpfeiler der modernen Wissenschaft und die Bedeutung, die OSS dabei spielt.
+
+Die **Lernergebnisse** daraus sollten sein:
+
+1. Sie werden nun in der Lage sein, die Merkmale von OSS und einige der ethischen, rechtlichen, wirtschaftlichen und forschungsbezogenen Argumente dafür und dagegen zu definieren.
+
+2. Basierend auf Community-Standards können Sie nun die Qualitätsanforderungen für das Teilen und Wiederverwenden von offenem Code beschreiben.
+
+3. Sie können nun eine Reihe von Recherchetools verwenden, die OSS verwenden.
+
+4. Sie können jetzt Code, der für den persönlichen Gebrauch entwickelt wurde, in Code umwandeln, der für andere zugänglich und wieder verwendbar ist.
+
+5. Softwareentwickler können ihre Software zitierfähig machen, und Software-Benutzer können die von ihnen verwendete Software zitieren.
+
+  
+
+
+**BONUSAUFGABE**
+
+Wenn Sie [Aufgabe 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) und [Aufgabe 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), haben wir auch eine **BONUS-AUFGABE** für Sie, wenn Sie Ihre Fähigkeiten weiterentwickeln möchten. [Aufgabe 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) führt Sie ein Stück tiefer in die Integration von Git in einen typischen Forschungsworkflow ein, indem es Ihnen zeigt, wie Sie es in R Studio integrieren. Es wird empfohlen, dass Sie die ersten 2 Aufgaben abgeschlossen haben, bevor Sie mit dieser fortfahren.
+
+Ihre Open Source-Reise hört hier jedoch nicht auf! Dies war nur der Anfang und es gibt einige unglaubliche Ressourcen, wenn Sie mehr tun oder lernen möchten:
+
+- Wenn Sie sich davon besonders inspiriert fühlen, können Sie das [Science Code Manifesto](http://sciencecodemanifesto.org/), das auf den fünf Prinzipien Code, Copyright, Zitation, Credit und Curation basiert.
+
+- Um Ihr eigenes Projekt zu starten und zu entwickeln, bietet das Programm [Open Source Guides](https://opensource.guide/) eine Reihe praktischer Anleitungen und Fähigkeiten, mit denen Sie Ihre OSS-Projekte starten und vorantreiben können.
+
+- Für einen detaillierten Blick auf OSS-basierte Forschungsworkflows ist das Handbuch [Open Science, Open Data, Open Source](https://pfern.github.io/OSODOS/gitbook/) von Pedro L. Fernandes und Rutger A. Vos eine der wichtigsten Online-Ressourcen.
+
+- Für softwarebasierte Artikel gibt es auch mehr formalisierte Veranstaltungsorte, darunter [The Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) und [The Journal of Open Source Software](https://joss.theoj.org/). Eine Liste solcher Veranstaltungsorte ist ebenfalls [verfügbar](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
+
+- Das [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit) bietet ein globales Forum für die Forschung und Anwendung von Open Source-Hardware und -Software.
+
+- Das [NumFOCUS](http://www.numfocus.org) ist eine gemeinnützige Organisation, die erstklassige, innovative Open-Source-Wissenschaftssoftware unterstützt und fördert. Einige der von ihnen geförderten Projekte umfassen:
     
-    - [IPython](http://ipython.org) and [Jupyter Notebook](https://jupyter.org) initiatives.
+    - [IPython](http://ipython.org) und [Jupyter Notebook](https://jupyter.org) Initiativen.
     
-    - [rOpenSci](http://ropensci.org), which promotes the open source R statistical environment for transparent and reproducible research.
+    - [rOpenSci](http://ropensci.org), das die Open Source R-Statistikumgebung für transparente und reproduzierbare Forschung fördert.
     
-    - To gain more hands on experience with OSS, the [Software Carpentry](https://software-carpentry.org/) community holds regular workshops to improve lab-based computing skills ([Wilson et al., 2017](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf)).
+    - Um mehr praktische Erfahrungen mit OSS zu sammeln, veranstaltet die Community von [Software Carpentry](https://software-carpentry.org/) regelmäßig Workshops zur Verbesserung der laborbasierten Computerfähigkeiten ([Wilson et al., 2017](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf)).
 
   
 
 
-### Further reading <a name="Reading"></a>
+### Weitere Lektüre <a name="Reading"></a>
 
-*These references here are just the beginning. They include some of the most useful general overviews of the Open Source landscape in research. However, if you want to be find something more specific to your own research field, then that path is there for you to explore!*
+*Diese Referenzen hier sind nur der Anfang. Sie enthalten einige der nützlichsten allgemeinen Übersichten über die Open Source-Landschaft in der Forschung. Wenn Sie jedoch etwas finden möchten, das spezifischer für Ihr eigenes Forschungsgebiet ist, können Sie diesen Pfad erkunden!*
 
-- The Future of Research in Free/Open Source Software Development [(Scacchi, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf).
+- Die Zukunft der Forschung in der Entwicklung von Free / Open Source-Software [(Scacchi, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf).
 
-- The Scientific Method in Practice: Reproducibility in the Computational Sciences [(Stodden, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf).
+- Die wissenschaftliche Methode in der Praxis: Reproduzierbarkeit in den Computerwissenschaften [(Stodden, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf).
 
-- The case for open computer programs [(Ince et al., 2012)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf).
+- Der Fall für offene Computerprogramme [(Ince et al., 2012)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf).
 
-- Current issues and research trends on open-source software communities [(Martinez-Torres and Diaz-Fernandez, 2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Martinez-Torres%20and%20Diaz-Fernandez%2C%202013.pdf).
+- Aktuelle Themen und Forschungstrends zu Open-Source-Software-Communities [(Martinez-Torres und Diaz-Fernandez, 2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Martinez-Torres%20and%20Diaz-Fernandez%2C%202013.pdf).
 
-- Ten simple rules for reproducible computational research [(Sandve et al., 2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF).
+- Zehn einfache Regeln für reproduzierbare Computerforschung [(Sandve et al., 2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF).
 
-- A systematic literature review on the barriers faced by newcomers to open source software projects [(Steinmacher et al., 2014)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf).
+- Eine systematische Literaturübersicht über die von Newcomern konfrontiert Barrieren - Source - Software - Projekte zu öffnen [(Steinmacher et al., 2014)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf).
 
-- Knowledge sharing in open source software communities: motivations and management [(Iskoujina and Roberts, 2015)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Iskoujina%20and%20Roberts%2C%202015.pdf).
+- Wissensaustausch in Open Source-Software-Communities: Motivation und Management [(Iskoujina und Roberts, 2015)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Iskoujina%20and%20Roberts%2C%202015.pdf).
 
-- Software citation principles [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
+- Software-Zitierprinzipien [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
 
-- An introduction to Rocker: Docker containers for R [(Boettiger and Eddelbuettel, 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf).
+- Eine Einführung in Rocker: Docker Container für R [(Boettiger und Eddelbuettel, 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf).
 
-- Good enough practices in scientific computing [(Wilson et al., 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf).
+- Gute Praktiken im wissenschaftlichen Rechnen [(Wilson et al., 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf).
 
-- Four simple recommendations to encourage best practices in research software [(Jiménez et al., 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf).
+- Vier einfache Empfehlungen zur Förderung von Best Practices in der Forschungssoftware [(Jiménez et al., 2017)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf).
 
   
 
 
-### Development Team <a name="Development_team"></a>
+### Entwicklungsteam <a name="Development_team"></a>
 
-- [Alex Morley](https://twitter.com/alex__morley), Open Sourceror, University of Oxford, UK.
+- [Alex Morley](https://twitter.com/alex__morley), Open Sourceror, Universität Oxford, Großbritannien.
 - [Kevin Moerman](https://twitter.com/KMMoerman), Open Sourceror, MIT, USA.
-- [Tania Allard](https://twitter.com/ixek), Open Sourceress, Data Enchantress, University of Leeds, UK.
-- [Simon Worthington](https://twitter.com/mrchristian99), Book Liberationist, TIB, Germany.
-- [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Italy.
-- [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Denmark.
-- [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Naturalis Biodiversity Center, the Netherlands.
+- [Tania Allard](https://twitter.com/ixek), Open Sourceress, Datenbeschwörerin, Universität Leeds, Großbritannien.
+- [Simon Worthington](https://twitter.com/mrchristian99), Book Liberationist, TIB, Deutschland.
+- [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Italien.
+- [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Dänemark.
+- [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Naturalis Biodiversity Center, Niederlande.
 - [Julien Colomb](https://twitter.com/j_colomb), Open Ninja, Berlin.
 - [Jon Tennant](https://twitter.com/protohedgehog), Dinosaur Whisperer.
 
-**Know a way this content can be improved?**
+**Wissen Sie, wie dieser Inhalt verbessert werden kann?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Zeit, deine neuen GitHub-Fähigkeiten für einen Testlauf zu nutzen! Alle Inhalte Entwicklung geschieht in erster Linie [hier](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). Wenn Sie Verbesserungsvorschläge zu Inhalt, Layout oder etwas anderem haben, können Sie diese vornehmen. Nach Überprüfung durch einen Moderator wird sie automatisch Teil des MOOC-Inhalts!
 
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0 Public Domain Widmung](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
