@@ -11,7 +11,7 @@
 
 - 學習者將能夠定義開源程式研究軟體的特徵，以及支持和反對它的道德、法律、經濟和研究影響論點。
 - 基於團體的標準，學習者將能夠描述共享和重複使用開放程式碼的質量與要求。
-- The learner will be able to use a range of research tools that utilise open source software.
+- 學習者將能使用一系列的研究工具開源軟體。
 - Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
 
 ### 設計課程大綱
