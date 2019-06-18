@@ -1,11 +1,11 @@
-## Module 5: Initiate and plan
+## Modulo 5: Avvio e piano
 
-### Define the target groups
+### Definisci i gruppi di destinazione
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- ricercatori computativi
+- Studenti laureati e laureati
+- Scientifiche di dati
+- Qualsiasi altro ricercatore che utilizza codice analitico/software
 
 ### Refine the learning objectives and outcomes
 
