@@ -1,11 +1,11 @@
-## Module 5: Initiate and plan
+## 第5章節：開創與計劃
 
-### Define the target groups
+### 定義目標群體
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- 計算研究人員
+- 研究生和本科生
+- 數據科學家
+- 任何使用分析代碼或軟體的研究人員
 
 ### Refine the learning objectives and outcomes
 
@@ -76,7 +76,7 @@
     - [Open Research Software](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
     - [Free Software Foundation](https://www.fsf.org/)
-    - [Open Source Initiative](https://opensource.org/)
+    - [開放原始碼促進會](https://opensource.org/)
     - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
     - [Ada Initiative](https://adainitiative.org/)
 
