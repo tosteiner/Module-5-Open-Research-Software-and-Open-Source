@@ -1,334 +1,334 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: 默认
+  pdf_document: 默认
 ---
 
-# Task 3: How to integrate Git with R Studio
+# 任务3：如何将Git与R Studio集成
 
-This task is designed for students and researchers who want to implement a system of version control within a standard R-based workflow. This can be applied to a range of software development, data analysis and project management tasks. Your future research self will thank your for the convenience.
+此任务专为希望在标准的基于R的工作流程中实施版本控制系统的学生和研究人员而设计。 这可以应用于一系列软件开发，数据分析和项目管理任务。 您未来的研究自我将感谢您的方便。
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+不要忘记你可以参加我们的开放 [**Slack频道**](https://osmooc.herokuapp.com/)。 请在＃module5opensource上自我介绍一下，并告诉我们你是谁，你的背景，以及你如何在这里结束！
 
-Estimated time to complete: 30 minutes
+预计完成时间：30分钟
 
-Estimate time saving once complete: Virtually infinite
+估计完成后的时间节省：几乎无限
 
-**NOTE** A video guide version of this task is now available on [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA).
+**注** 此任务的视频指南版现已在 [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA)。
 
-## Table of contents
+## 目录
 
-* [Getting started](#Getting_started) 
-  * [Git](#Git)
+* [入门](#Getting_started) 
+  * [混帐](#Git)
   * [R Studio](#Rstudio)
-* [Step one: Download all the things](#one)
-* [Step two: Configure Git inside RStudio](#two)
-* [Step three: Why did I just do that?](#three)
-* [Step four: The perfect marriage between Git and R](#four)
-* [Step five: Getting content with content](#five)
-* [Step six: A brave commitment](#six)
-* [Step seven: PUSH!](#seven)
+* [第一步：下载所有内容](#one)
+* [第二步：在RStudio中配置Git](#two)
+* [第三步：为什么我这样做？](#three)
+* [第四步：Git和R之间的完美结合](#four)
+* [第五步：获取内容内容](#five)
+* [第六步：勇敢的承诺](#six)
+* [第七步：推！](#seven)
 
-## Getting started <a name="Getting_started"></a>
+## 入门 <a name="Getting_started"></a>
 
-Congratulations on making it this far! If you're reading this, you've survived pull requests, web-hooks, and can probably even tell us know what the F in FOSS stands for (*not* Frustration...) Hopefully, you have overcome any scepticism or reluctance towards the benefits of GitHub and Open Source Software, and are ready to take the next step.
+恭喜你做到这一点！ 如果你正在阅读这篇文章，你就可以幸免于拉请求，网络钩子，甚至可以告诉我们FOSS中的F代表什么（*不是* 挫折...）希望你已经克服了任何怀疑或不情愿为了GitHub和开源软件的好处，并准备采取下一步措施。
 
-Before starting this Task, please make sure you have already completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), so that you are more familiar with GitHub and some standard Open Source practices.
+在开始此任务之前，请确保您已完成 [任务1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) 和 [任务2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)，以便您更熟悉GitHub和一些标准的开源实践。
 
-This task will teach you how to integrate the version control software, Git, with the popular coding environment, RStudio. And yes, it is Git as in gif or God, not Jit as in the wrong way of pronouncing things.
+此任务将教您如何将版本控制软件Git与流行的编码环境RStudio集成。 是的，Git就像GIF或上帝一样，而不是Jit就像发出错误的方式一样。
 
-If you are one of those researchers who thinks that having code spread across multiple hard-drives that are waiting to break, Dropbox, Google Drive, or any other non-specialist software, this task is just for you. If you have ever experienced the mind-numbing process of having multiple 'final' versions of a paper bouncing between different co-authors, this is also for you.
+如果您是那些认为代码分布在等待破解的多个硬盘驱动器，Dropbox，Google Drive或任何其他非专业软件的研究人员之一，则此任务仅适合您。 如果您曾经历过让不同的共同作者之间有多个“最终”版本的纸张反复的令人头疼的过程，这也适合您。
 
-All of us are guilty of these sorts of things once in a while, but there are ways to do it that are better for you, future you, and those who might benefit from your work.
+我们所有人偶尔会对这些事情感到内疚，但有一些方法可以做到这对你，未来的你和那些可能从你的工作中受益的人更好。
 
   
 
 
-### Getting Git <a name="Git"></a>
+### 得到Git <a name="Git"></a>
 
-So, what is Git, and how is it different to GitHub? Git is a version control system, which enables you to save and track time-stamped copies of your work throughout the development process. It also works with non-code items too, like this MOOC, the majority of which was written in markdown in RStudio, and integrated with a Git/GitHub workflow.
+那么，什么是Git，它与GitHub有何不同？ Git是一个版本控制系统，它使您能够在整个开发过程中保存和跟踪工作时间戳的副本。 它也适用于非代码项，例如MOOC，其中大部分是用RStudio中的markdown编写的，并与Git / GitHub工作流集成。
 
-This is important, as all research goes through changes and sometimes we want to know what those things were. Did you delete some text that you now think is important? Version control will save that for you. Did your code work perfectly in the past, but is now buggy beyond belief? Version control. It's a great way to avoid that chaotic state where you have multiple copies of the same file, but without a stupid and annoying file naming convention. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` will be a thing of the past.
+这很重要，因为所有研究都经历了变化，有时我们想知道这些是什么。 您是否删除了一些您认为重要的文字？ 版本控制将为您保存。 您的代码在过去是否完美运行，但现在已经超出了信念范围？ 版本控制。 这是避免混乱状态的好方法，在这种情况下，您拥有相同文件的多个副本，但没有愚蠢和烦人的文件命名约定。 `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` 将成为过去。
 
-GitHub is the platform that allows you to seamlessly share code from your workspace (e.g., laptop) to be hosted in an online space. So, sort of like the public interface to GitHub. The advantages of Git/GitHub are:
+GitHub是一个平台，允许您从工作区（例如，笔记本电脑）无缝共享代码，以便在线空间中托管。 所以，有点像GitHub的公共接口。 Git / GitHub的优点是：
 
-1. You get to keep copies of all your work through time;
-2. You can compare work through different copies through time, which helps to spot bugs or errors;
-3. Other people can collaborate openly with your work;
-4. You have both a local and an online copy of your work that remain in sync;
-5. It is fully transparent as to who made a contribution, why they made it, and when; and
-6. You can have multiple people working on the same project at once in parallel.
+1. 你可以随时随地保留所有作品的副本;
+2. 您可以通过时间比较不同副本的工作，这有助于发现错误或错误;
+3. 其他人可以公开与您的工作合作;
+4. 您的工作本地和在线副本都保持同步;
+5. 关于谁做出贡献，为什么做出贡献以及何时做出贡献，这是完全透明的。和
+6. 您可以让多个人同时在同一个项目上工作。
 
-While this was primarily designed for source code, it should be instantly obvious how this becomes a powerful tool for virtually all research workflows.
+虽然这主要是为源代码而设计的，但它应该立即变得如此成为几乎所有研究工作流程的强大工具。
 
   
 
 
 ### RStudio <a name="Rstudio"></a>
 
-RStudio is a popular coding environment for researchers who use the statistical programming language, R. It comes with a text editor, so you don't have to install another and switch between. It also includes a graphical user interface (GUI) to Git and GitHub, which we will be using here.
+对于使用统计编程语言R的研究人员来说，RStudio是一个流行的编码环境。它带有一个文本编辑器，因此您不必安装另一个并在它们之间切换。 它还包括Git和GitHub的图形用户界面（GUI），我们将在这里使用它。
 
-Isn't it nice when brilliant Open Source tools integrate seamlessly like that. This should help to make your daily use of Git much simpler.
+当辉煌的开源工具无缝集成时，这不是很好。 这应该有助于使您日常使用Git更简单。
 
-If at any point you need to install new packages for R, simply use the following command:
+如果您在任何时候需要为R安装新软件包，只需使用以下命令：
 
-`install.packages("PACKAGE NAME", dependencies = TRUE)`
+`install.packages（“PACKAGE NAME”，依赖项= TRUE）`
 
-Replacing `PACKAGE NAME` with the, er, package name. Some examples you can play with that might come in useful include `knitr`, `devtools` or `ggplot2`.
+用呃包名替换 `PACKAGE NAME`。 可能出现的一些例子，你可以与发挥有益包括 `knitr`， `devtools` 或 `GGPLOT2`。
 
   
 
 
-## Step one: Download all the things <a name="one"></a>
+## 第一步：下载所有内容 <a name="one"></a>
 
-1. You should already have a GitHub account by now if you have followed the previous tasks. If not, [sign up here](https://github.com/). Free unlimited repositories for all!
-2. Download and install the latest version of [R](https://www.r-project.org/). Also available for [Mac](https://cloud.r-project.org/) and [Linux](https://cloud.r-project.org/bin/linux/).
-3. Download and install the latest version of [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, hey, looks it Open Source! Swish.
-4. Download and install the latest version of [Git](https://gitforwindows.org/). **Make sure to Select “Use Git from the Windows Command Prompt” during installation.**
+1. 如果您已经执行了之前的任务，那么您现在应该已经拥有一个GitHub帐户。 如果没有， [标志在这里](https://github.com/)。 为所有人免费提供无限量的存储库！
+2. 下载并安装最新版本的 [R](https://www.r-project.org/)。 也适用于 [Mac](https://cloud.r-project.org/) 和 [Linux](https://cloud.r-project.org/bin/linux/)。
+3. 下载并安装最新版本的 [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop)。 哦，嘿，看起来是开源！ 沙沙。
+4. 下载并安装最新版本的 [Git](https://gitforwindows.org/)。 **确保在安装过程中选择“从Windows命令提示符使用Git”。**
 
-> **Pro-tip**: To update all of your R packages in one, simply execute the following code `update.packages(ask = FALSE, checkBuilt = TRUE)`
+> **专业提示**：要将所有R软件包更新为一个，只需执行以下代码 `update.packages（ask = FALSE，checkBuilt = TRUE）`
 
-For now, just choose all the usual default options for each install. Depending on which Operating System (e.g., Mac, Windows, Linux), this might be different for each of you. For now, and for the rest of this task, we're going to stick with doing things the easy-ish Windows way (but also provide some instructions for using the command line).
+现在，只需为每个安装选择所有常用的默认选项。 根据哪个操作系统（例如，Mac，Windows，Linux），每个人可能会有所不同。 就目前而言，对于此任务的其余部分，我们将坚持使用简单的Windows方式（但也提供使用命令行的一些说明）。
 
-For Linux or Debian users, simply use the following command to install Git:
+对于Linux或Debian用户，只需使用以下命令安装Git：
 
 `sudo apt-get install git-core`
 
-For Mac users, [this link](http://git-scm.com/download/mac), or purchase a new laptop with a different operating system.
+对于Mac用户， [此链接](http://git-scm.com/download/mac)，或购买具有不同操作系统的新笔记本电脑。
 
-If you want, you can also download the [local version of GitHub](https://desktop.github.com/) and use it through the simple GUI. It's available on Windows and Mac and Linux, and can make your life a little easier, especially if you want to use a different platform to RStudio.
+如果需要，您还可以下载 [本地版本的GitHub](https://desktop.github.com/) 并通过简单的GUI使用它。 它可以在Windows，Mac和Linux上使用，并且可以让您的生活更轻松，特别是如果您想使用不同的平台来访问RStudio。
 
-> **Pro-tip:** You see when installing Git it says 'Use Git Bash as shell for Git projects?' This is the place where you can use the command-line to access Git from outside of RStudio. It's a powerful beast. Try the following two commands to get started:
+> **专业提示：** 您在安装Git时会看到'使用Git Bash作为Git项目的shell？'在这里您可以使用命令行从RStudio外部访问Git。 这是一个强大的野兽。 尝试以下两个命令开始：
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
+`混帐配置--global user.name '您的用户名'`   
+`混帐配置--global user.email '您的email'`   
 
 
-## Step two: Configure Git inside RStudio <a name="two"></a>
+## 第二步：在RStudio中配置Git <a name="two"></a>
 
-Right, that's the easy bit done. Next, go into RStudio, and in the tabs at the top go to Go to **Tools > Global Options > Git/SVN**. SVN is just another version control system like Git, and we don't need to worry about that here.
+是的，这很容易做到。 接下来，进入RStudio，在顶部的选项卡中转到 **工具>全局选项> Git / SVN**。 SVN只是像Git这样的另一个版本控制系统，我们不需要在此担心。
 
-In the place where it says *Git executable*, add the pathway here to the git.exe file that you just downloaded in the previous step. Make sure the box here that says **Enable version control interface for RStudio projects** is ticked. This now has tied version control to future projects in RStudio, to provide a really powerful additional dimension to collaborative or solo work.
+在其中显示 *Git可执行文件*，将此路径添加到您刚刚在上一步中下载的git.exe文件中。 确保此处的框显示 **启用RStudio项目** 版本控制界面。 现在，它已将版本控制与RStudio中的未来项目联系起来，为协作或独奏工作提供了一个非常强大的附加维度。
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git_svn.png?raw=true" width="400px"/>
 </p>
 
-<p align="center"><i>The Global Options window inside RStudio</i></p>
+<p align="center"><i>RStudio中的全局选项窗口</i></p>
 
   
 
 
-Next, hit the button in this window that says *Create RSA Key*, This is a private key that is used for authentication between different systems, and saves you from having to type in your password over and over. Here, it will pop up a new window with a public key, that you want to copy to your clipboard.
+接下来，点击此窗口中的按钮，该按钮显示 *创建RSA密钥*，这是一个用于在不同系统之间进行身份验证的私钥，使您无需反复输入密码。 在这里，它将弹出一个带有公钥的新窗口，您希望将其复制到剪贴板。
 
-Head over to GitHub, go to your profile settings, and the *SSH and GPG keys* tab. Click *New SSH key*. Here, paste in the key from RStudio, and call it something imaginative like 'RStudio'.
+转到GitHub，转到您的配置文件设置，以及 *SSH和GPG键* 选项卡。 单击 *新SSH密钥*。 在这里，粘贴来自RStudio的密钥，称之为'RStudio'之类的富有想象力的东西。
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/ssh_key.png?raw=true" width="800px"/>
 </p>
 
-<p align="center"><i>Inside GitHub where you will want to enter the key you just generated in RStudio</i></p>
+<p align="center"><i>在GitHub里面，您需要输入刚才在RStudio中生成的密钥</i></p>
 
   
 
 
-OK, now hold on to your butts, we're going into the command line. Don’t worry if you’ve never used the shell before because it’s quite similar to using R, or any other coding system. The main difference here though is that instead of calling functions like in R, you call commands.
+好的，现在抓住你的屁股，我们进入命令行。 如果您以前从未使用过shell，请不要担心，因为它与使用R或任何其他编码系统非常相似。 这里的主要区别在于，不是调用R中的函数，而是调用命令。
 
-So back in RStudio, go to **Tools > Shell**, and it will open up a command prompt window. If you already played with the Git Bash above, you should have done this step already. Enter the following two commands:
+回到RStudio，转到 **工具> Shell**，它将打开一个命令提示符窗口。 如果你已经玩过上面的Git Bash，你应该已经完成了这一步。 输入以下两个命令：
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
-
-
-Hopefully it does not have to be said to substitute in your own GitHub username and email here. You can access this at any point just by finding the 'Shell' within Windows. Or, if you right click on any folder on your Desktop that is linked to a GitHub repo, you can open up the Shell instantly and Bash away.
-
-What this stage has done is configure Git, which is software that runs on your desktop, to GitHub, which is a repository website.
-
-Restart R Studio. Whew, that was tough. Next.
-
-  
+`混帐配置--global user.name '您的用户名'`   
+`混帐配置--global user.email '您的email'`   
 
 
-## Step three: Why did I just do that? <a name="three"></a>
+希望不必说在您自己的GitHub用户名和电子邮件中替换。 您可以通过在Windows中找到“Shell”来随时访问它。 或者，如果您右键单击桌面上链接到GitHub存储库的任何文件夹，您可以立即打开Shell并将其打开。
 
-OK, hold your breathe, we're going to pause here just to learn some basic Git commands. Some of the key ones you could do with learning are:
+这个阶段所做的是将Git（在桌面上运行的软件）配置到GitHub，这是一个存储库网站。
 
-* **Add**: This is where you submit files to the staging area before being committed.
-
-* **Commit** This is like 'saving' your work by creating a new version or copy.
-
-* **Push**: This is how you send files from your local project to the online repository.
-
-* **Pull**: This is how you get files from your online repository to your local project.
-
-Back in RStudio, type in the following into the *Terminal*, or by opening up a new Shell:
-
-`git add .`
-
-It won't actually do anything for now, but in the future will add all files in your current working directory (that's what the `.` does) to staging ready for a commit.
+重启R Studio。 哇，那太难了。 下一个。
 
   
 
 
-## Step four: The perfect marriage between Git and R <a name="four"></a>
+## 第三步：为什么我这样做？ <a name="three"></a>
 
-Now, in Task 1, you should have learned how to build your very first GitHub repository. If you haven't done that, we can wait here while you go and do that. If you have already, or have an existing GitHub repository, we can move on.
+好吧，保持呼吸，我们将暂停这里只是为了学习一些基本的Git命令。 您可以通过学习做的一些关键因素是：
 
-So, you should have a repository on GitHub, complete with a `README` file, a `LICENSE` file and some other bits and bobs.
+* **添加**：这是您在提交之前将文件提交到临时区域的位置。
 
-What we are going to do now, is integrate that repository with Git. Steady now.
+* **提交** 这就像通过创建新版本或副本来“保存”您的工作。
 
-1. Firstly, go to **Project > Create Project > Version Control > Git**.
-2. Back on GitHub, you should see a bit where there is a https:// URL. That is the link to your repository, and it gives you the option to clone it in your desktop. For now, just copy that link, switch back to RStudio, and paste it into the 'Repository URL' as indicated.
-3. Give the project a directory name, like test, Jim, or whatever you want.
-4. Next, browse for the place on your desktop where you want this project to live, its subdirectory.
-5. Click 'Create Project', and let the magic be done!
+* **推送**：这是您将文件从本地项目发送到在线存储库的方式。
 
-What you just did was tell RStudio to associate a new project in R with specific repository on GitHub.
+* **拉**：这是您从在线存储库获取文件到本地项目的方式。
 
-## **Step four: Alternative**
+回到RStudio，在 *终端*中输入以下内容，或者打开一个新的Shell：
 
-If you still haven't built your first repository on GitHub, we can do something slightly different here. In RStudio, click *New project* and then *New Directory*. Call it what you want and change the directory as needed, make sure to tick *Create a git repository*, and then click *Create Project*. This creates an `.Rproj` file, which you can manage in the usual way through RStudio, including adding `README.md`and `LICENSE.md` files as discussing in Task 1.
+`git add。`
 
-## Step five: Getting content with content <a name="five"></a>
+现在它实际上并不会做任何事情，但在未来将增加在当前工作目录下的所有文件（这是什么 `。` 那样），以分期准备好提交。
 
-Remember that `README` file we created a while back? Well, it's time to write it. Thinking back to Task 1, there were some specific things that we said make a good `README` file. Do you remember what any of them were? Just to refresh your memory, these were:
+  
 
-* What is this project about and what does it do.
-* Why should people care, and why is it useful.
-* How can someone get started contributing to the project.
-* Who can be contacted in case someone needs help.
-* A link to the license, contributing guidelines, and code of conduct.
-* A description of the project structure.
-* Who is involved, and what are their roles.
-* The current status of the project.
 
-So, in RStudio, open that file try adding just a bit of information about this for your project. If you are doing this for an actual project, try and make it useful. If you are just tinkering for now, you can add what you want.
+## 第四步：Git和R之间的完美结合 <a name="four"></a>
 
-Remember that your `README` file is in markdown (.md) format. For a refresher on some of the simple syntax markdown uses, check this [handy cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+现在，在任务1中，您应该已经学会了如何构建第一个GitHub存储库。 如果你还没有这样做，我们可以在你去的时候在这里等待。 如果您已经拥有或拥有现有的GitHub存储库，我们可以继续前进。
+
+所以，你应该在GitHub上有一个存储库，包含一个 `README` 文件，一个 `LICENSE` 文件和一些其他位和bob。
+
+我们现在要做的是将该存储库与Git集成。 现在稳定。
+
+1. 首先，转到 **Project> Create Project> Version Control> Git**。
+2. 回到GitHub，您应该看到有一个https：// URL。 这是指向您的存储库的链接，它为您提供了在桌面上克隆它的选项。 现在，只需复制该链接，切换回RStudio，然后按照指示将其粘贴到“存储库URL”中。
+3. 为项目提供目录名称，例如test，Jim或任何您想要的名称。
+4. 接下来，浏览桌面上您希望此项目生效的位置，即其子目录。
+5. 点击“创建项目”，让魔术完成！
+
+你刚刚做的是告诉RStudio将R中的新项目与GitHub上的特定存储库相关联。
+
+## **第四步：替代方案**
+
+如果你还没有在GitHub上构建你的第一个存储库，我们可以在这里做一些稍微不同的事情。 在RStudio中，单击 *New project* ，然后单击 *New Directory*。 调用它你想要的并根据需要更改目录，确保勾选 *创建一个git存储库*，然后单击 *创建项目*。 这产生了 `.Rproj` 文件，它可以在通常的方式通过RStudio管理，包括添加 `README.md`和 `LICENSE.md` 文件作为在任务1讨论。
+
+## 第五步：获取内容内容 <a name="five"></a>
+
+还记得我们创建的 `README` 文件吗？ 好吧，是时候写了。 回想一下任务1，我们说有一些特定的东西是一个很好的 `README` 文件。 你还记得他们中的任何一个吗？ 为了更新你的记忆，这些是：
+
+* 这个项目是关于什么的，它做了什么。
+* 人们为什么要关心，为什么它有用。
+* 如何有人开始为项目做贡献。
+* 如果有人需要帮助，可以联系谁。
+* 许可证，贡献指南和行为准则的链接。
+* 项目结构的描述。
+* 谁参与，他们的角色是什么。
+* 项目的当前状态。
+
+因此，在RStudio中，打开该文件尝试为您的项目添加一些有关此信息的信息。 如果您正在为实际项目执行此操作，请尝试使其有用。 如果你现在只是修修补补，你可以添加你想要的东西。
+
+请记住，您的 `README` 文件采用markdown（.md）格式。 有关一些简单的语法降价用法的复习，请查看这个 [方便的备忘单](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)。
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/markdown.png?raw=true" width="600px"/>
 </p>
 
-<p align="center"><i>Screenshot of what this module looks in markdown, during development. Meta.</i></p>
+<p align="center"><i>在开发期间，此模块在markdown中查看的内容的屏幕截图。 元。</i></p>
 
   
 
 
-## Step six: A brave commitment <a name="six"></a>
+## 第六步：勇敢的承诺 <a name="six"></a>
 
-OK, so now you should have a nicely edited `README` file. Now we are going to 'commit' this to the project using Git. This is basically the equivalent of saving this version of your project, with a record of what changes were made. Successive commits produce a history that can be examined at a later time, allowing you to work with confidence.
+好的，现在你应该有一个编辑得很好的 `README` 文件。 现在我们将使用Git将其“提交”到项目中。 这基本上相当于保存了这个版本的项目，并记录了所做的更改。 连续提交产生的历史可以在以后检查，让您自信地工作。
 
-There are a few ways of doing this.
+有几种方法可以做到这一点。
 
-1. Go to **Tools > Version Control > Commit**
-2. In the environment pane in RStudio, there should be a new 'Git' tab. Handy.
-3. In your console pane, there should now be a new 'Terminal', which you can run Git command lines through.
+1. 转到 **工具>版本控制>提交**
+2. 在RStudio的环境窗格中，应该有一个新的“Git”选项卡。 便利。
+3. 在您的控制台窗格中，现在应该有一个新的“终端”，您可以通过它运行Git命令行。
 
-Let's just stick with the second option for now. This Git pane shows you which files have been changed and includes buttons for the most important Git commands we saw earlier.
+让我们暂时坚持第二种选择。 这个Git窗格显示了哪些文件已被更改，并包含我们之前看到的最重要的Git命令的按钮。
 
-Select the `README` file in the Git window, which should show up automatically if you have made any edits to it. This adds that file to the 'staging' area, which is sort of like the pre-saving space for your work. Click 'Commit' and a new window should pop up.
+在Git窗口中选择 `README` 文件，如果您对其进行了任何编辑，该文件应自动显示。 这会将该文件添加到“临时”区域，这有点像您工作的预先节省空间。 单击“提交”，将弹出一个新窗口。
 
-Here, you have a chance to review your changes, and write a nice commit message. Type in something brief, but informative about the changes that you have made in this version or snapshot of your work. You want this to be enough information so that if you or someone else looks back on it, you'll know why you made this commit and the changes associated with it. These are like safety nets for your project in case you need to fall back for some reason.
+在这里，您有机会查看您的更改，并编写一个很好的提交消息。 输入简短的内容，但提供有关您在此版本或工作快照中所做更改的信息。 您希望这是足够的信息，以便如果您或其他人回顾它，您就会知道为什么要进行此提交以及与之相关的更改。 这些就像您的项目的安全网，以防您因某些原因需要退回。
 
-> **Pro-tip**: Here, you will see a list of all the changes you have made since your last commit. Older removed lines are in red, and newly added lines are in green. Double check these to make sure that the edits you have made are the ones you intended to make. This is really helpful for spotting typos, stray edits, and any other little mistakes you might have accidentally introduced. Safety first.
+> **专业提示**：在这里，您将看到自上次提交以来所做的所有更改的列表。 较旧的删除行为红色，新添加的行为绿色。 仔细检查这些以确保您所做的编辑是您打算进行的编辑。 这对于发现拼写错误，杂散编辑以及您可能偶然引入的任何其他小错误非常有用。 安全第一。
 
-**Note** If you are colour-blind and can't see which lines have been added or removed, you can use the line numbers in the two columns on the left of the window as a guide. Here, the number in the first column identifies the older version, and the number in the second column identifies the new version.
+**注意** 如果您是色盲并且无法看到添加或删除了哪些行，则可以使用窗口左侧两列中的行号作为指导。 此处，第一列中的数字标识旧版本，第二列中的数字标识新版本。
 
-Now when you click 'Commit', another window will pop up, telling you how many files you have changed and the number of lines within that file you have changed. Close that little window down.
+现在，当您单击“提交”时，将弹出另一个窗口，告诉您已更改的文件数以及该文件中已更改的行数。 关闭那个小窗口。
 
   
 
 
-## Step seven: PUSH! <a name="seven"></a>
+## 第七步：推！ <a name="seven"></a>
 
-Click the *Push* button in the top right of the new window. A new window will pop up now. What this is doing is synchronising the files changed on your local repository with the `README` file to the online version of the project on GitHub.
+单击新窗口右上角的 *Push* 按钮。 现在会弹出一个新窗口。 这样做是将本地存储库中更改的文件与 `README` 文件同步到GitHub上项目的在线版本。
 
-To do this from the Shell, use the following command:
+要从命令行管理器执行此操作，请使用以下命令：
 
 `git push -u origin master`
 
-Some times here you will be prompted to add your username and password from GitHub, which you should do if asked.
+有时在这里会提示您从GitHub添加您的用户名和密码，如果被问到，您应该这样做。
 
-Close that window down, and the next one. Go to your project on GitHub, refresh, and check that the `README` file is still there in all its newly edited glory. You should see the commit message you made next to the file too.
-
-  
-
-
-**OPTIONAL ADVANCED/AWESOME STEP**
-
-Alright, so you just pushed some content to your first repo, awesome! Now let's put it into practice for a real project. Like, the one you are participating in right now. Let's try this out:
-
-1. Go to the repository for this project on [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
-
-2. Fork the repository to your own GitHub account. The URL for this should be: `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
-
-3. Head into RStudio, go to **File > New Project**, choose *Version Control*, select *Git*, and then paste the forked repository URL found in your copy of the repository. You now have your own versioned copy of this whole module. Neat. Save this somewhere on your local machine.
-
-4. Now, you need to tell Git that a different version of this project exists. Open up the *Shell*, and enter the command: `git remote add upstream https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
-
-5. What you just did was name the original branch here `upstream`, just to keep things simple for now. Now, create a new **branch** to document your changes to this independent of the main branch. Enter the command: `git checkout -b proposed-changes master`
-
-6. You just created a new branch called `proposed-changes` where you can now edit all of the content and files to your heart's delight. Hopefully, the structure of this project is simple enough for you to navigate around. All of the raw files for the MOOC can be found in the `content_development` folder, and this is `Task_3.md`.
-
-7. If you scroll to the bottom of `Task_3.md`, you should see a place where you can edit in your name and affiliation. Add these in, and then go through the commit procedure detailed above. If you see anything else that needs editing too, feel free to add them in too!
-
-8. Now, you want to push the changes back to the original branch. Use the following command in your *Shell*: `git push origin proposed-changes`
-
-9. Go back to GitHub and find your fork here. Click the little green button, and create a pull request. This is essentially a review to integrate the changes made into the original branch for this MOOC project.
-
-10.     The owners in charge of the MOOC project will now get a notification of this, review it, and confirm it if everything went to plan! We will review it, and if it all went okay, your name will now appear for all eternity as someone who completed this advanced task.
-      
-
-11.     Have a cup of tea, coffee, or wine to celebrate!
-      
-
-**CONGRATULATIONS**
-
-You just integrated Git with R Studio, and made your first change to a version controlled project. Your life will now never be the same, and your research workflow will probably be more rapid, agile, and collaborative than ever. Good luck going back to Word.
-
-The great thing is that this doesn't have to just be used for code. You can use it for plain text, markdown, html, and, well, R code. The possibilities are limitless - what you have just learned is a new form of openly collaborative project management that works for an enormous range of tasks.
-
-From now on, it is all up to you! Some advice is to:
-
-* Make frequent commits. Treat Git like your puppy, in that it requires constant and special attention. Just a pat on the head every now and then is enough to keep it satisfied, but it'll be happiest with sustained servicing.
-
-* The best way to do this is to make a commit each time you work on a specific problem. For example, writing a paragraph, running an analysis, or fixing a bug.
-
-* Push often. Don't let those commits build up, otherwise you run more risk of getting into merge conflicts. Seeing as these can be the stuff of nightmares, just make sure to push often.
-
-* Pull often. If others are working remotely on the same project, you will want to stay up to date with their changes. Make sure to frequently pull in their changes from GitHub to make sure you are all in sync.
-
-* Experiment and explore! This task really only scratches the surface, and there are many different functions, tools, and ways this can be used. Really, it is up to you to find out how to use this information to improve your research workflow, and ultimately collaborate on better, more open and reliable research!
-
-* To learn more about issues, branches, merge conflicts, pull requests, and other advanced aspects of using Git and RStudio, check out this [awesome guide](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham.
+关闭那个窗口，然后关闭下一个窗口。 转到GitHub上的项目，刷新并检查 `README` 文件是否仍然存在于其所有新编辑的荣耀中。 您应该看到您在文件旁边创建的提交消息。
 
   
 
 
-**Know a way this content can be improved?**
+**可选的高级/令人敬畏的步骤**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+好吧，所以你只是把一些内容推到你的第一个回购中，太棒了！ 现在让我们为实际项目付诸实践。 就像，你现在参与的那个。 我们来试试吧：
 
-## List of participants who completed the ADVANCED version of this task
+1. 在 [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)上转到此项目的存储库
 
-* Brendan Palmer,CRF-C, University College Cork
-* Lisa Matthias, Freie Universität Berlin
-* Hollie Marshall, University of Leicester 
-* Eric D. Wilkey, Western University, Canada
-* José-Raúl Canay-Pazos, Universidade de Santiago de Compostela, Spain
-* Encarnación Martínez Álvarez, Spain
-* Alberto Albz Marocchino, Italy
-* Iratxe Rubio, Basque Centre for Climate Change BC3
-* Gabriele Orlandi, Paris School of Advanced Studies in Social Sciences (EHESS), France
-* Hande Sodacı, Turkey
-* Luke W. Johnston, Aarhus University, Denmark
-* Philippe Joly, WZB and HU-Berlin
-* Paul Griffiths, NCAS and U. Cambridge
-* Harin Lee, Goldsmiths, University of London
-* Luis Camacho, Catholic University, Perú
-* Tom Cridford, Imperial College London
-* Nithiya Streethran, University of Stavanger 
+2. 将存储库分成您自己的GitHub帐户。 这个URL应该是： `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
+
+3. 进入RStudio，转到 **File> New Project**，选择 *Version Control*，选择 *Git*，然后粘贴在您的存储库副本中找到的分叉存储库URL。 您现在拥有自己的整个模块的版本副本。 整齐。 将其保存在本地计算机上。
+
+4. 现在，您需要告诉Git该项目的不同版本存在。 打开 *Shell*，然后输入命令： `git remote add upstream https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
+
+5. 你刚刚做了什么就把原来的分支命名为 `上游`，只是为了让事情变得简单。 现在，创建一个新的 **分支** ，以独立于主分支记录您对此的更改。 输入命令： `git checkout -b proposed-changes master`
+
+6. 您刚刚创建了一个名为 `proposed-changes` 的新分支，您现在可以编辑所有内容和文件，让您心满意足。 希望这个项目的结构足够简单，您可以浏览。 可以在 `content_development` 文件夹中找到MOOC的所有原始文件，这是 `Task_3.md`。
+
+7. 如果您滚动到 `Task_3.md`的底部，您应该会看到一个可以在您的姓名和所属关系中进行编辑的地方。 添加这些，然后完成上面提到的提交过程。 如果您还看到其他需要编辑的内容，请随意添加！
+
+8. 现在，您希望将更改推送回原始分支。 在 *Shell*： `git push origin proposed-changes`使用以下命令
+
+9. 回到GitHub，在这里找到你的叉子。 单击绿色小按钮，然后创建拉取请求。 这本质上是一个综述，将对MOOC项目的原始分支所做的更改进行整合。
+
+10.     负责MOOC项目的业主现在将收到通知，审核，并确认是否一切按计划进行！ 我们将对其进行审核，如果一切顺利，您的名字现在将永远显示为完成此高级任务的人。
+      
+
+11.     喝一杯茶，咖啡或葡萄酒来庆祝！
+      
+
+**恭喜**
+
+您刚刚将Git与R Studio集成，并首次更改为版本控制项目。 您的生活现在将永远不变，您的研究工作流程可能比以往更加快速，灵活和协作。 祝你好运回到Word。
+
+最棒的是，这不必仅用于代码。 您可以将它用于纯文本，markdown，html以及R代码。 可能性是无限的 - 您刚学到的是一种新形式的公开协作项目管理，适用于各种各样的任务。
+
+从现在开始，这完全取决于你！ 一些建议是：
+
+* 经常提交。 像你的小狗一样对待Git，因为它需要不断和特别的关注。 只是轻轻拍打头部就足以让它满意，但是持续服务会很开心。
+
+* 执行此操作的最佳方法是在每次处理特定问题时进行提交。 例如，编写段落，运行分析或修复错误。
+
+* 经常推。 不要让这些提交累积起来，否则会冒更大的风险进入合并冲突。 看到这些可能是噩梦的事情，只要确保经常推动。
+
+* 经常拉。 如果其他人在同一个项目上远程工作，您将需要及时了解他们的更改。 确保经常从GitHub中提取更改，以确保您完全同步。
+
+* 实验和探索！ 这项任务实际上只是触及表面，并且有许多不同的功能，工具和方法可以使用。 实际上，您需要了解如何使用这些信息来改进您的研究工作流程，并最终在更好，更开放和可靠的研究上进行合作！
+
+* 要了解有关问题，分支，合并冲突，拉取请求以及使用Git和RStudio的其他高级方面的更多信息，请查看Hadley Wickham撰写的这篇 [真棒指南](http://r-pkgs.had.co.nz/git.html)。
+
+  
+
+
+**知道这种内容可以改进的方式吗？**
+
+是时候将新的GitHub技能用于测试运行了！ 所有内容主要发展发生 [这里](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md)。 如果您对内容，布局或其他任何内容有建议的改进，您可以制作它，然后在主持人验证后它将自动成为MOOC内容的一部分！
+
+## 完成此任务的ADVANCED版本的参与者列表
+
+* 科恩大学CRF-C的Brendan Palmer
+* Lisa Matthias，柏林自由大学
+* 莱斯特大学的Hollie Marshall 
+* Eric D. Wilkey，加拿大西部大学
+* José-RaúlCanay-Pazos，西班牙圣地亚哥德孔波斯特拉大学
+* EncarnaciónMartínezÁlvarez，西班牙
+* Alberto Albz Marocchino，意大利
+* Iratxe Rubio，巴斯克气候变化中心BC3
+* Gabriele Orlandi，法国巴黎社会科学高级研究学院（EHESS）
+* HandeSodacı，土耳其
+* Luke W. Johnston，丹麦奥胡斯大学
+* Philippe Joly，WZB和HU-Berlin
+* Paul Griffiths，NCAS和U. Cambridge
+* Harin Lee，伦敦大学金史密斯学院
+* 秘鲁天主教大学路易斯卡马乔
+* 汤姆克里德福德，伦敦帝国理工学院
+* 斯塔万格大学Nithiya Streethran 
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
