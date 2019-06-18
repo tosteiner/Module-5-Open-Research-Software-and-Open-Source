@@ -1,334 +1,334 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: défaut
+  pdf_document: défaut
 ---
 
-# Task 3: How to integrate Git with R Studio
+# Tâche 3: Comment intégrer Git à R Studio
 
-This task is designed for students and researchers who want to implement a system of version control within a standard R-based workflow. This can be applied to a range of software development, data analysis and project management tasks. Your future research self will thank your for the convenience.
+Cette tâche est conçue pour les étudiants et les chercheurs qui souhaitent implémenter un système de contrôle de version dans un flux de travail standard basé sur R. Ceci peut être appliqué à une gamme de tâches de développement logiciel, d'analyse de données et de gestion de projet. Vos recherches futures vous remercieront pour la commodité.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+N'oubliez pas que vous pouvez participer aux discussions sur notre open channel [**Slack channel**](https://osmooc.herokuapp.com/). Présentez-vous à l'adresse # module5opensource, et dites-nous un peu qui vous êtes, votre parcours, et comment vous vous êtes retrouvés ici!
 
-Estimated time to complete: 30 minutes
+Durée estimée: 30 minutes
 
-Estimate time saving once complete: Virtually infinite
+Estimez le gain de temps une fois terminé: pratiquement infini
 
-**NOTE** A video guide version of this task is now available on [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA).
+**REMARQUE** Une version de guide vidéo de cette tâche est maintenant disponible sur [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA).
 
-## Table of contents
+## Table des matières
 
-* [Getting started](#Getting_started) 
+* [Commencer](#Getting_started) 
   * [Git](#Git)
   * [R Studio](#Rstudio)
-* [Step one: Download all the things](#one)
-* [Step two: Configure Git inside RStudio](#two)
-* [Step three: Why did I just do that?](#three)
-* [Step four: The perfect marriage between Git and R](#four)
-* [Step five: Getting content with content](#five)
-* [Step six: A brave commitment](#six)
-* [Step seven: PUSH!](#seven)
+* [Première étape: télécharger toutes les choses](#one)
+* [Deuxième étape: configurer Git dans RStudio](#two)
+* [Troisième étape: Pourquoi est-ce que je viens de faire ça?](#three)
+* [Quatrième étape: le mariage parfait entre Git et R](#four)
+* [Cinquième étape: obtenir du contenu avec le contenu](#five)
+* [Sixième étape: un engagement courageux](#six)
+* [Septième étape: PUSH!](#seven)
 
-## Getting started <a name="Getting_started"></a>
+## Commencer <a name="Getting_started"></a>
 
-Congratulations on making it this far! If you're reading this, you've survived pull requests, web-hooks, and can probably even tell us know what the F in FOSS stands for (*not* Frustration...) Hopefully, you have overcome any scepticism or reluctance towards the benefits of GitHub and Open Source Software, and are ready to take the next step.
+Félicitations pour aller si loin! Si vous lisez ceci, vous avez survécu aux demandes de tirage, aux Web-hooks et pouvez probablement même nous dire ce que signifie le F dans FOSS (*pas* frustration ...). Espérons que vous ayez surmonté tout scepticisme ou réticence vers les avantages de GitHub et du logiciel Open Source, et sont prêts à passer à l’étape suivante.
 
-Before starting this Task, please make sure you have already completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), so that you are more familiar with GitHub and some standard Open Source practices.
+Avant de commencer cette tâche, veuillez vous assurer que vous avez déjà terminé [Tâche 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) et [Tâche 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)afin de vous familiariser davantage avec GitHub et certaines pratiques Open Source standard.
 
-This task will teach you how to integrate the version control software, Git, with the popular coding environment, RStudio. And yes, it is Git as in gif or God, not Jit as in the wrong way of pronouncing things.
+Cette tâche vous apprendra comment intégrer le logiciel de contrôle de version, Git, à l'environnement de codage populaire, RStudio. Et oui, c'est Git comme dans gif ou Dieu, pas Jit comme une mauvaise façon de prononcer les choses.
 
-If you are one of those researchers who thinks that having code spread across multiple hard-drives that are waiting to break, Dropbox, Google Drive, or any other non-specialist software, this task is just for you. If you have ever experienced the mind-numbing process of having multiple 'final' versions of a paper bouncing between different co-authors, this is also for you.
+Si vous êtes un de ces chercheurs qui pensent que le code doit être réparti sur plusieurs disques durs en attente de rupture, Dropbox, Google Drive ou tout autre logiciel non spécialisé, cette tâche est pour vous. Si vous avez déjà expérimenté le processus ahurissant de disposer de plusieurs versions «finales» d'un document qui rebondit entre différents co-auteurs, c'est également pour vous.
 
-All of us are guilty of these sorts of things once in a while, but there are ways to do it that are better for you, future you, and those who might benefit from your work.
+Nous sommes tous coupables de ce genre de choses de temps en temps, mais il existe des moyens de le faire qui sont meilleurs pour vous, votre avenir et ceux qui pourraient bénéficier de votre travail.
 
   
 
 
-### Getting Git <a name="Git"></a>
+### Obtenir Git <a name="Git"></a>
 
-So, what is Git, and how is it different to GitHub? Git is a version control system, which enables you to save and track time-stamped copies of your work throughout the development process. It also works with non-code items too, like this MOOC, the majority of which was written in markdown in RStudio, and integrated with a Git/GitHub workflow.
+Alors, qu'est-ce que Git et en quoi est-il différent de GitHub? Git est un système de contrôle de version qui vous permet de sauvegarder et de suivre des copies horodatées de votre travail tout au long du processus de développement. Il fonctionne également avec des éléments non codés, comme ce MOOC dont la majorité a été écrite sous forme de markdown dans RStudio et intégrée à un flux de travail Git / GitHub.
 
-This is important, as all research goes through changes and sometimes we want to know what those things were. Did you delete some text that you now think is important? Version control will save that for you. Did your code work perfectly in the past, but is now buggy beyond belief? Version control. It's a great way to avoid that chaotic state where you have multiple copies of the same file, but without a stupid and annoying file naming convention. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` will be a thing of the past.
+Ceci est important, car toutes les recherches évoluent et nous voulons parfois savoir ce qu’il en était. Avez-vous supprimé du texte que vous considérez maintenant comme important? Le contrôle de version vous permettra d’économiser cela. Votre code a-t-il parfaitement fonctionné dans le passé, mais est-il maintenant impossible de croire? Contrôle de version. C'est un excellent moyen d'éviter cet état chaotique où vous avez plusieurs copies du même fichier, mais sans convention de dénomination stupide et ennuyeuse. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` sera une chose du passé.
 
-GitHub is the platform that allows you to seamlessly share code from your workspace (e.g., laptop) to be hosted in an online space. So, sort of like the public interface to GitHub. The advantages of Git/GitHub are:
+GitHub est la plate-forme qui vous permet de partager en toute transparence le code de votre espace de travail (un ordinateur portable, par exemple) pour qu'il soit hébergé dans un espace en ligne. Donc, un peu comme l’interface publique vers GitHub. Les avantages de Git / GitHub sont:
 
-1. You get to keep copies of all your work through time;
-2. You can compare work through different copies through time, which helps to spot bugs or errors;
-3. Other people can collaborate openly with your work;
-4. You have both a local and an online copy of your work that remain in sync;
-5. It is fully transparent as to who made a contribution, why they made it, and when; and
-6. You can have multiple people working on the same project at once in parallel.
+1. Vous gardez des copies de tout votre travail dans le temps;
+2. Vous pouvez comparer le travail à travers différentes copies dans le temps, ce qui permet de repérer des bugs ou des erreurs;
+3. D'autres personnes peuvent collaborer ouvertement avec votre travail.
+4. Vous avez une copie locale et une copie en ligne de votre travail qui restent synchronisées;
+5. Il est totalement transparent de savoir qui a apporté une contribution, pourquoi et quand; et
+6. Vous pouvez avoir plusieurs personnes travaillant sur le même projet à la fois en parallèle.
 
-While this was primarily designed for source code, it should be instantly obvious how this becomes a powerful tool for virtually all research workflows.
+Bien que cela ait été principalement conçu pour le code source, il devrait être immédiatement évident de voir comment cela devient un puissant outil pour pratiquement tous les flux de travaux de recherche.
 
   
 
 
 ### RStudio <a name="Rstudio"></a>
 
-RStudio is a popular coding environment for researchers who use the statistical programming language, R. It comes with a text editor, so you don't have to install another and switch between. It also includes a graphical user interface (GUI) to Git and GitHub, which we will be using here.
+RStudio est un environnement de codage populaire pour les chercheurs utilisant le langage de programmation statistique R. Il est fourni avec un éditeur de texte. Vous n'avez donc pas besoin d'en installer un autre ni de basculer entre eux. Il inclut également une interface utilisateur graphique (GUI) pour Git et GitHub, que nous allons utiliser ici.
 
-Isn't it nice when brilliant Open Source tools integrate seamlessly like that. This should help to make your daily use of Git much simpler.
+N’est-ce pas agréable lorsque de brillants outils Open Source s’intègrent parfaitement comme ça Cela devrait vous aider à simplifier votre utilisation quotidienne de Git.
 
-If at any point you need to install new packages for R, simply use the following command:
+Si à un moment quelconque vous devez installer de nouveaux packages pour R, utilisez simplement la commande suivante:
 
-`install.packages("PACKAGE NAME", dependencies = TRUE)`
+`install.packages ("NOM DU PAQUET", dependencies = TRUE)`
 
-Replacing `PACKAGE NAME` with the, er, package name. Some examples you can play with that might come in useful include `knitr`, `devtools` or `ggplot2`.
+Remplacer `PACKAGE NAME` par le, er, nom du package. Certains exemples avec lesquels vous pouvez jouer et qui pourraient s'avérer utiles incluent `knitr`, `devtools` ou `ggplot2`.
 
   
 
 
-## Step one: Download all the things <a name="one"></a>
+## Première étape: télécharger toutes les choses <a name="one"></a>
 
-1. You should already have a GitHub account by now if you have followed the previous tasks. If not, [sign up here](https://github.com/). Free unlimited repositories for all!
-2. Download and install the latest version of [R](https://www.r-project.org/). Also available for [Mac](https://cloud.r-project.org/) and [Linux](https://cloud.r-project.org/bin/linux/).
-3. Download and install the latest version of [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, hey, looks it Open Source! Swish.
-4. Download and install the latest version of [Git](https://gitforwindows.org/). **Make sure to Select “Use Git from the Windows Command Prompt” during installation.**
+1. Vous devriez déjà avoir un compte GitHub maintenant si vous avez suivi les tâches précédentes. Sinon, [signe ici](https://github.com/). Dépôts illimités gratuits pour tous!
+2. Téléchargez et installez la dernière version de [R](https://www.r-project.org/). Egalement disponible pour [Mac](https://cloud.r-project.org/) et [Linux](https://cloud.r-project.org/bin/linux/).
+3. Téléchargez et installez la dernière version de [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, hé, ça a l'air Open Source! Bruissement.
+4. Téléchargez et installez la dernière version de [Git](https://gitforwindows.org/). **Assurez-vous de sélectionner “Utiliser Git à partir de l'invite de commande Windows” lors de l'installation.**
 
-> **Pro-tip**: To update all of your R packages in one, simply execute the following code `update.packages(ask = FALSE, checkBuilt = TRUE)`
+> **Astuce**: pour mettre à jour tous vos paquets R en un, exécutez simplement le code suivant `update.packages (ask = FALSE, checkBuilt = TRUE)`
 
-For now, just choose all the usual default options for each install. Depending on which Operating System (e.g., Mac, Windows, Linux), this might be different for each of you. For now, and for the rest of this task, we're going to stick with doing things the easy-ish Windows way (but also provide some instructions for using the command line).
+Pour l'instant, il suffit de choisir toutes les options par défaut habituelles pour chaque installation. Selon le système d'exploitation utilisé (Mac, Windows, Linux, par exemple), cela peut être différent pour chacun d'entre vous. Pour l'instant, et pour le reste de cette tâche, nous allons continuer à faire les choses à la manière la plus simple possible de Windows (mais nous fournirons également quelques instructions pour utiliser la ligne de commande).
 
-For Linux or Debian users, simply use the following command to install Git:
+Pour les utilisateurs Linux ou Debian, utilisez simplement la commande suivante pour installer Git:
 
 `sudo apt-get install git-core`
 
-For Mac users, [this link](http://git-scm.com/download/mac), or purchase a new laptop with a different operating system.
+Pour les utilisateurs de Mac, [ce lien](http://git-scm.com/download/mac), ou achetez un nouvel ordinateur portable avec un système d'exploitation différent.
 
-If you want, you can also download the [local version of GitHub](https://desktop.github.com/) and use it through the simple GUI. It's available on Windows and Mac and Linux, and can make your life a little easier, especially if you want to use a different platform to RStudio.
+Si vous le souhaitez, vous pouvez également télécharger la version [locale de GitHub](https://desktop.github.com/) et l'utiliser via la simple interface graphique. Disponible sur Windows, Mac et Linux, il peut vous simplifier la vie, surtout si vous souhaitez utiliser une plate-forme différente de RStudio.
 
-> **Pro-tip:** You see when installing Git it says 'Use Git Bash as shell for Git projects?' This is the place where you can use the command-line to access Git from outside of RStudio. It's a powerful beast. Try the following two commands to get started:
+> **Astuce:** Lors de l’installation de Git, vous voyez «Utiliser Git Bash comme shell pour les projets Git? C’est à cet endroit que vous pouvez utiliser la ligne de commande pour accéder à Git depuis l’extérieur de RStudio. C'est une bête puissante. Essayez les deux commandes suivantes pour commencer:
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
+`git config --global user.name 'VOTRE NOM D'UTILISATEUR'`   
+`git config --global user.email 'VOTRE EMAIL'`   
 
 
-## Step two: Configure Git inside RStudio <a name="two"></a>
+## Deuxième étape: configurer Git dans RStudio <a name="two"></a>
 
-Right, that's the easy bit done. Next, go into RStudio, and in the tabs at the top go to Go to **Tools > Global Options > Git/SVN**. SVN is just another version control system like Git, and we don't need to worry about that here.
+Bon, c'est la partie facile faite. Ensuite, allez dans RStudio, et dans les onglets en haut, allez à Aller à **Outils> Options globales> Git / SVN**. SVN est juste un autre système de contrôle de version comme Git, et nous n’avons pas à nous en préoccuper ici.
 
-In the place where it says *Git executable*, add the pathway here to the git.exe file that you just downloaded in the previous step. Make sure the box here that says **Enable version control interface for RStudio projects** is ticked. This now has tied version control to future projects in RStudio, to provide a really powerful additional dimension to collaborative or solo work.
+À l'endroit où il est indiqué *exécutable Git*, ajoutez le chemin ici au fichier git.exe que vous venez de télécharger à l'étape précédente. Assurez-vous que la case **Activer l'interface de contrôle de version pour les projets RStudio** est cochée. Cela a maintenant lié le contrôle de version aux projets futurs dans RStudio, afin de fournir une dimension supplémentaire vraiment puissante au travail collaboratif ou solo.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git_svn.png?raw=true" width="400px"/>
 </p>
 
-<p align="center"><i>The Global Options window inside RStudio</i></p>
+<p align="center"><i>La fenêtre Options globales à l'intérieur de RStudio</i></p>
 
   
 
 
-Next, hit the button in this window that says *Create RSA Key*, This is a private key that is used for authentication between different systems, and saves you from having to type in your password over and over. Here, it will pop up a new window with a public key, that you want to copy to your clipboard.
+Ensuite, cliquez sur le bouton dans cette fenêtre qui dit *Créer RSA Key*, Ceci est une clé privée qui est utilisé pour l' authentification entre les différents systèmes, et vous évite d'avoir à taper votre mot de passe à plusieurs reprises. Ici, une nouvelle fenêtre contenant une clé publique que vous souhaitez copier dans votre presse-papiers s’ouvrira.
 
-Head over to GitHub, go to your profile settings, and the *SSH and GPG keys* tab. Click *New SSH key*. Here, paste in the key from RStudio, and call it something imaginative like 'RStudio'.
+Rendez -vous sur GitHub, allez à vos paramètres de profil, et le *SSH et les clés GPG* onglet. Cliquez sur *New SSH key*. Ici, collez la clé de RStudio et appelez-la de manière imaginative telle que "RStudio".
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/ssh_key.png?raw=true" width="800px"/>
 </p>
 
-<p align="center"><i>Inside GitHub where you will want to enter the key you just generated in RStudio</i></p>
+<p align="center"><i>Dans GitHub où vous voulez entrer la clé que vous venez de générer dans RStudio</i></p>
 
   
 
 
-OK, now hold on to your butts, we're going into the command line. Don’t worry if you’ve never used the shell before because it’s quite similar to using R, or any other coding system. The main difference here though is that instead of calling functions like in R, you call commands.
+OK, maintenant, tiens tes fesses, nous allons dans la ligne de commande. Ne vous inquiétez pas si vous n'avez jamais utilisé le shell auparavant, car il ressemble beaucoup à l'utilisation de R ou de tout autre système de codage. La principale différence ici cependant est qu’au lieu d’appeler des fonctions comme dans R, vous appelez des commandes.
 
-So back in RStudio, go to **Tools > Shell**, and it will open up a command prompt window. If you already played with the Git Bash above, you should have done this step already. Enter the following two commands:
+De retour dans RStudio, allez à **Outils> Shell**et une fenêtre d’invite de commande s’ouvrira. Si vous avez déjà joué avec le Git Bash ci-dessus, vous devriez déjà avoir fait cette étape. Entrez les deux commandes suivantes:
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
-
-
-Hopefully it does not have to be said to substitute in your own GitHub username and email here. You can access this at any point just by finding the 'Shell' within Windows. Or, if you right click on any folder on your Desktop that is linked to a GitHub repo, you can open up the Shell instantly and Bash away.
-
-What this stage has done is configure Git, which is software that runs on your desktop, to GitHub, which is a repository website.
-
-Restart R Studio. Whew, that was tough. Next.
-
-  
+`git config --global user.name 'VOTRE NOM D'UTILISATEUR'`   
+`git config --global user.email 'VOTRE EMAIL'`   
 
 
-## Step three: Why did I just do that? <a name="three"></a>
+Espérons qu'il ne soit pas nécessaire de dire de substituer votre nom d'utilisateur et votre email GitHub ici Vous pouvez y accéder à tout moment simplement en trouvant le «shell» dans Windows. Ou, si vous cliquez avec le bouton droit de la souris sur n’importe quel dossier de votre bureau lié à un dépôt GitHub, vous pouvez ouvrir le shell instantanément et l’écarter.
 
-OK, hold your breathe, we're going to pause here just to learn some basic Git commands. Some of the key ones you could do with learning are:
+Au cours de cette étape, vous avez configuré Git, un logiciel exécuté sur votre bureau, avec GitHub, un site Web de référentiel.
 
-* **Add**: This is where you submit files to the staging area before being committed.
-
-* **Commit** This is like 'saving' your work by creating a new version or copy.
-
-* **Push**: This is how you send files from your local project to the online repository.
-
-* **Pull**: This is how you get files from your online repository to your local project.
-
-Back in RStudio, type in the following into the *Terminal*, or by opening up a new Shell:
-
-`git add .`
-
-It won't actually do anything for now, but in the future will add all files in your current working directory (that's what the `.` does) to staging ready for a commit.
+Redémarrez R Studio. Ouf, c'était dur. Suivant.
 
   
 
 
-## Step four: The perfect marriage between Git and R <a name="four"></a>
+## Troisième étape: Pourquoi est-ce que je viens de faire ça? <a name="three"></a>
 
-Now, in Task 1, you should have learned how to build your very first GitHub repository. If you haven't done that, we can wait here while you go and do that. If you have already, or have an existing GitHub repository, we can move on.
+OK, retiens ton souffle, nous allons faire une pause ici pour apprendre quelques commandes de base de Git. Voici quelques exemples clés que vous pouvez utiliser pour apprendre:
 
-So, you should have a repository on GitHub, complete with a `README` file, a `LICENSE` file and some other bits and bobs.
+* **Ajouter**: C'est ici que vous envoyez des fichiers dans la zone de transfert avant d'être validés.
 
-What we are going to do now, is integrate that repository with Git. Steady now.
+* **Commit** Cela revient à "enregistrer" votre travail en créant une nouvelle version ou une copie.
 
-1. Firstly, go to **Project > Create Project > Version Control > Git**.
-2. Back on GitHub, you should see a bit where there is a https:// URL. That is the link to your repository, and it gives you the option to clone it in your desktop. For now, just copy that link, switch back to RStudio, and paste it into the 'Repository URL' as indicated.
-3. Give the project a directory name, like test, Jim, or whatever you want.
-4. Next, browse for the place on your desktop where you want this project to live, its subdirectory.
-5. Click 'Create Project', and let the magic be done!
+* **Push**: Voici comment vous envoyez des fichiers de votre projet local au référentiel en ligne.
 
-What you just did was tell RStudio to associate a new project in R with specific repository on GitHub.
+* **Pull**: C’est ainsi que vous récupérez les fichiers de votre référentiel en ligne vers votre projet local.
 
-## **Step four: Alternative**
+De retour dans RStudio, tapez ce qui suit dans le *Terminal*ou en ouvrant un nouveau shell:
 
-If you still haven't built your first repository on GitHub, we can do something slightly different here. In RStudio, click *New project* and then *New Directory*. Call it what you want and change the directory as needed, make sure to tick *Create a git repository*, and then click *Create Project*. This creates an `.Rproj` file, which you can manage in the usual way through RStudio, including adding `README.md`and `LICENSE.md` files as discussing in Task 1.
+`git add.`
 
-## Step five: Getting content with content <a name="five"></a>
+Il ne fera quoi que ce soit pour l' instant, mais à l'avenir ajoutera tous les fichiers dans votre répertoire de travail courant (c'est ce que le `.` ) vers les mettant en scène prêt pour une livraison .
 
-Remember that `README` file we created a while back? Well, it's time to write it. Thinking back to Task 1, there were some specific things that we said make a good `README` file. Do you remember what any of them were? Just to refresh your memory, these were:
+  
 
-* What is this project about and what does it do.
-* Why should people care, and why is it useful.
-* How can someone get started contributing to the project.
-* Who can be contacted in case someone needs help.
-* A link to the license, contributing guidelines, and code of conduct.
-* A description of the project structure.
-* Who is involved, and what are their roles.
-* The current status of the project.
 
-So, in RStudio, open that file try adding just a bit of information about this for your project. If you are doing this for an actual project, try and make it useful. If you are just tinkering for now, you can add what you want.
+## Quatrième étape: le mariage parfait entre Git et R <a name="four"></a>
 
-Remember that your `README` file is in markdown (.md) format. For a refresher on some of the simple syntax markdown uses, check this [handy cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Maintenant, dans la tâche 1, vous devriez avoir appris à construire votre tout premier référentiel GitHub. Si vous ne l'avez pas fait, nous pouvons attendre ici pendant que vous y allez. Si vous avez déjà un référentiel GitHub ou en possédez un, nous pouvons continuer.
+
+Donc, vous devriez avoir un référentiel sur GitHub, avec un fichier `README` , un fichier `LICENSE` et quelques autres bits et bobs.
+
+Ce que nous allons faire maintenant, c'est intégrer ce référentiel à Git. Stable maintenant.
+
+1. Tout d’abord, allez à **Projet> Créer un projet> Contrôle de version> Git**.
+2. De retour sur GitHub, vous devriez voir un peu où il y a une URL https: //. C'est le lien vers votre référentiel, et cela vous donne la possibilité de le cloner sur votre bureau. Pour l'instant, copiez simplement ce lien, revenez à RStudio et collez-le dans "l'URL du référentiel" comme indiqué.
+3. Donnez au projet un nom de répertoire, tel que test, Jim ou ce que vous voulez.
+4. Ensuite, recherchez l'emplacement de votre projet sur votre bureau, son sous-répertoire.
+5. Cliquez sur 'Créer un projet' et laissez la magie se faire!
+
+Vous venez de dire à RStudio d’associer un nouveau projet R avec un référentiel spécifique sur GitHub.
+
+## **Quatrième étape: alternative**
+
+Si vous n'avez toujours pas construit votre premier référentiel sur GitHub, nous pouvons faire quelque chose de légèrement différent ici. Dans RStudio, cliquez sur *New project* , puis sur *New Directory*. Appelez-le comme vous le souhaitez et modifiez le répertoire selon vos besoins, cochez la case *Créer un référentiel git*, puis cliquez sur *Create Project*. Cela crée un fichier `.Rproj` , que vous pouvez gérer de manière habituelle via RStudio, notamment en ajoutant `fichiers README.md`et `LICENSE.md` comme indiqué dans la tâche 1.
+
+## Cinquième étape: obtenir du contenu avec le contenu <a name="five"></a>
+
+Rappelez-vous que `fichier LISEZMOI` que nous avons créé il y a longtemps? Eh bien, il est temps de l'écrire. En repensant à la tâche 1, nous avons dit que certaines choses spécifiques constituent un bon fichier `README`. Vous souvenez-vous de ce qu'ils étaient? Juste pour vous rafraîchir la mémoire, voici:
+
+* De quoi parle ce projet et que fait-il?
+* Pourquoi les gens devraient-ils s'en préoccuper et pourquoi est-ce utile?
+* Comment peut-on commencer à contribuer au projet?
+* Qui peut être contacté au cas où quelqu'un aurait besoin d'aide?
+* Un lien vers la licence, les directives de contribution et le code de conduite.
+* Une description de la structure du projet.
+* Qui est impliqué et quels sont leurs rôles.
+* Le statut actuel du projet.
+
+Donc, dans RStudio, ouvrez ce fichier, essayez d’ajouter quelques informations à ce sujet pour votre projet. Si vous faites cela pour un projet réel, essayez de le rendre utile. Si vous ne faites que bricoler pour le moment, vous pouvez ajouter ce que vous voulez.
+
+N'oubliez pas que votre fichier `README` est au format Markdown (.md). Pour un rappel sur quelques utilisations simples de la syntaxe markdown, consultez cette feuille de triche [pratique](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/markdown.png?raw=true" width="600px"/>
 </p>
 
-<p align="center"><i>Screenshot of what this module looks in markdown, during development. Meta.</i></p>
+<p align="center"><i>Capture d'écran de ce que ce module regarde dans Markdown, pendant le développement. Méta.</i></p>
 
   
 
 
-## Step six: A brave commitment <a name="six"></a>
+## Sixième étape: un engagement courageux <a name="six"></a>
 
-OK, so now you should have a nicely edited `README` file. Now we are going to 'commit' this to the project using Git. This is basically the equivalent of saving this version of your project, with a record of what changes were made. Successive commits produce a history that can be examined at a later time, allowing you to work with confidence.
+OK, vous devriez maintenant avoir un fichier `README` bien édité. Nous allons maintenant «engager» ceci dans le projet en utilisant Git. En gros, cela équivaut à enregistrer cette version de votre projet, avec un enregistrement des modifications apportées. Les commits successifs produisent une histoire qui peut être examinée ultérieurement, ce qui vous permet de travailler en toute confiance.
 
-There are a few ways of doing this.
+Il y a plusieurs façons de le faire.
 
-1. Go to **Tools > Version Control > Commit**
-2. In the environment pane in RStudio, there should be a new 'Git' tab. Handy.
-3. In your console pane, there should now be a new 'Terminal', which you can run Git command lines through.
+1. Allez à **Outils> Contrôle de version> Valider**
+2. Dans le volet environnement de RStudio, il devrait y avoir un nouvel onglet "Git". Pratique.
+3. Dans le volet de votre console, il devrait maintenant y avoir un nouveau "Terminal", avec lequel vous pouvez exécuter les lignes de commande Git.
 
-Let's just stick with the second option for now. This Git pane shows you which files have been changed and includes buttons for the most important Git commands we saw earlier.
+Restons juste avec la deuxième option pour le moment. Cette sous-fenêtre Git vous indique quels fichiers ont été modifiés et inclut des boutons pour les commandes Git les plus importantes que nous avons vues précédemment.
 
-Select the `README` file in the Git window, which should show up automatically if you have made any edits to it. This adds that file to the 'staging' area, which is sort of like the pre-saving space for your work. Click 'Commit' and a new window should pop up.
+Sélectionnez le fichier `README` dans la fenêtre Git, qui devrait s'afficher automatiquement si vous l'avez modifié. Cela ajoute ce fichier à la zone de "stockage intermédiaire", ce qui est un peu comme l'espace de pré-économie pour votre travail. Cliquez sur 'Commit' et une nouvelle fenêtre devrait apparaître.
 
-Here, you have a chance to review your changes, and write a nice commit message. Type in something brief, but informative about the changes that you have made in this version or snapshot of your work. You want this to be enough information so that if you or someone else looks back on it, you'll know why you made this commit and the changes associated with it. These are like safety nets for your project in case you need to fall back for some reason.
+Ici, vous avez la possibilité de passer en revue vos modifications et d’écrire un message de validation intéressant. Tapez quelque chose de bref, mais informatif sur les modifications que vous avez apportées dans cette version ou un instantané de votre travail. Vous souhaitez que ces informations soient suffisantes pour que, si vous ou une autre personne pouvez y revenir, vous sachiez pourquoi vous avez effectué ce commit et les modifications qui y sont associées. Ce sont comme des filets de sécurité pour votre projet au cas où vous auriez besoin de vous retirer pour une raison quelconque.
 
-> **Pro-tip**: Here, you will see a list of all the changes you have made since your last commit. Older removed lines are in red, and newly added lines are in green. Double check these to make sure that the edits you have made are the ones you intended to make. This is really helpful for spotting typos, stray edits, and any other little mistakes you might have accidentally introduced. Safety first.
+> **Pro-tip**: Ici, vous verrez une liste de tous les changements que vous avez effectués depuis votre dernier commit Les anciennes lignes supprimées sont en rouge et les lignes nouvellement ajoutées sont en vert. Vérifiez-les deux fois pour vous assurer que les modifications que vous avez apportées sont celles que vous aviez l'intention de faire. Ceci est vraiment utile pour repérer les fautes de frappe, les modifications perdues et toute autre petite erreur que vous pourriez avoir accidentellement introduite. La sécurité d'abord.
 
-**Note** If you are colour-blind and can't see which lines have been added or removed, you can use the line numbers in the two columns on the left of the window as a guide. Here, the number in the first column identifies the older version, and the number in the second column identifies the new version.
+**Remarque** Si vous êtes daltonien et que vous ne voyez pas quelles lignes ont été ajoutées ou supprimées, vous pouvez utiliser les numéros de ligne des deux colonnes à gauche de la fenêtre. Ici, le numéro de la première colonne identifie l'ancienne version et le numéro de la deuxième colonne identifie la nouvelle version.
 
-Now when you click 'Commit', another window will pop up, telling you how many files you have changed and the number of lines within that file you have changed. Close that little window down.
-
-  
-
-
-## Step seven: PUSH! <a name="seven"></a>
-
-Click the *Push* button in the top right of the new window. A new window will pop up now. What this is doing is synchronising the files changed on your local repository with the `README` file to the online version of the project on GitHub.
-
-To do this from the Shell, use the following command:
-
-`git push -u origin master`
-
-Some times here you will be prompted to add your username and password from GitHub, which you should do if asked.
-
-Close that window down, and the next one. Go to your project on GitHub, refresh, and check that the `README` file is still there in all its newly edited glory. You should see the commit message you made next to the file too.
+Maintenant, lorsque vous cliquez sur 'Valider', une autre fenêtre apparaîtra, vous indiquant le nombre de fichiers que vous avez modifiés et le nombre de lignes que vous avez modifiées. Fermez cette petite fenêtre.
 
   
 
 
-**OPTIONAL ADVANCED/AWESOME STEP**
+## Septième étape: PUSH! <a name="seven"></a>
 
-Alright, so you just pushed some content to your first repo, awesome! Now let's put it into practice for a real project. Like, the one you are participating in right now. Let's try this out:
+Cliquez sur le bouton *Push* en haut à droite de la nouvelle fenêtre. Une nouvelle fenêtre apparaîtra maintenant. Cela permet de synchroniser les fichiers modifiés sur votre référentiel local avec le fichier `README` avec la version en ligne du projet sur GitHub.
 
-1. Go to the repository for this project on [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
+Pour ce faire à partir du shell, utilisez la commande suivante:
 
-2. Fork the repository to your own GitHub account. The URL for this should be: `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
+`git push -u origine master`
 
-3. Head into RStudio, go to **File > New Project**, choose *Version Control*, select *Git*, and then paste the forked repository URL found in your copy of the repository. You now have your own versioned copy of this whole module. Neat. Save this somewhere on your local machine.
+Quelques fois ici, vous serez invité à ajouter votre nom d'utilisateur et mot de passe de GitHub, que vous devriez faire si demandé.
 
-4. Now, you need to tell Git that a different version of this project exists. Open up the *Shell*, and enter the command: `git remote add upstream https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
+Fermez cette fenêtre et la suivante. Accédez à votre projet sur GitHub, actualisez et vérifiez que le fichier `README` est toujours présent dans toute sa gloire. Vous devriez également voir le message de validation que vous avez créé à côté du fichier.
 
-5. What you just did was name the original branch here `upstream`, just to keep things simple for now. Now, create a new **branch** to document your changes to this independent of the main branch. Enter the command: `git checkout -b proposed-changes master`
+  
 
-6. You just created a new branch called `proposed-changes` where you can now edit all of the content and files to your heart's delight. Hopefully, the structure of this project is simple enough for you to navigate around. All of the raw files for the MOOC can be found in the `content_development` folder, and this is `Task_3.md`.
 
-7. If you scroll to the bottom of `Task_3.md`, you should see a place where you can edit in your name and affiliation. Add these in, and then go through the commit procedure detailed above. If you see anything else that needs editing too, feel free to add them in too!
+**ÉTAPE OPTIONNELLE AVANCÉE / IMPRESSIONNANTE**
 
-8. Now, you want to push the changes back to the original branch. Use the following command in your *Shell*: `git push origin proposed-changes`
+Bon, alors vous venez de placer du contenu dans votre premier dépôt, génial! Maintenant, mettons cela en pratique pour un vrai projet. Par exemple, celui auquel vous participez actuellement. Essayons ceci:
 
-9. Go back to GitHub and find your fork here. Click the little green button, and create a pull request. This is essentially a review to integrate the changes made into the original branch for this MOOC project.
+1. Accédez au référentiel de ce projet sur [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
 
-10.     The owners in charge of the MOOC project will now get a notification of this, review it, and confirm it if everything went to plan! We will review it, and if it all went okay, your name will now appear for all eternity as someone who completed this advanced task.
+2. Ajoutez le référentiel à votre propre compte GitHub. L'URL pour cela devrait être: `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
+
+3. Rendez-vous dans RStudio, accédez à **Fichier> Nouveau projet**, choisissez *Version Control*, sélectionnez *Git*, puis collez l'URL du référentiel créé dans votre copie du référentiel. Vous avez maintenant votre propre copie versionnée de tout ce module. Soigné. Enregistrez ceci quelque part sur votre ordinateur local.
+
+4. Maintenant, vous devez dire à Git qu’une version différente de ce projet existe. Ouvrez le *Shell*et entrez la commande: `git ajouter à distance en amont https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
+
+5. Ce que vous venez de faire, c’est de nommer la branche originale ici `amont`, histoire de simplifier les choses. Maintenant, créez une nouvelle branche **** pour documenter vos modifications indépendamment de la branche principale. Entrez la commande: `git checkout -b propose-changements maître`
+
+6. Vous venez de créer une nouvelle branche appelée `changes-changes proposés` où vous pouvez maintenant modifier tout le contenu et les fichiers à votre guise. Espérons que la structure de ce projet est suffisamment simple pour vous permettre de naviguer. Tous les fichiers bruts du MOOC se trouvent dans le dossier `content_development` , il s’agit de `Task_3.md`.
+
+7. Si vous faites défiler la liste vers le bas `Task_3.md`, vous devriez voir un endroit où vous pouvez modifier votre nom et votre affiliation. Ajoutez-les, puis suivez la procédure de validation décrite ci-dessus. Si vous voyez autre chose à éditer, n'hésitez pas à l'ajouter!
+
+8. Maintenant, vous voulez repousser les modifications dans la branche d'origine. Utilisez la commande suivante dans votre *Shell*: `origine proposée par git push-changes`
+
+9. Retournez sur GitHub et trouvez votre fourche ici. Cliquez sur le petit bouton vert et créez une demande de tirage. Il s’agit essentiellement d’une revue visant à intégrer les modifications apportées à la branche originale de ce projet MOOC.
+
+10.     Les propriétaires en charge du projet MOOC vont maintenant recevoir une notification à ce sujet, l'examiner et le confirmer si tout se passe bien! Nous allons l'examiner et si tout s'est bien passé, votre nom apparaîtra pour toute l'éternité en tant que personne qui a effectué cette tâche avancée.
       
 
-11.     Have a cup of tea, coffee, or wine to celebrate!
+11.     Prenez une tasse de thé, café ou vin pour célébrer!
       
 
-**CONGRATULATIONS**
+**TOUTES NOS FÉLICITATIONS**
 
-You just integrated Git with R Studio, and made your first change to a version controlled project. Your life will now never be the same, and your research workflow will probably be more rapid, agile, and collaborative than ever. Good luck going back to Word.
+Vous venez d'intégrer Git à R Studio et apportez votre première modification à un projet contrôlé par la version. Votre vie ne sera plus jamais la même et votre flux de travail de recherche sera probablement plus rapide, plus agile et plus collaboratif que jamais. Bonne chance pour revenir à Word.
 
-The great thing is that this doesn't have to just be used for code. You can use it for plain text, markdown, html, and, well, R code. The possibilities are limitless - what you have just learned is a new form of openly collaborative project management that works for an enormous range of tasks.
+La grande chose est que cela ne doit pas simplement être utilisé pour le code. Vous pouvez l'utiliser pour du texte brut, du balisage, du code HTML et, bien, du code R. Les possibilités sont illimitées. Ce que vous venez d’apprendre est une nouvelle forme de gestion de projet ouvertement collaborative qui fonctionne pour un très grand nombre de tâches.
 
-From now on, it is all up to you! Some advice is to:
+A partir de maintenant, tout dépend de vous! Un conseil est de:
 
-* Make frequent commits. Treat Git like your puppy, in that it requires constant and special attention. Just a pat on the head every now and then is enough to keep it satisfied, but it'll be happiest with sustained servicing.
+* Faites des commits fréquents. Traitez Git comme votre chiot, car il nécessite une attention constante et particulière. Juste une tape sur la tête de temps en temps est suffisant pour le satisfaire, mais ce sera plus heureux avec un entretien prolongé.
 
-* The best way to do this is to make a commit each time you work on a specific problem. For example, writing a paragraph, running an analysis, or fixing a bug.
+* La meilleure façon de le faire est de faire un commit à chaque fois que vous travaillez sur un problème spécifique. Par exemple, écrire un paragraphe, exécuter une analyse ou réparer un bogue.
 
-* Push often. Don't let those commits build up, otherwise you run more risk of getting into merge conflicts. Seeing as these can be the stuff of nightmares, just make sure to push often.
+* Poussez souvent. Ne laissez pas ces commits s'accumuler, sinon vous courez plus de risques d'entrer dans des conflits de fusion. Étant donné que cela peut faire l’objet de cauchemars, veillez à pousser souvent.
 
-* Pull often. If others are working remotely on the same project, you will want to stay up to date with their changes. Make sure to frequently pull in their changes from GitHub to make sure you are all in sync.
+* Tirez souvent. Si d'autres personnes travaillent à distance sur le même projet, vous voudrez rester au courant de leurs modifications. Veillez à extraire fréquemment leurs modifications de GitHub pour vous assurer que vous êtes tous synchronisés.
 
-* Experiment and explore! This task really only scratches the surface, and there are many different functions, tools, and ways this can be used. Really, it is up to you to find out how to use this information to improve your research workflow, and ultimately collaborate on better, more open and reliable research!
+* Expérimentez et explorez! En réalité, cette tâche ne fait qu'effleurer la surface, et il existe de nombreuses fonctions, outils et méthodes d'utilisation. En réalité, il vous appartient de découvrir comment utiliser ces informations pour améliorer votre flux de travail de recherche et enfin collaborer à une recherche de meilleure qualité, plus ouverte et fiable!
 
-* To learn more about issues, branches, merge conflicts, pull requests, and other advanced aspects of using Git and RStudio, check out this [awesome guide](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham.
+* Pour en savoir plus sur les problèmes, les branches, conflits de fusion, tirer les demandes, et d' autres aspects avancés de l' utilisation de Git et rstudio, consultez ce [awesome guide](http://r-pkgs.had.co.nz/git.html) par Hadley Wickham.
 
   
 
 
-**Know a way this content can be improved?**
+**Connaissez-vous un moyen d'améliorer ce contenu?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Il est temps de tester vos nouvelles compétences GitHub! Tout développement de contenu passe principalement par [ici](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). Si vous avez une suggestion d'amélioration à apporter au contenu, à la présentation ou à quelque chose d'autre, vous pouvez le créer et il sera automatiquement intégré au contenu du MOOC après vérification par un modérateur!
 
-## List of participants who completed the ADVANCED version of this task
+## Liste des participants ayant terminé la version AVANCÉE de cette tâche
 
-* Brendan Palmer,CRF-C, University College Cork
-* Lisa Matthias, Freie Universität Berlin
-* Hollie Marshall, University of Leicester 
-* Eric D. Wilkey, Western University, Canada
-* José-Raúl Canay-Pazos, Universidade de Santiago de Compostela, Spain
-* Encarnación Martínez Álvarez, Spain
-* Alberto Albz Marocchino, Italy
-* Iratxe Rubio, Basque Centre for Climate Change BC3
-* Gabriele Orlandi, Paris School of Advanced Studies in Social Sciences (EHESS), France
-* Hande Sodacı, Turkey
-* Luke W. Johnston, Aarhus University, Denmark
-* Philippe Joly, WZB and HU-Berlin
-* Paul Griffiths, NCAS and U. Cambridge
-* Harin Lee, Goldsmiths, University of London
-* Luis Camacho, Catholic University, Perú
-* Tom Cridford, Imperial College London
-* Nithiya Streethran, University of Stavanger 
+* Brendan Palmer, CRF-C, Université College Cork
+* Lisa Matthias, université libre de Berlin
+* Hollie Marshall, Université de Leicester 
+* Eric D. Wilkey, Université Western, Canada
+* José-Raúl Canay-Pazos, Université de Saint-Jacques-de-Compostelle, Espagne
+* Encarnación Martínez Álvarez, Espagne
+* Alberto Albz Marocchino, Italie
+* Iratxe Rubio, Centre basque pour le changement climatique BC3
+* Gabriele Orlandi, École supérieure de sciences sociales de Paris (EHESS), France
+* Hande Sodacı, Turquie
+* Luke W. Johnston, Université d’Aarhus, Danemark
+* Philippe Joly, WZB et HU-Berlin
+* Paul Griffiths, NCAS et U. Cambridge
+* Harin Lee, Goldsmiths, Université de Londres
+* Luis Camacho, Université catholique, Pérou
+* Tom Cridford, Imperial College de Londres
+* Nithiya Streethran, Université de Stavanger 
 
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Dédicace du domaine public CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
