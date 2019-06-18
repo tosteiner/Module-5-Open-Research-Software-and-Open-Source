@@ -1,85 +1,85 @@
-## Module 5: Initiate and plan
+## Модуль 5: Инициирование и планирование
 
-### Define the target groups
+### Определите целевые группы
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- Вычислительные исследователи
+- Аспиранты и студенты
+- Ученые данных
+- Любой другой исследователь, который использует аналитический код / программное обеспечение
 
-### Refine the learning objectives and outcomes
+### Уточните цели обучения и результаты
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
-- The learner will be able to use a range of research tools that utilise open source software.
-- Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
+- Учащийся сможет определить характеристики программного обеспечения для исследований с открытым исходным кодом, а также этические, правовые, экономические и исследовательские аргументы за и против него.
+- На основе стандартов сообщества учащиеся смогут описать требования к качеству совместного использования и повторного использования открытого кода.
+- Учащийся сможет использовать ряд исследовательских инструментов, использующих программное обеспечение с открытым исходным кодом.
+- Отдельные учащиеся смогут преобразовать код, разработанный для их личного использования, в код, который доступен и повторно используется другими.
 
-### Design the course outline
+### Разработка плана курса
 
-1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
-3. What open, collaborative platforms, with version control, exist.
-4. Why should code be shared as a research output.
-5. How to use GitHub combined with the Zenodo plug-in for code archiving.
-6. How to document and publish code, and what makes good software for re-use, including testing and comments.
-7. Open Source licensing.
-8. Tools for better open research
-9. Community codes, governance, and contributions.
-10. How to access and start working on general computing platforms
-11. Software citation.
-12. Differences in setting up accounts/storage/computing on different platforms.
-13. Comparison in terms of collaboration and openness with clusters/in-house servers.
-14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
+1. Что такое ПО с открытым исходным кодом, включая справочную информацию и примеры.
+2. Принципы открытого программного обеспечения.
+3. Какие открытые, совместные платформы, с контролем версий, существуют.
+4. Почему код должен быть передан в качестве результатов исследования.
+5. Как использовать GitHub в сочетании с плагином Zenodo для архивации кода.
+6. Как документировать и публиковать код, и что делает хорошее программное обеспечение для повторного использования, включая тестирование и комментарии.
+7. Лицензирование Open Source.
+8. Инструменты для лучшего открытого исследования
+9. Кодексы сообщества, управление и вклады.
+10. Как получить доступ и начать работать на общих вычислительных платформах
+11. Цитирование программного обеспечения.
+12. Различия в настройке аккаунтов / хранилищ / вычислений на разных платформах.
+13. Сравнение с точки зрения сотрудничества и открытости с кластерами / внутренними серверами.
+14. Куда вы можете пойти отсюда? Включает введение в сообщество Open Source и дополнительные ресурсы для обучения.
 
-### Design the project plan and timeline
+### Разработать план проекта и сроки
 
-- Start: May 2018.
-- Team finalisation: end of May 2018
-- Production start: June 2018
-- Draft of first scripts: end of June 2018
-- Draft of first textual content: end of June 2018
-- Recording and editing: July 2018
-- Designing practical exercises: July 2018
-- Finalisation of content: August 2018
-- Check with Steering Committee: end of August 2018
-- Release for beta testing: end of September 2018
+- Начало: май 2018 г.
+- Финальная команда: конец мая 2018
+- Начало производства: июнь 2018
+- Проект первых сценариев: конец июня 2018 г.
+- Проект первого текстового содержания: конец июня 2018 г.
+- Запись и редактирование: июль 2018 г.
+- Разработка практических упражнений: июль 2018 г.
+- Доработка контента: август 2018
+- Проверка в Руководящем комитете: конец августа 2018 г.
+- Релиз для бета-тестирования: конец сентября 2018
 
-### Identify promotion channels
+### Определить каналы продвижения
 
-- Relevant Twitter handles:
+- Соответствующие ручки Twitter:
     
-    - [Twitter Open Source](https://twitter.com/twitteross)
-    - [Open Source TV](https://twitter.com/opensourcetv)
+    - [Twitter с открытым исходным кодом](https://twitter.com/twitteross)
+    - [ТВ с открытым исходным кодом](https://twitter.com/opensourcetv)
     - [Open Source Initiative](https://twitter.com/OpenSourceOrg)
-    - [O'Reilly OSCON](https://twitter.com/oscon)
-    - [Chris Holdgraf](https://twitter.com/choldgraf)
-    - [Neil Saunders](https://twitter.com/neilfws)
-    - [Open Source Pharma](https://twitter.com/OSPInfo)
-    - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
-    - [Chris DiBona](https://twitter.com/cdibona)
-    - [Arfon Smith](https://twitter.com/arfon)
-    - [Jan Gondol](https://twitter.com/jangondol)
+    - [О'Рейли Оскон](https://twitter.com/oscon)
+    - [Крис Холдграф](https://twitter.com/choldgraf)
+    - [Нил Сондерс](https://twitter.com/neilfws)
+    - [Фарма с открытым исходным кодом](https://twitter.com/OSPInfo)
+    - [Эбби Кабунок Майес](https://twitter.com/abbycabs)
+    - [Крис ДиБона](https://twitter.com/cdibona)
+    - [Арфон Смит](https://twitter.com/arfon)
+    - [Ян Гондоль](https://twitter.com/jangondol)
     - [Конрад Форстнер](https://twitter.com/konradfoerstner)
-    - [Ina Smith](https://twitter.com/ismonet)
-    - [Coko Foundation](https://twitter.com/CokoFoundation)
+    - [Инна Смит](https://twitter.com/ismonet)
+    - [Фонд Коко](https://twitter.com/CokoFoundation)
     - [Google Open Source](https://twitter.com/GoogleOSS)
-    - [Carl Malamud](https://twitter.com/carlmalamud)
-    - [Code Is Science](https://twitter.com/codeisscience)
+    - [Карл Маламуд](https://twitter.com/carlmalamud)
+    - [Код Наука](https://twitter.com/codeisscience)
 
-- Organisations:
+- организации:
     
-    - [Software Carpentry](https://software-carpentry.org/)
-    - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
-    - [COKO Foundation](https://coko.foundation/)
-    - [Free Software Foundation](https://www.fsf.org/licensing/)
-    - [WSSSPE community](http://wssspe.researchcomputing.org.uk)
-    - [Open Research Software](http://openresearchsoftware.metajnl.com)
+    - [Программное обеспечение Плотницкие](https://software-carpentry.org/)
+    - [Институт Устойчивого Программного Обеспечения](https://www.software.ac.uk/software-sustainability-institute)
+    - [Фонд КОКО](https://coko.foundation/)
+    - [Фонд свободного программного обеспечения](https://www.fsf.org/licensing/)
+    - [Сообщество WSSSPE](http://wssspe.researchcomputing.org.uk)
+    - [Программное обеспечение Open Research](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
-    - [Free Software Foundation](https://www.fsf.org/)
+    - [Фонд свободного программного обеспечения](https://www.fsf.org/)
     - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
-    - [Ada Initiative](https://adainitiative.org/)
+    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (обратите внимание, что их сайт, кажется, сломан, январь 2019 г.)
+    - [Ада Инициатива](https://adainitiative.org/)
 
-- Mailing lists:
+- Списки рассылки:
     
-    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [Открытая наука](https://lists.okfn.org/mailman/listinfo/open-science)
