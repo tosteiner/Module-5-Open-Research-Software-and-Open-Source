@@ -14,72 +14,72 @@
 - 学员将能够使用一系列使用开放源码软件的研究工具。
 - 个人学习者将能够将个人使用而设计的代码转换成其他人可以访问和重新使用的代码。
 
-### Design the course outline
+### 设计课程大纲
 
-1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
-3. What open, collaborative platforms, with version control, exist.
-4. Why should code be shared as a research output.
-5. How to use GitHub combined with the Zenodo plug-in for code archiving.
-6. How to document and publish code, and what makes good software for re-use, including testing and comments.
-7. Open Source licensing.
-8. Tools for better open research
-9. Community codes, governance, and contributions.
-10. How to access and start working on general computing platforms
-11. Software citation.
-12. Differences in setting up accounts/storage/computing on different platforms.
-13. Comparison in terms of collaboration and openness with clusters/in-house servers.
-14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
+1. 什么是开源软件，包括背景和示例。
+2. 开源软件原理。
+3. 存在哪些开放的协作平台，具有版本控制。
+4. 为什么要将代码作为研究输出共享。
+5. 如何使用GitHub结合Zenodo插件进行代码归档。
+6. 如何记录和发布代码，以及什么使得良好的软件可以重复使用，包括测试和评论。
+7. 开源许可。
+8. 更好的开放式研究工具
+9. 社区代码，治理和贡献。
+10. 如何访问和开始在通用计算平台上工作
+11. 软件引用。
+12. 在不同平台上设置帐户/存储/计算的差异。
+13. 在集群/内部服务器的协作和开放性方面的比较。
+14. 你在哪里可以从这里出发？ 包括对开源社区的介绍以及进一步的学习资源。
 
-### Design the project plan and timeline
+### 设计项目计划和时间表
 
-- Start: May 2018.
-- Team finalisation: end of May 2018
-- Production start: June 2018
-- Draft of first scripts: end of June 2018
-- Draft of first textual content: end of June 2018
-- Recording and editing: July 2018
-- Designing practical exercises: July 2018
-- Finalisation of content: August 2018
-- Check with Steering Committee: end of August 2018
-- Release for beta testing: end of September 2018
+- 开始时间：2018年5月。
+- 团队定稿：2018年5月底
+- 生产开始时间：2018年6月
+- 第一个脚本草案：2018年6月底
+- 第一文字内容草案：2018年6月底
+- 录制和编辑：2018年7月
+- 设计实践练习：2018年7月
+- 内容定稿：2018年8月
+- 与指导委员会核实：2018年8月底
+- 发布测试版：2018年9月底
 
-### Identify promotion channels
+### 确定促销渠道
 
-- Relevant Twitter handles:
+- 相关Twitter处理：
     
-    - [Twitter Open Source](https://twitter.com/twitteross)
-    - [Open Source TV](https://twitter.com/opensourcetv)
-    - [Open Source Initiative](https://twitter.com/OpenSourceOrg)
+    - [Twitter开源](https://twitter.com/twitteross)
+    - [开源电视](https://twitter.com/opensourcetv)
+    - [开源计划](https://twitter.com/OpenSourceOrg)
     - [O'Reilly OSCON](https://twitter.com/oscon)
     - [Chris Holdgraf](https://twitter.com/choldgraf)
-    - [Neil Saunders](https://twitter.com/neilfws)
-    - [Open Source Pharma](https://twitter.com/OSPInfo)
+    - [尼尔桑德斯](https://twitter.com/neilfws)
+    - [开源制药](https://twitter.com/OSPInfo)
     - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
-    - [Chris DiBona](https://twitter.com/cdibona)
-    - [Arfon Smith](https://twitter.com/arfon)
-    - [Jan Gondol](https://twitter.com/jangondol)
+    - [克里斯迪博纳](https://twitter.com/cdibona)
+    - [阿方史密斯](https://twitter.com/arfon)
+    - [简·贡多尔](https://twitter.com/jangondol)
     - [Konrad Foerstner](https://twitter.com/konradfoerstner)
-    - [Ina Smith](https://twitter.com/ismonet)
-    - [Coko Foundation](https://twitter.com/CokoFoundation)
-    - [Google Open Source](https://twitter.com/GoogleOSS)
-    - [Carl Malamud](https://twitter.com/carlmalamud)
-    - [Code Is Science](https://twitter.com/codeisscience)
+    - [伊娜史密斯](https://twitter.com/ismonet)
+    - [科科基金会](https://twitter.com/CokoFoundation)
+    - [谷歌开源](https://twitter.com/GoogleOSS)
+    - [卡尔马拉默德](https://twitter.com/carlmalamud)
+    - [代码是科学](https://twitter.com/codeisscience)
 
-- Organisations:
+- 组织：
     
-    - [Software Carpentry](https://software-carpentry.org/)
-    - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
-    - [COKO Foundation](https://coko.foundation/)
-    - [Free Software Foundation](https://www.fsf.org/licensing/)
-    - [WSSSPE community](http://wssspe.researchcomputing.org.uk)
-    - [Open Research Software](http://openresearchsoftware.metajnl.com)
+    - [软件木工](https://software-carpentry.org/)
+    - [可持续软件学院](https://www.software.ac.uk/software-sustainability-institute)
+    - [COKO基金会](https://coko.foundation/)
+    - [自由软件基金会](https://www.fsf.org/licensing/)
+    - [WSSSPE社区](http://wssspe.researchcomputing.org.uk)
+    - [开放研究软件](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
-    - [Free Software Foundation](https://www.fsf.org/)
-    - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
-    - [Ada Initiative](https://adainitiative.org/)
+    - [自由软件基金会](https://www.fsf.org/)
+    - [开源计划](https://opensource.org/)
+    - [数字自由基金会](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) （注意他们的网站似乎已被打破，2019年1月）
+    - [阿达倡议](https://adainitiative.org/)
 
-- Mailing lists:
+- 邮件列表：
     
-    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [开放科学](https://lists.okfn.org/mailman/listinfo/open-science)
