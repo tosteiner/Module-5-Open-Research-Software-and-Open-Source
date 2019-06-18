@@ -10,14 +10,14 @@
 ### 優化學習目標和成果
 
 - 學習者將能夠定義開源程式研究軟體的特徵，以及支持和反對它的道德、法律、經濟和研究影響論點。
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
+- 基於團體的標準，學習者將能夠描述共享和重複使用開放程式碼的質量與要求。
 - The learner will be able to use a range of research tools that utilise open source software.
 - Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
 
 ### 設計課程大綱
 
-1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
+1. 什麼是開源軟體，包括背景和例子。
+2. 開源軟體的原則。
 3. What open, collaborative platforms, with version control, exist.
 4. Why should code be shared as a research output.
 5. How to use GitHub combined with the Zenodo plug-in for code archiving.
