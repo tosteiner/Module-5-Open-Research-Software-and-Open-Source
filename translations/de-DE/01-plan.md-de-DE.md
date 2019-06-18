@@ -11,7 +11,7 @@
 
 - Lernende können die Eigenschaften von Open-Source-Forschungssoftware, sowie die ethischen, rechtlichen, wirtschaftlichen und wissenschaftlichen Argumente für und gegen sie identifizieren.
 - Auf Basis von Gemeinschaftsstandards können Lernende die Qualitätsanforderungen des Teilens und der Wiederverwendung von offenem Code beschreiben.
-- Der Lerner kann eine Reihe von Forschungstools verwenden, die Open Source Software nutzen.
+- Lernende kann eine Reihe von Forschungstools verwenden, die Open Source Software nutzen.
 - Lernende werden in der Lage sein, für ihren persönlichen Gebrauch entwickelten Code in Code umzuwandeln, der für andere zugänglich und wiederverwendbar ist.
 
 ### Kurs-Umriss erstellen
