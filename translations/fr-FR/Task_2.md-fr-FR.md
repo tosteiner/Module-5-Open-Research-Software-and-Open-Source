@@ -1,181 +1,181 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: défaut
+  pdf_document: défaut
 ---
 
-# Task 2: How to make your code citable using GitHub and Zenodo
+# Tâche 2: Comment rendre votre code citable à l'aide de GitHub et Zenodo
 
-This task is designed for students and researchers who want to create and re-use GitHub-based projects/repositories in the academic literature.
+Cette tâche est conçue pour les étudiants et les chercheurs qui souhaitent créer et réutiliser des projets / référentiels basés sur GitHub dans la littérature académique.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+N'oubliez pas que vous pouvez participer aux discussions sur notre open channel [**Slack channel**](https://osmooc.herokuapp.com/). Présentez-vous à l'adresse # module5opensource, et dites-nous un peu qui vous êtes, votre parcours, et comment vous vous êtes retrouvés ici!
 
-Estimated time to complete: 45-60 minutes.
+Durée estimée: 45 à 60 minutes.
 
-## Table of contents
+## Table des matières
 
-- [Foreword](#Foreword)
-- [Set up a GitHub repository](#Setup)
-- [Choose your GitHub repository](#Choose)
-- [Login to Zenodo](#Login)
-- [Authorise GitHub to connect with Zenodo](#Authorise)
-- [Select the repository to archive](#Archive)
-- [Check repository settings](#Check)
-- [Create a new release](#Release)
-- [Getting a DOI](#DOI)
-- [Checklist for citing your project](#Checklist)
-- [Additional resources](#Resources)
+- [Avant-propos](#Foreword)
+- [Configurer un dépôt GitHub](#Setup)
+- [Choisissez votre dépôt GitHub](#Choose)
+- [Se connecter à Zenodo](#Login)
+- [Autoriser GitHub à se connecter à Zenodo](#Authorise)
+- [Sélectionnez le référentiel à archiver](#Archive)
+- [Vérifier les paramètres du référentiel](#Check)
+- [Créer une nouvelle version](#Release)
+- [Obtenir un DOI](#DOI)
+- [Liste de contrôle pour citer votre projet](#Checklist)
+- [Ressources supplémentaires](#Resources)
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Task 2 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
+  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Flux de travail de la tâche 2" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
-<p align="center"><i>The workflow for Task 2. Keep this handy as you work through the task!</i></p>
+<p align="center"><i>Le flux de travail pour la tâche 2. Conservez-le à portée de la main pendant que vous accomplissez cette tâche!</i></p>
 
   
 
 
-## Foreword <a name="Foreword"></a>
+## Avant-propos <a name="Foreword"></a>
 
-Although the integration of GitHub and Zenodo makes it really easier to work with these tools nowadays (January 2019), it is important to stress that there are alternatives to GitHub (Gitlab, Bitbucket,...) and alternatives to Zenodo (Other repositories might be more suited to your community, you might ask your colleagues). For instance, one can work with Gitlab and manually upload each new versions to your university repository, getting a DOI. The principles (working with a version control system online, and archiving major versions in a repository which provides a persistent unique identifier) can be applied in different workflow.
+Bien que l’intégration de GitHub et de Zenodo facilite aujourd’hui le travail avec ces outils (janvier 2019), il est important de souligner qu’il existe des alternatives à GitHub (Gitlab, Bitbucket, ...) et à Zenodo (d’autres dépôts pourraient demandez à vos collègues). Par exemple, vous pouvez utiliser Gitlab et télécharger manuellement chaque nouvelle version dans le référentiel de votre université, en obtenant un DOI. Les principes (travailler avec un système de contrôle de version en ligne et archiver les versions majeures dans un référentiel fournissant un identifiant unique persistant) peuvent être appliqués dans différents flux de travail.
 
-## Set up a GitHub repository <a name="Setup"></a>
+## Configurer un dépôt GitHub <a name="Setup"></a>
 
-> **Pro-tip**: Make sure to include a LICENSE and README file in your repository. This will indicate to people the purpose of the project, and how they can engage with it in the future.
+> **Conseil**: veillez à inclure un fichier LICENSE et README dans votre référentiel. Cela indiquera aux gens le but du projet et comment ils peuvent s’y engager à l’avenir.
 
-Find out how to set up a GitHub repository in this other guide [Task 1: Building a GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) which is also part of 'Module 5: Open Research Software and Open Source'.
+Découvrez comment mettre en place un référentiel GitHub dans cette autre guide [Tâche 1: Construire un référentiel GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) qui fait également partie du «Module 5: Open Software Recherche et Open Source.
 
-## Choose your GitHub repository <a name="Choose"></a>
+## Choisissez votre dépôt GitHub <a name="Choose"></a>
 
-Once on your GitHub project listings page at [github.com](https://github.com) head to the 'Repositories' tab. Select which repository you would like to archive, and open it up.
+Une fois sur votre page de listes de projets GitHub à l'adresse [github.com](https://github.com) accédez à l'onglet "Référentiels". Sélectionnez le référentiel que vous souhaitez archiver et ouvrez-le.
 
   
 
 
-## Login to Zenodo <a name="Login"></a>
+## Se connecter à Zenodo <a name="Login"></a>
 
-Now head over to [zenodo.org](https://zenodo.org). Zenodo is a platform where you can permanently archive your code and other project elements. Zenodo does this by assigning projects a **Digital Object Identifier** (DOI), which also helps to make the work more citable. This is different to GitHub, which acts as a place where the actual work on a project takes place, rather than long-term archiving of it. At GitHub, content can be modified, deleted, rewritten, and irreversibly changed, which makes it a bit concerning to be used for longer lasting referencing purposes. Zenodo offers more security and permanence for research outputs.
+Maintenant dirigez-vous vers [zenodo.org](https://zenodo.org). Zenodo est une plate-forme sur laquelle vous pouvez archiver en permanence votre code et d'autres éléments de projet. Pour ce faire, Zenodo attribue aux projets un identificateur d'objet numérique</strong> (DOI) **, ce qui contribue également à rendre le travail plus rentable. Cela diffère de GitHub, qui agit comme un endroit où le travail réel d’un projet a lieu, plutôt que son archivage à long terme. Sur GitHub, le contenu peut être modifié, supprimé, réécrit et irréversiblement, ce qui le rend un peu inquiétant d'être utilisé à des fins de référencement plus durables. Zenodo offre plus de sécurité et de permanence pour les résultats de recherche.</p>
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Sign up for Zenodo</i></p>
+<p align="center"><i>Inscrivez-vous à Zenodo</i></p>
 
   
 
 
-If you already have a Zenodo account, this is easy. If not, follow the steps to create one — you can even login using your GitHub account or ORCID profile to make things simpler, as Zenodo has a built in integration for it. This might be easier than creating yet another research account and profile.
+Si vous avez déjà un compte Zenodo, c'est facile. Sinon, suivez les étapes pour en créer un - vous pouvez même vous connecter en utilisant votre compte GitHub ou votre profil ORCID pour simplifier les choses, car Zenodo a une intégration intégrée. Cela pourrait être plus facile que de créer un autre compte et profil de recherche.
 
   
 
 
-## Authorise GitHub to connect with Zenodo <a name="Authorise"></a>
+## Autoriser GitHub à se connecter à Zenodo <a name="Authorise"></a>
 
-On the Zenodo website authorise it to connect to your GitHub account in the '[Using GitHub](https://zenodo.org/account/settings/github/)' section. Here, Zenodo will redirect you to GitHub to ask for permissions to use '[webhooks](https://developer.github.com/webhooks/)' on your repositories. You want to authorise Zenodo here with the permissions it needs to form those links.
+Sur le site Web Zenodo, autorisez-le à se connecter à votre compte GitHub dans la section "[utilisant GitHub](https://zenodo.org/account/settings/github/)". Ici, Zenodo vous redirigera vers GitHub pour demander les autorisations d'utilisation de "[Webhooks](https://developer.github.com/webhooks/)" sur vos référentiels. Vous souhaitez autoriser Zenodo ici avec les autorisations nécessaires pour créer ces liens.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo_github.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Authorize Zenodo to connect with GitHub</i></p>
+<p align="center"><i>Autoriser Zenodo à se connecter à GitHub</i></p>
 
   
 
 
-If you are trying to give Zenodo access to an organisational repository, you (or an administrator) will need to make sure that Zenodo is granted third party access permissions. GitHub will send an authorisation email that needs confirming. At this point, back in the settings of your repository on GitHub, you also need to make sure that the repository is set to 'public', not private.
+Si vous essayez de donner à Zenodo l'accès à un référentiel organisationnel, vous (ou un administrateur) devez vous assurer que Zenodo dispose des autorisations nécessaires pour accéder à des tiers. GitHub enverra un email d'autorisation qui doit être confirmé. À ce stade, dans les paramètres de votre référentiel sur GitHub, vous devez également vous assurer que le référentiel est défini sur "public" et non sur privé.
 
   
 
 
-## Select the repository to archive <a name="Archive"></a>
+## Sélectionnez le référentiel à archiver <a name="Archive"></a>
 
-If you have got this far, this means that Zenodo is now authorised to configure the repository webhooks that it needs to archive the repository and issue it a DOI. To do this, on the Zenodo website navigate to the [GitHub repository listing page](https://zenodo.org/account/settings/github/) and simply click the 'on' button next to your repository.
+Si vous en êtes à ce stade, cela signifie que Zenodo est désormais autorisé à configurer les Webhooks du référentiel dont il a besoin pour archiver le référentiel et lui envoyer un DOI. Pour ce faire, sur le site Web Zenodo, accédez à la page</a> liste des référentiels GitHub et cliquez simplement sur le bouton "on" situé en regard de votre référentiel.</p>
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/enabled_repos.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Enable individual GitHub repositories to be preserved in Zenodo</i></p>
+<p align="center"><i>Activer la conservation des référentiels GitHub individuels dans Zenodo</i></p>
 
   
 
 
-## Check repository settings <a name="Check"></a>
+## Vérifier les paramètres du référentiel <a name="Check"></a>
 
-Now you have set up a new webhook between Zenodo and your repository. In GitHub, click on the settings for your repository, and the Webhooks tab on the left hand side menu. This should display the new Zenodo webhook configured to Zenodo. Note, it may take a little time for the webhook listing to show up.
+Vous avez maintenant configuré un nouveau Webhook entre Zenodo et votre référentiel. Dans GitHub, cliquez sur les paramètres de votre référentiel, puis sur l'onglet Webhooks dans le menu de gauche. Cela devrait afficher le nouveau Webhook de Zenodo configuré pour Zenodo. Notez que la liste des Webhook peut prendre un peu de temps à s’afficher.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/webhooks.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that webhooks are enabled for your GitHub repository. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Vérifiez que les webhooks sont activés pour votre référentiel GitHub. Exemple ici en utilisant la stratégie Open Scholarship</i></p>
 
   
 
 
-## Create a new release <a name="Release"></a>
+## Créer une nouvelle version <a name="Release"></a>
 
-The first time you archive a repository is known as the 'first release'. Each time you create a new version of that repository and archive it, you create a new release. This can be tracked in the 'releases' tab for your repository on GitHub (top center).
+La première fois que vous archivez un référentiel, on parle de «première version». Chaque fois que vous créez et archivez une nouvelle version de ce référentiel, vous créez une nouvelle version. Cela peut être suivi dans l'onglet 'releases' de votre dépôt sur GitHub (en haut au centre).
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/first_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that the repository first release was successful. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Vérifiez que la première version du référentiel a réussi. Exemple ici en utilisant la stratégie Open Scholarship</i></p>
 
   
 
 
-For the first archived version of your repository, click 'Create a new release' back in Zenodo. Fill in the form and give some details as to what the release entails. For the first release, make sure to call it v1.0.0, as is standard practice.
+Pour la première version archivée de votre référentiel, cliquez sur "Créer une nouvelle version" dans Zenodo. Remplissez le formulaire et donnez quelques détails sur ce que le communiqué implique. Pour la première version, assurez-vous de l'appeler v1.0.0, comme il est d'usage.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/create_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Create a new release. Example here using the Open Scholarship Strategy, for which a first release already exists</i></p>
+<p align="center"><i>Créer une nouvelle version. Exemple ici utilisant la stratégie Open Scholarship, pour laquelle une première version existe déjà</i></p>
 
   
 
 
-Finally, click 'publish release', and your archive will be published and versioned on GitHub.
+Enfin, cliquez sur "Publier le communiqué" et vos archives seront publiées et versionnées sur GitHub.
 
-To view your release on Zenodo you need to visit the [Upload](https://zenodo.org/deposit) tab. To finish the archiving a few more details are needed on Zenodo.
+Pour voir votre communiqué sur Zenodo, vous devez visiter l’onglet [Upload](https://zenodo.org/deposit). Pour terminer l'archivage, quelques précisions supplémentaires sont nécessaires sur Zenodo.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/upload_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check the new release has been uploaded. Example here shown using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Vérifiez que la nouvelle version a été téléchargée. Exemple présenté ici à l'aide de la stratégie de bourses ouvertes</i></p>
 
   
 
 
-## Getting a DOI <a name="DOI"></a>
+## Obtenir un DOI <a name="DOI"></a>
 
-This is sometimes referred to as DOI 'minting', and requires a couple of extra bits of information about the repository on Zenodo. On Zenodo click the [Upload](https://zenodo.org/deposit) tab in the main menu, and your newly uploaded repository should be there. Scroll down the page and fill in the extra information as needed, required fields are marked with a red asterisk, and then click 'Publish'.
+C'est ce que l'on appelle parfois "frapper" DOI et qui nécessite quelques informations supplémentaires sur le référentiel de Zenodo. Sur Zenodo, cliquez sur l’onglet [Upload](https://zenodo.org/deposit) du menu principal. Le référentiel que vous venez de télécharger devrait y figurer. Faites défiler la page et remplissez les informations supplémentaires si nécessaire. Les champs obligatoires sont signalés par un astérisque rouge, puis cliquez sur "Publier".
 
-**Note**: Only after this extra information has been added will your DOI become live. It may also take a short time for the DOI to become active. Example DOI shown below (for the Open Scholarship Strategy again).
+**Remarque**: Ce n'est que lorsque ces informations supplémentaires auront été ajoutées que votre DOI deviendra opérationnel. Cela peut également prendre un peu de temps pour que le DOI devienne actif. Exemple de DOI présenté ci-dessous (pour la stratégie de bourses ouvertes).
 
-> **Pro-tip**: Copy the URL for the DOI into the README file for your GitHub repo to make cross-linking even easier, as well as present a clear highlighted DOI badge for users to see and make use of your DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
+> **Astuce**: copiez l'URL de la DOI dans le fichier README de votre dépôt GitHub pour faciliter la réticulation, et présentez un badge DOI en surbrillance pour que les utilisateurs puissent voir et utiliser votre DOI. Vous ne devez le faire qu’une fois avec votre première version DOI car elle agit en tant que «concept DOI» et est liée à toutes les versions ultérieures de DOI.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437)
+[![EST CE QUE JE](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437)
 
-The GitHub/Zenodo integration will now assign a DOI to each version/release of a project repository. This enables users to refer to and cite specific versions of projects. Also, the list of authors for the citation is automatically determined by the GitHub user account names used by the repository - this means no-one gets left out. Author details can be edited later on Zenodo. DOIs used in Zenodo are registered through the [DataCite](https://www.datacite.org/) service.
+L’intégration GitHub / Zenodo va maintenant assigner un DOI à chaque version / édition d’un référentiel de projet. Cela permet aux utilisateurs de faire référence à des versions spécifiques de projets et de les citer. En outre, la liste des auteurs pour la citation est automatiquement déterminée par les noms de compte utilisateur GitHub utilisés par le référentiel - cela signifie que personne ne sera laissé pour compte. Les détails de l'auteur peuvent être modifiés ultérieurement sur Zenodo. Les DOI utilisées dans Zenodo sont enregistrées via le service [DataCite](https://www.datacite.org/).
 
-> **Pro-tip**: Create a 'human-readable' version of this citation in your project's README file. This will be helpful to researchers who might not be familiar with using DOIs to create citations, and make it easier for others to cite your software and acknowledge your work. An example of this could be: Jon Tennant. (2018, July 30). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. <http://doi.org/10.5281/zenodo.1323437>
+> **Astuce**: Créez une version "lisible par l'homme" de cette citation dans le fichier README de votre projet. Cela sera utile aux chercheurs qui ne sont peut-être pas familiers avec l'utilisation de DOI pour créer des citations, et il sera plus facile pour d'autres de citer votre logiciel et de reconnaître votre travail. Un exemple de ceci pourrait être: Jon Tennant. (2018, 30 juillet). Fondations pour le développement d'une stratégie de bourses ouvertes: Première version officielle (version 1.2). Zenodo. <http://doi.org/10.5281/zenodo.1323437>
 
-**CONGRATULATIONS!!**
+**TOUTES NOS FÉLICITATIONS!!**
 
-Your GitHub repository is now archived in Zenodo, and with a DOI that can be versioned to reflect updates to the repository version through time. You should be able to see details of this on the GitHub Zenodo page for your repository. This also means that your archived projects can get picked up by other indexing services and search engines that use DOIs too.
+Votre référentiel GitHub est maintenant archivé dans Zenodo et avec une DOI pouvant être versionnée pour refléter les mises à jour de la version du référentiel au fil du temps. Vous devriez pouvoir voir les détails à ce sujet sur la page GitHub Zenodo de votre référentiel. Cela signifie également que vos projets archivés peuvent être récupérés par d'autres services d'indexation et moteurs de recherche utilisant également des DOI.
 
-Providing a long-term archive and a DOI for your work is required for others to be able to properly cite it, as this provides basic citation metadata. For Open Science, it is important to be able to cite the software that you use in your research, and this integrated workflow enables that to happen, in line with best practices for research citation. Furthermore, this practice is important in elevating the standard of software (and related projects) to that of the standard of other research outputs.
+Fournir des archives à long terme et un DOI pour votre travail est nécessaire pour que les autres puissent le citer correctement, car cela fournit des métadonnées de base. Pour Open Science, il est important de pouvoir citer le logiciel que vous utilisez dans votre recherche, et ce flux de travail intégré permet cela, conformément aux meilleures pratiques en matière de citation de recherche. De plus, cette pratique est importante pour que la norme des logiciels (et des projets connexes) devienne la norme des autres résultats de recherche.
 
-> **Pro-tip**: Is your research funded by an EU grant? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
+> **Conseil**: votre recherche est-elle financée par une subvention de l’UE? Vous pouvez désormais connecter directement votre projet archivé à votre subvention en mettant à jour la section des métadonnées des subventions dans l'enregistrement Zenodo du projet. Cela contribue massivement à augmenter sa découvrabilité!
 
   
 
 
-## Checklist for citing your project <a name="Checklist"></a>
+## Liste de contrôle pour citer votre projet <a name="Checklist"></a>
 
-So now you have a sustainably archived GitHub repository in Zenodo that is ready to be re-used and cited! Before continuing, make sure that you have:
+Vous disposez maintenant d’un référentiel GitHub archivé de manière durable dans Zenodo, prêt à être réutilisé et cité! Avant de continuer, assurez-vous que vous avez:
 
-- [ ] Linked your GitHub project to Zenodo. If you see a complete copy of your GitHub repository in Zenodo then things are working.
-- [ ] Zenodo and GitHub integrated setup works nicely. For example have all the author names, and correct project title come across to Zenodo. If not, or if authors just have nicknames you can edit these details in Zenodo.
-- [ ] Project has a first release, with a DOI. You should have a DOI displayed on your projects Zenodo page. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
+- [] Lié votre projet GitHub à Zenodo. Si vous voyez une copie complète de votre référentiel GitHub dans Zenodo, tout fonctionne.
+- [] La configuration intégrée de Zenodo et GitHub fonctionne bien. Par exemple, indiquez tous les noms d’auteurs et le titre du projet correct dans Zenodo. Sinon, ou si les auteurs ont juste des pseudonymes, vous pouvez modifier ces détails dans Zenodo.
+- [] Le projet a une première version, avec un DOI. Vous devriez avoir un DOI affiché sur la page de vos projets Zenodo. Ce premier DOI s'appelle le «concept DOI» et constitue le lien principal entre tous les DOI de versions ultérieures. Copiez ce lien DOI et intégrez-le dans la page LISEZMOI de vos projets GitHub. Vous avez terminé!
 
-### Additional resources <a name="Resources"></a>
+### Ressources supplémentaires <a name="Resources"></a>
 
-[Making your code citable](https://guides.github.com/activities/citable-code/) - GitHub Guides.
+[Rendre votre code citable](https://guides.github.com/activities/citable-code/) - Guides GitHub.
 
-**Know a way this content can be improved?**
+**Connaissez-vous un moyen d'améliorer ce contenu?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Il est temps de tester vos nouvelles compétences GitHub! Tout développement de contenu passe principalement par [ici](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md). Si vous avez une suggestion d'amélioration à apporter au contenu, à la présentation ou à quelque chose d'autre, vous pouvez le créer et il sera automatiquement intégré au contenu du MOOC après vérification par un modérateur!
 
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Dédicace du domaine public CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
