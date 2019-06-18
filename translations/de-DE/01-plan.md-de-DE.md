@@ -82,4 +82,4 @@
 
 - Mailinglisten:
     
-    - [Offene Wissenschaft](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
