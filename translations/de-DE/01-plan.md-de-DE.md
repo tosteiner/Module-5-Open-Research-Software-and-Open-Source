@@ -21,32 +21,32 @@
 3. Was offen, kollaborative Plattformen mit Versionskontrolle sind.
 4. Warum sollte Code als Forschungsleistung geteilt werden.
 5. Wie man GitHub zusammen mit dem Zenodo-Plugin für die Codearchivierung verwendet.
-6. How to document and publish code, and what makes good software for re-use, including testing and comments.
-7. Open Source licensing.
-8. Tools for better open research
-9. Community codes, governance, and contributions.
-10. How to access and start working on general computing platforms
-11. Software citation.
-12. Differences in setting up accounts/storage/computing on different platforms.
-13. Comparison in terms of collaboration and openness with clusters/in-house servers.
-14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
+6. Wie man Code dokumentiert und veröffentlicht und was gute Software zur Wiederverwendung macht, einschließlich Tests und Kommentaren.
+7. Open Source Lizenzierung.
+8. Werkzeuge für eine bessere offene Forschung
+9. Community Codes, Governance und Beiträge.
+10. So greifen Sie auf allgemeine Computerplattformen zu und beginnen mit deren Arbeit
+11. Software-Zitat.
+12. Unterschiede beim Einrichten von Konten / Speichern / Rechnen auf verschiedenen Plattformen.
+13. Vergleich in Bezug auf Zusammenarbeit und Offenheit mit Clustern / Inhouse-Servern.
+14. Wohin kannst du von hier aus gehen? Enthält eine Einführung in die Open Source-Community und weitere Lernressourcen.
 
-### Design the project plan and timeline
+### Entwerfen Sie den Projektplan und den Zeitplan
 
-- Start: May 2018.
-- Team finalisation: end of May 2018
-- Production start: June 2018
-- Draft of first scripts: end of June 2018
-- Draft of first textual content: end of June 2018
-- Recording and editing: July 2018
-- Designing practical exercises: July 2018
-- Finalisation of content: August 2018
-- Check with Steering Committee: end of August 2018
-- Release for beta testing: end of September 2018
+- Beginn: Mai 2018.
+- Team-Finalisierung: Ende Mai 2018
+- Produktionsstart: Juni 2018
+- Entwurf des ersten Drehbuchs: Ende Juni 2018
+- Entwurf des ersten Textinhalts: Ende Juni 2018
+- Aufnahme und Bearbeitung: Juli 2018
+- Praktische Übungen entwerfen: Juli 2018
+- Finalisierung des Inhalts: August 2018
+- Rücksprache mit dem Lenkungsausschuss: Ende August 2018
+- Freigabe zum Betatest: Ende September 2018
 
-### Identify promotion channels
+### Werbekanäle identifizieren
 
-- Relevant Twitter handles:
+- Relevante Twitter-Handles:
     
     - [Twitter Open Source](https://twitter.com/twitteross)
     - [Open Source TV](https://twitter.com/opensourcetv)
@@ -61,25 +61,25 @@
     - [Jan Gondol](https://twitter.com/jangondol)
     - [Konrad Foerstner](https://twitter.com/konradfoerstner)
     - [Ina Smith](https://twitter.com/ismonet)
-    - [Coko Foundation](https://twitter.com/CokoFoundation)
+    - [Coko-Stiftung](https://twitter.com/CokoFoundation)
     - [Google Open Source](https://twitter.com/GoogleOSS)
     - [Carl Malamud](https://twitter.com/carlmalamud)
-    - [Code Is Science](https://twitter.com/codeisscience)
+    - [Code ist Wissenschaft](https://twitter.com/codeisscience)
 
-- Organisations:
+- Organisationen:
     
-    - [Software Carpentry](https://software-carpentry.org/)
-    - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
-    - [COKO Foundation](https://coko.foundation/)
+    - [Software-Zimmerei](https://software-carpentry.org/)
+    - [Nachhaltiges Software-Institut](https://www.software.ac.uk/software-sustainability-institute)
+    - [COKO-Stiftung](https://coko.foundation/)
     - [Free Software Foundation](https://www.fsf.org/licensing/)
-    - [WSSSPE community](http://wssspe.researchcomputing.org.uk)
-    - [Open Research Software](http://openresearchsoftware.metajnl.com)
+    - [WSSSPE-Community](http://wssspe.researchcomputing.org.uk)
+    - [Öffnen Sie die Forschungssoftware](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
     - [Free Software Foundation](https://www.fsf.org/)
     - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
+    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (Beachten Sie, dass die Website im Januar 2019 defekt zu sein scheint.)
     - [Ada Initiative](https://adainitiative.org/)
 
-- Mailing lists:
+- Mailinglisten:
     
-    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [Offene Wissenschaft](https://lists.okfn.org/mailman/listinfo/open-science)
