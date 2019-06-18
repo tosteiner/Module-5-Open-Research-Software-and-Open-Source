@@ -1,27 +1,27 @@
-# Module 5: Quizzes and assignments
+# Modul 5: Quizzes und Zuweisungen
 
-1. First draft for feedback to instructional design
-2. Follow up feedback
-3. Define regularity of quizzes
-4. Final examination
-5. Review assignments 
+1. Erster Entwurf für Feedback zum Unterricht
+2. Feedback verfolgen
+3. Definieren Sie die Regelmäßigkeit von Quizzen
+4. Abschlussprüfung
+5. Aufgaben überprüfen 
 6. Other assignments (e.g., discussion prompts)
 
 ## Questions
 
 #### Contrary to proprietary software, Open Source means that anybody can change a OS project, just like on Wikipedia... that's just plain dangerous. True or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
-**Answer:** This is a common misunderstanding. Wikipedia is a great way to understand collaborative innovation, but it's not a great euphemism for open source software. First, most open source projects are managed by "benevolent dictators" who have total control over what goes into their project. Contributors offer changes to these maintainers, and after some careful review they'll permit the change to be made. Second, open source software must perform the task it was designed to do. If it doesn't, the community discovers that pretty quickly. The Wikipedia community also has gatekeepers (what's their name again? see https://en.wikipedia.org/wiki/Wikipedia:Quality_control and https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, remember Wikipedia is also open source) and quality assessment ppl who make sure Wikipedia entries are of high and growing quality. Different communities have different approaches of building content. It's important to understand the social and political aspect of open source projects. Open source contributors trade on their reputations. If you submit a bunch of good ideas, your stock goes up in the project's community. That's your reward: you solved your problem, and you get accolades from your friends in the community. Likewise, the maintainers don't want to be associated with bad software that's buggy or not useful to anyone. So because people want problems solved, and want to be respected by their peers, open source projects police their changes very carefully. (Source: [opensource.com](https://opensource.com/open-source-myths))
+**Answer:** This is a common misunderstanding. Wikipedia ist eine großartige Möglichkeit, die Zusammenarbeit zu verstehen, aber es ist kein großer Euphemismus für Open Source Software. Erstens werden die meisten Open Source Projekte von "wohlwollenden Diktatoren" verwaltet, die die volle Kontrolle über das, was in ihr Projekt geht. Die Mitwirkenden bieten Änderungen an diesen Betreuern an, und nach einer sorgfältigen Überprüfung erlauben sie die Änderung. Zweitens muss Open Source Software die Aufgabe ausführen, die sie zu tun hatte. Wenn es nicht stimmt, entdeckt die Gemeinschaft das ziemlich schnell. The Wikipedia community also has gatekeepers (what's their name again? see https://en.wikipedia.org/wiki/Wikipedia:Quality_control and https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, remember Wikipedia is also open source) and quality assessment ppl who make sure Wikipedia entries are of high and growing quality. Different communities have different approaches of building content. It's important to understand the social and political aspect of open source projects. Open source contributors trade on their reputations. If you submit a bunch of good ideas, your stock goes up in the project's community. That's your reward: you solved your problem, and you get accolades from your friends in the community. Likewise, the maintainers don't want to be associated with bad software that's buggy or not useful to anyone. So because people want problems solved, and want to be respected by their peers, open source projects police their changes very carefully. (Source: [opensource.com](https://opensource.com/open-source-myths))
 
 * * *
 
 #### Open Source can't be secure if anybody can openly find flaws and use them for exploits. True or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** It's actually the other way around: open source is secure because anyone can find the flaws. If you ask security experts like Bruce Schneier, the (which country?) National Security Agency, or any locksmith, they'll tell you that keeping your inner workings a secret is a great way to guarantee a security problem. The reason is simple: one developer isn't as smart as all the developers. As Linux creator Linus Torvalds once said, "A thousand eyes make all bugs shallow." In other words, open source subjects you to the collective scrutiny of the community -- since they have as much to lose from your security problems as you do. Everyone works together to make things more secure. (Source: [opensource.com](https://opensource.com/open-source-myths))
 
@@ -42,8 +42,8 @@ An open source vendor can charge you for a software licence and still be open so
 
 #### Open source has to be free of charge.
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** False. The term 'free' in free open source software refers to freedom, not monetary cost. Or, as Richard Stallmann labeled it "Think free as in free speech, not free beer." Read more on the subject, and the distinction between Free Open Source Software (FOSS) and Free & Libre Open Source Software (FLOSS) at ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
 
@@ -51,8 +51,8 @@ An open source vendor can charge you for a software licence and still be open so
 
 #### Big software companies don’t use Open Source - true or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** This myth should be a thing of the past. Corporate use of open source is pervasive: A 2018 study shows that on average, respondents across companies of all sizes used open source software in 92% of their applications. See [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) and [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) for more details.
 
@@ -123,8 +123,8 @@ The concept of free software is the brainchild of Richard Stallman, head of the 
 
 #### Open Science is primarily occupied with liberating the (Natural) Sciences (e.g. Mathematics, Physics, Biology, etc.), true or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** No, Open Science tries to encompass all scientific activity. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
 
@@ -132,8 +132,8 @@ The concept of free software is the brainchild of Richard Stallman, head of the 
 
 #### Open access articles are not peer reviewed, true or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** Yup, that's a misconception. Open access articles undergo the same rigorous peer review as articles published via the traditional subscription-based publishing model.
 
@@ -152,8 +152,8 @@ The concept of free software is the brainchild of Richard Stallman, head of the 
 
 #### Open access and open peer review are the same thing, true or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** Open access journals may use any of the different peer review models, including single-blind, double-blind, open or post-publication peer review.
 
@@ -188,8 +188,8 @@ The concept of free software is the brainchild of Richard Stallman, head of the 
 
 ### Funding organizations don’t approve of open access journals, true or false?
 
-- [ ] True
-- [X] False
+- [ ] Wahr
+- [X] Falsch
 
 **Answer:** Many funding organizations now mandate that the work they fund is published under the open access model so that the research is available to a wide audience and cover the costs of publishing in their grants. [EXPAND w. details on Plan S specifics]
 
