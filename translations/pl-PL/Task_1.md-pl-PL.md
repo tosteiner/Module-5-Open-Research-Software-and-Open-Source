@@ -1,146 +1,146 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: domyślna
+  pdf_document: domyślna
 ---
 
-# Task 1: How to set up a repository on GitHub
+# Zadanie 1: Jak skonfigurować repozytorium na GitHub
 
-This task is designed for students and researchers who want to create their first Open Source project (software or non-software) on GitHub. GitHub is a place for you to come and play and experiment with new research workflows, and is really just the beginning to help set the stage for your own pathways and ideas.
+To zadanie jest przeznaczone dla studentów i naukowców, którzy chcą stworzyć swój pierwszy projekt Open Source (oprogramowanie lub oprogramowanie) na GitHub. GitHub to miejsce, w którym możesz przyjść, zagrać i eksperymentować z nowymi przepływami pracy badawczej, i to naprawdę tylko początek, który pomoże przygotować grunt pod twoje własne ścieżki i pomysły.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Nie zapomnij, że możesz dołączyć do dyskusji na naszym otwartym [**Slack channel**](https://osmooc.herokuapp.com/). Przedstaw się w # module5opensource i powiedz nam trochę o tym, kim jesteś, swoim tłem i tym, jak się tu znalazłeś!
 
-**PLEASE NOTE** that a screen recording for this task is also available via [YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&).
+**UWAGA** że nagrywanie ekranu dla tego zadania jest również dostępne za pośrednictwem [YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&).
 
-Estimated time to complete: 30-45 minutes.
+Szacowany czas wykonania: 30-45 minut.
 
-Estimate time saving once complete: Unimaginable..
+Oszacuj oszczędność czasu po zakończeniu: niewyobrażalne ..
 
-## Table of contents
+## Spis treści
 
-* [Getting started](#Getting_started) 
-  * [Setting up a GitHub profile](#Profile)
-  * [The GitHub language](#Language)
-  * [Creating a new repository](#Create_new)
-* [The foundational steps](#Foundation) 
-  * [Choosing a license](#License)
-  * [Creating a README file](#Readme)
-  * [Creating contributing guidelines](#Contributing)
-  * [Creating a code of conduct](#Conduct)
-  * [Making your code citable](#Citation)
-* [Keeping your issues up to date](#Issues)
-* [Check-list for launching your project](#Check-list)
+* [Rozpoczęcie](#Getting_started) 
+  * [Konfigurowanie profilu GitHub](#Profile)
+  * [Język GitHub](#Language)
+  * [Tworzenie nowego repozytorium](#Create_new)
+* [Podstawowe kroki](#Foundation) 
+  * [Wybór licencji](#License)
+  * [Tworzenie pliku README](#Readme)
+  * [Tworzenie wytycznych pomocniczych](#Contributing)
+  * [Tworzenie kodeksu postępowania](#Conduct)
+  * [Dokonywanie cytowania kodu](#Citation)
+* [Uaktualnianie Twoich problemów](#Issues)
+* [Lista kontrolna do uruchomienia projektu](#Check-list)
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task1.png?raw=true" alt="Task 1 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
+  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task1.png?raw=true" alt="Przepływ zadań 1" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
-<p align="center"><i>The workflow for Task 1. Keep this handy as you work through the task!</i></p>
+<p align="center"><i>Przepływ pracy dla zadania 1. Trzymaj to pod ręką, gdy wykonujesz zadanie!</i></p>
 
   
 
 
-## Getting started <a name="Getting_started"></a>
+## Rozpoczęcie <a name="Getting_started"></a>
 
-A 'repository' is really just a fancy name for a project on GitHub. GitHub is a place online where you can manage projects, store files, and openly collaborate with others. This is all achieved by using version control to track projects as they progress. As such, GitHub is a powerful tool for both software and non-software projects.
+„Repozytorium” to naprawdę tylko wymyślna nazwa projektu w GitHub. GitHub to miejsce online, w którym możesz zarządzać projektami, przechowywać pliki i otwarcie współpracować z innymi. Wszystko to osiąga się, wykorzystując kontrolę wersji do śledzenia projektów w miarę ich postępu. W związku z tym GitHub jest potężnym narzędziem zarówno dla projektów oprogramowania, jak i innych.
 
-One of the most important things to consider at this early stage is to think about how you want the wider community to interact with your project. As you are working in the open, you want to make sure others feel comfortable in accessing, viewing, and engaging with your work. Setting up a repository in a way that lowers the barriers to entry, and the fear of being an 'outsider' is the first step towards maintaining a successful project.
+Jedną z najważniejszych rzeczy do rozważenia na tym wczesnym etapie jest zastanowienie się, w jaki sposób chcesz, aby szersza społeczność wchodziła w interakcję z Twoim projektem. Gdy pracujesz na otwartej przestrzeni, chcesz mieć pewność, że inni czują się swobodnie w dostępie, przeglądaniu i angażowaniu się w pracę. Utworzenie repozytorium w sposób obniżający bariery wejścia i obawa przed byciem „outsiderem” to pierwszy krok w kierunku udanego projektu.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/octocat.png?raw=true" width="150px" height="125px"/>
 </p>
 
-<p align="center"><i>Octocat, GitHub's little mascot</i></p>
+<p align="center"><i>Octocat, mała maskotka GitHuba</i></p>
 
   
 
 
-### Setting up a GitHub profile <a name="Profile"></a>
+### Konfigurowanie profilu GitHub <a name="Profile"></a>
 
-To set up a GitHub profile, simply head to the main page and click [Sign Up for GitHub](https://github.com/join). Here, you can create your personal account, with a username, email, and password as standard.
+Aby skonfigurować profil GitHub, wystarczy przejść do strony głównej i kliknąć [Zarejestruj się w GitHub](https://github.com/join). Tutaj możesz utworzyć swoje konto osobiste, z nazwą użytkownika, adresem e-mail i hasłem w standardzie.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/github_signup.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Sign up for GitHub</i></p>
+<p align="center"><i>Zarejestruj się w GitHub</i></p>
 
   
 
 
-The next step is to set up a personal plan. For now, simply select the 'Unlimited public repositories for free' plan, unless you are concerned about privacy, in which case select the private plan. If you intend to set up a project for an organisation, you can select that option too.
+Następnym krokiem jest stworzenie osobistego planu. Na razie po prostu wybierz plan „Nieograniczone publiczne repozytoria za darmo”, chyba że obawiasz się prywatności, w którym to przypadku wybierz prywatny plan. Jeśli zamierzasz skonfigurować projekt dla organizacji, możesz również wybrać tę opcję.
 
   
 
 
-### The GitHub language <a name="Language"></a>
+### Język GitHub <a name="Language"></a>
 
-This is possibly the most confusing and off-putting aspect of GitHub. Here are some of the most commonly used terms and their definitions:
+Jest to prawdopodobnie najbardziej mylący i odpychający aspekt GitHuba. Oto niektóre z najczęściej używanych terminów i ich definicje:
 
-* **Initialise**: Create an empty repository.
-* **Checkout**: Create a working copy of a local repository.
-* **Clone**: Copy the repository into a local directory on your computer.
-* **Fork**: Create a personal offshoot of a repository to work on it in parallel.
-* **Branch**: An independent and parallel version of a repository. Changes do not affect the master branch.
-* **Master**: The main and default branch for a repository.
-* **Clean**: No commits pending on the branch.
-* **Stage**: Add updates ready to be committed to a branch.
-* **Commit**: A revision to a repository, like a versioned 'save' function.
-* **Commit message**: A description of changes accompanying a commit.
-* **Check**: A status check.
-* **Fetch**: Nothing to do with dogs. Refers to getting the latest changes from an online repository without merging them.
-* **Index**: The 'tree' which acts as a staging area.
-* **Working Directory**: The 'tree' where the files are kept.
-* **Head**: The 'tree' which indicates the last commits made.
-* **Push**: Add committed changes to the head of your remote repository.
-* **Merge**: Combining the changes made in one branch back with the master branch upon completion.
-* **Pull**: Update your repository by fetching and merging the newest commits.
-* **Pull request**: A request to merge an updated branch into the master branch.
-* **Issue**: Suggested improvements, tasks, or questions related to a repository.
+* **Initialise**: Utwórz puste repozytorium.
+* **Checkout**: Utwórz roboczą kopię lokalnego repozytorium.
+* **Klon**: Skopiuj repozytorium do lokalnego katalogu na komputerze.
+* **Widelec**: Stwórz osobną pochodną repozytorium, aby równolegle pracować nad nim.
+* **Oddział**: Niezależna i równoległa wersja repozytorium. Zmiany nie wpływają na gałąź główną.
+* **Master**: Główna i domyślna gałąź repozytorium.
+* **Wyczyść**: Brak zatwierdzeń w oddziale.
+* **Etap**: Dodaj aktualizacje gotowe do zatwierdzenia w oddziale.
+* **Zatwierdzenie**: wersja repozytorium, podobnie jak funkcja „zapisz” w wersji.
+* **Komunikat zatwierdzenia**: opis zmian towarzyszących zatwierdzeniu.
+* **Sprawdź**: Sprawdzenie stanu.
+* **Fetch**: Nic wspólnego z psami. Dotyczy pobierania najnowszych zmian z repozytorium online bez ich scalania.
+* **Indeks**: „Drzewo”, które działa jako obszar przejściowy.
+* **Katalog roboczy**: „Drzewo”, w którym przechowywane są pliki.
+* **Głowa**: „Drzewo”, które wskazuje ostatnie dokonane zatwierdzenia.
+* **Push**: Dodaj zatwierdzone zmiany do głowy zdalnego repozytorium.
+* **Merge**: Łączenie zmian dokonanych w jednym oddziale z oddziałem głównym po zakończeniu.
+* **Ciąg**: Zaktualizuj repozytorium, pobierając i scalając najnowsze zatwierdzenia.
+* **Żądanie ściągnięcia**: Żądanie scalenia zaktualizowanej gałęzi z gałęzią główną.
+* **Problem**: Sugerowane ulepszenia, zadania lub pytania związane z repozytorium.
 
-Whew! Don't worry about memorising *all* of these for now. Like any new skill, familiarity comes with experience.
+Whew! Na razie nie martw się zapamiętywaniem *wszystkich* z nich. Jak każda nowa umiejętność, znajomość pochodzi z doświadczenia.
 
-You can probably see how some of these are fairly similar to things like save, copy, paste - standard workflow operations, but adapted for a software management process. There are a [few more](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html) too, but this should do for getting started.
+Prawdopodobnie możesz zobaczyć, jak niektóre z nich są dość podobne do takich rzeczy jak zapisywanie, kopiowanie, wklejanie - standardowe operacje przepływu pracy, ale dostosowane do procesu zarządzania oprogramowaniem. Jest jeszcze [kilka więcej](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html) , ale powinno to zrobić, aby zacząć.
 
-If you are interested, most of these terms come from the underlying [Git system](https://git-scm.com). Git was built to allow developers to manage different versions of source code in a distributed manner, which is great. It has lots of features and the ability to do lots of complex stuff, written by a [very clever guy](https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/). However, the [user interface was not designed with new users in mind](https://xkcd.com/1597/), so it can be hard to learn.
+Jeśli jesteś zainteresowany, większość tych warunków pochodzi z podstawowego systemu [Git](https://git-scm.com). Git został zbudowany, aby umożliwić programistom zarządzanie różnymi wersjami kodu źródłowego w sposób rozproszony, co jest świetne. Posiada wiele funkcji i możliwość zrobić wiele rzeczy złożonej, napisany przez [bardzo mądry facet](https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/). Jednak interfejs użytkownika [nie został zaprojektowany z myślą o nowych użytkownikach](https://xkcd.com/1597/), więc może być trudny do nauczenia.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git.png?raw=true" width="150px"/>
 </p>
 
-<p align="center"><i>Unbeatable guide to using Git. (Source: XKCD)</i></p>
+<p align="center"><i>Bezkonkurencyjny przewodnik po korzystaniu z Gita. (Źródło: XKCD)</i></p>
 
   
 
 
-### Creating a new repository <a name="Create_new"></a>
+### Tworzenie nowego repozytorium <a name="Create_new"></a>
 
-On your GitHub profile, click the 'Create new repository'. The first step is to create a name as the brand for your project. Ideally, it should be memorable and give some indication of what the project does.
+W swoim profilu GitHub kliknij „Utwórz nowe repozytorium”. Pierwszym krokiem jest stworzenie nazwy jako marki dla swojego projektu. Najlepiej byłoby, gdyby był pamiętny i dał pewne wskazówki na temat tego, co robi projekt.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/new_repo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Create a new repository</i></p>
+<p align="center"><i>Utwórz nowe repozytorium</i></p>
 
   
 
 
-Make sure not to duplicate names, infringe upon other trademarks, or name it anything that could be considered to be offensive.
+Upewnij się, że nie powielasz nazw, nie naruszasz innych znaków towarowych, ani nie nazywaj niczego, co mogłoby zostać uznane za obraźliwe.
 
   
 
 
-## The foundational steps <a name="Foundation"></a>
+## Podstawowe kroki <a name="Foundation"></a>
 
-Any GitHub repository requires 4 key elements to get started and to begin developing a welcoming community:
+Każde repozytorium GitHub wymaga 4 kluczowych elementów, aby rozpocząć i rozpocząć tworzenie przyjaznej społeczności:
 
-1. An Open Source license;
-2. A `README` file;
-3. Contributing guidelines; and
-4. A Code of Conduct.
+1. Licencja Open Source;
+2. Plik `README`;
+3. Przyczyniające się wytyczne; i
+4. Kodeks postępowania.
 
-These are critical aspects and best practices of any project for users to understand their legal rights, their expectations, the purpose of the project, and to improve the overall user experience.
+Są to krytyczne aspekty i najlepsze praktyki każdego projektu, aby użytkownicy mogli zrozumieć swoje prawa, oczekiwania, cel projektu i poprawić ogólne wrażenia użytkownika.
 
-All four of these files should be kept in the root directory for your project repository. It is convention to use markdown file formats (`.md`) for most of these files (though the license file is most often plain text (`.txt`)), and capitalise all file names. Instead of spaces in file names, make sure to use underscores `_` .
+Wszystkie cztery pliki powinny być przechowywane w katalogu głównym repozytorium projektu. Konwencja polega na stosowaniu formatów plików znaczników (`.md`) dla większości tych plików (chociaż plik licencji jest najczęściej zwykłym tekstem (`.txt`)), a wszystkie nazwy plików są pisane wielką literą. Zamiast spacji w nazwach plików, używaj podkreśleń `_`.
 
-So you should end up with a foundational file selection like this:
+Więc powinieneś skończyć z podstawowym wyborem plików takim jak ten:
 
 1. `LICENSE.md`
 2. `README.md`
@@ -149,192 +149,192 @@ So you should end up with a foundational file selection like this:
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/foundation.png?raw=true" width="800" /></p>
 
-<p align="center"><i>The basic repository structure</i></p>
+<p align="center"><i>Podstawowa struktura repozytorium</i></p>
 
   
 
 
-### Choosing a license <a name="License"></a>
+### Wybór licencji <a name="License"></a>
 
-Choosing an appropriate license is what will differentiate your Open Source repository from publicly available software. While you are not obliged to choose a license, doing so guarantees that others will be able to modify, share, re-use, and build upon your project within a legal framework.
+Wybór odpowiedniej licencji odróżni Twoje repozytorium Open Source od publicznie dostępnego oprogramowania. Chociaż nie jesteś zobowiązany do wyboru licencji, to gwarantuje to, że inni będą mogli modyfikować, udostępniać, ponownie wykorzystywać i rozwijać swój projekt w ramach prawnych.
 
-To start with, you want to check [Choose A License](https://choosealicense.com/) to find a license that best suits your intentions for the repository.
+Na początek chcesz sprawdzić [Wybierz licencję](https://choosealicense.com/) aby znaleźć licencję najlepiej pasującą do Twoich zamiarów dotyczących repozytorium.
 
-The three primary ones to choose from are:
+Trzy podstawowe do wyboru to:
 
-* **MIT License**: A permissive license that lets people do whatever they want with your code as long as they provide appropriate attribution to you, and do not hold you liable.
-* **Apache License 2.0**: Similar permissions to the MIT License, but also provides an express grant of patent rights from contributors to users.
-* **GNU General Public License (GPL) v3**: A [copyleft](https://en.wikipedia.org/wiki/Copyleft) license that requires anyone who redistributes your code, or a derivative work, to make the source available under the same terms as the original license; also provides an express grant of patent rights from contributors to users.
+* **Licencja MIT**: Licencja zezwalająca, która pozwala ludziom robić to, co chcą, za pomocą kodu, pod warunkiem, że dostarczają Ci odpowiedniego przypisania i nie ponoszą odpowiedzialności.
+* **Licencja Apache 2.0**: Podobne uprawnienia do licencji MIT, ale zapewnia również wyraźne przyznanie praw patentowych od współpracowników użytkownikom.
+* **Licencja GNU General Public License (GPL) v3**: Licencja [copyleft](https://en.wikipedia.org/wiki/Copyleft) która wymaga, aby każdy, kto redystrybuuje Twój kod lub pracę pochodną, udostępnił źródło na tych samych warunkach, co oryginalna licencja; zapewnia również wyraźne przyznanie praw patentowych od uczestników do użytkowników.
 
-Thankfully, when you start a new repository on GitHub, you are given the option to select an existing license from a drop-down menu. You should always (with very few exceptions) use an existing license, since this is what potential users and contributors will see before they choose to use or contribute to your software.
+Na szczęście po uruchomieniu nowego repozytorium w GitHub masz możliwość wybrania istniejącej licencji z menu rozwijanego. Powinieneś zawsze (z nielicznymi wyjątkami) korzystać z istniejącej licencji, ponieważ to właśnie zobaczą potencjalni użytkownicy i współpracownicy, zanim zdecydują się skorzystać z twojego oprogramowania.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/license.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Choosing an example license</i></p>
+<p align="center"><i>Wybór przykładowej licencji</i></p>
 
   
 
 
-If they don't have one you want, you can add one you like manually. To do this, simply click 'Create new file' in the repository, and copy and paste an existing license text in. Name the file something like `LICENSE.txt` or `LICENSE.md` to make it clear, and keep it in the main repository folder (i.e., the root). Make sure to add a clean commit message, and you're done!
+Jeśli nie masz takiego, możesz go dodać ręcznie. Aby to zrobić, po prostu kliknij „Utwórz nowy plik” w repozytorium, a następnie skopiuj i wklej istniejący tekst licencji. Nazwij plik w stylu `LICENSE.txt` lub `LICENSE.md` aby go wyjaśnić, i zachowaj go w głównym folderze repozytorium (np. Root). Pamiętaj, aby dodać czysty komunikat zatwierdzenia i gotowe!
 
-> **Helping hand**: This MOOC uses a different combination of licenses for code content and non-code content. Here you can find an example of the [MIT License](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/LICENSE.md) that we apply for all code and software generated as part of the MOOC production.
+> **Pomocna dłoń**: Ten MOOC wykorzystuje inną kombinację licencji na zawartość kodu i treść niekodującą. Tutaj znajdziesz przykład licencji [MIT](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/LICENSE.md) , którą stosujemy dla całego kodu i oprogramowania generowanego w ramach produkcji MOOC.
 
   
 
 
-### Creating a README file <a name="Readme"></a>
+### Tworzenie pliku README <a name="Readme"></a>
 
-When you initialise your new repository, there should be an option to do so with a `README` file. Just like Alice in Wonderland, these do exactly what they say - provide key information about the project. These are typically the first thing outside contributors will see when they come to your repository, so making them informative and welcoming is key.
+Po zainicjowaniu nowego repozytorium powinna istnieć możliwość zrobienia tego za pomocą pliku `README`. Podobnie jak Alicja w Krainie Czarów, robią dokładnie to, co mówią - dostarczają kluczowych informacji o projekcie. Zazwyczaj są to pierwsze rzeczy, które spoza autorów zobaczą, gdy wejdą do twojego repozytorium, więc kluczowe znaczenie ma ich informowanie i powitanie.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/readme.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the README file for this module</i></p>
+<p align="center"><i>Część pliku README dla tego modułu</i></p>
 
   
 
 
-The file will originally be in markdown (`.md`) format. This is a lightweight markup language with a plain text format. To learn some basic markdown, see [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). But for now, we can just use plain text.
+Plik będzie oryginalnie w formacie przeceny (`.md`). Jest to lekki język znaczników w formacie zwykłego tekstu. Aby nauczyć się podstawowych przecen, zobacz [tego arkusza kalkulacyjnego](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Ale na razie możemy po prostu użyć zwykłego tekstu.
 
-There are several things you will want to include in your `README` file:
+Jest kilka rzeczy, które chcesz dołączyć do swojego pliku `README`:
 
-* What is this project about and what does it do.
-* Why should people care, and why is it useful.
-* How can someone get started contributing to the project.
-* Who can be contacted in case someone needs help.
-* A link to the license, contributing guidelines, and code of conduct.
-* A description of the project structure.
-* Who is involved, and what are their roles.
-* The current status of the project.
+* O czym jest ten projekt i co robi.
+* Dlaczego ludzie powinni się troszczyć i dlaczego jest to przydatne.
+* Jak ktoś może zacząć przyczyniać się do projektu.
+* Z kim można się skontaktować, jeśli ktoś potrzebuje pomocy.
+* Łącze do licencji, wytycznych i kodeksu postępowania.
+* Opis struktury projektu.
+* Kto jest zaangażowany i jakie są ich role.
+* Aktualny stan projektu.
 
-> **Pro-tip**: Later on as your project develops, you might want to add FAQs based on community feedback, or a tutorial to help users understand how your project works.
+> **Pro-tip**: Później, w miarę rozwoju projektu, możesz dodać FAQ na podstawie opinii społeczności lub samouczka, aby pomóc użytkownikom zrozumieć, jak działa Twój projekt.
 
-Remember that not everyone coming to your project will be an expert, or understand what it is you are doing and why. Having a well-documented `README` file will enhance the user experience for people with a range of prior knowledge.
+Pamiętaj, że nie wszyscy przychodzący do twojego projektu będą ekspertami lub zrozumieją, co robisz i dlaczego. Posiadanie dobrze udokumentowanego pliku `README` poprawi wrażenia użytkownika dla osób o szerokim zakresie wiedzy.
 
-When the `README` file is included in the root directory, GitHub will automatically display this on the homepage of your repository. This means it is the first thing people will often see, so make it count!
+Gdy plik `README` znajduje się w katalogu głównym, GitHub automatycznie wyświetli to na stronie głównej repozytorium. Oznacza to, że jest to pierwsza rzecz, którą ludzie często widzą, więc zrób to!
 
-> **Helping hand**: Here, you can find the `README` file used for this [MOOC module](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md). This includes information on the status, rationale, learning outcomes, development team, key documents, and license to help. You can copy and adapt this structure for your own projects as needed.
+> **Pomocna dłoń**: Tutaj znajdziesz plik `README` użyty dla tego [modułu MOOC](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md). Obejmuje to informacje na temat statusu, uzasadnienia, efektów uczenia się, zespołu programistów, kluczowych dokumentów i licencji na pomoc. W razie potrzeby możesz kopiować i dostosowywać tę strukturę do własnych projektów.
 
   
 
 
-### Creating contributing guidelines <a name="Contributing"></a>
+### Tworzenie wytycznych pomocniczych <a name="Contributing"></a>
 
-Contributing guidelines are designed to communicate to potential contributors a short guide on how to engage with your project and community. You want to make sure to be welcoming, and indicate that you are eager for participants to engage with your project. Whenever a participant opens a new pull request or creates a new issue, they will see a link to your contribution file.
+Wytyczne wspierające mają na celu przekazanie potencjalnym autorom krótkiego przewodnika na temat zaangażowania w projekt i społeczność. Chcesz mieć pewność, że będziesz mile widziany i wskażesz, że chętnie angażujesz się w projekt. Za każdym razem, gdy uczestnik otworzy nowe żądanie ściągnięcia lub utworzy nowy numer, zobaczy link do twojego pliku składkowego.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/contributing.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the `CONTRIBUTING` guidelines for this module</i></p>
+<p align="center"><i>Część wytycznych `CONTRIBUTING` dla tego modułu</i></p>
 
   
 
 
-Sticking with the all caps file names, the next step is to create a `CONTRIBUTING` file. Click 'Create new file', and make sure to save it in markdown format as before. This file will tell other users how they can engage with and participate in your project. This is the first step towards establishing a community around your project, so make it engaging, concise, and informative.
+Trzymając się wszystkich nazw plików czapek, następnym krokiem jest utworzenie pliku `CONTRIBUTING`. Kliknij „Utwórz nowy plik” i upewnij się, że został zapisany w formacie przeceny jak poprzednio. Ten plik powie innym użytkownikom, jak mogą się angażować i uczestniczyć w projekcie. Jest to pierwszy krok w kierunku stworzenia społeczności wokół twojego projektu, więc spraw, by był wciągający, zwięzły i informacyjny.
 
-The `CONTRIBUTING` file should include information on:
+Plik `CONTRIBUTING` powinien zawierać informacje na temat:
 
-* What sort of contributions you are looking for.
-* How to suggest updates or new features.
-* How to interact with the project using GitHub's functions (e.g., the pull request protocol).
-* How to file a bug report or create an issue.
-* The ultimate goal, vision, or roadmap for the project.
-* How to contact those in charge of the project.
-* Links to any external documentation or websites.
+* Jakiego rodzaju wkładów szukasz?
+* Jak sugerować aktualizacje lub nowe funkcje.
+* Jak współdziałać z projektem za pomocą funkcji GitHub (np. Protokół żądania ściągnięcia).
+* Jak złożyć raport o błędzie lub utworzyć problem.
+* Ostateczny cel, wizja lub plan działania dla projektu.
+* Jak skontaktować się z osobami odpowiedzialnymi za projekt.
+* Linki do dowolnej zewnętrznej dokumentacji lub stron internetowych.
 
-> **Pro-tip**: Consider starting off with a short thank you note for people taking the time to consider contributing - they have clicked on the file to learn more after all! If there are other methods of recognition that you have in mind, make sure to include them in here too.
+> **Pro-tip**: Rozważ rozpoczęcie od krótkiej notki z podziękowaniami dla ludzi, którzy poświęcają czas na rozważenie wniesienia wkładu - kliknęli na plik, aby dowiedzieć się więcej! Jeśli masz na myśli inne metody rozpoznawania, pamiętaj o ich uwzględnieniu tutaj.
 
-Here, you are essentially trying to encourage people to volunteer their time to advance your project. Make sure to be welcoming and friendly, and be precise about how people can engage. When writing this, make sure to think about it from the user perspective - how can you make their life easier when submitting pull requests and opening issues to make the whole project run more smoothly.
+Tutaj zasadniczo starasz się zachęcić ludzi do poświęcenia swojego czasu na rozwój twojego projektu. Upewnij się, że jesteś przyjazny i przyjazny, i bądź precyzyjny, jak ludzie mogą się angażować. Pisząc to, pomyśl o tym z perspektywy użytkownika - jak możesz ułatwić sobie życie, składając wnioski o ściągnięcie i otwierając, aby cały projekt przebiegał sprawniej.
 
-> **Helping hand**: The [Contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) for this MOOC module include some very specific things: an introduction to using Git and GitHub, tips for getting started, contact information, how to alter the content and repor issues, a link to the `README` file, and information on the preferred content and code styles. Feel free to copy and adapt this for your own project as needed.
+> **Pomocna dłoń**: [wytyczne dotyczące](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) tego modułu MOOC obejmują kilka bardzo konkretnych rzeczy: wprowadzenie do używania Git i GitHub, wskazówki dotyczące rozpoczynania pracy, informacje kontaktowe, jak zmienić treść i problemy z reporterami, link do `Plik README` oraz informacje o preferowanej zawartości i stylach kodu. Nie krępuj się kopiować i dostosowywać do własnego projektu według potrzeb.
 
   
 
 
-### Creating a Code of Conduct <a name="Conduct"></a>
+### Tworzenie kodeksu postępowania <a name="Conduct"></a>
 
-A code of conduct is important for setting the ground rules for expected behaviour and participation for project contributors, and is an easily referenced document for showing that your project team takes constructive dialogues seriously. Therefore, it is a critical element for creating and maintaining a healthy community that engages in a constructive and productive manner within a positive social atmosphere.
+Kodeks postępowania jest ważny dla ustalenia podstawowych zasad dla oczekiwanego zachowania i udziału uczestników projektu, a także jest dokumentem, do którego można się odwołać, aby pokazać, że zespół projektowy poważnie traktuje konstruktywne dialogi. Dlatego jest to kluczowy element tworzenia i utrzymywania zdrowej społeczności, która angażuje się w konstruktywny i produktywny sposób w pozytywnej atmosferze społecznej.
 
-A code of conduct not only provides expectations of behaviour, but also describes who those expectations apply to, when they apply, what to do should a violation of the code occur, and what the action items for this will be. As such, points of contact need to be made clear in the code of conduct. Typically, this should be in a private way such as an email address.
+Kodeks postępowania nie tylko zapewnia oczekiwania dotyczące zachowania, ale także opisuje, do kogo mają zastosowanie te oczekiwania, kiedy mają zastosowanie, co należy zrobić, jeśli dojdzie do naruszenia kodu, i jakie będą działania w tym zakresie. Jako takie, punkty kontaktowe muszą być jasno określone w kodeksie postępowania. Zazwyczaj powinno to odbywać się w sposób prywatny, taki jak adres e-mail.
 
-> **Pro-tip**: In case a violation needs to be reported about the person who receives those reports, make sure to include an option to contact a secondary party.
+> **Pro-tip**: W przypadku, gdy należy zgłosić naruszenie dotyczące osoby, która otrzymuje te raporty, upewnij się, że zawiera opcję skontaktowania się z drugą stroną.
 
-To add a code of conduct, you can create your own from scratch by adding a new markdown file, or use existing templates such as the [Contributor Covenant](https://contributor-covenant.org/). Name your file `CODE_OF_CONDUCT.md`, and make sure it is visible in the `README` file.
+Aby dodać kodeks postępowania, możesz utworzyć własny kod od podstaw, dodając nowy plik przeceny lub użyć istniejących szablonów, takich jak [Współtwórca kontraktu](https://contributor-covenant.org/). Nazwij swój plik `CODE_OF_CONDUCT.md`i upewnij się, że jest widoczny w pliku `README`.
 
-> **Helping hand**: This MOOC also has a [Code of Conduct](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CODE_OF_CONDUCT.md) based on the Contributor Covenant. As you can see, it includes information on expected standards of behaviour, responsibilities of those in the community, and enforcement of the CoC including contact details. Feel free again to re-use and adapt this to your project as you see fit.
+> **Pomocna dłoń**: Ten MOOC posiada również [Kodeks Postępowania](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CODE_OF_CONDUCT.md) oparty na Porozumieniu Współtwórcy. Jak widać, zawiera on informacje na temat oczekiwanych standardów zachowania, obowiązków osób w społeczności oraz egzekwowania Kodeksu postępowania, w tym danych kontaktowych. Ponownie skorzystaj ponownie i dostosuj to do swojego projektu, jak uznasz za stosowne.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/code_of_conduct.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the CODE OF CONDUCT file for this module, based on the Contributor Covenant</i></p>
+<p align="center"><i>Część pliku CODE OF CONDUCT dla tego modułu na podstawie Przymierza Współtwórcy</i></p>
 
   
 
 
-Making sure to enforce the code of conduct is important, as it shows that not only do you value the code, but you respect the influence that it has on your community. It is important to treat each member of the community with the respect, courtesy, and importance that they deserve. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
+Konieczność egzekwowania kodeksu postępowania jest ważna, ponieważ pokazuje, że nie tylko cenisz kod, ale szanujesz jego wpływ na społeczność. Ważne jest, aby traktować każdego członka społeczności z szacunkiem, uprzejmością i znaczeniem, na które zasługują. Jeśli dojdzie do naruszenia lub powtarzający się sprawca naruszy zasady, najlepiej jest odwołać się do [przewodnika Open Source](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) aby zobaczyć, jak egzekwować kodeks postępowania.
 
   
 
 
-### Making your code citable <a name="Citation"></a>
+### Dokonywanie cytowania kodu <a name="Citation"></a>
 
-If you want to make your code citable from the start, you should store the metadata needed for a citation from the start, by creating a `[codemeta.json](https://codemeta.github.io)` file or a `[CITATION.cff](https://citation-file-format.github.io)` file. Both will allow tooling that is currently being developed to automatically create citation information, rather than asking you to type it in a form later.
+Jeśli chcesz, aby kod od początku był cytowalny, powinieneś przechowywać metadane potrzebne do cytowania od początku, tworząc plik `[codemeta.json](https://codemeta.github.io)` lub `[CITATION.cff](https: //citation-file-format.github.io)` plik. Oba narzędzia umożliwiają obecnie tworzenie narzędzi do automatycznego tworzenia informacji o cytatach, a nie proszenia o wpisanie ich później w formularzu.
 
-If you're interested, [cite.research-software.org](https://cite.research-software.org) provides further background information about software citation in academia.
+Jeśli jesteś zainteresowany, [cite.research-software.org](https://cite.research-software.org) zawiera dodatkowe informacje na temat cytowania oprogramowania w środowisku akademickim.
 
   
 
 
-## Keeping your issues up to date <a name="Issues"></a>
+## Uaktualnianie Twoich problemów <a name="Issues"></a>
 
-Issues are not necessarily problems with a project, but also suggestions for improvement, things to develop in the future, and comments and feedback about the project to work through. They can be openly shared and discussed with contributors as needed, sort of like a forum.
+Kwestie niekoniecznie dotyczą problemów z projektem, ale także sugestie dotyczące ulepszeń, rzeczy, które należy opracować w przyszłości, a także komentarze i opinie na temat projektu, nad którym należy pracować. W razie potrzeby można je otwarcie udostępniać i omawiać z autorami, w rodzaju forum.
 
-If you are a project lead, it is important to maintain a list of issues that make it clear to contributors what aspects of the project need attention. It is also important to engage with as many issues as possible from others in a positive manner, to show that you take their contributions seriously.
+Jeśli jesteś kierownikiem projektu, ważne jest, aby zachować listę zagadnień, które wyjaśniają uczestnikom, jakie aspekty projektu wymagają uwagi. Ważne jest również, aby angażować się w jak najwięcej problemów od innych w pozytywny sposób, aby pokazać, że traktujesz ich wkład poważnie.
 
-Key elements for issues include:
+Kluczowe elementy zagadnień obejmują:
 
-* An informative title and description;
-* Coloud-coded labels/tags to help categorise and filter;
-* Milestones to associate issues with specific features or project phases;
-* Assignees indicate who is responsible for working on an issue;
-* Comments for providing feedback.
+* Informacyjny tytuł i opis;
+* Etykiety / znaczniki kodowane kolorem, które ułatwiają klasyfikowanie i filtrowanie;
+* Kamienie milowe związane z powiązaniem problemów z konkretnymi funkcjami lub fazami projektu;
+* Cesjonariusze wskazują, kto jest odpowiedzialny za pracę nad danym zagadnieniem;
+* Komentarze do przekazywania opinii.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/issues.png?raw=true" width="800" /></p>
 
-<p align="center"><i>The issue tracker for the Open Scholarship Strategy project</i></p>
+<p align="center"><i>Tracker problemów dla projektu Otwartej Strategii Stypendialnej</i></p>
 
   
 
 
-Within issues it is possible to use @ mentions to notify other contirbutors about the issue, and to get the right people engaged in an effective manner. GitHub has an internal system of notifications, just like Facebook or Twitter, and can also send emails to people who are mentioned in the issue tracker. This can all be customised for individuals within the user settings.
+W ramach zagadnień można użyć wzmianek @, aby powiadomić innych kontrargumentów o problemie i skutecznie zaangażować odpowiednie osoby. GitHub ma wewnętrzny system powiadomień, podobnie jak Facebook lub Twitter, a także może wysyłać wiadomości e-mail do osób wymienionych w module śledzenia problemów. Wszystko to można dostosować dla osób w ustawieniach użytkownika.
 
   
 
 
-## Checklist for launching your project <a name="Checklist"></a>
+## Lista kontrolna do uruchomienia projektu <a name="Checklist"></a>
 
-So now you are ready to launch your project, begin advertising it, and getting contributions! Before continuing, make sure that you have:
+Teraz jesteś gotowy, aby uruchomić swój projekt, zacząć go reklamować i otrzymywać składki! Zanim przejdziesz dalej, upewnij się, że masz:
 
-* [ ] Project has a memorable and informative name
-* [ ] Project has a `LICENSE` file that is an exact copy of an Open Source license
-* [ ] Complete documentation including a `README`, `CONTRIBUTING`, and `CODE_OF_CONDUCT` files
-* [ ] Project has at least one clearly labelled issue
-* [ ] Any code included at this stage is clearly structured and annotated
+* [] Projekt ma pamiętną i pouczającą nazwę
+* [] Projekt ma `LICENCJI` plik, który jest dokładną kopią licencji Open Source
+* [] Pełna dokumentacja zawierająca pliki `README`, `CONTRIBUTING`i `CODE_OF_CONDUCT`
+* [] Projekt ma co najmniej jeden wyraźnie oznaczony problem
+* [] Każdy kod zawarty na tym etapie jest jasno skonstruowany i opatrzony komentarzami
 
-**CONGRATULATIONS!**
+**GRATULACJE!**
 
-You have now launched an Open Source research project! Hopefully, from here on out, your work will act to benefit the wider community, forge new collaborations, and create new and fantastic opportunities for you all. Try and think about ways in which these skills can be applied to future projects, and how they might also have helped with some in the past.
+Uruchomiłeś projekt badawczy Open Source! Mam nadzieję, że od tej pory twoja praca będzie działać na korzyść szerszej społeczności, tworzyć nową współpracę i tworzyć nowe, fantastyczne możliwości dla wszystkich. Spróbuj i zastanów się, w jaki sposób te umiejętności mogą być zastosowane w przyszłych projektach i jak mogły one pomóc w przeszłości.
 
-From now on, it is all up to you! Some advice is to:
+Od teraz wszystko zależy od Ciebie! Porady to:
 
-* Write clean code;
-* Have a well-structured project;
-* Make frequent commits with clean messages;
-* Keep projects well-documented;
-* Have clear contributing guidelines;
-* Make use of the description and tag functions;
-* Don't fork someone else's repository unless you intend to work on them;
-* Make sure to contribute to other people's projects too.
+* Napisz czysty kod;
+* Miej dobrze zorganizowany projekt;
+* Rób częste zobowiązania dzięki czystym wiadomościom;
+* Utrzymuj dobrze udokumentowane projekty;
+* Mieć jasne wytyczne;
+* Skorzystaj z opisu i funkcji znaczników;
+* Nie rozwidlaj cudzego repozytorium, chyba że zamierzasz nad nimi pracować;
+* Upewnij się, że również przyczynisz się do projektów innych ludzi.
 
-**Know a way this content can be improved?**
+**Wiesz, w jaki sposób można poprawić tę zawartość?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Czas wziąć swoje nowe umiejętności GitHub na próbę! Cały rozwój treści odbywa się przede wszystkim [tutaj](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md). Jeśli masz sugerowane ulepszenie treści, układu lub czegokolwiek innego, możesz to zrobić, a następnie automatycznie stanie się częścią treści MOOC po weryfikacji od moderatora!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
