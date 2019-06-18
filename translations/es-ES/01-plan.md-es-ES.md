@@ -1,13 +1,13 @@
-## Module 5: Initiate and plan
+## Módulo 5: Iniciar y planificar
 
-### Define the target groups
+### Definir los grupos de destino
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- Investigadores computacionales
+- Estudiantes graduados y de grado
+- Científicos de datos
+- Cualquier otro investigador que utilice código analítico/software
 
-### Refine the learning objectives and outcomes
+### Refinar los objetivos y resultados del aprendizaje
 
 - The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
 - Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
