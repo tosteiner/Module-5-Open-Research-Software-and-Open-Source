@@ -28,11 +28,11 @@ output:
 
 Bem-vindo ao **Módulo 5** do curso Ciência Aberta: ** Software de Pesquisa e código-fonte aberto **.
 
-This module has been developed [in the open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) through collaboration by an international team of [Open Source afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Everything you see here has been developed in the open through interactive feedback and collaboration from the wider community. It comprises a series of videos, infographics, text-based reading, and practical tasks for you to sink you teeth into.
+Este módulo tem sido desenvolvido [ em aberta ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) colaboração por uma equipe internacional de [ aficionados em código aberto](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Todos os conteúdos aqui apresentados foram desenvolvidos de forma aberta, por meio de feedback interativo e colaboração da comunidade em geral. Compreende uma série de vídeos, infográficos, leituras baseadas em texto e tarefas práticas para que você se envolva profundamente com o tema.
 
-Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
+Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
-### Who is this module for?
+### Para quem é este módulo?
 
 This module is designed primarily for computational researchers at the graduate and undergraduate level, as well as budding data scientists and any other researcher who uses analytical code or software. In a modern day research environment, this covers pretty much anyone who uses a computer for ther work.
 
