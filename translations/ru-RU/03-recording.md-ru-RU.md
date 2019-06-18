@@ -9,12 +9,12 @@
 * [Петер Мурай-Руст](https://twitter.com/petermurrayrust)
 * [Хайди Сенболд](https://twitter.com/HeidiBaya)
 * [Конрад Форстнер](https://twitter.com/konradfoerstner)
-* [Anna Kostikova](https://twitter.com/oxytheca)
-* [Ina Smith](https://twitter.com/ismonet)
-* [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
+* [Анна Костикова](https://twitter.com/oxytheca)
+* [Инна Смит](https://twitter.com/ismonet)
+* [Эбби Кабунок Майес](https://twitter.com/abbycabs)
 
-## Script
+## скрипт
 
-See [Script](script_intro.md) for details.
+Смотрите [Сценарий](script_intro.md) для деталей.
 
-For further information, please see the [video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) and the information on how to [write a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
+Для получения дополнительной информации, пожалуйста , см [протокол управления видео](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) и информацию о том , как [написать сценарий](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
