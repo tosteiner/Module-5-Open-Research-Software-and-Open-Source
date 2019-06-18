@@ -17,16 +17,16 @@
 ### Design the course outline
 
 1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
+2. Princípios do Software de Código-fonte aberto.
 3. What open, collaborative platforms, with version control, exist.
 4. Why should code be shared as a research output.
 5. How to use GitHub combined with the Zenodo plug-in for code archiving.
 6. How to document and publish code, and what makes good software for re-use, including testing and comments.
-7. Open Source licensing.
+7. Licenças de código aberto.
 8. Tools for better open research
 9. Community codes, governance, and contributions.
 10. How to access and start working on general computing platforms
-11. Software citation.
+11. Citação de software.
 12. Differences in setting up accounts/storage/computing on different platforms.
 13. Comparison in terms of collaboration and openness with clusters/in-house servers.
 14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
