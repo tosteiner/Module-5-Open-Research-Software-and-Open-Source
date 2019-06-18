@@ -1,94 +1,94 @@
-# Script
+# скрипт
 
-Course title: **Open Science MOOC**
+Название курса: **Open Science MOOC**
 
-Module title: **Open Source and Open Research Software**
+Название модуля: **Open Source и Open Research Software**
 
-Video title: **Why Open Source is important for researchers**
+Название видео: **Почему Open Source важен для исследователей**
 
-Location: Dependent on presenter
+Расположение: зависит от докладчика
 
-Recording device: Depending on what is available, either webcam, mobile phone, or camera. If Jon can get to you on location, then we can use professional equipment.
+Устройство записи: в зависимости от того, что доступно, веб-камера, мобильный телефон или камера. Если Джон сможет добраться до вас на месте, то мы можем использовать профессиональное оборудование.
 
-Proposed style: Monologue
+Предлагаемый стиль: монолог
 
-Content visualisations: None (optional)
+Визуализация контента: нет (необязательно)
 
-Format: Informal, casual, outside of classroom/lab
+Формат: неофициальный, обычный, вне классной комнаты / лаборатории
 
-Opening: MOOC main logo, MOOC module logo, title of this video.
+Открытие: основной логотип MOOC, логотип модуля MOOC, название этого видео.
 
-Presenters:
+Ведущие:
 
-- [Jon Tennant](https://twitter.com/protohedgehog) - HOST
+- [Джон Теннант](https://twitter.com/protohedgehog) - ХОСТ
 - [Петер Мурай-Руст](https://twitter.com/petermurrayrust)
 - [Хайди Сенболд](https://twitter.com/HeidiBaya)
 - [Конрад Форстнер](https://twitter.com/konradfoerstner)
-- [Anna Kostikova](https://twitter.com/oxytheca)
-- [Ina Smith](https://twitter.com/ismonet)
-- [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
+- [Анна Костикова](https://twitter.com/oxytheca)
+- [Инна Смит](https://twitter.com/ismonet)
+- [Эбби Кабунок Майес](https://twitter.com/abbycabs)
 
-## Background
+## Фон
 
-The intention of this video is to explain to learners *why* they should be doing this module. What the advantage of learning this material is, in terms of how it will affect their daily research practices. For this, it has to be personal stories: How OSS has impacted you, why it is important to you, and a real world experience of it. So, for example, "Using Open Source Software, I was able to remotely collaborate with researcher X in country Y, which led to the sharing of research code and data and ultimately a publication in journal Z."
+Цель этого видео - объяснить учащимся *почему* они должны делать этот модуль. Каково преимущество изучения этого материала с точки зрения того, как он повлияет на их повседневную исследовательскую практику. Для этого должны быть личные истории: как OSS повлиял на вас, почему это важно для вас, и реальный опыт этого. Так, например, «Используя ПО с открытым исходным кодом, я смог удаленно сотрудничать с исследователем X в стране Y, что привело к обмену исследовательским кодом и данными и, в конечном итоге, публикации в журнале Z»
 
-This video will come in at the Introduction just before the learning outcomes, and really nail why people should be taking this module by prociding a real human component and narrative.
+Это видео появится во введении незадолго до результатов обучения, и действительно поймет, почему люди должны брать этот модуль, предлагая реальный человеческий компонент и рассказ.
 
-Now, importantly, I want this video to be completely distinct from something like a formal university lecture, where the learning is plain and uni-directional from teacher to learner. I want it to be personal, natural, and engaging - you are all members of the community, and I see this ss more peer-to-peer. So less floating heads and instructional, and more casual. What I want produce ultimately is something inspirational that gets people to go 'OK, this sounds useful to me and I should take and complete this module'.
+Теперь, что важно, я хочу, чтобы это видео было полностью отличным от чего-то вроде официальной университетской лекции, где обучение является простым и однонаправленным от учителя к ученику. Я хочу, чтобы это было лично, естественно и привлекательно - вы все члены сообщества, и я вижу, что это более одноранговый. Так что менее плавающие и обучающие головы, и более случайные. В конечном итоге, я хочу, чтобы что-то вдохновляющее заставляло людей говорить: «Хорошо, это звучит полезно для меня, и я должен взять и закончить этот модуль».
 
-## Brief layout
+## Краткое макетирование
 
-1. Introductory section (Jon)
-2. Middle section, comprising 6 short 30-120 second statements from each presenter (all)
-3. Conclusions (Jon)
+1. Вводный раздел (Джон)
+2. Средняя часть, содержащая 6 коротких 30-120 секундных выступлений от каждого докладчика (все)
+3. Выводы (Джон)
 
-## Introduction - Jon
+## Введение - Джон
 
-"Welcome to Module 5 of the Open Science MOOC, on Open Research Software and Open Source. In this module, we will learn about the importance of open source software in modern research. The module will help to equip us the relevant knowledge and tools to transform software into something that can be openly accessed and re-used by others.
+Добро пожаловать в модуль 5 Open Science MOOC, посвященный программному обеспечению для открытых исследований и Open Source. В этом модуле мы узнаем о важности программного обеспечения с открытым исходным кодом в современных исследованиях. Модуль поможет вооружить нас соответствующими знаниями и инструментами для преобразования программного обеспечения в то, что может быть открыто доступно и повторно использовано другими
 
-This video will answer a key question: Why is Open Source Software important for you and your research? To help with this, we have spoken with 6 researchers across the world who use Open Source Software in their daily practices, and can testify to the great impact it can have on their research workflows. Because Open Source is just as much about the people as it is the technology."
+Это видео ответит на ключевой вопрос: почему программное обеспечение с открытым исходным кодом важно для вас и ваших исследований? Чтобы помочь в этом, мы поговорили с 6 исследователями по всему миру, которые используют ПО с открытым исходным кодом в своей повседневной практике и могут подтвердить, какое большое влияние это может оказать на их исследовательские рабочие процессы. Потому что с открытым исходным кодом столько же людей, сколько и технологий »
 
-## Middle (body) - All
+## Середина (корпус) - Все
 
-[Per presenter]
+[На ведущего]
 
-- Intro - name, discipline, affiliation.
-- When you became interested in OSS.
-- A specific example of how using OSS has impacted you and your research.
-- Name the software and specific outcomes from using it. Use names of others if needed.
-- Finish each story relating to the overall impact it has had on your research.
+- Вступление - имя, дисциплина, принадлежность.
+- Когда ты заинтересовался OSS.
+- Конкретный пример того, как использование OSS повлияло на вас и ваши исследования.
+- Назовите программное обеспечение и конкретные результаты его использования. Используйте имена других, если это необходимо.
+- Завершите каждую историю, касающуюся общего воздействия, которое она оказала на ваше исследование.
 
-## Conclusions - Jon
+## Выводы - Джон
 
-"So there we have it, 6 awesome stories from some talented researchers about the transformation that Open Source Software can have on our research practices. These tools have the potential to make our lives as researchers much easier, making our research more efficient, cost-effective, and transparent.
+«Итак, у нас есть 6 удивительных историй от некоторых талантливых исследователей о трансформации, которую Open Source Software может внести в нашу исследовательскую практику. Эти инструменты могут значительно облегчить нашу жизнь исследователей, сделав наши исследования более эффективными, экономичными и прозрачными.
 
-In the rest of this module, we will learn a little more about the principles and community behind Open Source Software, how to make our own good software for re-use, and also how to cite any software we use in our own research. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
+В оставшейся части этого модуля мы узнаем немного больше о принципах и сообществе программного обеспечения с открытым исходным кодом, о том, как создать собственное хорошее программное обеспечение для повторного использования, а также о том, как цитировать любое программное обеспечение, которое мы используем в наших собственных исследованиях. Кроме того, у нас есть три практические задачи, которые помогут нам сначала настроить свой собственный проект в GitHub, а затем, как заархивировать этот проект в Zenodo, и, наконец, как интегрировать Git с языком программирования R.
 
-Hopefully, by the end of the module, you will be able to apply these skills and knowledge to make your daily activities as a researcher more efficient. The next part of this module is just what is Open Source Software - enjoy!"
+Надеемся, что к концу модуля вы сможете применить эти навыки и знания, чтобы сделать вашу повседневную деятельность в качестве исследователя более эффективной. Следующая часть этого модуля - это то, что представляет собой ПО с открытым исходным кодом - наслаждайтесь! »
 
-## Post-recording tasks
+## Задачи после записи
 
-- Create a transcript and subtitle file (for translations)
-- Add start and end slides
-- Add screen information for each presenter
-- Edit videos together for continuity
-- Add statements between presenters in middle parts if needed *or* add a brief pause with a slide of information between each presenter (name, discipline, software name, affiliation)
+- Создать файл стенограммы и субтитров (для переводов)
+- Добавить начальный и конечный слайды
+- Добавить информацию о экране для каждого докладчика
+- Редактируйте видео вместе для непрерывности
+- При необходимости добавьте утверждения между докладчиками в средних частях. *или* добавьте небольшую паузу со слайдом информации между каждым докладчиком (имя, дисциплина, название программного обеспечения, принадлежность)
 
-## Licensing statement
+## Лицензионное заявление
 
-I/we grant the Open Science MOOC the right to re-use the content that I/we provide for the project. Specifically, I/we give permission to:
+Я / мы предоставляем Open Science MOOC право повторно использовать контент, который я / мы предоставляем для проекта. В частности, я / мы даем разрешение на:
 
-- Use the material for educational purposes for the project
+- Использовать материал в образовательных целях для проекта
 
-- Publish the educational videos to the MOOC platform(s), and share any relevant ones on social media
+- Публикуйте обучающие видео на платформе (ах) MOOC и делитесь любыми релевантными в социальных сетях.
 
-- Release the content under a Creative Commons CC BY 4.0 International license
+- Выпуск контента под Creative Commons CC BY 4.0 Международная лицензия
 
-Signed:
+Подпись:
 
-[please add names here]
+[пожалуйста, добавьте имена здесь]
 
 - Хайди Сенболд
-- Konrad Förstner
-- Ina Smith
-- Abigail Cabunoc Mayes
+- Конрад Фёрстнер
+- Инна Смит
+- Эбигейл Кабунок Майес
