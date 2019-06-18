@@ -7,46 +7,46 @@
 - Scientifiche di dati
 - Qualsiasi altro ricercatore che utilizza codice analitico/software
 
-### Refine the learning objectives and outcomes
+### Affina gli obiettivi e i risultati dell'apprendimento
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
-- The learner will be able to use a range of research tools that utilise open source software.
-- Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
+- Lo studente sarà in grado di definire le caratteristiche del software di ricerca open source e gli argomenti di impatto etico, legale, economico e di ricerca a favore e contro di esso.
+- In base agli standard della comunità, gli studenti saranno in grado di descrivere i requisiti di qualità della condivisione e del riutilizzo del codice aperto.
+- Lo studente sarà in grado di utilizzare una serie di strumenti di ricerca che utilizzano software open source.
+- I singoli studenti saranno in grado di trasformare il codice progettato per il loro uso personale in un codice accessibile e riutilizzabile da altri.
 
-### Design the course outline
+### Progetta il contorno del corso
 
-1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
-3. What open, collaborative platforms, with version control, exist.
-4. Why should code be shared as a research output.
-5. How to use GitHub combined with the Zenodo plug-in for code archiving.
-6. How to document and publish code, and what makes good software for re-use, including testing and comments.
-7. Open Source licensing.
-8. Tools for better open research
-9. Community codes, governance, and contributions.
-10. How to access and start working on general computing platforms
-11. Software citation.
-12. Differences in setting up accounts/storage/computing on different platforms.
-13. Comparison in terms of collaboration and openness with clusters/in-house servers.
-14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
+1. Cos'è il software Open Source, inclusi background ed esempi.
+2. Principi del software Open Source.
+3. Quali piattaforme aperte e collaborative, con controllo della versione, esistono.
+4. Perché il codice dovrebbe essere condiviso come risultato di una ricerca.
+5. Come usare GitHub combinato con il plug-in Zenodo per l'archiviazione del codice.
+6. Come documentare e pubblicare il codice e cosa rende un buon software da riutilizzare, inclusi test e commenti.
+7. Licenze open source.
+8. Strumenti per una migliore ricerca aperta
+9. Codici comunitari, governance e contributi.
+10. Come accedere e iniziare a lavorare su piattaforme informatiche generali
+11. Citazione del software
+12. Differenze nella configurazione di account / archiviazione / elaborazione su piattaforme diverse.
+13. Confronto in termini di collaborazione e apertura con cluster / server interni.
+14. Dove puoi andare da qui? Include un'introduzione alla comunità Open Source e ulteriori risorse per l'apprendimento.
 
-### Design the project plan and timeline
+### Progetta il piano di progetto e la cronologia
 
-- Start: May 2018.
-- Team finalisation: end of May 2018
-- Production start: June 2018
-- Draft of first scripts: end of June 2018
-- Draft of first textual content: end of June 2018
-- Recording and editing: July 2018
-- Designing practical exercises: July 2018
-- Finalisation of content: August 2018
-- Check with Steering Committee: end of August 2018
-- Release for beta testing: end of September 2018
+- Inizio: maggio 2018.
+- Finalizzazione squadra: fine maggio 2018
+- Inizio della produzione: giugno 2018
+- Bozza delle prime sceneggiature: fine giugno 2018
+- Bozza del primo contenuto testuale: fine giugno 2018
+- Registrazione e modifica: luglio 2018
+- Progettazione di esercizi pratici: luglio 2018
+- Finalizzazione del contenuto: agosto 2018
+- Verificare con il comitato direttivo: fine agosto 2018
+- Rilascio per beta test: fine settembre 2018
 
-### Identify promotion channels
+### Identifica i canali di promozione
 
-- Relevant Twitter handles:
+- Maniglie di Twitter pertinenti:
     
     - [Twitter Open Source](https://twitter.com/twitteross)
     - [Open Source TV](https://twitter.com/opensourcetv)
@@ -61,25 +61,25 @@
     - [Jan Gondol](https://twitter.com/jangondol)
     - [Konrad Foerstner](https://twitter.com/konradfoerstner)
     - [Ina Smith](https://twitter.com/ismonet)
-    - [Coko Foundation](https://twitter.com/CokoFoundation)
+    - [Fondazione Coko](https://twitter.com/CokoFoundation)
     - [Google Open Source](https://twitter.com/GoogleOSS)
     - [Carl Malamud](https://twitter.com/carlmalamud)
-    - [Code Is Science](https://twitter.com/codeisscience)
+    - [Il codice è scienza](https://twitter.com/codeisscience)
 
-- Organisations:
+- organizzazioni:
     
-    - [Software Carpentry](https://software-carpentry.org/)
-    - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
-    - [COKO Foundation](https://coko.foundation/)
-    - [Free Software Foundation](https://www.fsf.org/licensing/)
-    - [WSSSPE community](http://wssspe.researchcomputing.org.uk)
-    - [Open Research Software](http://openresearchsoftware.metajnl.com)
+    - [Software di carpenteria](https://software-carpentry.org/)
+    - [Istituto di software sostenibile](https://www.software.ac.uk/software-sustainability-institute)
+    - [Fondazione COKO](https://coko.foundation/)
+    - [Fondazione software gratuita](https://www.fsf.org/licensing/)
+    - [Comunità WSSSPE](http://wssspe.researchcomputing.org.uk)
+    - [Apri il software di ricerca](http://openresearchsoftware.metajnl.com)
     - [JOSS](http://joss.theoj.org)
-    - [Free Software Foundation](https://www.fsf.org/)
+    - [Fondazione software gratuita](https://www.fsf.org/)
     - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
+    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (nota che il loro sito web sembra essere rotto, gennaio 2019)
     - [Ada Initiative](https://adainitiative.org/)
 
-- Mailing lists:
+- Mailing list:
     
-    - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
+    - [Scienza aperta](https://lists.okfn.org/mailman/listinfo/open-science)
