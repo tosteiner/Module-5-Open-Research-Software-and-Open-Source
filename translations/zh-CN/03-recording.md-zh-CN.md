@@ -1,20 +1,20 @@
-# Module 5: Recording and editing
+# 第5单元：录制和编辑
 
-1. Record either on location, online, or within studio 
-2. Preference to non-'floating head' styles 
-3. Edit all audio/visual material 
+1. 在现场，在线或工作室内录制 
+2. 优选非'浮动头'风格 
+3. 编辑所有音频/视频材料 
 
-## Confirmed:
+## 确认：
 
 * [Peter Murray-Rust](https://twitter.com/petermurrayrust)
 * [Heidi Seibold](https://twitter.com/HeidiBaya)
 * [Konrad Foerstner](https://twitter.com/konradfoerstner)
-* [Anna Kostikova](https://twitter.com/oxytheca)
-* [Ina Smith](https://twitter.com/ismonet)
+* [安娜科斯蒂科娃](https://twitter.com/oxytheca)
+* [伊娜史密斯](https://twitter.com/ismonet)
 * [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
 
-## Script
+## 脚本
 
-See [Script](script_intro.md) for details.
+有关详细信息，请参见 [脚本](script_intro.md)
 
-For further information, please see the [video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) and the information on how to [write a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
+有关详细信息，请参阅 [视频管理协议](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) 和关于如何将信息 [编写脚本](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)。
