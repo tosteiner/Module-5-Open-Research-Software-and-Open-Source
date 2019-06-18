@@ -1,26 +1,26 @@
-## Module 5: Initiate and plan
+## Modul 5: Initiieren und planen
 
 ### Zielgruppen definieren
 
-- Computational researchers
+- Recherche
 - BA/MA-Studierende, Promovierende
-- Data scientists
-- Any other researcher who uses analytical code/software
+- Datenwissenschaftler
+- Jeder andere Forscher, der analytischen Code/Software verwendet
 
-### Refine the learning objectives and outcomes
+### Refine the learning objectives and results
 
 - Der Lernende kann die Eigenschaften von Open-Source-Forschungssoftware, sowie die ethischen, rechtlichen, wirtschaftlichen und wissenschaftlichen Argumente für und gegen sie identifizieren.
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
-- The learner will be able to use a range of research tools that utilise open source software.
+- Auf Basis von Gemeinschaftsstandards können die Lernenden die Qualitätsanforderungen des Teilen und der Wiederverwendung von Open-Code beschreiben.
+- Der Lerner kann eine Reihe von Forschungstools verwenden, die Open Source Software nutzen.
 - Lernende werden in der Lage sein, für ihren persönlichen Gebrauch entwickelten Code in Code umzuwandeln, der für andere zugänglich und wiederverwendbar ist.
 
-### Design the course outline
+### Kurs-Umriss erstellen
 
-1. What is Open Source Software, including background and examples.
-2. Principles of Open Source Software.
-3. What open, collaborative platforms, with version control, exist.
-4. Why should code be shared as a research output.
-5. How to use GitHub combined with the Zenodo plug-in for code archiving.
+1. Was ist Open Source Software, einschließlich Hintergrund und Beispiele.
+2. Grundsätze der Open Source Software.
+3. Was offen, kollaborative Plattformen mit Versionskontrolle sind.
+4. Warum sollte Code als Forschungsleistung geteilt werden.
+5. Wie man GitHub zusammen mit dem Zenodo-Plugin für die Codearchivierung verwendet.
 6. How to document and publish code, and what makes good software for re-use, including testing and comments.
 7. Open Source licensing.
 8. Tools for better open research
