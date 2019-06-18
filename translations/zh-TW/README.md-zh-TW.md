@@ -1,75 +1,75 @@
-# Module 5 content development
+# 第5單元內容開發
 
-These are the main content development files for this MOOC module.
+這些是此MOOC模塊的主要內容開發文件。
 
-**STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
+**狀態**： **現場直播！ 這個模塊現已上線，可以通過 [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html)進入。**
 
-The third release for this module is now also ready, and has been published on Zenodo:
+該模塊的第三個版本現已準備就緒，已在Zenodo上發布：
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) 和介紹視頻也已經 [發表](https://www.youtube.com/watch?v=1fwGliIyAZs)。
 
-To cite this work, please use the following reference:
+要引用此工作，請使用以下參考：
 
-Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
+喬恩坦南特;西蒙沃辛頓; Tania Allard; Philipp Zumstein; Daniel S. Katz;亞歷山大莫利; Stephan Druskat;朱利安·科倫;阿方史密斯;伊娜史密斯;托比亞斯施泰納; Rutger Vos; KonradFörstner; Heidi Seibold;亞歷山德羅·薩雷塔;阿比蓋爾Cabunoc梅斯。 （2018年12月4日）。 OpenScienceMOOC / Module-5-Open-Research-Software-and-Open-Source：第三版（3.0.0版）。 Zenodo。 <http://doi.org/10.5281/zenodo.1937708>。
 
-Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
+在此處進行更改之前，請參閱 [貢獻指南](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md)。
 
-Anyone can join our [open Slack channel](https://osmooc.herokuapp.com/) and [open team on GitHub](https://open-science-mooc-invite.herokuapp.com/) for the whole MOOC project.
+任何人都可以在GitHub</a> 上加入我們的 [開放Slack頻道](https://osmooc.herokuapp.com/) 和 開放團隊，參與整個MOOC項目。</p> 
 
-## Core content
+## 核心內容
 
-These are the draft content files. The content is fully accessible, and can be used for learning purposes, either individually or as a group, and can be shared and re-used as you wish. However, they have not been integrated into a formal MOOC platform yet. At the moment, they are being written in markdown format, and then using the [notedown](https://github.com/aaren/notedown) tool to convert into iPython notebook format. PDF and HTML versions are created using [pandoc](https://pandoc.org/demos.html) and the [markdown to PDF](https://atom.io/packages/markdown-pdf) package for [Atom](https://atom.io/).
+這些是草案內容文件。 內容完全可訪問，可單獨或作為一組用於學習目的，並可根據需要共享和重複使用。 但是，它們還沒有被整合到正式的MOOC平台中。 目前，它們以markdown格式編寫，然後使用 [註釋](https://github.com/aaren/notedown) 工具轉換為iPython筆記本格式。 PDF和HTML版本使用 [pandoc](https://pandoc.org/demos.html) 和 [Markdown打包到 [Atom](https://atom.io/)PDF](https://atom.io/packages/markdown-pdf) 包。
 
-For notedown:
+如上所述：
 
-1. Make sure you're working in Linux or Debian
-2. Change working directory: eg `cd /mnt/c/users/pc/desktop/`
-3. Install notedown: `pip install notedown`
-4. Convert files: `notedown input.md > output.ipynb`
+1. 確保你在Linux或Debian中工作
+2. 更改工作目錄：例如 `cd / mnt / c / users / pc / desktop /`
+3. 安裝說明： `pip install notesown`
+4. 轉換文件： `表示input.md > output.ipynb`
 
-**IMPORTANT** Please edit the **markdown** files, not the iPython/HTML files. These will be periodically converted and synchronised as needed.
+**重要** 請編輯 **降價** 文件，而不是iPython / HTML文件。 這些將根據需要定期轉換和同步。
 
-### In markdown format
+### 以降價格式
 
-- [**MAIN CONTENT**](MAIN.md) - The main content for this Module. ([YouTube video](https://www.youtube.com/watch?v=BHrOEmKk5zM))
-- [**TASK 1**](Task_1.md) - How to set up your first repository on GitHub. ([YouTube video](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
-- [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo. ([YouTube video](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
-- [**TASK 3**](Task_3.md) - How to integrate Git with RStudio. ([YouTube video](https://www.youtube.com/watch?v=Q-6jfjSAspA))
+- [**主要內容**](MAIN.md) - 本模塊的主要內容。 （[YouTube視頻](https://www.youtube.com/watch?v=BHrOEmKk5zM)）
+- [**TASK 1**](Task_1.md) - 如何在GitHub上設置第一個存儲庫。 （[YouTube視頻](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s)）
+- [**TASK 2**](Task_2.md) - 如何使用GitHub和Zenodo使您的代碼可以使用。 （[YouTube視頻](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s)）
+- [**任務3**](Task_3.md) - 如何將Git與RStudio集成。 （[YouTube視頻](https://www.youtube.com/watch?v=Q-6jfjSAspA)）
 
-### In iPython notebook format
+### 在iPython筆記本格式中
 
-Note: These are best viewed in Juypter for full functionality, as opposed to the GitHub viewer.
+注意：與GitHub查看器相比，這些最好在Juypter中查看完整功能。
 
-- [**MAIN CONTENT**](MAIN.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) to view)
-- [**TASK 1**](Task_1.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) to view)
-- [**TASK 2**](Task_2.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) to view)
-- [**TASK 3**](Task_3.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) to view)
+- [**主要內容**](MAIN.ipynb) （點擊 [這裡](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) 來查看）
+- [**任務1**](Task_1.ipynb) （點擊 [這裡](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) 查看）
+- [**任務2**](Task_2.ipynb) （點擊 [這裡](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) 查看）
+- [**任務3**](Task_3.ipynb) （點擊 [這裡](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) 查看）
 
-## In PDF format
+## 以PDF格式
 
-- [**MAIN CONTENT**](MAIN.pdf)
-- [**TASK 1**](Task_1.pdf)
-- [**TASK 2**](Task_2.pdf)
-- [**TASK 3**](Task_3.pdf)
+- [**主要內容**](MAIN.pdf)
+- [**任務1**](Task_1.pdf)
+- [**任務2**](Task_2.pdf)
+- [**任務3**](Task_3.pdf)
 
-## In HTML format
+## 以HTML格式
 
-- [**MAIN CONTENT**](MAIN.html)
-- [**TASK 1**](Task_1.html)
-- [**TASK 2**](Task_2.html)
-- [**TASK 3**](Task_3.html)
+- [**主要內容**](MAIN.html)
+- [**任務1**](Task_1.html)
+- [**任務2**](Task_2.html)
+- [**任務3**](Task_3.html)
 
-## Production files
+## 生產文件
 
-1. [Plan](01-plan.md) 
-2. [Design](02-design.md)
-3. [Recording and editing](03-recording.md)
-4. [Internal reviewing](04-quizzes.md)
+1. [計劃](01-plan.md) 
+2. [設計](02-design.md)
+3. [錄製和編輯](03-recording.md)
+4. [內部審查](04-quizzes.md)
 
-## Key resources from [production toolkit](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)
+## [生產工具包](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)關鍵資源
 
-- [Module design protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
-- [MOOC planning template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
-- [Script template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
-- [Video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
-- [Writing a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
+- [模塊設計協議](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
+- [MOOC計劃模板](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
+- [腳本模板](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
+- [視頻管理協議](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
+- [寫一個腳本](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
