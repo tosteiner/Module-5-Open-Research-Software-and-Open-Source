@@ -9,7 +9,7 @@
 
 ### Refine the learning objectives and outcomes
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
+- Der Lernende kann die Eigenschaften von Open-Source-Forschungssoftware, sowie die ethischen, rechtlichen, wirtschaftlichen und wissenschaftlichen Argumente für und gegen sie identifizieren.
 - Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
 - The learner will be able to use a range of research tools that utilise open source software.
 - Lernende werden in der Lage sein, für ihren persönlichen Gebrauch entwickelten Code in Code umzuwandeln, der für andere zugänglich und wiederverwendbar ist.
