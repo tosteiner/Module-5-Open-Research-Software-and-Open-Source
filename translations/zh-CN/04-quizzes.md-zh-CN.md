@@ -9,198 +9,198 @@
 
 ## 问题
 
-#### Contrary to proprietary software, Open Source means that anybody can change a OS project, just like on Wikipedia... that's just plain dangerous. True or false?
+#### 与专有软件相反，开源意味着任何人都可以改变操作系统项目，就像维基百科一样...... 这很危险。 对或错？
 
-- [ ] True
-- [X] False
+- []是的
+- [X] 错
 
-**Answer:** This is a common misunderstanding. Wikipedia is a great way to understand collaborative innovation, but it's not a great euphemism for open source software. First, most open source projects are managed by "benevolent dictators" who have total control over what goes into their project. Contributors offer changes to these maintainers, and after some careful review they'll permit the change to be made. Second, open source software must perform the task it was designed to do. If it doesn't, the community discovers that pretty quickly. The Wikipedia community also has gatekeepers (what's their name again? see https://en.wikipedia.org/wiki/Wikipedia:Quality_control and https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, remember Wikipedia is also open source) and quality assessment ppl who make sure Wikipedia entries are of high and growing quality. Different communities have different approaches of building content. It's important to understand the social and political aspect of open source projects. Open source contributors trade on their reputations. If you submit a bunch of good ideas, your stock goes up in the project's community. That's your reward: you solved your problem, and you get accolades from your friends in the community. Likewise, the maintainers don't want to be associated with bad software that's buggy or not useful to anyone. So because people want problems solved, and want to be respected by their peers, open source projects police their changes very carefully. (Source: [opensource.com](https://opensource.com/open-source-myths))
-
-* * *
-
-#### Open Source can't be secure if anybody can openly find flaws and use them for exploits. True or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** It's actually the other way around: open source is secure because anyone can find the flaws. If you ask security experts like Bruce Schneier, the (which country?) National Security Agency, or any locksmith, they'll tell you that keeping your inner workings a secret is a great way to guarantee a security problem. The reason is simple: one developer isn't as smart as all the developers. As Linux creator Linus Torvalds once said, "A thousand eyes make all bugs shallow." In other words, open source subjects you to the collective scrutiny of the community -- since they have as much to lose from your security problems as you do. Everyone works together to make things more secure. (Source: [opensource.com](https://opensource.com/open-source-myths))
+**答案：** 这是一个常见的误解。 维基百科是理解协作创新的好方法，但它对于开源软件来说并不是一个好的委婉说法。 首先，大多数开源项目都由“仁慈的独裁者”管理，他们完全控制着项目的内容。 贡献者为这些维护者提供了更改，经过一些仔细审查后，他们将允许进行更改。 其次，开源软件必须执行其设计的任务。 如果没有，社区会很快发现。 维基百科社区也有看门人（又叫什么名字？ 请参阅https://en.wikipedia.org/wiki/Wikipedia:Quality_control和https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control，记住维基百科也是开源的）和质量评估人员，确保维基百科条目是高质量和不断增长的品质。 不同的社区有不同的构建内容的方法。 了解开源项目的社会和政治方面非常重要。 开源贡献者以他们的声誉进行交易。 如果您提交了一堆好主意，那么您的股票会在项目社区中上升。 这是你的回报：你解决了你的问题，你得到了社区朋友的赞誉。 同样，维护人员不希望与任何人的错误或无用的坏软件相关联。 因此，人们希望问题得到解决，并希望得到同行的尊重，开源项目会非常谨慎地监督他们的变化。 （来源： [opensource.com](https://opensource.com/open-source-myths)）
 
 * * *
 
-#### Open Source is licensed by default (?). True or false?
+#### 如果任何人可以公开发现漏洞并将其用于攻击，那么开源就无法安全。 对或错？
 
-I feel the question can be a bit misleading. Rather ask: Anyone can use Open Source code and content without mentioning the original copyright holders / copyright doies not apply.
+- []是的
+- [X] 错
 
-- [X] True
-- [ ] False
-
-**Answer:** True. Open source licenses are essentially terms of use and not items to be purchased, as can be the case for proprietary software. There are a variety of open source licence models, where each licence model has specific terms for the use and modification of code.
-
-An open source vendor can charge you for a software licence and still be open source. There is not necessarily a direct relationship between a type of license and what you have to pay to obtain it. The ‘free’ part means that you have the freedom to access the source code and change it yourself providing you abide by the terms of the license.
+**答案：** 实际上反过来说：开源是安全的，因为任何人都可以找到缺陷。 如果你问安全专家，如布鲁斯施奈尔，（哪个国家？）国家安全局，或任何锁匠，他们会告诉你保持内部工作的秘密是保证安全问题的好方法。 原因很简单：一个开发人员并不像所有开发人员那样聪明。 正如Linux创建者Linus Torvalds曾经说过的那样，“千眼使所有的漏洞都变得浅薄。”换句话说，开源使您受到社区的集体审查 - 因为他们会像您一样失去安全问题。 每个人都在共同努力，使事情变得更加安全。 （来源： [opensource.com](https://opensource.com/open-source-myths)）
 
 * * *
 
-#### Open source has to be free of charge.
+#### 开源是默认许可的（？）。 对或错？
 
-- [ ] True
-- [X] False
+我觉得这个问题可能有点误导。 更确切地说：任何人都可以使用开源代码和内容，而不提及原始版权所有者/版权所有者不适用。
 
-**Answer:** False. The term 'free' in free open source software refers to freedom, not monetary cost. Or, as Richard Stallmann labeled it "Think free as in free speech, not free beer." Read more on the subject, and the distinction between Free Open Source Software (FOSS) and Free & Libre Open Source Software (FLOSS) at ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
+- [X] 真
+- []错
 
-* * *
+**答案：** 正确。 开源许可证本质上是使用条款，而不是要购买的项目，专有软件也是如此。 有各种各样的开源许可证模型，其中每个许可证模型都有特定的使用和修改代码的术语。
 
-#### Big software companies don’t use Open Source - true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** This myth should be a thing of the past. Corporate use of open source is pervasive: A 2018 study shows that on average, respondents across companies of all sizes used open source software in 92% of their applications. See [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) and [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) for more details.
+开源供应商可以向您收取软件许可证，但仍然是开源的。 许可证类型与获得许可证所需支付的费用之间不一定存在直接关系。 “免费”部分意味着您可以自由访问源代码并自行更改，前提是您遵守许可条款。
 
 * * *
 
-#### Who founded the Free Software Foundation?
+#### 开源必须是免费的。
 
-- [ ] Lawrence Lessig
+- []是的
+- [X] 错
+
+**答案：** 错。 免费开源软件中的“免费”一词是指自由，而不是货币成本。 或者，正如Richard Stallmann所说的那样“在言论自由中思考自由，而不是免费啤酒”。阅读更多相关主题，以及免费开源软件（FOSS）和Free & Libre开源软件（FLOSS）之间的区别（[gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html)）
+
+* * *
+
+#### 大型软件公司不使用开源 - 是真还是假？
+
+- []是的
+- [X] 错
+
+**答案：** 这个神话应该成为过去。 公开使用开源是普遍的：2018年的一项研究表明，平均而言，各种规模公司的受访者在92％的应用程序中使用开源软件。 请参阅 [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) 和 [opensourcesurvey.org。](https://opensourcesurvey.org/2017/) 了解更多详情。
+
+* * *
+
+#### 谁创立了自由软件基金会？
+
+- [] Lawrence Lessig
 - [X] Richard Stallman
-- [ ] Bill Gates
-- [ ] Linus Torvalds
+- [ ] 比尔盖茨
+- [] Linus Torvalds
 
-**Answer:** The Free Software Foundation (FSF) was founded by **Richard Stallman** on 4 October 1985 to support the free software movement, which promotes the universal freedom to study, distribute, create, and modify computer software, with the organization's preference for software being distributed under copyleft ("share alike") terms, such as with its own GNU General Public License. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+**回答：** 自由软件基金会（FSF）成立由 **理查德·斯托曼** 于1985年10月4日，以支持自由软件运动，从而促进普遍自由的学习，分发，创建和修改计算机软件，与该组织的偏好对于以copyleft（“共享相似”）条款分发的软件，例如使用其自己的GNU通用公共许可证。 *来源：* [维基百科](https://en.wikipedia.org/wiki/Free_Software_Foundation)
 
 * * *
 
-#### Which of the following is a free software license?
+#### 以下哪项是免费软件许可证？
 
 - [X] GPL
-- [ ] OSD
-- [ ] OSL
-- [ ] GPS
+- [] OSD
+- [] OSL
+- [ ] 全球定位系统
 
-**Answer:** The GNU General Public License (GNU GPL or GPL) is a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-
-* * *
-
-#### This type of software is distributed with a single restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution. What is it?
-
-- [ ] libre software
-- [ ] shareware
-- [X] free software
-- [ ] adware
-
-**Answer:** Free software is software that can be freely used, modified, and redistributed with only one restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution (known as copyleft). The definition of free software is stipulated as part of the GNU Project and by the Free Software Foundation. Free software may be packaged and distributed for a fee; the "free" refers to the ability to reuse it, modified or unmodified, as part of another software package. As part of the ability to modify, users of free software may also have access to and study the source code.
-
-The concept of free software is the brainchild of Richard Stallman, head of the GNU Project. The best known example of free software is Linux, an operating system that is proposed as an alternative to Windows or other proprietary operating systems. Debian is an example of a distributor of a Linux package.
+**答案：** GNU通用公共许可证（GNU GPL或GPL）是一种广泛使用的免费软件许可证，它保证最终用户可以自由地运行，学习，共享和修改软件。 *来源：* [维基百科](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 * * *
 
-#### What does forking entail?
+#### 这种类型的软件只有一个限制：软件的任何重新分发版本必须与原始的免费使用，修改和分发条款一起分发。 它是什么？
 
-- [ ] Forking occurs when an open source program is further developed publically by the community.
-- [ ] Forking is the act of stabbing your overcooked chicken until it sticks to your eating utensil.
-- [ ] Forking is when a proprietary source hardware design is used as a basis to create something different.
-- [X] Forking is when open source software is developed into something different.
+- [] libre软件
+- []共享软件
+- [X] 免费软件
+- []广告软件
 
-**Answer:** Forking, also known as software forking, is the act of taking source code from open source software or program and further developing it into something different without changing the base offering. For example, Amazon's Fire OS is a forked version of Google's Android OS. Data center administrators may fork an open source software tool to tailor it to their particular requirements, without needing to share those changes back to the entire community.
+**答案：** 自由软件是可以自由使用，修改和重新分发的软件，只有一个限制：软件的任何重新分发版本必须与原始的免费使用，修改和分发条款（称为copyleft）一起分发。 自由软件的定义是GNU项目和自由软件基金会的一部分。 免费软件可以收费包装和分发; “免费”是指将其重新使用，修改或未修改的能力，作为另一个软件包的一部分。 作为修改能力的一部分，自由软件的用户也可以访问和研究源代码。
 
-* * *
-
-#### OSI stands for?
-
-- [ ] Open Source Index
-- [ ] Open Source Image
-- [X] Open Source Initiative
-- [ ] Open Source Instant
-
-**Answer:** The **Open Source Initiative (OSI)** has been celebrating its 20th Anniversary in 2018. The “open source” label was created at a strategy session held on February 3rd, 1998 in Palo Alto, California. That same month, the OSI was founded. As a global non-profit, the OSI protects and promotes open source software, development and communities, championing software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement. *Source:* [opensource.org](https://opensource.org/)
+自由软件的概念是GNU项目负责人Richard Stallman的心血结晶。 最着名的免费软件示例是Linux，这是一种操作系统，可作为Windows或其他专有操作系统的替代品。 Debian是Linux软件包分销商的一个例子。
 
 * * *
 
-### ... and now for something completely different
+#### 分叉需要什么？
 
-![...and now for something completely different](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
+- []分叉是在社区公开进一步开发开源程序时发生的。
+- []叉子是刺穿过度煮熟的鸡肉直到它粘在你的餐具上的行为。
+- []分叉是指使用专有的源硬件设计作为创建不同内容的基础。
+- [X] 分叉是指开源软件开发成不同的东西。
 
-* * *
-
-#### Open Science is primarily occupied with liberating the (Natural) Sciences (e.g. Mathematics, Physics, Biology, etc.), true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** No, Open Science tries to encompass all scientific activity. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
+**答案：** 分叉，也称为软件分叉，是从开源软件或程序中获取源代码并进一步将其开发成不同的东西而不改变基本产品的行为。 例如，亚马逊的Fire OS是谷歌Android操作系统的分叉版本。 数据中心管理员可以使用开源软件工具来根据他们的特定需求进行定制，而无需将这些更改共享回整个社区。
 
 * * *
 
-#### Open access articles are not peer reviewed, true or false?
+#### OSI代表什么？
 
-- [ ] True
-- [X] False
+- []开源索引
+- []开源图片
+- [X] 开源计划
+- []开源即时
 
-**Answer:** Yup, that's a misconception. Open access articles undergo the same rigorous peer review as articles published via the traditional subscription-based publishing model.
-
-* * *
-
-#### Unrestricted use, distribution and reproduction of open access articles licensed under CC-BY is permitted only when you:
-
-- [ ] ... have asked the author(s)
-- [X] ... have attributed the author(s)
-- [ ] ... are also publishing open access
-- [ ] ... you do not need to do anything
-
-**Answer:** The author(s) must be properly attributed if you wish to use, distribute or reproduce their article.
+**答案：** **开源计划（OSI）** 在2018年庆祝成立20周年。 “开源”标签是在1998年2月3日在加利福尼亚州帕洛阿尔托举行的战略会议上创建的。 同月，OSI成立。 作为全球非营利组织，OSI保护和推广开源软件，开发和社区，通过教育，协作和基础设施支持社会软件自由，管理开源定义（OSD），防止滥用理想和精神开源运动所固有的。 *来源：* [opensource.org](https://opensource.org/)
 
 * * *
 
-#### Open access and open peer review are the same thing, true or false?
+### ... 而现在是完全不同的东西
 
-- [ ] True
-- [X] False
-
-**Answer:** Open access journals may use any of the different peer review models, including single-blind, double-blind, open or post-publication peer review.
-
-[Link to further info on open peer review]
+![......现在是完全不同的东西](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
 
 * * *
 
-#### You can download an open access article and make copies to distribute to your friends, true or false?
+#### 开放科学主要是解放（自然）科学（如数学，物理，生物学等），真或假？
 
-- [X] True
-- [ ] False
+- []是的
+- [X] 错
 
-**Answer:** That’s right! Open access articles can be downloaded, printed and distributed to all your friends.
-
-### 6. Publishing in open access journals makes it easier to disseminate your research via social media, true or false?
-
-- [X] True
-- [ ] False
-
-**Answer:** When you share open access articles on social media everyone is able to see your work making your research more visible to your community. You can read more on the evidence for this here [LINK TO SOURCE OF CHOICE].
+**答案：** 不，开放科学试图涵盖所有科学活动。 有关我们OpenScienceMOOC认为Open Science应该是什么的更广泛的概述，请参阅我们关于开放原则 [LINK]第一个模块
 
 * * *
 
-#### Journals can have both open access and subscription only content, true or false?
+#### 开放获取文章不是同行评审，无论是真是假？
 
-- [X] True
-- [ ] False
+- []是的
+- [X] 错
 
-**Answer:** True! Subscription journals which offer authors an open access option for their individual articles are known as ‘hybrid’ journals.
-
-* * *
-
-### Funding organizations don’t approve of open access journals, true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** Many funding organizations now mandate that the work they fund is published under the open access model so that the research is available to a wide audience and cover the costs of publishing in their grants. [EXPAND w. details on Plan S specifics]
+**答案：** 是的，这是一种误解。 开放获取文章经历与通过传统的基于订阅的发布模型发布的文章相同的严格同行评审。
 
 * * *
 
-### You can find out about the open access policies of funders at which website?
+#### 只有在您符合下列条件时，才允许不受限制地使用，分发和复制CC-BY许可的开放获取文章：
 
-- [ ] SHERPA/ROMEO
-- [ ] SHERPA/FACT
-- [X] SHERPA/JULIET
+- [] ...... 已经问过作者
+- [X] ... 归因于作者
+- [] ...... 也发布开放访问
+- [] ...... 你不需要做任何事情
 
-**Answer:** It's SHERPA/JULIET - funded by Jisc and RLUK, this database provides information on research funders’ open access policies. It is available to view at their [website](http://www.sherpa.ac.uk/juliet/).
+**答案：** 如果您希望使用，分发或复制其文章，则必须正确归因于作者。
+
+* * *
+
+#### 开放获取和开放同行评审是一回事，是真是假？
+
+- []是的
+- [X] 错
+
+**答案：** 开放获取期刊可以使用任何不同的同行评审模型，包括单盲，双盲，开放或出版后同行评审。
+
+[链接到开放同行评审的进一步信息]
+
+* * *
+
+#### 您可以下载一篇开放获取文章并制作副本以分发给您的朋友，无论是真是假？
+
+- [X] 真
+- []错
+
+**答案：** 那是对的！ 开放获取文章可以下载，打印并分发给您的所有朋友。
+
+### 6。 在开放获取期刊上发表，可以更容易地通过社交媒体传播您的研究，无论是真是假？
+
+- [X] 真
+- []错
+
+**答案：** 当您在社交媒体上分享开放获取文章时，每个人都能看到您的工作，使您的研究对您的社区更加明显。 你可以在这里阅读更多关于这方面的证据[链接到选择的来源]。
+
+* * *
+
+#### 期刊可以同时拥有开放访问和订阅内容，无论是真是假？
+
+- [X] 真
+- []错
+
+**答案：** 真实！ 为作者提供个人文章开放获取选项的订阅期刊被称为“混合”期刊。
+
+* * *
+
+### 资助组织不赞成开放获取期刊，不管是真是假？
+
+- []是的
+- [X] 错
+
+**答案：** 许多资助机构现在要求他们资助的工作在开放获取模式下发布，以便广泛的受众可以获得研究，并支付在他们的资助中发布的费用。 [EXPAND w。 计划S细节的详细信息]
+
+* * *
+
+### 您可以在哪个网站上找到资助者的开放获取政策？
+
+- [] SHERPA / ROMEO
+- [] SHERPA / FACT
+- [X] SHERPA / JULIET
+
+**答案：** 这是SHERPA / JULIET--由Jisc和RLUK资助，该数据库提供有关研究资助者的开放获取政策的信息。 它可以在他们的 [网站](http://www.sherpa.ac.uk/juliet/)上查看。
 
 * * *
