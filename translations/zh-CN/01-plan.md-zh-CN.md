@@ -1,18 +1,18 @@
-## Module 5: Initiate and plan
+## 模块5：启动和计划
 
-### Define the target groups
+### 定义目标组
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- 计算研究人员
+- 研究生和本科生
+- 数据科学家
+- 使用分析代码/软件的任何其他研究员
 
-### Refine the learning objectives and outcomes
+### 改进学习目标和成果
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
-- The learner will be able to use a range of research tools that utilise open source software.
-- Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
+- 学员将能够确定开放源码研究软件的特点，以及对其进行反对的道德、法律、经济和研究影响论据。
+- 根据社区标准，学习者将能够描述分享和重新使用开放代码的质量要求。
+- 学员将能够使用一系列使用开放源码软件的研究工具。
+- 个人学习者将能够将个人使用而设计的代码转换成其他人可以访问和重新使用的代码。
 
 ### Design the course outline
 
