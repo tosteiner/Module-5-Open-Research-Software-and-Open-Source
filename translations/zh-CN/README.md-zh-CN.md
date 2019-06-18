@@ -1,16 +1,16 @@
-# Module 5 content development
+# 模块5 内容开发
 
-These are the main content development files for this MOOC module.
+这些是MOOC模块的主要内容开发文件。
 
 **STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
 
-The third release for this module is now also ready, and has been published on Zenodo:
+该模块的第三个版本也已准备就绪，并已在 Zendodo 上公布：
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
-To cite this work, please use the following reference:
+2. 请引用以下参考资料：
 
-Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
+Jon Tennam; Simon Worlington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Frst; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018年，12月4日)。 OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
 
 Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
 
