@@ -1,206 +1,206 @@
-# Module 5: Quizzes and assignments
+# Moduł 5: Quizy i zadania
 
-1. First draft for feedback to instructional design
-2. Follow up feedback
-3. Define regularity of quizzes
-4. Final examination
-5. Review assignments 
-6. Other assignments (e.g., discussion prompts)
+1. Pierwszy projekt opinii do projektu instruktażowego
+2. Śledź informacje zwrotne
+3. Zdefiniuj regularność quizów
+4. Egzamin końcowy
+5. Przejrzyj zadania 
+6. Inne zadania (np. Podpowiedzi do dyskusji)
 
-## Questions
+## pytania
 
-#### Contrary to proprietary software, Open Source means that anybody can change a OS project, just like on Wikipedia... that's just plain dangerous. True or false?
+#### W przeciwieństwie do prawnie zastrzeżonego oprogramowania, Open Source oznacza, że każdy może zmienić projekt systemu operacyjnego, tak jak w Wikipedii ... to po prostu niebezpieczne. Prawda czy fałsz?
 
-- [ ] True
-- [X] False
+- [ ] Prawdziwe
+- [X] Fałsz
 
-**Answer:** This is a common misunderstanding. Wikipedia is a great way to understand collaborative innovation, but it's not a great euphemism for open source software. First, most open source projects are managed by "benevolent dictators" who have total control over what goes into their project. Contributors offer changes to these maintainers, and after some careful review they'll permit the change to be made. Second, open source software must perform the task it was designed to do. If it doesn't, the community discovers that pretty quickly. The Wikipedia community also has gatekeepers (what's their name again? see https://en.wikipedia.org/wiki/Wikipedia:Quality_control and https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, remember Wikipedia is also open source) and quality assessment ppl who make sure Wikipedia entries are of high and growing quality. Different communities have different approaches of building content. It's important to understand the social and political aspect of open source projects. Open source contributors trade on their reputations. If you submit a bunch of good ideas, your stock goes up in the project's community. That's your reward: you solved your problem, and you get accolades from your friends in the community. Likewise, the maintainers don't want to be associated with bad software that's buggy or not useful to anyone. So because people want problems solved, and want to be respected by their peers, open source projects police their changes very carefully. (Source: [opensource.com](https://opensource.com/open-source-myths))
-
-* * *
-
-#### Open Source can't be secure if anybody can openly find flaws and use them for exploits. True or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** It's actually the other way around: open source is secure because anyone can find the flaws. If you ask security experts like Bruce Schneier, the (which country?) National Security Agency, or any locksmith, they'll tell you that keeping your inner workings a secret is a great way to guarantee a security problem. The reason is simple: one developer isn't as smart as all the developers. As Linux creator Linus Torvalds once said, "A thousand eyes make all bugs shallow." In other words, open source subjects you to the collective scrutiny of the community -- since they have as much to lose from your security problems as you do. Everyone works together to make things more secure. (Source: [opensource.com](https://opensource.com/open-source-myths))
+**Odpowiedź:** Jest to powszechne nieporozumienie. Wikipedia to świetny sposób na zrozumienie wspólnych innowacji, ale nie jest to wielki eufemizm dla oprogramowania open source. Po pierwsze, większość projektów open source jest zarządzanych przez „życzliwych dyktatorów”, którzy mają całkowitą kontrolę nad tym, co wchodzi w ich projekt. Współpracownicy oferują zmiany tym opiekunom, a po dokładnej analizie pozwolą na zmianę. Po drugie, oprogramowanie open source musi wykonać zadanie, do którego zostało zaprojektowane. Jeśli nie, społeczność szybko to odkrywa. Społeczność Wikipedii ma także strażników (jak się nazywa? patrz https://en.wikipedia.org/wiki/Wikipedia:Quality_control i https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, pamiętaj, że Wikipedia jest również open source) i ocena jakości ppl, która upewnia się, że wpisy w Wikipedii są wysokiej i rosnącej jakości. Różne społeczności mają różne podejścia do treści budowlanych. Ważne jest zrozumienie społecznego i politycznego aspektu projektów open source. Twórcy Open Source wymieniają się swoją reputacją. Jeśli prześlesz kilka dobrych pomysłów, twój zapas wzrośnie w społeczności projektu. To twoja nagroda: rozwiązałeś swój problem i otrzymujesz wyróżnienia od swoich znajomych w społeczności. Podobnie opiekunowie nie chcą być powiązani ze złym oprogramowaniem, które jest błędne lub nieprzydatne dla nikogo. Ponieważ ludzie chcą rozwiązać problemy i chcą być szanowani przez swoich rówieśników, projekty open source bardzo ostrożnie nadzorują ich zmiany. (Źródło: [opensource.com](https://opensource.com/open-source-myths))
 
 * * *
 
-#### Open Source is licensed by default (?). True or false?
+#### Open Source nie może być bezpieczny, jeśli ktoś może otwarcie znaleźć błędy i wykorzystać je do exploitów. Prawda czy fałsz?
 
-I feel the question can be a bit misleading. Rather ask: Anyone can use Open Source code and content without mentioning the original copyright holders / copyright doies not apply.
+- [ ] Prawdziwe
+- [X] Fałsz
 
-- [X] True
-- [ ] False
-
-**Answer:** True. Open source licenses are essentially terms of use and not items to be purchased, as can be the case for proprietary software. There are a variety of open source licence models, where each licence model has specific terms for the use and modification of code.
-
-An open source vendor can charge you for a software licence and still be open source. There is not necessarily a direct relationship between a type of license and what you have to pay to obtain it. The ‘free’ part means that you have the freedom to access the source code and change it yourself providing you abide by the terms of the license.
+**Odpowiedź:** W rzeczywistości jest odwrotnie: open source jest bezpieczny, ponieważ każdy może znaleźć błędy. Jeśli zapytasz ekspertów ds. Bezpieczeństwa, takich jak Bruce Schneier, (który kraj?), Agencja Bezpieczeństwa Narodowego lub jakikolwiek ślusarz, powiedzą ci, że utrzymywanie wewnętrznych działań w tajemnicy to świetny sposób na zagwarantowanie bezpieczeństwa. Powód jest prosty: jeden deweloper nie jest tak mądry jak wszyscy programiści. Linus Torvalds, twórca Linuksa, powiedział kiedyś: „Tysiąc oczu sprawia, że wszystkie robaki są płytkie”. Innymi słowy, open source poddaje cię zbiorowej analizie społeczności - ponieważ mają tak wiele do stracenia ze swoich problemów z bezpieczeństwem, jak ty. Wszyscy pracują razem, aby sprawy stały się bezpieczniejsze. (Źródło: [opensource.com](https://opensource.com/open-source-myths))
 
 * * *
 
-#### Open source has to be free of charge.
+#### Open Source jest domyślnie licencjonowany (?). Prawda czy fałsz?
 
-- [ ] True
-- [X] False
+Czuję, że pytanie może być nieco mylące. Raczej zapytaj: Każdy może korzystać z kodu Open Source i treści, nie wspominając o oryginalnych posiadaczach praw autorskich / prawach autorskich, które nie mają zastosowania.
 
-**Answer:** False. The term 'free' in free open source software refers to freedom, not monetary cost. Or, as Richard Stallmann labeled it "Think free as in free speech, not free beer." Read more on the subject, and the distinction between Free Open Source Software (FOSS) and Free & Libre Open Source Software (FLOSS) at ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
+- [X] Prawda
+- [ ] Fałszywe
 
-* * *
+**Odpowiedź:** Prawda. Licencje typu open source są zasadniczo warunkami użytkowania, a nie przedmiotami, które należy kupić, jak w przypadku oprogramowania zastrzeżonego. Istnieje wiele modeli licencji open source, w których każdy model licencji ma określone warunki używania i modyfikacji kodu.
 
-#### Big software companies don’t use Open Source - true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** This myth should be a thing of the past. Corporate use of open source is pervasive: A 2018 study shows that on average, respondents across companies of all sizes used open source software in 92% of their applications. See [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) and [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) for more details.
+Dostawca oprogramowania o otwartym kodzie źródłowym może pobierać opłaty za licencję na oprogramowanie i nadal być otwartym oprogramowaniem. Niekoniecznie istnieje bezpośredni związek między rodzajem licencji a tym, co trzeba zapłacić, aby ją uzyskać. Część „bezpłatna” oznacza, że masz swobodę dostępu do kodu źródłowego i samodzielnej zmiany, pod warunkiem przestrzegania warunków licencji.
 
 * * *
 
-#### Who founded the Free Software Foundation?
+#### Open source musi być bezpłatny.
 
-- [ ] Lawrence Lessig
+- [ ] Prawdziwe
+- [X] Fałsz
+
+**Odpowiedź:** Fałsz. Termin „wolny” w wolnym oprogramowaniu open source odnosi się do wolności, a nie kosztów pieniężnych. Albo, jak to określił Richard Stallmann, „Myśl swobodnie, jak w wolnej mowie, a nie w wolnym piwie”. Przeczytaj więcej na ten temat oraz rozróżnienie między oprogramowaniem Free Open Source (FOSS) a bezpłatnym & Libre Open Source Software (FLOSS) w ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
+
+* * *
+
+#### Duże firmy produkujące oprogramowanie nie korzystają z Open Source - prawda czy fałsz?
+
+- [ ] Prawdziwe
+- [X] Fałsz
+
+**Odpowiedź:** Ten mit powinien należeć do przeszłości. Korporacyjne wykorzystanie otwartego oprogramowania jest wszechobecne: badanie z 2018 r. Pokazuje, że średnio respondenci we wszystkich firmach różnej wielkości używali oprogramowania open source w 92% swoich aplikacji. Zobacz [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) i [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) aby uzyskać więcej szczegółów.
+
+* * *
+
+#### Kto założył Free Software Foundation?
+
+- [] Lawrence Lessig
 - [X] Richard Stallman
-- [ ] Bill Gates
+- [] Bill Gates
 - [ ] Linus Torvalds
 
-**Answer:** The Free Software Foundation (FSF) was founded by **Richard Stallman** on 4 October 1985 to support the free software movement, which promotes the universal freedom to study, distribute, create, and modify computer software, with the organization's preference for software being distributed under copyleft ("share alike") terms, such as with its own GNU General Public License. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+**Odpowiedź:** Fundacja Wolnego Oprogramowania (FSF) została założona przez **Richarda Stallmana** dniu 4 października 1985 r. W celu wspierania ruchu wolnego oprogramowania, który promuje uniwersalną swobodę studiowania, rozpowszechniania, tworzenia i modyfikowania oprogramowania komputerowego, zgodnie z preferencjami organizacji w przypadku oprogramowania rozpowszechnianego na warunkach copyleft („podobne”), takich jak jego własna Powszechna Licencja Publiczna GNU. *Źródło:* [Wikipedia](https://en.wikipedia.org/wiki/Free_Software_Foundation)
 
 * * *
 
-#### Which of the following is a free software license?
+#### Które z poniższych jest licencją wolnego oprogramowania?
 
 - [X] GPL
-- [ ] OSD
-- [ ] OSL
-- [ ] GPS
+- [] OSD
+- [] OSL
+- [] GPS
 
-**Answer:** The GNU General Public License (GNU GPL or GPL) is a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-
-* * *
-
-#### This type of software is distributed with a single restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution. What is it?
-
-- [ ] libre software
-- [ ] shareware
-- [X] free software
-- [ ] adware
-
-**Answer:** Free software is software that can be freely used, modified, and redistributed with only one restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution (known as copyleft). The definition of free software is stipulated as part of the GNU Project and by the Free Software Foundation. Free software may be packaged and distributed for a fee; the "free" refers to the ability to reuse it, modified or unmodified, as part of another software package. As part of the ability to modify, users of free software may also have access to and study the source code.
-
-The concept of free software is the brainchild of Richard Stallman, head of the GNU Project. The best known example of free software is Linux, an operating system that is proposed as an alternative to Windows or other proprietary operating systems. Debian is an example of a distributor of a Linux package.
+**Odpowiedź:** Licencja GNU General Public License (GNU GPL lub GPL) jest powszechnie używaną licencją wolnego oprogramowania, która gwarantuje użytkownikom końcowym swobodę uruchamiania, badania, udostępniania i modyfikowania oprogramowania. *Źródło:* [Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 * * *
 
-#### What does forking entail?
+#### Ten typ oprogramowania jest rozpowszechniany z jednym ograniczeniem: każda redystrybuowana wersja oprogramowania musi być rozpowszechniana z oryginalnymi warunkami bezpłatnego użytkowania, modyfikacji i dystrybucji. Co to jest?
 
-- [ ] Forking occurs when an open source program is further developed publically by the community.
-- [ ] Forking is the act of stabbing your overcooked chicken until it sticks to your eating utensil.
-- [ ] Forking is when a proprietary source hardware design is used as a basis to create something different.
-- [X] Forking is when open source software is developed into something different.
+- [] libre oprogramowanie
+- [] shareware
+- [X] wolnego oprogramowania
+- [] adware
 
-**Answer:** Forking, also known as software forking, is the act of taking source code from open source software or program and further developing it into something different without changing the base offering. For example, Amazon's Fire OS is a forked version of Google's Android OS. Data center administrators may fork an open source software tool to tailor it to their particular requirements, without needing to share those changes back to the entire community.
+**Odpowiedź:** Wolne oprogramowanie to oprogramowanie, które można swobodnie używać, modyfikować i redystrybuować za pomocą tylko jednego ograniczenia: każda redystrybuowana wersja oprogramowania musi być rozpowszechniana z oryginalnymi warunkami bezpłatnego użytkowania, modyfikacji i dystrybucji (znanymi jako copyleft). Definicja wolnego oprogramowania jest określona jako część Projektu GNU i Fundacji Wolnego Oprogramowania. Bezpłatne oprogramowanie może być pakowane i dystrybuowane za opłatą; „wolny” odnosi się do możliwości ponownego użycia, zmodyfikowania lub niezmodyfikowania, jako części innego pakietu oprogramowania. W ramach możliwości modyfikacji użytkownicy wolnego oprogramowania mogą również mieć dostęp do kodu źródłowego i go studiować.
 
-* * *
-
-#### OSI stands for?
-
-- [ ] Open Source Index
-- [ ] Open Source Image
-- [X] Open Source Initiative
-- [ ] Open Source Instant
-
-**Answer:** The **Open Source Initiative (OSI)** has been celebrating its 20th Anniversary in 2018. The “open source” label was created at a strategy session held on February 3rd, 1998 in Palo Alto, California. That same month, the OSI was founded. As a global non-profit, the OSI protects and promotes open source software, development and communities, championing software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement. *Source:* [opensource.org](https://opensource.org/)
+Koncepcja wolnego oprogramowania jest pomysłem Richarda Stallmana, szefa Projektu GNU. Najbardziej znanym przykładem wolnego oprogramowania jest Linux, system operacyjny proponowany jako alternatywa dla Windows lub innych zastrzeżonych systemów operacyjnych. Debian jest przykładem dystrybutora pakietu Linux.
 
 * * *
 
-### ... and now for something completely different
+#### Co pociąga za sobą rozwidlenie?
 
-![...and now for something completely different](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
+- [] Rozwidlanie występuje, gdy program open source jest dalej rozwijany publicznie przez społeczność.
+- [] Rozwidlanie jest aktem dźgania rozgotowanego kurczaka, aż przyklei się do naczynia do jedzenia.
+- [] Forking jest wtedy, gdy własna konstrukcja sprzętu źródłowego jest używana jako podstawa do stworzenia czegoś innego.
+- [X] Rozwidlanie ma miejsce, gdy oprogramowanie open source jest przekształcane w coś innego.
 
-* * *
-
-#### Open Science is primarily occupied with liberating the (Natural) Sciences (e.g. Mathematics, Physics, Biology, etc.), true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** No, Open Science tries to encompass all scientific activity. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
+**Odpowiedź:** Widelec, znany również jako rozwidlenie oprogramowania, polega na pobieraniu kodu źródłowego z oprogramowania lub programu o otwartym kodzie źródłowym i dalszym rozwijaniu go w coś innego bez zmiany oferty podstawowej. Na przykład Amazon's Fire OS to rozwidlona wersja systemu operacyjnego Android Google'a. Administratorzy centrów danych mogą rozwidlać narzędzie oprogramowania o otwartym kodzie źródłowym, aby dostosować je do swoich szczególnych wymagań, bez konieczności udostępniania tych zmian całej społeczności.
 
 * * *
 
-#### Open access articles are not peer reviewed, true or false?
+#### OSI oznacza?
 
-- [ ] True
-- [X] False
+- [] Indeks otwartego źródła
+- [] Open Source Image
+- [X] Inicjatywa Open Source
+- [] Instant Source Instant
 
-**Answer:** Yup, that's a misconception. Open access articles undergo the same rigorous peer review as articles published via the traditional subscription-based publishing model.
-
-* * *
-
-#### Unrestricted use, distribution and reproduction of open access articles licensed under CC-BY is permitted only when you:
-
-- [ ] ... have asked the author(s)
-- [X] ... have attributed the author(s)
-- [ ] ... are also publishing open access
-- [ ] ... you do not need to do anything
-
-**Answer:** The author(s) must be properly attributed if you wish to use, distribute or reproduce their article.
+**Odpowiedź:** Inicjatywa **Open Source (OSI)** obchodzi swoje 20-lecie w 2018 roku. Etykieta „open source” powstała na sesji strategicznej, która odbyła się 3 lutego 1998 r. W Palo Alto w Kalifornii. W tym samym miesiącu założono OSI. Jako globalny non-profit, OSI chroni i promuje oprogramowanie open source, rozwój i społeczności, broniąc wolności oprogramowania w społeczeństwie poprzez edukację, współpracę i infrastrukturę, zarządzając definicją Open Source (OSD) i zapobiegając nadużywaniu ideałów i etosu nieodłączny dla ruchu open source. *Źródło:* [opensource.org](https://opensource.org/)
 
 * * *
 
-#### Open access and open peer review are the same thing, true or false?
+### ... A teraz coś z zupełnie innej beczki
 
-- [ ] True
-- [X] False
-
-**Answer:** Open access journals may use any of the different peer review models, including single-blind, double-blind, open or post-publication peer review.
-
-[Link to further info on open peer review]
+![...A teraz coś z zupełnie innej beczki](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
 
 * * *
 
-#### You can download an open access article and make copies to distribute to your friends, true or false?
+#### Otwarta nauka zajmuje się przede wszystkim wyzwalaniem nauk (naturalnych) (np. Matematyki, fizyki, biologii itp.), Prawdziwych lub fałszywych?
 
-- [X] True
-- [ ] False
+- [ ] Prawdziwe
+- [X] Fałsz
 
-**Answer:** That’s right! Open access articles can be downloaded, printed and distributed to all your friends.
-
-### 6. Publishing in open access journals makes it easier to disseminate your research via social media, true or false?
-
-- [X] True
-- [ ] False
-
-**Answer:** When you share open access articles on social media everyone is able to see your work making your research more visible to your community. You can read more on the evidence for this here [LINK TO SOURCE OF CHOICE].
+**Odpowiedź:** Nie, Otwarta Nauka próbuje objąć całą działalność naukową. Aby uzyskać szerszy zarys tego, co w OpenScienceMOOC sądzimy, powinna istnieć Open Science, zobacz nasz pierwszy Moduł otwartych zasad [LINK]
 
 * * *
 
-#### Journals can have both open access and subscription only content, true or false?
+#### Artykuły o otwartym dostępie nie są recenzowane, prawdziwe ani fałszywe?
 
-- [X] True
-- [ ] False
+- [ ] Prawdziwe
+- [X] Fałsz
 
-**Answer:** True! Subscription journals which offer authors an open access option for their individual articles are known as ‘hybrid’ journals.
-
-* * *
-
-### Funding organizations don’t approve of open access journals, true or false?
-
-- [ ] True
-- [X] False
-
-**Answer:** Many funding organizations now mandate that the work they fund is published under the open access model so that the research is available to a wide audience and cover the costs of publishing in their grants. [EXPAND w. details on Plan S specifics]
+**Odpowiedź:** Tak, to nieporozumienie. Artykuły o otwartym dostępie są poddawane tej samej rygorystycznej ocenie wzajemnej, co artykuły publikowane za pomocą tradycyjnego modelu publikowania opartego na subskrypcji.
 
 * * *
 
-### You can find out about the open access policies of funders at which website?
+#### Nieograniczone korzystanie, dystrybucja i powielanie artykułów o otwartym dostępie objętych licencją CC-BY jest dozwolone tylko wtedy, gdy:
 
-- [ ] SHERPA/ROMEO
-- [ ] SHERPA/FACT
-- [X] SHERPA/JULIET
+- [] ... zapytałem autora (ów)
+- [X] ... przypisałem autora (ów)
+- [] ... publikują również otwarty dostęp
+- [] ... nie musisz nic robić
 
-**Answer:** It's SHERPA/JULIET - funded by Jisc and RLUK, this database provides information on research funders’ open access policies. It is available to view at their [website](http://www.sherpa.ac.uk/juliet/).
+**Odpowiedź:** Autor (ci) musi być prawidłowo przypisany, jeśli chcesz używać, rozpowszechniać lub powielać ich artykuł.
+
+* * *
+
+#### Otwarty dostęp i otwarta recenzja peer są takie same, prawda czy fałsz?
+
+- [ ] Prawdziwe
+- [X] Fałsz
+
+**Odpowiedź:** Czasopisma o otwartym dostępie mogą wykorzystywać dowolny z różnych modeli oceny wzajemnej, w tym jednoosobową, podwójnie zaślepioną, otwartą lub po publikacji publikację partnerską.
+
+[Link do dalszych informacji na temat otwartej recenzji]
+
+* * *
+
+#### Możesz pobrać artykuł o otwartym dostępie i tworzyć kopie do rozpowszechniania wśród znajomych, prawdziwe lub fałszywe?
+
+- [X] Prawda
+- [ ] Fałszywe
+
+**Odpowiedź:** To prawda! Artykuły o otwartym dostępie można pobrać, wydrukować i rozesłać do wszystkich znajomych.
+
+### 6. Publikowanie w czasopismach o otwartym dostępie ułatwia rozpowszechnianie wyników badań za pośrednictwem mediów społecznościowych, prawdziwych lub fałszywych?
+
+- [X] Prawda
+- [ ] Fałszywe
+
+**Odpowiedź:** Gdy udostępniasz artykuły o otwartym dostępie w mediach społecznościowych, każdy może zobaczyć twoją pracę, dzięki czemu Twoje badania staną się bardziej widoczne dla społeczności. Więcej informacji na ten temat można znaleźć tutaj [LINK TO SOURCE OF CHOICE].
+
+* * *
+
+#### Czasopisma mogą mieć zarówno otwarty dostęp, jak i subskrypcję tylko treści, prawda lub fałsz?
+
+- [X] Prawda
+- [ ] Fałszywe
+
+**Odpowiedź:** prawda! Dzienniki subskrypcji, które oferują autorom opcję otwartego dostępu do ich poszczególnych artykułów, są znane jako czasopisma „hybrydowe”.
+
+* * *
+
+### Organizacje finansujące nie aprobują czasopism o otwartym dostępie, prawda lub fałsz?
+
+- [ ] Prawdziwe
+- [X] Fałsz
+
+**Odpowiedź:** Wiele organizacji finansujących obecnie zleca publikację finansowanych przez siebie prac w ramach modelu otwartego dostępu, aby badania były dostępne dla szerokiego grona odbiorców i pokrywały koszty publikacji w ramach dotacji. [ROZWIŃ W szczegóły dotyczące szczegółów planu S]
+
+* * *
+
+### Możesz dowiedzieć się o zasadach otwartego dostępu fundatorów, na której stronie?
+
+- [] SHERPA / ROMEO
+- [] SHERPA / FACT
+- [X] SHERPA / JULIET
+
+**Odpowiedź:** To SHERPA / JULIET - finansowana przez Jisc i RLUK, ta baza danych zawiera informacje na temat zasad otwartego dostępu do funduszy badawczych. Jest ona dostępna w celu wyświetlenia ich na [stronie](http://www.sherpa.ac.uk/juliet/).
 
 * * *
