@@ -1,94 +1,94 @@
-# Script
+# 腳本
 
-Course title: **Open Science MOOC**
+課程名稱： **開放科學MOOC**
 
-Module title: **Open Source and Open Research Software**
+模塊標題： **開源和開放研究軟件**
 
-Video title: **Why Open Source is important for researchers**
+視頻標題： **為什麼開源對研究人員很重要**
 
-Location: Dependent on presenter
+位置：取決於演示者
 
-Recording device: Depending on what is available, either webcam, mobile phone, or camera. If Jon can get to you on location, then we can use professional equipment.
+錄製設備：視網絡攝像頭，移動電話或攝像頭而定。 如果Jon可以到達您的位置，那麼我們可以使用專業設備。
 
-Proposed style: Monologue
+擬議風格：獨白
 
-Content visualisations: None (optional)
+內容可視化：無（可選）
 
-Format: Informal, casual, outside of classroom/lab
+格式：非正式，休閒，課堂/實驗室之外
 
-Opening: MOOC main logo, MOOC module logo, title of this video.
+開場：MOOC主要標誌，MOOC模塊標誌，此視頻的標題。
 
-Presenters:
+主持人：
 
-- [Jon Tennant](https://twitter.com/protohedgehog) - HOST
+- [Jon Tennant](https://twitter.com/protohedgehog) - 主持人
 - [Peter Murray-Rust](https://twitter.com/petermurrayrust)
 - [Heidi Seibold](https://twitter.com/HeidiBaya)
 - [Konrad Foerstner](https://twitter.com/konradfoerstner)
-- [Anna Kostikova](https://twitter.com/oxytheca)
-- [Ina Smith](https://twitter.com/ismonet)
+- [安娜科斯蒂科娃](https://twitter.com/oxytheca)
+- [伊娜史密斯](https://twitter.com/ismonet)
 - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
 
-## Background
+## 背景
 
-The intention of this video is to explain to learners *why* they should be doing this module. What the advantage of learning this material is, in terms of how it will affect their daily research practices. For this, it has to be personal stories: How OSS has impacted you, why it is important to you, and a real world experience of it. So, for example, "Using Open Source Software, I was able to remotely collaborate with researcher X in country Y, which led to the sharing of research code and data and ultimately a publication in journal Z."
+這個視頻的目的是解釋學習者 *為什麼* 他們應該做這個模塊。 學習這些材料的優勢在於它將如何影響他們的日常研究實踐。 為此，它必須是個人故事：OSS如何影響您，為什麼它對您很重要，以及它的真實世界體驗。 因此，例如，“使用開源軟件，我能夠與Y國的研究員X進行遠程協作，這導致了研究代碼和數據的共享，並最終在期刊Z中發表了一篇文章。”
 
-This video will come in at the Introduction just before the learning outcomes, and really nail why people should be taking this module by prociding a real human component and narrative.
+這段視頻將在學習成果之前的簡介中出現，並且真正指出了為什麼人們應該通過宣傳真實的人類組成部分和敘述而採用這個模塊。
 
-Now, importantly, I want this video to be completely distinct from something like a formal university lecture, where the learning is plain and uni-directional from teacher to learner. I want it to be personal, natural, and engaging - you are all members of the community, and I see this ss more peer-to-peer. So less floating heads and instructional, and more casual. What I want produce ultimately is something inspirational that gets people to go 'OK, this sounds useful to me and I should take and complete this module'.
+現在，重要的是，我希望這個視頻完全不同於正式的大學講座，從老師到學習者的學習是明確和單向的。 我希望它是個性的，自然的和引人入勝的 - 你們都是社區的成員，我認為這更加點對點。 因此，浮頭和教學更少，更隨意。 我想要的東西最終是鼓舞人心的東西，讓人們去'好吧，這對我來說聽起來很有用，我應該採取並完成這個模塊'。
 
-## Brief layout
+## 簡要佈局
 
-1. Introductory section (Jon)
-2. Middle section, comprising 6 short 30-120 second statements from each presenter (all)
-3. Conclusions (Jon)
+1. 介紹部分（Jon）
+2. 中間部分，包括每個演示者（全部）的6個短30-120秒的陳述
+3. 結論（Jon）
 
-## Introduction - Jon
+## 簡介 - 喬恩
 
-"Welcome to Module 5 of the Open Science MOOC, on Open Research Software and Open Source. In this module, we will learn about the importance of open source software in modern research. The module will help to equip us the relevant knowledge and tools to transform software into something that can be openly accessed and re-used by others.
+“歡迎來到Open Science MOOC的第5單元，關於開放研究軟件和開源。 在本單元中，我們將了解開源軟件在現代研究中的重要性。 該模塊將幫助我們掌握相關知識和工具，將軟件轉換為可供其他人公開訪問和重用的內容。
 
-This video will answer a key question: Why is Open Source Software important for you and your research? To help with this, we have spoken with 6 researchers across the world who use Open Source Software in their daily practices, and can testify to the great impact it can have on their research workflows. Because Open Source is just as much about the people as it is the technology."
+本視頻將回答一個關鍵問題：為什麼開源軟件對您和您的研究很重要？ 為了解決這個問題，我們與全球6位在日常實踐中使用開源軟件的研究人員進行了交流，並證明了它可以對他們的研究工作流程產生的巨大影響。 因為開源與人和技術一樣多。“
 
-## Middle (body) - All
+## 中間（身體） - 全部
 
-[Per presenter]
+[每位演示者]
 
-- Intro - name, discipline, affiliation.
-- When you became interested in OSS.
-- A specific example of how using OSS has impacted you and your research.
-- Name the software and specific outcomes from using it. Use names of others if needed.
-- Finish each story relating to the overall impact it has had on your research.
+- 簡介 - 名稱，紀律，從屬關係。
+- 當你對OSS產生興趣時。
+- 使用OSS的一個具體示例影響了您和您的研究。
+- 為使用它命名軟件和具體結果。 如果需要，使用其他人的姓名。
+- 完成與其對您的研究的總體影響有關的每個故事。
 
-## Conclusions - Jon
+## 結論 - 喬恩
 
-"So there we have it, 6 awesome stories from some talented researchers about the transformation that Open Source Software can have on our research practices. These tools have the potential to make our lives as researchers much easier, making our research more efficient, cost-effective, and transparent.
+“因此，我們擁有它，來自一些有才華的研究人員的6篇關於開源軟件可以對我們的研究實踐進行轉型的精彩故事。 這些工具有可能使研究人員的生活變得更加輕鬆，使我們的研究更加高效，經濟高效，透明。
 
-In the rest of this module, we will learn a little more about the principles and community behind Open Source Software, how to make our own good software for re-use, and also how to cite any software we use in our own research. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
+在本單元的其餘部分，我們將學習更多關於開源軟件背後的原則和社區，如何製作我們自己的優秀軟件以便重複使用，以及如何引用我們在自己的研究中使用的任何軟件。 除此之外，我們還有三個實際任務，它們將幫助我們首先在GitHub中設置您自己的項目，然後如何在Zenodo中存檔此項目，最後如何將Git與編程語言R集成。
 
-Hopefully, by the end of the module, you will be able to apply these skills and knowledge to make your daily activities as a researcher more efficient. The next part of this module is just what is Open Source Software - enjoy!"
+希望在本單元結束時，您將能夠運用這些技能和知識，使您作為研究人員的日常活動更加高效。 這個模塊的下一部分就是開源軟件 - 享受！“
 
-## Post-recording tasks
+## 錄製後的任務
 
-- Create a transcript and subtitle file (for translations)
-- Add start and end slides
-- Add screen information for each presenter
-- Edit videos together for continuity
-- Add statements between presenters in middle parts if needed *or* add a brief pause with a slide of information between each presenter (name, discipline, software name, affiliation)
+- 創建成績單和副標題文件（用於翻譯）
+- 添加開始和結束幻燈片
+- 為每個演示者添加屏幕信息
+- 一起編輯視頻以保持連續性
+- 如果需要，在中間部分的演示者之間添加語句 *或* 添加一個簡短的暫停，每個演示者之間的信息幻燈片（名稱，學科，軟件名稱，從屬關係）
 
-## Licensing statement
+## 許可聲明
 
-I/we grant the Open Science MOOC the right to re-use the content that I/we provide for the project. Specifically, I/we give permission to:
+我/我們授予開放科學MOOC重新使用該內容的權利 I /我們為項目提供。 具體來說，我/我們允許：
 
-- Use the material for educational purposes for the project
+- 將該材料用於項目的教育目的
 
-- Publish the educational videos to the MOOC platform(s), and share any relevant ones on social media
+- 發布教育視頻到MOOC平台（S），並分享任何 社交媒體相關的多個
 
-- Release the content under a Creative Commons CC BY 4.0 International license
+- 在Creative Commons CC BY 4.0 國際許可下發佈內容
 
-Signed:
+簽：
 
-[please add names here]
+[請在這裡添加名字]
 
 - Heidi Seibold
-- Konrad Förstner
-- Ina Smith
-- Abigail Cabunoc Mayes
+- KonradFörstner
+- 伊娜史密斯
+- 阿比蓋爾Cabunoc梅斯
