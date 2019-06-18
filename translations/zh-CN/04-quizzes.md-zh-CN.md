@@ -1,13 +1,13 @@
-# Module 5: Quizzes and assignments
+# 模块5：测验和操作
 
-1. First draft for feedback to instructional design
-2. Follow up feedback
-3. Define regularity of quizzes
-4. Final examination
-5. Review assignments 
-6. Other assignments (e.g., discussion prompts)
+1. 教学设计反馈的第一稿
+2. 后续反馈
+3. 定义测验的正规性
+4. 最后审查
+5. 审核任务 
+6. 其他任务(例如，讨论提示)
 
-## Questions
+## 问题
 
 #### Contrary to proprietary software, Open Source means that anybody can change a OS project, just like on Wikipedia... that's just plain dangerous. True or false?
 
