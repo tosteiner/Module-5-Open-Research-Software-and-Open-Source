@@ -4,15 +4,15 @@ output:
   pdf_document: default
 ---
 
-# Module 5: Open Research Software and Open Source
+# Módulo 5: Software de Pesquisa e Código-fonte aberto
 
-## Table of Contents
+## Sumário
 
 - [Introduction](#Introduction)
-- [What is Open Source Software](#What_OSS)
-- [Principles of Open Source Software](#Principles)
-- [The Open Source community, governance, and contributions](#OS_Community)
-- [Existing platforms and tools for Open Source Software](#Platforms)
+- [O que é um Software de código-fonte aberto](#What_OSS)
+- [Princípios do Software de Código-fonte aberto](#Principles)
+- [A comunidade Open Source, governança e contribuições](#OS_Community)
+- [Plataformas e ferramentas de software com código-fonte aberto existentes](#Platforms)
 - [Open Source Software used in research](#Research)
 - [Getting Started with OSS - FAQ](#FAQ)
 - [Making good software for re-use](#Reuse)
