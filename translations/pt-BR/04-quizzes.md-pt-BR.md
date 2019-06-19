@@ -54,33 +54,33 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 - Verdadeiro
 - [X] Falso
 
-**Answer:** This myth should be a thing of the past. Corporate use of open source is pervasive: A 2018 study shows that on average, respondents across companies of all sizes used open source software in 92% of their applications. See [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) and [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) for more details.
+** Resposta: ** Este mito deveria ser uma coisa do passado. O uso corporativo de código aberto é muito difundido: Em 2018, um estudo mostra que, em média, os entrevistados de empresas de todos os portes usaram software de código aberto em 92% de seus aplicativos. Veja [ tidelift.com ](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) e [ opensourcesurvey.org. ](https://opensourcesurvey.org/2017/) para mais detalhes.
 
 * * *
 
-#### Who founded the Free Software Foundation?
+#### Quem fundou a Free Software Foundation?
 
-- [ ] Lawrence Lessig
+- [] Lawrence Lessig
 - [X] Richard Stallman
-- [ ] Bill Gates
+- [] Bill Gates
 - [ ] Linus Torvalds
 
-**Answer:** The Free Software Foundation (FSF) was founded by **Richard Stallman** on 4 October 1985 to support the free software movement, which promotes the universal freedom to study, distribute, create, and modify computer software, with the organization's preference for software being distributed under copyleft ("share alike") terms, such as with its own GNU General Public License. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+**Resposta:** A Free Software Foundation (FSF) foi fundada por **Richard Stallman** em 4 de outubro de 1985 para apoiar o movimento do software livre, que promove a liberdade universal de estudar, distribuir, criar e modificar software de computador, preferencialmente com a organização de softwares distribuídos nos termos copyleft ("share alike"), tais como a GNU General Public License. * Fonte: * [ Wikipédia ](https://en.wikipedia.org/wiki/Free_Software_Foundation)
 
 * * *
 
-#### Which of the following is a free software license?
+#### Qual das seguintes opções é uma licença de software livre?
 
 - [X] GPL
-- [ ] OSD
-- [ ] OSL
+- [] OSD
+- [] OSL
 - [ ] GPS
 
-**Answer:** The GNU General Public License (GNU GPL or GPL) is a widely used free software license, which guarantees end users the freedom to run, study, share and modify the software. *Source:* [Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+**Resposta:** A GNU General Public License (GNU GPL ou GPL) é uma licença de software livre amplamente utilizada, que garante aos usuários a liberdade de executar, estudar, compartilhar e modificar o software. * Fonte: * [ Wikipédia ](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 * * *
 
-#### This type of software is distributed with a single restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution. What is it?
+#### Este tipo de software é distribuído com uma única restrição: qualquer versão redistribuída do software deve ser disponibilizada de acordo com os termos originais de uso livre, modificação e distribuição. What is it?
 
 - [ ] libre software
 - [ ] shareware
