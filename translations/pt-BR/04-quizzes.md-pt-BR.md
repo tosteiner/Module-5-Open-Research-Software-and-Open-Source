@@ -1,13 +1,13 @@
 # Módulo 5: questionários e atividades
 
-1. First draft for feedback to instructional design
-2. Follow up feedback
-3. Define regularity of quizzes
-4. Final examination
-5. Review assignments 
-6. Other assignments (e.g., discussion prompts)
+1. Primeiro rascunho para retorno ao design instrucional
+2. Acompanhamento do feedback / retorno
+3. Determinar a regularidade dos questionários
+4. Exame final
+5. Revisão das atividades 
+6. Outras tarefas (por exemplo, sugestões para discussão)
 
-## Questions
+## Perguntas
 
 #### Contrary to proprietary software, Open Source means that anybody can change a OS project, just like on Wikipedia... that's just plain dangerous. True or false?
 
