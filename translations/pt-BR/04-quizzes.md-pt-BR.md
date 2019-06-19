@@ -23,7 +23,7 @@
 - Verdadeiro
 - [X] Falso
 
-** Resposta: ** Na verdade é o contrário: o código aberto é seguro porque qualquer um pode encontrar as falhas. If you ask security experts like Bruce Schneier, the (which country?) National Security Agency, or any locksmith, they'll tell you that keeping your inner workings a secret is a great way to guarantee a security problem. The reason is simple: one developer isn't as smart as all the developers. As Linux creator Linus Torvalds once said, "A thousand eyes make all bugs shallow." In other words, open source subjects you to the collective scrutiny of the community -- since they have as much to lose from your security problems as you do. Everyone works together to make things more secure. (Source: [opensource.com](https://opensource.com/open-source-myths))
+** Resposta: ** Na verdade é o contrário: o código aberto é seguro porque qualquer um pode encontrar as falhas. Se você perguntar a especialistas em segurança como Bruce Schneier, a ( qual o país?) Agência Nacional de Segurança, ou qualquer profissional de segurança da informação, eles dirão que manter o seu funcionamento interno em segredo é uma ótima maneira de resolver um problema de segurança. A razão é simples: um desenvolvedor não é tão inteligente quanto todos os desenvolvedores. As Linux creator Linus Torvalds once said, "A thousand eyes make all bugs shallow." In other words, open source subjects you to the collective scrutiny of the community -- since they have as much to lose from your security problems as you do. Everyone works together to make things more secure. (Source: [opensource.com](https://opensource.com/open-source-myths))
 
 * * *
 
