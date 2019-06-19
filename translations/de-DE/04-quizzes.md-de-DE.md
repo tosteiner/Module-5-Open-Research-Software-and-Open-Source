@@ -1,4 +1,4 @@
-# Modul 5: Quizzes und Zuweisungen
+# Modul 5: Fragen und Aufgaben
 
 1. Erster Entwurf für Feedback zum Unterricht
 2. Feedback verfolgen
