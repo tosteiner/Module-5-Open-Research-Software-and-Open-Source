@@ -29,30 +29,30 @@
 
 #### O código aberto é licenciado por padrão (?). Verdadeiro ou falso?
 
-Acredito que a pergunta pode ser um pouco enganadora. Rather ask: Anyone can use Open Source code and content without mentioning the original copyright holders / copyright doies not apply.
+Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar código fonte aberto e o conteúdo sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
 
-- [X] True
-- [ ] False
+- Verdadeiro
+- [X] Falso
 
-**Answer:** True. Open source licenses are essentially terms of use and not items to be purchased, as can be the case for proprietary software. There are a variety of open source licence models, where each licence model has specific terms for the use and modification of code.
+**Resposta:** Verdadeiro. Licenças de código aberto são essencialmente termos de uso e não itens a serem comprados, como pode ser o caso do software proprietário. Existem vários modelos de licença de código aberto, em que cada modelo de licença tem termos específicos para o uso e modificação de código.
 
-An open source vendor can charge you for a software licence and still be open source. There is not necessarily a direct relationship between a type of license and what you have to pay to obtain it. The ‘free’ part means that you have the freedom to access the source code and change it yourself providing you abide by the terms of the license.
-
-* * *
-
-#### Open source has to be free of charge.
-
-- [ ] True
-- [X] False
-
-**Answer:** False. The term 'free' in free open source software refers to freedom, not monetary cost. Or, as Richard Stallmann labeled it "Think free as in free speech, not free beer." Read more on the subject, and the distinction between Free Open Source Software (FOSS) and Free & Libre Open Source Software (FLOSS) at ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
+Um fornecedor de código aberto pode cobrar por uma licença de software e ainda ser open source. Não há necessariamente uma relação direta entre um tipo de licença e o que você tem que pagar para obtê-la. A parte 'livre' significa que você tem a liberdade de acessar o código-fonte e alterá-lo você mesmo, desde que você respeite os termos da licença.
 
 * * *
 
-#### Big software companies don’t use Open Source - true or false?
+#### O código aberto deve ser gratuito.
 
-- [ ] True
-- [X] False
+- Verdadeiro
+- [X] Falso
+
+** Resposta: ** Falso. O termo "livre" no software de código aberto livre refere-se à liberdade e não ao custo monetário. Ou, tal como Richard Stallmann rotulou: "Pense livre como em liberdade de expressão, não cerveja livre." Leia mais sobre o assunto, e a distinção entre Software Livre de Código Aberto (FOSS) e Software Livre e Livre de Código Aberto (FLOSS) em (gnu.org)
+
+* * *
+
+#### As grandes empresas de software não usam o código aberto - verdadeiro ou falso?
+
+- Verdadeiro
+- [X] Falso
 
 **Answer:** This myth should be a thing of the past. Corporate use of open source is pervasive: A 2018 study shows that on average, respondents across companies of all sizes used open source software in 92% of their applications. See [tidelift.com](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) and [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) for more details.
 
