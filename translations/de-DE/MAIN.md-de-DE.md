@@ -22,7 +22,7 @@ output:
 - [Zusammenarbeit durch Open Source](#Collaborating)
 - [Wohin soll es von hier aus gehen?](#Future_OSS)
 
-**BITTE BEACHTEN SIE** dass eine Audioversion davon über [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) und [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM)zum Herunterladen verfügbar ist.
+**BITTE BEACHTEN SIE** dass eine Audioversion davon über [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) und [YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM) zum Herunterladen verfügbar ist.
 
 ## Einführung <a name="Introduction"></a>
 
