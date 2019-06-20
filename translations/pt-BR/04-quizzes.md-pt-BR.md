@@ -111,11 +111,11 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [X] Open Source Initiative / Iniciativa Open Source
 - [] Open Source Instant
 
-** Resposta: ** A ** Open Source Initiative / Iniciativa de Código Aberto (OSI) ** celebrou seu 20º aniversário em 2018. O rótulo "open source" foi criado em uma sessão estratégica realizada em 3 de fevereiro de 1998 em Palo Alto, Califórnia. Nesse mesmo mês, a OSI foi fundada. As a global non-profit, the OSI protects and promotes open source software, development and communities, championing software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement. *Source:* [opensource.org](https://opensource.org/)
+** Resposta: ** A ** Open Source Initiative / Iniciativa de Código Aberto (OSI) ** celebrou seu 20º aniversário em 2018. O rótulo "open source" foi criado em uma sessão estratégica realizada em 3 de fevereiro de 1998 em Palo Alto, Califórnia. Nesse mesmo mês, a OSI foi fundada. Como uma organização global sem fins lucrativos, a OSI protege e promove software de código aberto, desenvolvimento e comunidades, defendendo a liberdade de software na sociedade através da educação, colaboração e infraestrutura, monitorando a Open Source Definition (OSD) e impedindo o abuso dos ideais e ethos inerentes ao movimento de código aberto. * Fonte: * [ opensource.org ](https://opensource.org/)
 
 * * *
 
-### ... and now for something completely different
+### ... E agora para algo completamente diferente
 
 ![...and now for something completely different](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
 
