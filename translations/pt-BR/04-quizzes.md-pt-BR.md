@@ -201,6 +201,6 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [ ] SHERPA/FACT
 - [X] SHERPA/JULIET
 
-**Answer:** It's SHERPA/JULIET - funded by Jisc and RLUK, this database provides information on research funders’ open access policies. Disponível no site da iniciativa [ ](http://www.sherpa.ac.uk/juliet/) .
+** Resposta: ** SHERPA / JULIET - fundado pelo Jisc e RLUK, este banco de dados fornece informações sobre as políticas de acesso aberto dos financiadores de pesquisa. Disponível no site da iniciativa [ ](http://www.sherpa.ac.uk/juliet/) .
 
 * * *
