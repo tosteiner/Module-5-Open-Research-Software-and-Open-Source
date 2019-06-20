@@ -89,15 +89,15 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 
 ** Resposta: ** Software livre e gratuito é um software que pode ser livremente utilizado, modificado e redistribuído com apenas uma restrição: qualquer versão redistribuída do software deve ser disponibilizada com os termos originais de uso livre, modificação e distribuição (conhecido como copyleft). A definição de software livre é estipulada como parte do Projeto GNU e pela Free Software Foundation. O software livre pode ser empacotado e distribuído mediante o pagamento de uma taxa; o "livre" refere-se à capacidade de reutilizá-lo, modificá-lo ou mantê-lo inalterado, como parte de outro pacote de software. Como parte da capacidade de modificar, os usuários de software livre também podem acessar e estudar o código-fonte.
 
-O conceito de software livre é uma criação de Richard Stallman, chefe do Projeto GNU. O exemplo mais conhecido de software livre é o Linux, um sistema operacional proposto como alternativa ao Windows ou a outros sistemas operacionais proprietários. Debian is an example of a distributor of a Linux package.
+O conceito de software livre é uma criação de Richard Stallman, chefe do Projeto GNU. O exemplo mais conhecido de software livre é o Linux, um sistema operacional proposto como alternativa ao Windows ou a outros sistemas operacionais proprietários. O Debian é um exemplo de um distribuidor de pacotes Linux.
 
 * * *
 
-#### What does forking entail?
+#### O que significa o forking?
 
-- [ ] Forking occurs when an open source program is further developed publically by the community.
-- [ ] Forking is the act of stabbing your overcooked chicken until it sticks to your eating utensil.
-- [ ] Forking is when a proprietary source hardware design is used as a basis to create something different.
+- [ ] O forking se dá quando um programa de código aberto é desenvolvido publicamente pela comunidade.
+- [ ] Forking é o ato de esfaquear o frango cozido até que fique preso ao seu utensílio de refeição.
+- [ ] Forking consiste em um projeto de hardware de código fonte proprietário que é usado como base para criar algo diferente.
 - [X] Forking is when open source software is developed into something different.
 
 **Answer:** Forking, also known as software forking, is the act of taking source code from open source software or program and further developing it into something different without changing the base offering. For example, Amazon's Fire OS is a forked version of Google's Android OS. Data center administrators may fork an open source software tool to tailor it to their particular requirements, without needing to share those changes back to the entire community.
