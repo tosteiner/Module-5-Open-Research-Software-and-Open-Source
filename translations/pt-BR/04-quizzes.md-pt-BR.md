@@ -98,9 +98,9 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [ ] O forking se dá quando um programa de código aberto é desenvolvido publicamente pela comunidade.
 - [ ] Forking é o ato de esfaquear o frango cozido até que fique preso ao seu utensílio de refeição.
 - [ ] Forking consiste em um projeto de hardware de código fonte proprietário que é usado como base para criar algo diferente.
-- [X] Forking is when open source software is developed into something different.
+- [X] Forking é quando o software de código aberto é desenvolvido em algo diferente.
 
-**Answer:** Forking, also known as software forking, is the act of taking source code from open source software or program and further developing it into something different without changing the base offering. For example, Amazon's Fire OS is a forked version of Google's Android OS. Data center administrators may fork an open source software tool to tailor it to their particular requirements, without needing to share those changes back to the entire community.
+**Resposta:** Forking, também conhecido como 'forking de software', é o ato de pegar o código fonte de um software ou programa de código aberto e desenvolvê-lo em algo diferente sem alterar a proposta base. Por exemplo, o Fire OS da Amazon é uma versão fork do Android OS do Google. Os administradores de centros de dados podem criar uma ferramenta de software de código aberto para adaptá-la às suas necessidades específicas, sem a necessidade de compartilhar essas mudanças com toda a comunidade.
 
 * * *
 
