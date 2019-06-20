@@ -121,12 +121,12 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### Open Science is primarily occupied with liberating the (Natural) Sciences (e.g. Mathematics, Physics, Biology, etc.), true or false?
+#### A Ciência Aberta ocupa-se prioritariamente com a difusão das Ciências (Naturais) (por exemplo, Matemática, Física, Biologia, etc.), verdadeiro ou falso?
 
-- [ ] True
-- [X] False
+- Verdadeiro
+- [X] Falso
 
-**Answer:** No, Open Science tries to encompass all scientific activity. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
+** Resposta: ** Não, a Ciência Aberta procura abranger toda a atividade científica. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
 
 * * *
 
