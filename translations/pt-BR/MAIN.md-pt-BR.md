@@ -51,11 +51,11 @@ O poder do Código Aberto está em reduzir as barreiras à colaboração e adoç
 
 ### **Objetivos específicos de aprendizagem para este Módulo**:
 
-1. Learn the characteristics of open software; understand the **ethical, legal, economic, and research impact arguments for and against Open Source Software**, and further understand the quality requirements of open code.
+1. Aprender as características do software aberto; compreender as ** éticas, legais, econômicas e de impacto na pesquisa, além dos argumentos a favor e contra o Software de Código Aberto,** inclusive compreender melhor os requisitos de qualidade do código aberto.
 
-2. Be able to turn code made for personal use into open code which is accessible by others.
+2. Ser capaz de transformar código feito para uso pessoal em código aberto acessível para todos.
 
-3. Use software (tools) that utilizes open content and encourages wider collaboration.
+3. Usar software (ferramentas) que utiliza conteúdo aberto e incentiva uma colaboração mais ampla.
 
   
 
