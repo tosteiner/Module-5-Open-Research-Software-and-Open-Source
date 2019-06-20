@@ -177,21 +177,21 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### Journals can have both open access and subscription only content, true or false?
+#### Os periódicos podem ser tanto de acesso aberto quanto de conteúdos por assinatura. Verdadeiro ou falso?
 
-- [X] True
-- [ ] False
+- [X] Verdadeiro
+- [] Falso
 
-**Answer:** True! Subscription journals which offer authors an open access option for their individual articles are known as ‘hybrid’ journals.
+**Resposta:** Verdadeiro! Os periódicos por assinatura que oferecem aos autores uma opção de acesso aberto para seus artigos individuais são conhecidos como periódicos "híbridos".
 
 * * *
 
-### Funding organizations don’t approve of open access journals, true or false?
+### As entidades financiadoras não aprovam periódicos em acesso aberto. Verdadeiro ou falso?
 
-- [ ] True
-- [X] False
+- [ ] Verdadeiro
+- [X] Falso
 
-**Answer:** Many funding organizations now mandate that the work they fund is published under the open access model so that the research is available to a wide audience and cover the costs of publishing in their grants. [EXPAND w. details on Plan S specifics]
+** Resposta: ** Muitas entidades financiadoras agora exigem que o trabalho financiado por elas seja publicado sob o modelo de acesso aberto para que a pesquisa esteja disponível para um público amplo e cubra os custos de publicação em suas contribuições. [EXPANDIR w. detalhes sobre os detalhes do Plano S]
 
 * * *
 
