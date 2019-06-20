@@ -104,14 +104,14 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### OSI stands for?
+#### OSI significa?
 
-- [ ] Open Source Index
-- [ ] Open Source Image
-- [X] Open Source Initiative
-- [ ] Open Source Instant
+- [] Open Source Index / Índice de Código Aberto
+- [] Open Source Image / Código fonte de imagem
+- [X] Open Source Initiative / Iniciativa Open Source
+- [] Open Source Instant
 
-**Answer:** The **Open Source Initiative (OSI)** has been celebrating its 20th Anniversary in 2018. The “open source” label was created at a strategy session held on February 3rd, 1998 in Palo Alto, California. That same month, the OSI was founded. As a global non-profit, the OSI protects and promotes open source software, development and communities, championing software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement. *Source:* [opensource.org](https://opensource.org/)
+** Resposta: ** A ** Open Source Initiative / Iniciativa de Código Aberto (OSI) ** celebrou seu 20º aniversário em 2018. O rótulo "open source" foi criado em uma sessão estratégica realizada em 3 de fevereiro de 1998 em Palo Alto, Califórnia. Nesse mesmo mês, a OSI foi fundada. As a global non-profit, the OSI protects and promotes open source software, development and communities, championing software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement. *Source:* [opensource.org](https://opensource.org/)
 
 * * *
 
