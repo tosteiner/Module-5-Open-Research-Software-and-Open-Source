@@ -36,7 +36,7 @@ Não se esqueça de que você pode participar das discussões no nosso fórum ab
 
 Este módulo é projetado principalmente para pesquisadores computacionais no nível de graduação e pós-graduação, bem como cientistas de dados iniciantes e qualquer outro pesquisador que use código analítico ou software. Em um ambiente de pesquisa moderno, isso abrange praticamente qualquer pessoa que usa um computador para o trabalho.
 
-> "An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result." - J. Buckheit and D. L. Donoho, 1995.
+> "Um artigo sobre resultados computacionais é publicidade, não educacional. O conhecimento real é o ambiente de software completo, código e dados, que produziram o resultado." - J. Buckheit e DL Donoho, 1995.
 
 O software e a tecnologia sustentam grande parte da pesquisa moderna, que agora é quase inevitavelmente computacional de uma forma ou de outra - mecanismos de pesquisa, plataformas de redes sociais, software analítico e publicação digital. Com isso, há uma demanda cada vez maior por softwares de código aberto mais sofisticados, combinados com uma crescente disposição dos pesquisadores em colaborar abertamente em novas ferramentas.
 
@@ -49,7 +49,7 @@ O poder do Código Aberto está em reduzir as barreiras à colaboração e adoç
   
 
 
-### **Specific learning objectives for this Module**:
+### **Objetivos específicos de aprendizagem para este Módulo**:
 
 1. Learn the characteristics of open software; understand the **ethical, legal, economic, and research impact arguments for and against Open Source Software**, and further understand the quality requirements of open code.
 
