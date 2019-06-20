@@ -161,19 +161,19 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### You can download an open access article and make copies to distribute to your friends, true or false?
+#### Você pode fazer o download de um artigo em acesso aberto e fazer cópias para distribuir para seus amigos. Verdadeiro ou falso?
 
-- [X] True
-- [ ] False
+- [X] Verdadeiro
+- [] Falso
 
-**Answer:** That’s right! Open access articles can be downloaded, printed and distributed to all your friends.
+** Resposta: ** Está certo! Artigos em acesso aberto podem ser baixados, impressos e distribuídos para todos os seus amigos.
 
-### 6. Publishing in open access journals makes it easier to disseminate your research via social media, true or false?
+### 6. Publicar em revistas de acesso livre facilita a divulgação de sua pesquisa por meio das mídias sociais. Verdadeiro ou falso?
 
-- [X] True
-- [ ] False
+- [X] Verdadeiro
+- [] Falso
 
-**Answer:** When you share open access articles on social media everyone is able to see your work making your research more visible to your community. You can read more on the evidence for this here [LINK TO SOURCE OF CHOICE].
+** Resposta: ** Quando você compartilha artigos em acesso aberto nas mídias sociais todos podem ver o seu trabalho, tornando sua pesquisa mais visível para sua comunidade. Leia mais a respeito das evidências sobre isso aqui [LINK PARA A FONTE DE ESCOLHA].
 
 * * *
 
@@ -195,11 +195,11 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-### You can find out about the open access policies of funders at which website?
+### Você pode obter informações sobre as políticas de acesso aberto dos financiadores em qual site?
 
-- [ ] SHERPA/ROMEO
-- [ ] SHERPA/FACT
-- [X] SHERPA/JULIET
+- [] SHERPA / ROMEO
+- [] SHERPA / FACT
+- [X] SHERPA / JULIET
 
 ** Resposta: ** SHERPA / JULIET - fundado pelo Jisc e RLUK, este banco de dados fornece informações sobre as políticas de acesso aberto dos financiadores de pesquisa. Disponível no site da iniciativa [ ](http://www.sherpa.ac.uk/juliet/) .
 
