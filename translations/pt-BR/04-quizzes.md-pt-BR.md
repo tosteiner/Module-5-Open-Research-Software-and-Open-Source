@@ -80,16 +80,16 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 
 * * *
 
-#### Este tipo de software é distribuído com uma única restrição: qualquer versão redistribuída do software deve ser disponibilizada de acordo com os termos originais de uso livre, modificação e distribuição. What is it?
+#### Este tipo de software é distribuído com uma única restrição: qualquer versão redistribuída do software deve ser disponibilizada de acordo com os termos originais de uso livre, modificação e distribuição. O que é isso?
 
-- [ ] libre software
-- [ ] shareware
-- [X] free software
-- [ ] adware
+- [ ] Libre software
+- [ ] Shareware
+- [X] Software livre e gratuito
+- [] Adware
 
-**Answer:** Free software is software that can be freely used, modified, and redistributed with only one restriction: any redistributed version of the software must be distributed with the original terms of free use, modification, and distribution (known as copyleft). The definition of free software is stipulated as part of the GNU Project and by the Free Software Foundation. Free software may be packaged and distributed for a fee; the "free" refers to the ability to reuse it, modified or unmodified, as part of another software package. As part of the ability to modify, users of free software may also have access to and study the source code.
+** Resposta: ** Software livre e gratuito é um software que pode ser livremente utilizado, modificado e redistribuído com apenas uma restrição: qualquer versão redistribuída do software deve ser disponibilizada com os termos originais de uso livre, modificação e distribuição (conhecido como copyleft). A definição de software livre é estipulada como parte do Projeto GNU e pela Free Software Foundation. O software livre pode ser empacotado e distribuído mediante o pagamento de uma taxa; o "livre" refere-se à capacidade de reutilizá-lo, modificá-lo ou mantê-lo inalterado, como parte de outro pacote de software. Como parte da capacidade de modificar, os usuários de software livre também podem acessar e estudar o código-fonte.
 
-The concept of free software is the brainchild of Richard Stallman, head of the GNU Project. The best known example of free software is Linux, an operating system that is proposed as an alternative to Windows or other proprietary operating systems. Debian is an example of a distributor of a Linux package.
+O conceito de software livre é uma criação de Richard Stallman, chefe do Projeto GNU. O exemplo mais conhecido de software livre é o Linux, um sistema operacional proposto como alternativa ao Windows ou a outros sistemas operacionais proprietários. Debian is an example of a distributor of a Linux package.
 
 * * *
 
