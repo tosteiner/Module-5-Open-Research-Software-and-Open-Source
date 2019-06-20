@@ -191,7 +191,7 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Muitas entidades financiadoras agora exigem que o trabalho financiado por elas seja publicado sob o modelo de acesso aberto para que a pesquisa esteja disponível para um público amplo e cubra os custos de publicação em suas contribuições. [EXPANDIR w. detalhes sobre os detalhes do Plano S]
+** Resposta: ** Muitas entidades financiadoras agora exigem que o trabalho financiado por elas seja publicado sob o modelo de acesso aberto para que a pesquisa esteja disponível para um público amplo e cubra os custos de publicação em suas contribuições. [EXPANDIR w. detalhes sobre o Plan S]
 
 * * *
 
