@@ -117,47 +117,47 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 ### ... E agora para algo completamente diferente
 
-![...and now for something completely different](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
+![...E agora para algo completamente diferente](https://ichef.bbci.co.uk/images/ic/640x360/p01gk35d.jpg)
 
 * * *
 
-#### A Ciência Aberta ocupa-se prioritariamente com a difusão das Ciências (Naturais) (por exemplo, Matemática, Física, Biologia, etc.), verdadeiro ou falso?
+#### A Ciência Aberta ocupa-se prioritariamente com a difusão das Ciências (Naturais) (por exemplo, Matemática, Física, Biologia, etc.). Verdadeiro ou falso?
 
-- Verdadeiro
+- [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Não, a Ciência Aberta procura abranger toda a atividade científica. For a broader outline of what we at OpenScienceMOOC think Open Science should be, see our first Module on Open Principles [LINK]
+** Resposta: ** Não, a Ciência Aberta procura abranger toda a atividade científica. Para um delineamento mais amplo do que pensamos ser a Ciência Aberta no OpenScienceMOOC, acesse nosso primeiro Módulo sobre Princípios Abertos. [LINK]
 
 * * *
 
-#### Open access articles are not peer reviewed, true or false?
+#### Os artigos em acesso aberto não são revisados por pares. Verdadeiro ou falso?
 
-- [ ] True
-- [X] False
+- [ ] Verdadeiro
+- [X] Falso
 
-**Answer:** Yup, that's a misconception. Open access articles undergo the same rigorous peer review as articles published via the traditional subscription-based publishing model.
-
-* * *
-
-#### Unrestricted use, distribution and reproduction of open access articles licensed under CC-BY is permitted only when you:
-
-- [ ] ... have asked the author(s)
-- [X] ... have attributed the author(s)
-- [ ] ... are also publishing open access
-- [ ] ... you do not need to do anything
-
-**Answer:** The author(s) must be properly attributed if you wish to use, distribute or reproduce their article.
+** Resposta: ** Sim, isso é um equívoco. Os artigos em acesso aberto são submetidos à mesma rigorosa revisão por pares que os artigos publicados segundo o modelo tradicional de publicação por assinatura.
 
 * * *
 
-#### Open access and open peer review are the same thing, true or false?
+#### O uso irrestrito, a distribuição e a reprodução de artigos em acesso aberto licenciados sob o CC-BY são permitidos somente quando você:
 
-- [ ] True
-- [X] False
+- [] ... solicitou permissão ao(s) autor(es)
+- [X] ... atribuiu crédito ao(s) autor(es)
+- [ ] ... também publica em acesso aberto
+- [ ] ... você não precisa fazer nada
 
-**Answer:** Open access journals may use any of the different peer review models, including single-blind, double-blind, open or post-publication peer review.
+** Resposta: ** O(s) autor(es) deve(m) ser devidamente creditado(s) se você quiser usar, distribuir ou reproduzir seu artigo.
 
-[Link to further info on open peer review]
+* * *
+
+#### Acesso aberto e revisão por pares aberta são a mesma coisa. Verdadeiro ou falso?
+
+- [ ] Verdadeiro
+- [X] Falso
+
+** Resposta: ** Os periódicos em acesso aberto podem utilizar qualquer um dos diferentes modelos de revisão por pares, incluindo a revisão por pares single-blind, double-blind, aberta ou pós-publicação.
+
+[Link para mais informações sobre revisão por pares aberta]
 
 * * *
 
@@ -201,6 +201,6 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [ ] SHERPA/FACT
 - [X] SHERPA/JULIET
 
-**Answer:** It's SHERPA/JULIET - funded by Jisc and RLUK, this database provides information on research funders’ open access policies. It is available to view at their [website](http://www.sherpa.ac.uk/juliet/).
+**Answer:** It's SHERPA/JULIET - funded by Jisc and RLUK, this database provides information on research funders’ open access policies. Disponível no site da iniciativa [ ](http://www.sherpa.ac.uk/juliet/) .
 
 * * *
