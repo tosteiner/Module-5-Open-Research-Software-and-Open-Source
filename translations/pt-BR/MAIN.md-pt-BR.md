@@ -86,7 +86,7 @@ Algumas das principais vantagens para os desenvolvedores incluem:
 
 - Baseado em padrões abertos disponíveis para todos.
 
-Neste sentido, as principais vantagens para os pesquisadores (usuários) incluem **custos menores **, **maior transparência**, **mais segurança e estabilidade**, **sem bloqueio do fornecedor e com maior controle do usuário** e **maior qualidade em geral**. Furthermore, sharing OSS allows researchers to receive credit for their efforts, for example through direct software citation [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
+Neste sentido, as principais vantagens para os pesquisadores (usuários) incluem **custos menores **, **maior transparência**, **mais segurança e estabilidade**, **sem bloqueio do fornecedor e com maior controle do usuário** e **maior qualidade em geral**. Além disso, o compartilhamento do OSS permite aos pesquisadores receber o crédito por seus esforços, por exemplo, por meio da citação direta de um software. [(Smith et al., 2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf).
 
 Commonly used OSS include the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) internet browser and the [LibreOffice](https://www.libreoffice.org/) full office suite. LibreOffice is similar to the popular Microsoft Office, including a word processor, spreadsheet manager, and slide presentation software, but is completely free and Open Source.
 
