@@ -90,7 +90,7 @@ Neste sentido, as principais vantagens para os pesquisadores (usuários) incluem
 
 Os OSS mais usados incluem o navegador </a> de internet [ Mozilla Firefox ](https://www.mozilla.org/en-US/firefox/) e e o pacote completo [ do LibreOffice](https://www.libreoffice.org/). O LibreOffice é semelhante ao popular Microsoft Office, incluindo um processador de texto, um gerenciador de planilhas e um software de apresentação de slides, porém é completamente gratuito e de código-fonte aberto.
 
-Para alguns, o Movimento Open Source Software (OSS) representa um contra-movimento ao neoliberalismo e à privatização, através do desafio aos regulamentos e normas na construção e reutilização da informação, além de uma potencial transformação do capitalismo moderno através da disponibilização abundante de software com o mínimo esforço. Ver também [Movimento do software livre / de código aberto: Resistência ou mudança?](http://www.redalyc.org/html/742/74212712006/) de Panayiota Georgopoulou para mais sobre este assunto.
+Para alguns, o Movimento Open Source Software (OSS) representa um contra-movimento ao neoliberalismo e à privatização, através do desafio aos regulamentos e normas na construção e reutilização da informação, além de uma potencial transformação do capitalismo moderno através da disponibilização abundante de software com o mínimo esforço. Ver também [Movimento do software livre / de código aberto: Resistência ou mudança?](http://www.redalyc.org/html/742/74212712006/) de Panayiota Georgopoulou para saber mais sobre este assunto.
 
   
 
