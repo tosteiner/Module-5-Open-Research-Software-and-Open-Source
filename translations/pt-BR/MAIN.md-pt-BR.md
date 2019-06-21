@@ -1,19 +1,19 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: padrão
+  pdf_document: padrão
 ---
 
 # Módulo 5: Software de Pesquisa e Código-fonte aberto
 
 ## Sumário
 
-- [Introduction](#Introduction)
+- [Introdução](#Introduction)
 - [O que é um Software de código-fonte aberto](#What_OSS)
 - [Princípios do Software de Código-fonte aberto](#Principles)
 - [A comunidade Open Source, governança e contribuições](#OS_Community)
 - [Plataformas e ferramentas de software com código-fonte aberto existentes](#Platforms)
-- [Open Source Software used in research](#Research)
+- [Software de código aberto usado em pesquisa](#Research)
 - [Começando com OSS - FAQ](#FAQ)
 - [Fazendo um bom software para reutilização](#Reuse)
 - [Licenças de código aberto](#Licensing)
@@ -62,7 +62,7 @@ O poder do Código Aberto está em reduzir as barreiras à colaboração e adoç
 
 ## O que é um Software de código-fonte aberto <a name="What_OSS"></a>
 
-Virtually all modern scientific research workflows rely on a range of software tools, either operating on different datasets, with different parameters, and applied iteratively in various ways (data science) or operating on different inputs and using models and methods to predict some output state (computational science). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.
+Praticamente todos os fluxos de trabalho de pesquisa científica moderna dependem de uma série de ferramentas de software, seja operando em diferentes conjuntos de dados, com diferentes parâmetros, e aplicados iterativamente de várias maneiras (Ciência dos Dados) ou operando em diferentes entradas e usando modelos e métodos para prever algum estado de saída (ciência computacional). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.
 
 OSS fits into the broader scheme of Open Science as it helps to make the full research environment, including the software that produced the research results, fully accessible and re-usable. As such, it forms a necessary component for the best practices ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) and repeatability and reproducibility of research (both personally and by others), along with other components, such as sharing data ([Stodden, 2010](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
 
