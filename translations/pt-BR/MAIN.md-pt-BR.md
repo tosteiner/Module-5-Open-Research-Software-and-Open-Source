@@ -99,11 +99,11 @@ Para alguns, o Movimento Open Source Software (OSS) representa um contra-movimen
 
 A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pioneiros do OSS e oferece a seguinte [definição](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
 
-*Don't worry, you don't need to memorise all of this, but it's good to know the principles that OSS is coming from.*
+*Não se preocupe, você não precisa memorizar tudo isso, no entanto, é bom saber de onde vem o Open Source Software (OSS) / Software de código-fonte aberto.*
 
-- **Free Redistribution**: The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+- **Redistribuição gratuita**: A licença não deve restringir qualquer parte da venda ou cessão do software como componente de uma distribuição agregada que contenha programas de várias fontes diferentes. A licença não deve exigir royalties ou outras taxas pela venda.
     
-    - **Source Code**: The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost preferably, downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
+    - **Código Fonte**: O programa deve incluir código fonte, bem como permitir a sua distribuição na forma compilada. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost preferably, downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
     
     - **Derived Works**: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
     
