@@ -103,7 +103,7 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
 
 - **Redistribuição gratuita**: A licença não deve restringir qualquer parte da venda ou cessão do software como componente de uma distribuição agregada que contenha programas de várias fontes diferentes. A licença não deve exigir royalties ou outras taxas pela venda.
     
-    - **Código Fonte**: O programa deve incluir código fonte, bem como permitir a sua distribuição na forma compilada. Quando um produto não é distribuído com código fonte, deve haver um processo de obtenção do mesmo por um custo de reprodução não superior a um valor razoável, preferencialmente através da Internet, sem encargos. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.
+    - **Código Fonte**: O programa deve incluir código-fonte, bem como permitir a sua distribuição na forma compilada. Quando um produto não é distribuído com código fonte, deve haver um processo de obtenção do mesmo por um custo de reprodução não superior a um valor razoável, preferencialmente através da Internet, sem encargos. O código fonte deve ser a forma preferida pela qual um programador pode modificar o software. Deliberadamente um código-fonte ocultado não é permitido. Formas intermediárias como a saída de um pré-processador ou tradutor não são permitidas.
     
     - **Derived Works**: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
     
@@ -157,7 +157,7 @@ The big difference between free software and OSS is that the former must distrib
 
 These definitions have now become widely adopted, both by international governments, as well as some large organisations such as the [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) and the [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Major organisations in the FLOSS space include the UK's [Software Sustainability Institute](https://www.software.ac.uk/), who produce valuable resources such as their recent [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/).
 
-### For individual projects
+### Para projetos individuais
 
 A typical open source project has the following types of formal roles:
 
