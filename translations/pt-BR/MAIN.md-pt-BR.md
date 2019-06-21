@@ -97,7 +97,7 @@ Para alguns, o Movimento Open Source Software (OSS) representa um contra-movimen
 
 ## Princípios do Software de Código-fonte aberto <a name="Principles"></a>
 
-The [Open Source Initiative](https://opensource.org/), one of the pioneers of OSS, offers the following [definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
+A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pioneiros do OSS e oferece a seguinte [definição](https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition):
 
 *Don't worry, you don't need to memorise all of this, but it's good to know the principles that OSS is coming from.*
 
