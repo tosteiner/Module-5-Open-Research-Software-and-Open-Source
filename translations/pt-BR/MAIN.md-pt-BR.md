@@ -66,15 +66,15 @@ Praticamente todos os fluxos de trabalho de pesquisa científica moderna depende
 
 O OSS enquadra-se no esquema mais amplo da Ciência Aberta, uma vez que ajuda a transformar todo o ambiente de pesquisa, incluindo o software que produziu os resultados das investigações, plenamente acessível e reutilizável. Como tal, forma um componente necessário para as melhores práticas ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) e replicabilidade e reprodutibilidade da pesquisa (tanto pessoalmente como por terceiros), assim como outros componentes, como o compartilhamento de dados ([Stodden, 2010).](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
 
-In some cases, sharing of source code can even be conditional for the acceptance of associated research manuscripts ([Shamir et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Shamir%20et%20al.%2C%202013.pdf)). It is also generally perceived to increase research impact ([Vandwalle, 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Vandewalle%2C%202012.pdf)).
+Em alguns casos, o compartilhamento de código fonte pode até mesmo ser uma condição para a aceitação de manuscritos de pesquisa associados. ([Shamir et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Shamir%20et%20al.%2C%202013.pdf)). É também geralmente reconhecido como um fator de maior impacto na pesquisa. ([Vandwalle, 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Vandewalle%2C%202012.pdf)).
 
-Some of common advantages for developers include:
+Algumas das principais vantagens para os desenvolvedores incluem:
 
-- Increased developer loyalty and empowerment;
+- Aumento da confiança e empoderamento dos desenvolvedores;
 
-- Lower costs of services and marketing;
+- Redução dos custos dos serviços e marketing;
 
-- Increased branding of services and products;
+- Crescimento da imagem de marca dos serviços e produtos;
 
 - Production of high quality software at lower expense;
 
