@@ -155,17 +155,17 @@ O princípio central da reutilização é o que separa o Software de Código-fon
 
 A grande diferença entre o software livre e o programa de código-fonte aberto (OSS) é que o primeiro deve distribuir versões atualizadas sob a mesma licença que o original, enquanto as versões mais recentes do software de código-fonte aberto podem ser distribuídas sob diferentes licenças. FOSS combina o melhor dos dois mundos.
 
-These definitions have now become widely adopted, both by international governments, as well as some large organisations such as the [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) and the [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Major organisations in the FLOSS space include the UK's [Software Sustainability Institute](https://www.software.ac.uk/), who produce valuable resources such as their recent [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/).
+Estas definições passaram a ser amplamente adotadas, tanto pelos governos internacionais como por grandes organizações como a [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) e a [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). As principais organizações no espaço FLOSS incluem o [Instituto de Sustentabilidade de Software do Reino Unido](https://www.software.ac.uk/), que produz recursos valiosos, como o recente [ Guia de Depósito de Software para Pesquisadores](https://softwaresaved.github.io/software-deposit-guidance/).
 
 ### Para projetos individuais
 
-A typical open source project has the following types of formal roles:
+Um projeto de código aberto típico tem os seguintes tipos de papéis formais:
 
-- **Author**: It is the person that created the project
-- **Owner**: The person/s who has administrative ownership over the organization or repository 
-- **Maintainers**: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. (They may also be authors or owners of the project.)
-- **Contributors**: The user that has already contributed to the project.
-- **Community Members**: People who use the project. They might be active in conversations, create new issues or express their opinion on the future project improvements.
+- **Autor**: É a pessoa que criou o projeto
+- **Proprietário**: A pessoa/s que possui propriedade administrativa sobre a organização ou o repositório 
+- **Mantenedores**: Colaboradores responsáveis por conduzir a visão e gerenciar os aspectos organizacionais do projeto. (Eles também podem ser autores ou proprietários do projeto.)
+- **Colaboradores**: O usuário que já contribuiu para o projeto.
+- **Membros da Comunidade**: Pessoas que trabalham no projeto. They might be active in conversations, create new issues or express their opinion on the future project improvements.
 
 Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
 
