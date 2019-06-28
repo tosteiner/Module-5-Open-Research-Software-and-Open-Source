@@ -140,16 +140,16 @@ Há várias plataformas e ferramentas existentes que apoiam o programa de códig
 
 - [] O histórico completo do código-fonte está disponível para verificação por meio de um histórico de versões disponíveis publicamente?
 
-- [ ] Are the dependencies of the software (hardware and software) described properly? Do these dependencies require only a reasonably minimal amount of effort to obtain and use?
+- Há descrição adequada das dependências do programa (hardware e software)? Essas dependências exigem um esforço mínimo razoável para a sua obtenção e uso?
 
-Check, check, check, done! Simples.
+Verifique, confira, confirme, e está feito! Simples assim.
 
   
 
 
-## The Open Source community and its governance <a name="OS_Community"></a>
+## A comunidade de código-fonte aberto e sua governança <a name="OS_Community"></a>
 
-There are two main camps within the free software community: The **free software movement**, and the **OSS movement**. Both have differing ideologies based on user liberties and the practical applications of software. Often, the term 'FLOSS' is used to reconcile these two political camps, and means 'Free/Libre and Open Source Software'; Libre being French and Spanish for 'free' in the context of freedom.
+Existem dois campos principais dentro da comunidade de software livre: o movimento ** do software livre** e o movimento **do programa de código-fonte aberto**. Ambos têm diferentes ideologias baseadas nas liberdades dos usuários e nas aplicações práticas do software. Often, the term 'FLOSS' is used to reconcile these two political camps, and means 'Free/Libre and Open Source Software'; Libre being French and Spanish for 'free' in the context of freedom.
 
 The core principle of re-use is what separates OSS from 'Free Software'. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the [Ubuntu Linux](https://www.ubuntu.com/) operation system.
 
