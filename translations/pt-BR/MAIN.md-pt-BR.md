@@ -126,19 +126,19 @@ Tudo isto pode ser um pouco complexo para memorizar. No entanto, pode ser resumi
   
 
 
-## An Open Source checklist
+## Uma lista de verificação do código-fonte aberto
 
-There are a number of existing platforms and tools that support OSS and collaboration. The [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) provides a check-list to use for evaluating the 'openness' of existing research software, based on the Open Source Definition above:
+Há várias plataformas e ferramentas existentes que apoiam o programa de código-fonte aberto e a colaboração. O [Manual de Treinamento em Ciência Aberta](https://open-science-training-handbook.gitbook.io/book/) fornece uma lista de verificação para avaliar a "abertura" do software de pesquisa existente, com base na Definição de Código Aberto acima:
 
-- [ ] Is the software available to download and install?
+- [] O software está disponível para download e instalação?
 
-- [ ] Can the software easily be installed on different platforms?
+- [] O software pode ser facilmente instalado em diferentes plataformas?
 
-- [ ] Does the software have conditions on the use?
+- [] O software impõe condições de uso?
 
-- [ ] Is the source code available for inspection?
+- [] O código-fonte está disponível para inspeção?
 
-- [ ] Is the full history of the source code available for inspection through a publicly available version history?
+- [] O histórico completo do código-fonte está disponível para verificação por meio de um histórico de versões disponíveis publicamente?
 
 - [ ] Are the dependencies of the software (hardware and software) described properly? Do these dependencies require only a reasonably minimal amount of effort to obtain and use?
 
