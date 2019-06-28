@@ -149,9 +149,9 @@ Verifique, confira, confirme, e está feito! Simples assim.
 
 ## A comunidade de código-fonte aberto e sua governança <a name="OS_Community"></a>
 
-Existem dois campos principais dentro da comunidade de software livre: o movimento ** do software livre** e o movimento **do programa de código-fonte aberto**. Ambos têm diferentes ideologias baseadas nas liberdades dos usuários e nas aplicações práticas do software. Often, the term 'FLOSS' is used to reconcile these two political camps, and means 'Free/Libre and Open Source Software'; Libre being French and Spanish for 'free' in the context of freedom.
+Existem dois campos principais dentro da comunidade de software livre: o movimento ** do software livre** e o movimento **do programa de código-fonte aberto**. Ambos têm diferentes ideologias baseadas nas liberdades dos usuários e nas aplicações práticas do software. Frequentemente, o termo "FLOSS" é usado para reconciliar esses dois campos políticos, e significa "Livre/Libre e Software de Código-Fonte Aberto"; Libre em francês e espanhol significa "livre" no contexto da liberdade. **F/OSS** ou simplesmente **FOSS**, isto é, **Free and Open Source Software**, em inglês, referem-se a um programa que é duplamente livre e de código-fonte aberto.
 
-The core principle of re-use is what separates OSS from 'Free Software'. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the [Ubuntu Linux](https://www.ubuntu.com/) operation system.
+O princípio central da reutilização é o que separa o Software de Código-fonte aberto (OSS) do 'Software Livre'. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the [Ubuntu Linux](https://www.ubuntu.com/) operation system.
 
 The big difference between free software and OSS is that the former must distribute updated versions under the same license as the original, whereas newer versions of OSS can be distributed under different licenses. FOSS combines the best of both worlds.
 
