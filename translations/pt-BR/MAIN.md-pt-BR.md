@@ -167,7 +167,7 @@ Um projeto de código aberto típico tem os seguintes tipos de papéis formais:
 - **Colaboradores**: O usuário que já contribuiu para o projeto.
 - **Membros da Comunidade**: Pessoas que trabalham no projeto. Eles podem ser ativos em conversas, criar novas questões para discussão ou expressar sua opinião sobre as futuras melhorias do projeto.
 
-Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
+Normalmente, as funções são divulgadas publicamente em um arquivo `README` , um arquivo de colaboradores ou uma página separada com informações sobre a equipe do projeto.
 
   
 
