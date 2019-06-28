@@ -165,7 +165,7 @@ Um projeto de código aberto típico tem os seguintes tipos de papéis formais:
 - **Proprietário**: A pessoa/s que possui propriedade administrativa sobre a organização ou o repositório 
 - **Mantenedores**: Colaboradores responsáveis por conduzir a visão e gerenciar os aspectos organizacionais do projeto. (Eles também podem ser autores ou proprietários do projeto.)
 - **Colaboradores**: O usuário que já contribuiu para o projeto.
-- **Membros da Comunidade**: Pessoas que trabalham no projeto. They might be active in conversations, create new issues or express their opinion on the future project improvements.
+- **Membros da Comunidade**: Pessoas que trabalham no projeto. Eles podem ser ativos em conversas, criar novas questões para discussão ou expressar sua opinião sobre as futuras melhorias do projeto.
 
 Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
 
