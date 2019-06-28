@@ -109,9 +109,9 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
     
     - **Integridade do Código Fonte do Autor**: A licença pode restringir que o código fonte seja distribuído na forma modificada somente se a licença permitir a distribuição de "arquivos patch", ou seja, "arquivos de correção", contendo o código fonte para fins de modificação do programa no momento da compilação. A licença deve permitir explicitamente a distribuição de software construído a partir do código-fonte modificado. A licença pode exigir que as obras derivadas tenham um nome ou número de versão diferente do software original.
     
-    - **No Discrimination Against Persons or Groups**: The license must not discriminate against any person or group of persons.
+    - **Sem discriminação contra pessoas ou grupos**: A licença não deve discriminar nenhuma pessoa ou grupo de pessoas.
     
-    - **No Discrimination Against Fields of Endeavour**: The license must not restrict anyone from making use of the program in a specific field of endeavour. For example, it may not restrict the program from being used in a business, or from being used for genetic research.
+    - **Sem discriminação contra as áreas de atuação**: A licença não deve restringir ninguém de fazer uso do programa em um campo específico de atuação. Por exemplo, não pode restringir o programa de ser usado em qualquer tipo de negócio, ou para pesquisa genética.
     
     - **Distribution of License**: The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
     
