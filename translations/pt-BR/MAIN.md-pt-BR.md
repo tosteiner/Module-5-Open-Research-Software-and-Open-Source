@@ -113,15 +113,15 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
     
     - **Sem discriminação contra as áreas de atuação**: A licença não deve restringir ninguém de fazer uso do programa em um campo específico de atuação. Por exemplo, não pode restringir o programa de ser usado em qualquer tipo de negócio, ou para pesquisa genética.
     
-    - **Distribution of License**: The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
+    - **Distribuição da Licença**: Os direitos associados ao programa devem se aplicar a todos àqueles para quem o programa é redistribuído sem a necessidade de execução de uma licença adicional por essas partes.
     
-    - **License Must Not Be Specific to a Product**: The rights attached to the program must not depend on the program's being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.
+    - **A Licença não deve ser específica para um produto**: Os direitos associados ao programa não devem depender do fato de o programa ser parte de uma distribuição de software específica. Se o programa for extraído dessa distribuição e usado ou distribuído dentro dos termos da licença do programa, todas as partes a quem o programa é redistribuído devem ter os mesmos direitos que aqueles que são garantidos em conjunto com a distribuição de software original.
     
-    - **License Must Not Restrict Other Software**: The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.
+    - **A Licença não deve restringir outro software**: A licença não deve impor restrições a outro software que seja distribuído juntamente com o software licenciado. Por exemplo, a licença não deve exigir que todos os outros programas distribuídos pelo mesmo meio sejam programas de código aberto.
     
-    - **License Must Be Technology-Neutral**: No provision of the license may be predicated on any individual technology or style of interface.
+    - **A Licença deve ser neutra em termos de tecnologia**: Nenhuma disposição da licença pode ser baseada em qualquer tecnologia individual ou estilo de interface.
 
-Now, this all might be a little complex to remember. However, it can be summarised as *making software as re-usable as possible for future works, while also being freely available*.
+Tudo isto pode ser um pouco complexo para memorizar. No entanto, pode ser resumido como *uma forma de tornar o software tão reutilizável quanto possível para trabalhos futuros, estando também disponível gratuitamente. *.
 
   
 
