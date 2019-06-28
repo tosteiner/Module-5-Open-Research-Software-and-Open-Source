@@ -107,7 +107,7 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
     
     - **Derived Works**: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
     
-    - **Integrity of The Author's Source Code**: The license may restrict source-code from being distributed in modified form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.
+    - **Integridade do Código Fonte do Autor**: A licença pode restringir que o código fonte seja distribuído na forma modificada somente se a licença permitir a distribuição de "arquivos patch", ou seja, "arquivos de correção", contendo o código fonte para fins de modificação do programa no momento da compilação. A licença deve permitir explicitamente a distribuição de software construído a partir do código-fonte modificado. A licença pode exigir que as obras derivadas tenham um nome ou número de versão diferente do software original.
     
     - **No Discrimination Against Persons or Groups**: The license must not discriminate against any person or group of persons.
     
