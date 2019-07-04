@@ -2,11 +2,11 @@
 
 Dies sind die wichtigsten Inhaltsentwicklungsdateien für dieses MOOC-Modul.
 
-**STATUS**: **LIVE! Dieses Modul ist jetzt online und kann über [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
+**STATUS**: **LIVE! Dieses Modul ist jetzt online verfügbar und kann über [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html) abgerufen werden.**
 
 Die dritte Version für dieses Modul ist jetzt ebenfalls fertig und wurde auf Zenodo veröffentlicht:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) und ein Einführungsvideo wird auch bereits [veröffentlicht](https://www.youtube.com/watch?v=1fwGliIyAZs).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) Ein Einführungsvideo dazu findet Ihr [hier](https://www.youtube.com/watch?v=1fwGliIyAZs).
 
 Verwenden Sie die folgende Referenz, um diese Arbeit zu zitieren:
 
