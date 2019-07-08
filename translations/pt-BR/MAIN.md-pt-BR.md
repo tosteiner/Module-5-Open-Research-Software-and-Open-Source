@@ -195,11 +195,11 @@ O controle de versão é essencialmente um processo que captura imagens instant�
   
 
 
-Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastreador de problemas) ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), que é usado para organizar o desenvolvimento do código-fonte aberto / Open Source Software (OSS). The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!
+Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastreador de problemas) ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), que é usado para organizar o desenvolvimento do código-fonte aberto / Open Source Software (OSS). O link acima leva você ao rastreador de problemas para o desenvolvimento deste módulo! Se você acha que há algo aqui que pode ser melhorado, ou se você quiser fazer comentários, qualquer um pode adicionar ou contribuir com uma questão lá!
 
-Other similar project hosting services include [BitBucket](https://bitbucket.org/), [GitLab](https://about.gitlab.com/), and [Launchpad](https://launchpad.net/). If the recent acquisition of GitHub by Microsoft is a bit off-putting to you, these are great alternatives.
+Outros serviços similares de hospedagem de projetos incluem o [BitBucket](https://bitbucket.org/), o [ GitLab](https://about.gitlab.com/) e o [Launchpad](https://launchpad.net/). Se a recente aquisição do GitHub pela Microsoft é um pouco desagradável para você, estas são ótimas alternativas.
 
-However, we also know that GitHub can have quite a high learning curve. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!
+No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bastante elevada. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!
 
 **[GO TO TASK 1: Building your first GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
 
