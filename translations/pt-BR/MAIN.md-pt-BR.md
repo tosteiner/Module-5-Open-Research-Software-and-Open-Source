@@ -178,13 +178,13 @@ Ambientes e máquinas virtuais estão se tornando cada vez mais populares como f
 
 Como mencionado [acima](#What_OSS), o LibreOffice é uma alternativa de código aberto ao Microsoft Office. Os dois são quase completamente compatíveis, apenas com diferentes formatos de arquivo padrão. Para os gerenciadores de referência, [Zotero](https://www.zotero.org/) é a alternativa mais popular de código aberto para plataformas proprietárias como Mendeley ou EndNote.
 
-[Zotero](https://www.zotero.org/) uses the BibTeX (pronounced 'bib-tech') format, based on LaTeX (pronounced 'lay-tech'), and has browser plugins to make citation management simple. By integrating this with other software such as LibreOffice, it is now possible to have a fully Open Source research workflow in many cases.
+[Zotero](https://www.zotero.org/) usa o formato BibTeX (pronuncia-se 'bib-tech'), baseado em LaTeX (pronuncia-se 'lay-tech'), e possui plugins de navegador para fazer o gerenciamento de referências e construir citações de forma simples. Ao integrar isso a outros softwares, como o LibreOffice, agora é possível ter um fluxo de trabalho de pesquisa totalmente em código-fonte aberto em muitos casos.
 
 ### GitHub <a name="GitHub"></a>
 
-> Did you know that this entire project was build as an open and collaborative community effort in [GitHub](https://github.com/OpenScienceMOOC/)?
+> Você sabia que este projeto inteiro foi construído como um esforço comunitário aberto e colaborativo no [GitHub](https://github.com/OpenScienceMOOC/)?
 
-[GitHub](https://github.com/) is a popular hosting site for both software and non-software content (often called 'notebooks'), with added capabilities for version control, project management and tracking, and storage services. GitHub is built on top of the OSS [Git](https://git-scm.com/), which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.
+[GitHub](https://github.com/) é um site de hospedagem popular para conteúdo de software e não software (geralmente chamado de 'notebooks'), com recursos adicionais para controle de versão, gerenciamento e rastreamento de projetos e serviços de armazenamento. GitHub is built on top of the OSS [Git](https://git-scm.com/), which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.
 
 Version control is essentially a process that takes snapshots of the files in a repository, and tracks modifications to them. It records when the changes were made, what they were, and who did them. If several people are working on one file at once, any overlapping changes are detected, and must be resolved prior to continuing. This provides a much more streamlined and automated process than manually saving and recording changes as projects develop. It also avoids the inevitable lists of confusing named file versions...
 
