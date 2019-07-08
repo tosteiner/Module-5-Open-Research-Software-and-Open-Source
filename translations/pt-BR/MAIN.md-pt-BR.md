@@ -190,12 +190,12 @@ O controle de versão é essencialmente um processo que captura imagens instant�
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/xkcd.png?raw=true" width="200" /></p>
 
-<p align="center"><i>GitHub helps us to avoid, er, sub-optimal file naming conventions (source: XKCD)</i></p>
+<p align="center"><i>O GitHub nos ajuda a evitar, por exemplo, convenções de nomenclatura de arquivos abaixo do padrão ideal (fonte: XKCD)</i></p>
 
   
 
 
-One of the more popular and useful functions of GitHub is the [issue tracker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), which is used to organise OSS development. The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!
+Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastreador de problemas) ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), que é usado para organizar o desenvolvimento do código-fonte aberto / Open Source Software (OSS). The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!
 
 Other similar project hosting services include [BitBucket](https://bitbucket.org/), [GitLab](https://about.gitlab.com/), and [Launchpad](https://launchpad.net/). If the recent acquisition of GitHub by Microsoft is a bit off-putting to you, these are great alternatives.
 
