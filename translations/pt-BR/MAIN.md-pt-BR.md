@@ -180,11 +180,11 @@ Como mencionado [acima](#What_OSS), o LibreOffice é uma alternativa de código 
 
 [Zotero](https://www.zotero.org/) usa o formato BibTeX (pronuncia-se 'bib-tech'), baseado em LaTeX (pronuncia-se 'lay-tech'), e possui plugins de navegador para fazer o gerenciamento de referências e construir citações de forma simples. Ao integrar isso a outros softwares, como o LibreOffice, agora é possível ter um fluxo de trabalho de pesquisa totalmente em código-fonte aberto em muitos casos.
 
-### GitHub <a name="GitHub"></a>
+### GitHub<a name="GitHub"></a>
 
 > Você sabia que este projeto inteiro foi construído como um esforço comunitário aberto e colaborativo no [GitHub](https://github.com/OpenScienceMOOC/)?
 
-[GitHub](https://github.com/) é um site de hospedagem popular para conteúdo de software e não software (geralmente chamado de 'notebooks'), com recursos adicionais para controle de versão, gerenciamento e rastreamento de projetos e serviços de armazenamento. O GitHub é construído com base em código-fonte aberto / Open Source Software (OSS) [Git](https://git-scm.com/), que permite aos usuários trabalhar remotamente para manter, compartilhar e colaborar em softwares de pesquisa e outros projetos não baseados em software.
+[GitHub](https://github.com/) é um site de hospedagem popular para conteúdo de software e não software (geralmente chamado de 'notebooks'), com recursos adicionais para controle de versão, gerenciamento e rastreamento de projetos e serviços de armazenamento. O GitHub é construído com base em programa de código-fonte aberto / Open Source Software (OSS) [Git](https://git-scm.com/), que permite aos usuários trabalhar remotamente para manter, compartilhar e colaborar em softwares de pesquisa e outros projetos não baseados em software.
 
 O controle de versão é essencialmente um processo que captura imagens instantâneas dos arquivos em um repositório e rastreia modificações neles. Ele registra quando as mudanças foram feitas, grava o estado em que estavam e quem as fez. Se várias pessoas estiverem trabalhando em um arquivo de uma vez, todas as alterações sobrepostas serão detectadas e deverão ser resolvidas antes de continuar. Isso proporciona um processo muito mais simplificado e automatizado do que salvar e registrar mudanças manualmente à medida em que os projetos se desenvolvem. Também evita as inevitáveis listas de versões de arquivos com nomes confusos...
 
@@ -195,7 +195,7 @@ O controle de versão é essencialmente um processo que captura imagens instant�
   
 
 
-Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastreador de problemas) ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), que é usado para organizar o desenvolvimento do código-fonte aberto / Open Source Software (OSS). O link acima leva você ao rastreador de problemas para o desenvolvimento deste módulo! Se você acha que há algo aqui que pode ser melhorado, ou se você quiser fazer comentários, qualquer um pode adicionar ou contribuir com uma questão lá!
+Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastreador de problemas) ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), que é usado para organizar o desenvolvimento do programa de código-fonte aberto / Open Source Software (OSS). O link acima leva você ao rastreador de problemas para o desenvolvimento deste módulo! Se você acha que há algo aqui que pode ser melhorado, ou se você quiser fazer comentários, qualquer um pode adicionar ou contribuir com uma questão lá!
 
 Outros serviços similares de hospedagem de projetos incluem o [BitBucket](https://bitbucket.org/), o [ GitLab](https://about.gitlab.com/) e o [Launchpad](https://launchpad.net/). Se a recente aquisição do GitHub pela Microsoft é um pouco desagradável para você, estas são ótimas alternativas.
 
@@ -208,9 +208,9 @@ No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bast
 
 ## Software de código aberto usado em pesquisa <a name="Research"></a>
 
-Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
+Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. Há várias razões para isso além daquelas que se aplicam à aceitação geral do programa de código-fonte aberto/Open Source Software (OSS), por exemplo, consumidores, indústria ou governo. Entre essas razões estão:
 
-- Increasingly, algorithms implemented in analysis software form an integral part of the methods described in scholarly publications. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.
+- Cada vez mais, os algoritmos implementados no software de análise são parte integrante dos métodos descritos nas publicações acadêmicas. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.
 
 - Scientific collaboration more often than not spans multiple institutions and distributed research networks where secrecy and command hierarchy is not maintained in a way that is 'necessary' for closed source development.
 
