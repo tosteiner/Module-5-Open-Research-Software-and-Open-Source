@@ -210,9 +210,9 @@ No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bast
 
 Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. Há várias razões para isso além daquelas que se aplicam à aceitação geral do programa de código-fonte aberto/Open Source Software (OSS), por exemplo, consumidores, indústria ou governo. Entre essas razões estão:
 
-- Cada vez mais, os algoritmos implementados no software de análise são parte integrante dos métodos descritos nas publicações acadêmicas. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.
+- Cada vez mais, os algoritmos implementados no software de análise são parte integrante dos métodos descritos nas publicações acadêmicas. Como tal, está completamente em conflito com a rigorosa revisão por pares se estas implementações de algoritmos forem restritas a pessoas de fora.
 
-- Scientific collaboration more often than not spans multiple institutions and distributed research networks where secrecy and command hierarchy is not maintained in a way that is 'necessary' for closed source development.
+- A colaboração científica abrange muitas vezes múltiplas instituições e redes de pesquisa distribuídas em que o sigilo e a hierarquia de comando não são mantidos de uma forma que seja "necessária" para o desenvolvimento de fontes fechadas.
 
 - Many computational analyses are run in virtualized environments (such as institutional, national, or international 'cloud' infrastructures) and hosted on multi-user servers. Closed-source, commercial software often disallows such usage.
 
