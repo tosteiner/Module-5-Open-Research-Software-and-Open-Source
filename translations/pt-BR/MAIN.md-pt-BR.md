@@ -236,7 +236,7 @@ Ferramentas como R e Python são essencialmente programas para escrever software
   
 
 
-Por fim, o programa de código-fonte aberto/Open Source Software (OSS) também é usado em pesquisas científicas por razões que mais se aproximam daquelas que impulsionam a adoção do OSS na sociedade em geral, ou seja, porque é barato. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in [**'free beer'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and 'free speech'). Likewise, the choice to switch from ArcGIS to [QGIS](https://www.qgis.org/en/site/) for the analysis of geographic information might be prompted simply by cost considerations.   
+Por fim, o programa de código-fonte aberto/Open Source Software (OSS) também é usado em pesquisas científicas por razões que mais se aproximam daquelas que impulsionam a adoção do OSS na sociedade em geral, ou seja, porque é barato. Por exemplo, indivíduos ou organizações podem decidir mudar do Microsoft Office para o LibreOffice a fim de escrever manuscritos ou processar planilhas porque este último é gratuito (tanto em [**'cerveja grátis'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) quanto em 'liberdade de expressão'). Da mesma forma, a opção de mudar do ArcGIS para [QGIS](https://www.qgis.org/en/site/) a fim de analisar informações geográficas pode ser solicitada simplesmente por considerações de custo.   
 
 
 ## Começando com OSS - FAQ <a name="FAQ"></a>
