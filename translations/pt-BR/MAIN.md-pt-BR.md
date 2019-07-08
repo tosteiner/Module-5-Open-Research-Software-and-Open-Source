@@ -105,7 +105,7 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
     
     - **Código Fonte**: O programa deve incluir código-fonte, bem como permitir a sua distribuição na forma compilada. Quando um produto não é distribuído com código fonte, deve haver um processo de obtenção do mesmo por um custo de reprodução não superior a um valor razoável, preferencialmente através da Internet, sem encargos. O código fonte deve ser a forma preferida pela qual um programador pode modificar o software. Deliberadamente um código-fonte ocultado não é permitido. Formas intermediárias como a saída de um pré-processador ou tradutor não são permitidas.
     
-    - **Derived Works**: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.
+    - **Obras Derivadas**: A licença deve permitir modificações e a criação de obras derivadas, assim como deve permitir a sua distribuição nos mesmos termos que a licença do software original.
     
     - **Integridade do Código Fonte do Autor**: A licença pode restringir que o código fonte seja distribuído na forma modificada somente se a licença permitir a distribuição de "arquivos patch", ou seja, "arquivos de correção", contendo o código fonte para fins de modificação do programa no momento da compilação. A licença deve permitir explicitamente a distribuição de software construído a partir do código-fonte modificado. A licença pode exigir que as obras derivadas tenham um nome ou número de versão diferente do software original.
     
@@ -208,7 +208,7 @@ No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bast
 
 ## Software de código aberto usado em pesquisa <a name="Research"></a>
 
-Especially in scientific research, Open Source Software usage and development has become practically the norm. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
+Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
 
 - Increasingly, algorithms implemented in analysis software form an integral part of the methods described in scholarly publications. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.
 
