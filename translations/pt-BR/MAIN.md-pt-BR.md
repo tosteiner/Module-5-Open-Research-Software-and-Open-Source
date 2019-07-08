@@ -199,14 +199,14 @@ Uma das funções mais populares e úteis do GitHub é o [issue tracker (rastrea
 
 Outros serviços similares de hospedagem de projetos incluem o [BitBucket](https://bitbucket.org/), o [ GitLab](https://about.gitlab.com/) e o [Launchpad](https://launchpad.net/). Se a recente aquisição do GitHub pela Microsoft é um pouco desagradável para você, estas são ótimas alternativas.
 
-No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bastante elevada. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!
+No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bastante elevada. É por isso que a primeira tarefa prática para este MOOC irá te ensinar a configurar o seu primeiro repositório de projetos no GitHub!
 
-**[GO TO TASK 1: Building your first GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
+**[IR PARA TAREFA 1: Criando seu primeiro repositório do GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
 
   
 
 
-## Open Source Software used in research <a name="Research"></a>
+## Software de código aberto usado em pesquisa <a name="Research"></a>
 
 Especially in scientific research, Open Source Software usage and development has become practically the norm. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
 
