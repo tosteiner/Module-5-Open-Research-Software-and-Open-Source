@@ -263,7 +263,7 @@ Boa pergunta! A resposta é que isso depende. A melhor coisa a se fazer é encon
 
 ## Fazendo um bom software para reutilização <a name="Reuse"></a>
 
-The most likely person who might want to re-use your software in the future is...you! So while sharing is always better than not sharing, you can make your own life, and that of others, much easier through appropriate documentation. Documentation can include several things, such as including helpful comments and annotations in the code that help to explain why a particular action was performed, rather than what it is intended to achieve.
+Provavelmente, a pessoa que poderá querer reutilizar o seu software no futuro é...você! Assim, enquanto compartilhar é sempre melhor do que não compartilhar, você pode tornar sua própria vida, e a dos outros, muito mais fácil através de documentação apropriada. A documentação pode incluir várias coisas, como a inclusão de comentários úteis e anotações no código que ajudam a explicar por que razão foi realizada uma determinada ação, ao invés do que se pretende alcançar.
 
 One of the most critical aspects of this is including an informative `README` file, that accompanies almost every OSS project, and some times even more than one. It can be a good practice to include one such file in every directory, that includes a list of files, a table of contents, and what the purpose of the directory is. The `README` file is typically just plain text or markdown (again, such as all of the ones for the MOOC!), and can include critical information for how to install and run software, previous dependencies and requirements, as well as tutorials or examples.
 
