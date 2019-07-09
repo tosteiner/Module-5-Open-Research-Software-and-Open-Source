@@ -282,13 +282,13 @@ Uma extensão que pode ajudar a facilitar ainda mais a reutilização futura é 
 
 As 10 regras simples para tornar a pesquisa computacional mais reprodutível, baseadas em [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), são:
 
-1. For every result, keep track of how it was produced.
-2. Avoid manual data manipulation steps.
-3. Archive the exact versions of all external programs used.
-4. Version control all custom scripts.
-5. Record all intermediate results, when possible in standardised formats.
-6. For analyses that include randomness, note underlying random seeds.
-7. Always store raw data behind plots.
+1. Para cada resultado, acompanhe como foi produzido.
+2. Evite etapas manuais de manipulação de dados.
+3. Arquive as versões exatas de todos os programas externos usados.
+4. Controle as versões de todos os scripts personalizados.
+5. Registre todos os resultados intermediários, quando possível, em formatos padronizados.
+6. Para análises que incluem aleatoriedade, anote as características aleatórias de cada uma das seeds.
+7. Sempre armazene os dados brutos por trás dos gráficos.
 8. Generate hierarchical analysis output, allowing layers of increasing detail to be inspected.
 9. Connect textual statements to underlying results.
 10. Provide public access to scripts, runs, and results.
