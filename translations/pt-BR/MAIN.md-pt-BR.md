@@ -241,11 +241,11 @@ Por fim, o programa de código-fonte aberto/Open Source Software (OSS) também �
 
 ## Começando com OSS - FAQ <a name="FAQ"></a>
 
-**I'm using X[e.g. Matlab,STATA,Excel] and I want to transition to something more open. What are the next steps?**
+**Estou usando o X [por exemplo, Matlab, STATA, Excel] e quero fazer a transição para um software mais aberto. Quais são os próximos passos?**
 
-Even if you are using proprietary software, you can usually still share your source code/documents etc. *The best first step is sharing whatever you can*.
+Mesmo que você esteja usando um software proprietário, você pode continuar compartilhando seu código-fonte/documentos etc. *O melhor primeiro passo é compartilhar tudo o que você puder*.
 
-**Great! I can put them in my new github repo.**
+**Ótimo! I can put them in my new github repo.**
 
 If that's enough for you for now great! If not for most pieces of proprietary software there are Open Source equivalents. Have a go with one and see what you think.
 
