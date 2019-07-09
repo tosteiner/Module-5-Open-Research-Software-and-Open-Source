@@ -245,14 +245,14 @@ Por fim, o programa de código-fonte aberto/Open Source Software (OSS) também �
 
 Mesmo que você esteja usando um software proprietário, você pode continuar compartilhando seu código-fonte/documentos etc. *O melhor primeiro passo é compartilhar tudo o que você puder*.
 
-**Ótimo! I can put them in my new github repo.**
+**Ótimo! Eu posso colocá-los no meu novo repositório do github.**
 
-If that's enough for you for now great! If not for most pieces of proprietary software there are Open Source equivalents. Have a go with one and see what you think.
+Se isso é o suficiente para você, por enquanto, ótimo! No caso de não existir grande parte de software proprietário, existem equivalentes Open Source. Dê uma olhada e veja o que você acha.
 
-| Closed                                                                                                  | Open                                                                                                                                                              |
+| Fechado                                                                                                 | Aberto                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Matlab                                                                                                  | Python, Julia                                                                                                                                                     |
-| STATA/SPSS                                                                                              | R                                                                                                                                                                 |
+| STATA / SPSS                                                                                            | R                                                                                                                                                                 |
 | MS Office                                                                                               | LibreOffice                                                                                                                                                       |
 | Mathematica                                                                                             | JupyterLab                                                                                                                                                        |
 | Test out your new [Pull Request -PR-](https://help.github.com/articles/about-pull-requests/) Skills ... | ... by adding your own example [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
