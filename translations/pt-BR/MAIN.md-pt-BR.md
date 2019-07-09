@@ -311,21 +311,21 @@ Uma licença Open Source é um tipo de licença projetada especificamente para s
 
 Existem atualmente mais de 1.400 licenças exclusivas de código aberto, uma complexidade resultante da dificuldade em entender as diferenças entre as implicações legais através de uma licença diferente.
 
-Some of the more common licenses include:
+Algumas das licenças mais comuns incluem:
 
 - [Berkeley Software Distribution ("BSD")](https://en.wikipedia.org/wiki/BSD_licenses),
 - [Apache](https://www.apache.org/licenses/LICENSE-2.0),
-- [MIT-style (Massachusetts Institute of Technology)](https://opensource.org/licenses/MIT), or
-- [GNU General Public License ("GPL")](https://www.gnu.org/licenses/gpl-3.0.en.html).
+- [MIT-style (Massachusetts Institute of Technology)](https://opensource.org/licenses/MIT), ou
+- [Licença Pública Geral GNU ("GPL")](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-You don't need to know all the legal itty gritty behind all of these, but it is good to at least know what options are avaiilable to you.
+Você não precisa saber todas as opções legais por trás de tudo isso, mas é bom pelo menos saber quais opções estão disponíveis para você.
 
-There are two ways in which contributions to a project become licensed:
+Existem duas maneiras pelas quais as contribuições para um projeto se tornam licenciadas:
 
-1. *Explicitly*, whereby the individual contribution has a clearly indicated license independent of the main project; or
-2. *Implicitly*, whereby the contribution falls under the original licensing code of the main project.
+1. *Explicitamente*, em que a contribuição individual tem uma licença claramente indicada, independente do projeto principal; ou
+2. *Implicitamente*, em que a contribuição se enquadra no código de licenciamento original do projeto principal.
 
-Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
+Felizmente, o processo de seleção de uma licença Open Source é relativamente trivial, graças a ferramentas amigáveis como [Choose A License](https://choosealicense.com/). Cada uma dessas licenças permite que outros usuários usem, copiem, distribuam e desenvolvam seu trabalho, geralmente garantindo que os criadores sejam devidamente reconhecidos por seu trabalho. Aqui, a chave é selecionar uma licença apropriada para o seu trabalho, dependendo do que você quer, ou não quer, que outros façam com isso.
 
   
 
