@@ -289,18 +289,18 @@ As 10 regras simples para tornar a pesquisa computacional mais reprodutível, ba
 5. Registre todos os resultados intermediários, quando possível, em formatos padronizados.
 6. Para análises que incluem aleatoriedade, anote as características aleatórias de cada uma das seeds.
 7. Sempre armazene os dados brutos por trás dos gráficos.
-8. Generate hierarchical analysis output, allowing layers of increasing detail to be inspected.
-9. Connect textual statements to underlying results.
-10. Provide public access to scripts, runs, and results.
+8. Gerar saída de análise hierárquica, permitindo que camadas mais detalhadas sejam inspecionadas.
+9. Conecte declarações textuais aos respectivos resultados.
+10. Forneça acesso público a scripts, execuções e resultados.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/simple_rules.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Infographic adapted from Sandve et al., (2013). Feel free to download this and print it out to keep handy during your research!</i></p>
+<p align="center"><i>Infográfico adaptado de Sandve et al., (2013). Sinta-se livre para fazer o download e imprimir isto a fim de se manter atualizado durante sua pesquisa!</i></p>
 
   
 
 
-If you follow these steps, along with the processes in [**Task 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [**Task 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), you should be fine!
+Se você seguir estas etapas ao longo dos processos na [**Tarefa 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [**Tarefa 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), você vai se sair bem!
 
   
 
