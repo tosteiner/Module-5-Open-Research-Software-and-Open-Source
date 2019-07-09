@@ -271,16 +271,16 @@ Um dos aspectos mais críticos disso é incluir um arquivo `README` informativo,
 
 O objetivo aqui é fornecer informações suficientes para maximizar a reutilização e reprodutibilidade do ambiente computacional, de modo que alguém sem experiência com o projeto possa facilmente acessar e reutilizar o software. ([Sandve et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)). Ao reduzir as barreiras de entrada, você aumenta as chances de outros serem capazes de reutilizar seu trabalho, que é um dos objetivos finais do programa de código-fonte aberto. ([Shamir et al., 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf)).
 
-An extension of this that can help to make things even easier for future re-use is 'container' technology. Containers are like an ecosystem frozen in time, where the code, the data, any other dependencies, are all perfectly preserved, packaged and saved in the present functioning versions. This means that anyone in the future any one can come in and run the analyses again. As such, they are generally good for re-use, but this can come at the sacrifice of modification or understanding by others, as often a lot of details can be hidden within the source code and its dependencies. Common examples of container implementation in research include [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) (a Docker container for the R language), [Binder](https://mybinder.readthedocs.io/en/latest/), and [Code Ocean](https://codeocean.com/).
+Uma extensão que pode ajudar a facilitar ainda mais a reutilização futura é a tecnologia dos "contêineres". Os contêineres são como um ecossistema congelado no tempo, onde o código, os dados, quaisquer outras dependências, são perfeitamente preservados, empacotados e salvos nas versões atuais de funcionamento. Isto significa que qualquer um no futuro poderá participar e fazer novas análises. Como tal, eles são geralmente adequados para reutilização, mas isto pode vir com o sacrifício da modificação ou compreensão por outros, já que muitas vezes muitos detalhes podem ser escondidos dentro do código fonte e suas dependências. Exemplos comuns de implementação de contêiner em pesquisa incluem [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) (um contêiner Docker para a linguagem R), [Binder](https://mybinder.readthedocs.io/en/latest/)e [Code Ocean](https://codeocean.com/).
 
-**Sustainable software is good software.**
+**Software sustentável é um bom software.**
 
   
 
 
-## 10 simple rules for reproducible computational research
+## 10 regras simples para pesquisa computacional reprodutível
 
-The 10 simple rules for making computational research more reproducible, based on [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), are:
+As 10 regras simples para tornar a pesquisa computacional mais reprodutível, baseadas em [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), são:
 
 1. For every result, keep track of how it was produced.
 2. Avoid manual data manipulation steps.
