@@ -249,17 +249,17 @@ Mesmo que você esteja usando um software proprietário, você pode continuar co
 
 Se isso é o suficiente para você, por enquanto, ótimo! No caso de não existir grande parte de software proprietário, existem equivalentes Open Source. Dê uma olhada e veja o que você acha.
 
-| Fechado                                                                                                 | Aberto                                                                                                                                                            |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Matlab                                                                                                  | Python, Julia                                                                                                                                                     |
-| STATA / SPSS                                                                                            | R                                                                                                                                                                 |
-| MS Office                                                                                               | LibreOffice                                                                                                                                                       |
-| Mathematica                                                                                             | JupyterLab                                                                                                                                                        |
-| Test out your new [Pull Request -PR-](https://help.github.com/articles/about-pull-requests/) Skills ... | ... by adding your own example [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
+| Fechado                                                                                                               | Aberto                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Matlab                                                                                                                | Python, Julia                                                                                                                                                          |
+| STATA / SPSS                                                                                                          | R                                                                                                                                                                      |
+| MS Office                                                                                                             | LibreOffice                                                                                                                                                            |
+| Mathematica                                                                                                           | JupyterLab                                                                                                                                                             |
+| Teste o seu novo [Pedido de Solicitações -PR-](https://help.github.com/articles/about-pull-requests/) Habilidades ... | ... adicionando seu próprio exemplo [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
 
-**Cool! But if I make the switch will I be stuck: taking ages to learn a new tool/ without support /with buggy software.**
+**Legal! Mas se eu fizer a troca ficarei estagnado: levando muito tempo para aprender uma nova ferramenta / sem suporte / com erros no software.**
 
-Good question! The answer is it depends. The best thing to do is find someone who's made the switch before and learn from their experience. Or just do a Google search! Some OSS is much better than their closed counterparts, some aren't, so it's worth choosing carefully.
+Boa pergunta! A resposta é que isso depende. A melhor coisa a se fazer é encontrar alguém que tenha optado pela troca antes e aprender com sua experiência. Ou apenas faça uma pesquisa no Google! Alguns programas de código-fonte aberto são muito melhores do que os seus equivalentes fechados, outros não, por isso, vale a pena escolher cuidadosamente.
 
 ## Fazendo um bom software para reutilização <a name="Reuse"></a>
 
