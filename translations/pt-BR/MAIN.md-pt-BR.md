@@ -307,7 +307,7 @@ Se você seguir estas etapas ao longo dos processos na [**Tarefa 1**](https://gi
 
 ## Licenças de código aberto <a name="Licensing"></a>
 
-An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
+Uma licença Open Source é um tipo de licença projetada especificamente para software e código que tornam explícito quais são as condições legais para compartilhamento e reutilização. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
 
 There are currently more than 1,400 unique Open Source licenses, a complexity born from the difficulty in understanding the differences between the legal implications across different license.
 
