@@ -336,10 +336,10 @@ As citações fornecem uma das interações mais importantes na pesquisa acadêm
 
 Em 2016, [Smith et al., 2016](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) escreveram um trabalho de pesquisa sobre os princípios da citação de software como parte do FORCE11 Software Citation Working Group. Da mesma forma que você gostaria de citar um software que você usou como parte de boas práticas de pesquisa, é importante tornar sua pesquisa facilmente citável também. Ao citar qualquer software usado para sua própria pesquisa, você deve incluir no mínimo:
 
-- The author name(s),
-- Software title,
-- Version number, and
-- The unique identifier/locator (DOI or URL).
+- O(s) nome do(s) autor(es),
+- Título do software,
+- Número da versão
+- O identificador/localizador único (DOI ou URL).
 
 The six principles of software citation by [Smith et al., (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) are provided here:
 
