@@ -341,15 +341,15 @@ Em 2016, [Smith et al., 2016](https://github.com/OpenScienceMOOC/Module-5-Open-R
 - Número da versão
 - O identificador/localizador único (DOI ou URL).
 
-The six principles of software citation by [Smith et al., (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) are provided here:
+Os seis princípios de citação de software por [Smith et al., (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) são fornecidos aqui:
 
-- **Importance**: Software should be considered a legitimate and citable product of research. Software citations should be accorded the same importance in the scholarly record as citations of other research products, such as publications and data; they should be included in the metadata of the citing work, for example in the reference list of a journal article, and should not be omitted or separated. Software should be cited on the same basis as any other research product such as a paper or a book, that is, authors should cite the appropriate set of software products just as they cite the appropriate set of papers.
+- **Importância**: O software deve ser considerado um produto legítimo e citável da pesquisa. As citações de software devem ter a mesma importância no registro acadêmico que as citações de outros produtos de pesquisa, como publicações e dados; eles devem ser incluídos nos metadados do trabalho de citação, por exemplo, na lista de referência de um artigo de periódico, e não devem ser omitidos ou separados. O software deve ser citado da mesma forma que qualquer outro produto de pesquisa, como um artigo ou um livro, ou seja, os autores devem citar o conjunto apropriado de produtos de software, da mesma forma que citam o conjunto de documentos apropriado.
 
-- **Credit and attribution**: Software citations should facilitate giving scholarly credit and normative, legal attribution to all contributors to the software, recognizing that a single style or mechanism of attribution may not be applicable to all software.
+- **Crédito e atribuição**: As citações de software devem facilitar a concessão de crédito acadêmico e a atribuição normativa e legal a todos os colaboradores do software, reconhecendo que um estilo único ou mecanismo de atribuição pode não ser aplicável a todos os softwares.
 
-- **Unique identification**: A software citation should include a method for identification that is machine actionable, globally unique, interoperable, and recognized by at least a community of the corresponding domain experts, and preferably by general public researchers.
+- **Identificação única**: Uma citação de software deve incluir um método de identificação que seja acionável por máquina, globalmente exclusivo, interoperável e reconhecido por pelo menos uma comunidade dos especialistas de domínio correspondentes e, de preferência, por pesquisadores públicos em geral.
 
-- **Persistence**: Unique identifiers and metadata describing the software and its disposition should persist - even beyond the lifespan of the software they describe.
+- **Persistência**: Identificadores únicos e metadados que descrevem o software e sua disposição devem persistir - mesmo para além da duração do software que descrevem.
 
 - **Accessibility**: Software citations should facilitate access to the software itself and to its associated metadata, documentation, data, and other materials necessary for both humans and machines to make informed use of the referenced software.
 
