@@ -351,18 +351,18 @@ Os seis princípios de citação de software por [Smith et al., (2016)](https://
 
 - **Persistência**: Identificadores únicos e metadados que descrevem o software e sua disposição devem persistir - mesmo para além da duração do software que descrevem.
 
-- **Accessibility**: Software citations should facilitate access to the software itself and to its associated metadata, documentation, data, and other materials necessary for both humans and machines to make informed use of the referenced software.
+- **Acessibilidade**: Citações de software devem facilitar o acesso ao próprio software e aos seus metadados, documentação, dados e outros materiais associados necessários para que humanos e máquinas façam uso informado do software referenciado.
 
-- **Specificity**: Software citations should facilitate identification of, and access to, the specific version of software that was used. Software identification should be as specific as necessary, such as using version numbers, revision numbers, or variants such as platforms.
+- **Especificidade**: As citações de software devem facilitar a identificação e o acesso à versão específica do software que foi usada. A identificação do software deve ser tão específica quanto necessária, como o uso de números de versão, números de revisão ou variantes, como plataformas.
 
-Note: For instructions on 'how to make your software citable' see the section [**Using GitHub and Zenodo**](#GitHub_Zenodo) below and [**Task 2: Linking GitHub and Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
+Nota: Para obter instruções sobre 'como tornar seu software passível de ser </strong>citado', consulte a seção [**Usando o GitHub e o Zenodo **](#GitHub_Zenodo) abaixo e [**Tarefa 2: Vinculando o GitHub e o Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
 
   
 
 
 ## Usando o GitHub e o Zenodo <a name="GitHub_Zenodo"></a>
 
-[GitHub](#GitHub) is a popular tool for project management, content storage, and version control. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this [MOOC](https://github.com/OpenScienceMOOC/)!
+[GitHub](#GitHub) é uma ferramenta popular para gerenciamento de projetos, armazenamento de conteúdo e controle de versão. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this [MOOC](https://github.com/OpenScienceMOOC/)!
 
 However, getting research onto GitHub is just the first step. It is equally important to make it persistent and re-usable, which is why having a Digital Object Identifier (DOI) associated with it can be useful. The simplest way to do this is through a service called [Zenodo](https://zenodo.org/), which is a free and open source multi-disciplinary repository created by OpenAIRE and CERN, and can be used to assign a DOI to individual GitHub repositories. There is a [GitHub Guide](https://guides.github.com/activities/citable-code/) that explains the details, which involve linking GitHub repositories directly through to Zenodo so that when developers create formal releases for their software, Zenodo creates and archives a that version of the software.
 
