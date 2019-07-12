@@ -7,50 +7,50 @@
 - Cientistas de dados
 - Qualquer outro pesquisador que usa código / software analítico
 
-### Refine the learning objectives and outcomes
+### Refine os objetivos e resultados de aprendizagem
 
-- The learner will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.
-- Based on community standards, learners will be able to describe the quality requirements of sharing and re-using open code.
-- The learner will be able to use a range of research tools that utilise open source software.
-- Individual learners will be able to transform code designed for their personal use into code that is accessible and re-usable by others.
+- O aluno será capaz de definir as características do software de pesquisa de código aberto, e os argumentos de impacto ético, legal, econômico e de pesquisa a favor e contra ele.
+- Com base nos padrões da comunidade, os alunos poderão descrever os requisitos de qualidade de compartilhamento e reutilização de código aberto.
+- O aluno será capaz de usar uma variedade de ferramentas de pesquisa que utilizam software de código aberto.
+- Os alunos individuais poderão transformar o código projetado para uso pessoal em código acessível e reutilizável por outras pessoas.
 
-### Design the course outline
+### Design do esboço do curso
 
-1. What is Open Source Software, including background and examples.
+1. O que é software de código aberto, incluindo histórico e exemplos.
 2. Princípios do Software de Código-fonte aberto.
-3. What open, collaborative platforms, with version control, exist.
-4. Why should code be shared as a research output.
-5. How to use GitHub combined with the Zenodo plug-in for code archiving.
-6. How to document and publish code, and what makes good software for re-use, including testing and comments.
+3. Quais são as plataformas abertas e colaborativas, com controle de versão, que existem.
+4. Por que o código deve ser compartilhado como um resultado de pesquisa?
+5. Como usar o GitHub combinado com o plug-in Zenodo para arquivamento de código.
+6. Como documentar e publicar código, e o que faz um bom software para reutilização, incluindo testes e comentários.
 7. Licenças de código aberto.
-8. Tools for better open research
-9. Community codes, governance, and contributions.
-10. How to access and start working on general computing platforms
+8. Ferramentas para uma melhor pesquisa aberta
+9. Códigos, governança e contribuições da comunidade.
+10. Como acessar e começar a trabalhar em plataformas gerais de computação
 11. Citação de software.
-12. Differences in setting up accounts/storage/computing on different platforms.
-13. Comparison in terms of collaboration and openness with clusters/in-house servers.
-14. Where can you go from here? Includes an introduction to the Open Source community and further resources for learning.
+12. Diferenças na configuração de contas / armazenamento / computação em diferentes plataformas.
+13. Comparação em termos de colaboração e abertura com clusters / servidores internos.
+14. Onde ir a partir daqui? Inclui uma introdução à comunidade Open Source e recursos adicionais para aprendizagem.
 
-### Design the project plan and timeline
+### Design do plano de projeto e a linha do tempo
 
-- Start: May 2018.
-- Team finalisation: end of May 2018
-- Production start: June 2018
-- Draft of first scripts: end of June 2018
-- Draft of first textual content: end of June 2018
-- Recording and editing: July 2018
-- Designing practical exercises: July 2018
-- Finalisation of content: August 2018
-- Check with Steering Committee: end of August 2018
-- Release for beta testing: end of September 2018
+- Início: maio de 2018.
+- Finalização da equipe: final de maio de 2018
+- Início da produção: junho de 2018
+- Rascunho dos primeiros scripts: final de junho de 2018
+- Rascunho do primeiro conteúdo textual: final de junho de 2018
+- Gravação e edição: julho de 2018
+- Projetando exercícios práticos: julho de 2018
+- Finalização do conteúdo: agosto de 2018
+- Verificação com o Comitê Diretivo: final de agosto de 2018
+- Lançamento para teste beta: final de setembro de 2018
 
-### Identify promotion channels
+### Identificação dos canais de promoção
 
-- Relevant Twitter handles:
+- Twitter:
     
     - [Twitter Open Source](https://twitter.com/twitteross)
     - [Open Source TV](https://twitter.com/opensourcetv)
-    - [Open Source Initiative](https://twitter.com/OpenSourceOrg)
+    - [Open Source Initiative / Iniciativa Open Source](https://twitter.com/OpenSourceOrg)
     - [O'Reilly OSCON](https://twitter.com/oscon)
     - [Chris Holdgraf](https://twitter.com/choldgraf)
     - [Neil Saunders](https://twitter.com/neilfws)
