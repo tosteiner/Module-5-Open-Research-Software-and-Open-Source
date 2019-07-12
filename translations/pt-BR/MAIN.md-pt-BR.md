@@ -419,15 +419,15 @@ No entanto, sua jornada Open Source não para por aqui! Este foi apenas o começ
 
 - Para uma análise detalhada dos fluxos de trabalho de pesquisa baseados em código aberto, o manual de [Ciência Aberta, Dados Abertos, Código Aberto](https://pfern.github.io/OSODOS/gitbook/) de Pedro L. Fernandes e Rutger A. Vos é um dos principais recursos online.
 
-- More formalised journal venues also exist for software-based articles, including [The Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) and [The Journal of Open Source Software](https://joss.theoj.org/). A list of such venues is also [available](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
+- As revistas mais formais funcionam também para artigos baseados em software, incluindo o [The Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) e o [The Journal of Open Source Software](https://joss.theoj.org/). Uma lista de tais locais também está [disponível](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
-- The [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit) provides a global forum for Open Source hardware and software research and applications.
+- O [PLOS Open Source Toolkit](https://channels.plos.org/open-source-toolkit) fornece um fórum global para a pesquisa e aplicações de hardware e software de código aberto.
 
-- The [NumFOCUS](http://www.numfocus.org) is a nonprofit organization that supports and promotes world-class, innovative, open source scientific software. Some of the projects they sponsor include:
+- O [NumFOCUS](http://www.numfocus.org) é uma organização sem fins lucrativos que apoia e promove programas científicos inovadores, de código aberto e de primeira classe. Alguns dos projetos patrocinados incluem:
     
-    - [IPython](http://ipython.org) and [Jupyter Notebook](https://jupyter.org) initiatives.
+    - Iniciativas [IPython](http://ipython.org) e [Jupyter Notebook](https://jupyter.org).
     
-    - [rOpenSci](http://ropensci.org), which promotes the open source R statistical environment for transparent and reproducible research.
+    - [rOpenSci](http://ropensci.org), que promove o ambiente estatístico R de fonte aberta para pesquisa transparente e reprodutível.
     
     - To gain more hands on experience with OSS, the [Software Carpentry](https://software-carpentry.org/) community holds regular workshops to improve lab-based computing skills ([Wilson et al., 2017](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf)).
 
