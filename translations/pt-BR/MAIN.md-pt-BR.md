@@ -400,18 +400,18 @@ Os **resultados da aprendizagem** a partir disso devem ser:
 
 3. Agora, você poderá usar uma série de ferramentas de pesquisa que utilizam o programa de código-fonte aberto.
 
-4. You will now be able to transform code designed for their personal use into code that is accessible and re-usable by others.
+4. Agora você será capaz de transformar o código desenvolvido para seu uso pessoal em código acessível e reutilizável para outros usuários.
 
-5. Software developers will be able to make their software citable, and software users will know how to cite the software they use.
+5. Os desenvolvedores de software serão capazes de tornar seu software passível de ser citado, assim como os usuários saberão como citar o programa que utilizaram.
 
   
 
 
-**BONUS TASK**
+**TAREFA BÔNUS**
 
-If you have completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), we also have a **BONUS TASK** for you, if you want to take your skills a step further. [Task 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) will take you a step deeper into integrating Git into a typical research workflow by showing you how to integrate it with R Studio. It is recommended that you have completed the first 2 tasks before proceeding with this one.
+Se você completou [ as tarefas 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [ 2 ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)</strong>, nós também temos uma ** Tarefa BÔNUS** para você, caso queira aperfeiçoar suas habilidades ainda mais. [a Tarefa 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) irá levá-lo a um passo adiante na integração do Git em um fluxo de trabalho de pesquisa comum, mostrando-lhe como integrá-lo com o R Studio. É recomendável que você tenha concluído as duas primeiras tarefas antes de continuar com esta.
 
-However, your Open Source journey does not stop here! This was just the beginning, and there are some incredible resources out there if you would like to do or learn more:
+No entanto, sua jornada Open Source não para por aqui! Este foi apenas o começo, há alguns recursos incríveis se você quiser fazer ou aprender mais:
 
 - If you feel particularly inspired by this, you can endorse the [Science Code Manifesto](http://sciencecodemanifesto.org/), which is based on the five principles of code, copyright, citation, credit, and curation.
 
