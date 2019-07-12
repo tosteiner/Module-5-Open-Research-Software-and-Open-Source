@@ -413,11 +413,11 @@ Se você completou [ as tarefas 1](https://github.com/OpenScienceMOOC/Module-5-O
 
 No entanto, sua jornada Open Source não para por aqui! Este foi apenas o começo, há alguns recursos incríveis se você quiser fazer ou aprender mais:
 
-- If you feel particularly inspired by this, you can endorse the [Science Code Manifesto](http://sciencecodemanifesto.org/), which is based on the five principles of code, copyright, citation, credit, and curation.
+- Se você se sentir particularmente inspirado por isso, poderá endossar o [Manifesto do Código Científico](http://sciencecodemanifesto.org/), que se baseia nos cinco princípios de código, direitos autorais, citação, crédito e curadoria.
 
-- To launch and develop your own project, the [Open Source Guides](https://opensource.guide/) program offers a range of practical guides and skills to help launch and advance your OSS projects.
+- Para lançar e desenvolver o seu próprio projeto, o programa [Open Source Guides](https://opensource.guide/) oferece uma série de guias práticos e habilidades para ajudar a lançar e avançar em seus projetos de código aberto.
 
-- For a detailed look at OSS-based research workflows, the [Open Science, Open Data, Open Source](https://pfern.github.io/OSODOS/gitbook/) hand-guide by Pedro L. Fernandes and Rutger A. Vos is one of the top resources online.
+- Para uma análise detalhada dos fluxos de trabalho de pesquisa baseados em código aberto, o manual de [Ciência Aberta, Dados Abertos, Código Aberto](https://pfern.github.io/OSODOS/gitbook/) de Pedro L. Fernandes e Rutger A. Vos é um dos principais recursos online.
 
 - More formalised journal venues also exist for software-based articles, including [The Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) and [The Journal of Open Source Software](https://joss.theoj.org/). A list of such venues is also [available](https://www.software.ac.uk/which-journals-should-i-publish-my-software).
 
