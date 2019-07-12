@@ -366,22 +366,22 @@ Nota: Para obter instruções sobre 'como tornar seu software passível de ser <
 
 No entanto, ter pesquisa no GitHub é apenas o primeiro passo. É igualmente importante torná-lo persistente e reutilizável, por isso, ter um Digital Object Identifier (DOI) associado a ele pode ser útil. A maneira mais simples de fazer isso é através de um serviço chamado [Zenodo](https://zenodo.org/), que é um repositório multi-disciplinar gratuito e de código aberto criado pelo OpenAIRE e pelo CERN, e pode ser usado para atribuir um DOI a repositórios individuais do GitHub. Existe um [ Guia GitHub ](https://guides.github.com/activities/citable-code/) que explica os detalhes envolvidos na ligação dos repositórios do GitHub diretamente ao Zenodo, de modo que quando os desenvolvedores criam versões formais para o seu software, o Zenodo cria e arquiva uma versão do software.
 
-There's nothing special about using Zenodo for creating DOIs, other than its **free of cost**; other general repositories can also be used, such as [DataCite DOI Fabrica](https://doi.datacite.org/), or your own institutional repositories such as [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
+Não há nada de especial sobre o uso do Zenodo para criar DOIs, além de sua **gratuidade**; outros repositórios gerais também podem ser usados, como o [DataCite DOI Fabrica](https://doi.datacite.org/), ou seus próprios repositórios institucionais, como o [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
 
-A lot of researchers might typically be afraid of sharing code which is incomplete, buggy, or imperfect. However, in the OSS community, such a practice of sharing 'raw' code is fairly commonplace. Sharing code openly enables others to re-use and improve it, as well as to engage in a deeper way with any research associated with it. This is one of the fundamental aspects of peer-collaboration, perhaps best exemplified by the traditional process of research manuscript peer review.
+Muitos pesquisadores podem ter medo de compartilhar códigos incompletos, com erros ou imperfeitos. No entanto, na comunidade de software de código-fonte aberto /Open Source Software (OSS), essa prática de compartilhamento de código "bruto" é bastante comum. O compartilhamento aberto de código permite que outros o reutilizem e melhorem, bem como se envolvam de forma mais profunda com qualquer pesquisa associada a ele. Este é um dos aspectos fundamentais da colaboração entre pares, talvez melhor exemplificada pelo processo tradicional de revisão por pares de manuscritos de pesquisa.
 
-Task 2 will guide you through the process of linking a GitHub repository to Zenodo for archiving.
+A tarefa 2 irá guiá-lo através do processo de vinculação de um repositório do GitHub ao Zenodo para arquivamento.
 
-> **Did you know...** All content produced for this MOOC is available as part of a community in [Zenodo](https://zenodo.org/communities/open-science-mooc/)?
+> **Você sabia ...** Todo o conteúdo produzido para este curso está disponível como parte de uma comunidade no [Zenodo](https://zenodo.org/communities/open-science-mooc/)?
 
-**[GO TO TASK 2: Linking GitHub and Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
+**[VÁ PARA A TAREFA 2: Vinculando o GitHub e o Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
 
   
 
 
-## Collaborating and contributing through Open Source <a name="Collaborating"></a>
+## Colaborando e contribuindo através da Código Aberto <a name="Collaborating"></a>
 
-Often, OSS is developed in a public, decentralised, collaborative manner between multiple contributors. The purpose of this is to enhance the diversity and scope of a project and its design, in order to become more beneficial and sustainable. Such an approach was famously likened to a 'bazaar' model by Eric Raymond, an early OSS proponent. One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
+Muitas vezes, o Software de Código Aberto é desenvolvido de forma pública, descentralizada e colaborativa entre múltiplos colaboradores. O objetivo é aumentar a diversidade e o escopo de um projeto e seu design, a fim de se tornar mais benéfico e sustentável. Tal abordagem foi comparada a um modelo de "bazar" por Eric Raymond, um dos primeiros defensores do programa de código-fonte aberto (OSS). One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
 
 OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.
 
