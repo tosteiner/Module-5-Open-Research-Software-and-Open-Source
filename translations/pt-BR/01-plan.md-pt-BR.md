@@ -1,11 +1,11 @@
-## Module 5: Initiate and plan
+## Módulo 5: Iniciar e planejar
 
-### Define the target groups
+### Definição do público-alvo
 
-- Computational researchers
-- Graduate and undergraduate students
-- Data scientists
-- Any other researcher who uses analytical code/software
+- Pesquisadores computacionais
+- Alunos de graduação e pós-graduação
+- Cientistas de dados
+- Qualquer outro pesquisador que usa código / software analítico
 
 ### Refine the learning objectives and outcomes
 
