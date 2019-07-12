@@ -1,30 +1,30 @@
-# Module 5 content development
+# Desenvolvimento de conteúdo do módulo 5
 
-These are the main content development files for this MOOC module.
+Estes são os principais arquivos de desenvolvimento de conteúdo para este módulo MOOC.
 
-**STATUS**: **LIVE! This module is now online and ready to go via [Eliademy](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).**
+** STATUS ** : ** AO VIVO! Este módulo está online e pronto para ser lançado através de [ Eliademy ](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html) . **
 
-The third release for this module is now also ready, and has been published on Zenodo:
+A terceira versão deste módulo agora também está pronta e foi publicada no Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) and an introductory video has also been [published](https://www.youtube.com/watch?v=1fwGliIyAZs).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288) e um vídeo introdutório também foi publicado [ ](https://www.youtube.com/watch?v=1fwGliIyAZs) .
 
-To cite this work, please use the following reference:
+Para citar este trabalho, por favor, use a seguinte referência:
 
-Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source: Third release (Version 3.0.0). Zenodo. <http://doi.org/10.5281/zenodo.1937708>.
+Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Förstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, 4 de dezembro). OpenScienceMOOC / Module-5-Open-Research-Software-e-Open-Source: Terceira versão (Versão 3.0.0). Zenodo. [ http://doi.org/10.5281/zenodo.1937708 ](http://doi.org/10.5281/zenodo.1937708) .
 
-Please refer to the [contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) before making changes here.
+Por favor, consulte as [Contribuindo diretrizes](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) antes de fazer alterações aqui.
 
-Anyone can join our [open Slack channel](https://osmooc.herokuapp.com/) and [open team on GitHub](https://open-science-mooc-invite.herokuapp.com/) for the whole MOOC project.
+Qualquer um pode se juntar ao nosso [canal aberto no Slack](https://osmooc.herokuapp.com/) e [a equipe no GitHub](https://open-science-mooc-invite.herokuapp.com/) para todo o projeto MOOC.
 
-## Core content
+## Conteúdo principal
 
-These are the draft content files. The content is fully accessible, and can be used for learning purposes, either individually or as a group, and can be shared and re-used as you wish. However, they have not been integrated into a formal MOOC platform yet. At the moment, they are being written in markdown format, and then using the [notedown](https://github.com/aaren/notedown) tool to convert into iPython notebook format. PDF and HTML versions are created using [pandoc](https://pandoc.org/demos.html) and the [markdown to PDF](https://atom.io/packages/markdown-pdf) package for [Atom](https://atom.io/).
+Estes são os arquivos de conteúdo do rascunho. O conteúdo é totalmente acessível e pode ser usado para fins de aprendizado, individualmente ou em grupo, e pode ser compartilhado e reutilizado como você desejar. No entanto, eles ainda não foram integrados em uma plataforma formal do MOOC. No momento, eles estão sendo escritos no formato markdown e depois são convertidos usando a ferramenta [notedown](https://github.com/aaren/notedown) para transformá-los no formato iPython notebook. Versões PDF e HTML são criadas usando [pandoc](https://pandoc.org/demos.html) e o [markdown para o pacote PDF](https://atom.io/packages/markdown-pdf) para [Atom](https://atom.io/).
 
-For notedown:
+Para o notedown:
 
-1. Make sure you're working in Linux or Debian
-2. Change working directory: eg `cd /mnt/c/users/pc/desktop/`
-3. Install notedown: `pip install notedown`
+1. Certifique-se de que você está trabalhando no Linux ou no Debian
+2. Altere o diretório de trabalho: por exemplo, ` cd / mnt / c / users / pc / desktop / `
+3. Instale o notedown: `pip install notedown`
 4. Convert files: `notedown input.md > output.ipynb`
 
 **IMPORTANT** Please edit the **markdown** files, not the iPython/HTML files. These will be periodically converted and synchronised as needed.
