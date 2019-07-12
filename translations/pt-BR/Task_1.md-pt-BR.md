@@ -4,69 +4,69 @@ output:
   pdf_document: default
 ---
 
-# Task 1: How to set up a repository on GitHub
+# Tarefa 1: Como configurar um repositório no GitHub
 
-This task is designed for students and researchers who want to create their first Open Source project (software or non-software) on GitHub. GitHub is a place for you to come and play and experiment with new research workflows, and is really just the beginning to help set the stage for your own pathways and ideas.
+Esta tarefa é projetada para estudantes e pesquisadores que desejam criar seu primeiro projeto Open Source (seja software ou não) no GitHub. O GitHub é um lugar para você conhecer, testar e experimentar novos fluxos de trabalho da pesquisa, inclusive este é apenas o começo para ajudá-lo(a) a preparar o terreno para seus próprios caminhos e ideias.
 
 Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
-**PLEASE NOTE** that a screen recording for this task is also available via [YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&).
+**OBSERVE** que uma gravação de tela para esta tarefa também está disponível via [YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&).
 
-Estimated time to complete: 30-45 minutes.
+Tempo estimado para conclusão: 30 a 45 minutos.
 
-Estimate time saving once complete: Unimaginable..
+Estimativa de economia de tempo após a conclusão: Inimaginável ..
 
-## Table of contents
+## Sumário
 
-* [Getting started](#Getting_started) 
-  * [Setting up a GitHub profile](#Profile)
-  * [The GitHub language](#Language)
-  * [Creating a new repository](#Create_new)
-* [The foundational steps](#Foundation) 
-  * [Choosing a license](#License)
-  * [Creating a README file](#Readme)
-  * [Creating contributing guidelines](#Contributing)
-  * [Creating a code of conduct](#Conduct)
-  * [Making your code citable](#Citation)
-* [Keeping your issues up to date](#Issues)
-* [Check-list for launching your project](#Check-list)
+* [Primeiros Passos](#Getting_started) 
+  * [Configurando um perfil do GitHub](#Profile)
+  * [O idioma do GitHub](#Language)
+  * [Criando um novo repositório](#Create_new)
+* [Os passos fundamentais](#Foundation) 
+  * [Escolhendo uma licença](#License)
+  * [Criando um arquivo README](#Readme)
+  * [Criando diretrizes de contribuição](#Contributing)
+  * [Criando um código de conduta](#Conduct)
+  * [Tornando seu código citável](#Citation)
+* [Mantendo suas questões atualizadas](#Issues)
+* [Lista de verificação para iniciar seu projeto](#Check-list)
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task1.png?raw=true" alt="Task 1 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
-<p align="center"><i>The workflow for Task 1. Keep this handy as you work through the task!</i></p>
+<p align="center"><i>O fluxo de trabalho da Tarefa 1. Mantenha isso acessível e ao seu alcance enquanto executa a tarefa!</i></p>
 
   
 
 
-## Getting started <a name="Getting_started"></a>
+## Primeiros Passos<a name="Getting_started"></a>
 
-A 'repository' is really just a fancy name for a project on GitHub. GitHub is a place online where you can manage projects, store files, and openly collaborate with others. This is all achieved by using version control to track projects as they progress. As such, GitHub is a powerful tool for both software and non-software projects.
+Um 'repositório' é realmente apenas um nome sofisticado para um projeto no GitHub. O GitHub é um local on-line onde você pode gerenciar projetos, armazenar arquivos e colaborar abertamente com outras pessoas. Tudo isso é possível graças ao uso do controle de versão para acompanhar os projetos à medida em que eles progridem. Como tal, o GitHub é uma ferramenta poderosa para projetos de programas e mesmo os que não são um software.
 
-One of the most important things to consider at this early stage is to think about how you want the wider community to interact with your project. As you are working in the open, you want to make sure others feel comfortable in accessing, viewing, and engaging with your work. Setting up a repository in a way that lowers the barriers to entry, and the fear of being an 'outsider' is the first step towards maintaining a successful project.
+Uma das coisas mais importantes a considerar neste estágio inicial é pensar em como você deseja que a comunidade mais ampla interaja com seu projeto. Como se está trabalhando de maneira aberta, você deve se certificar de que os outros se sentem à vontade para acessar, visualizar e interagir com seu trabalho. Configurar um repositório de forma a reduzir as barreiras de acesso, assim como o medo de ser um "outsider" (forasteiro/estranho), constitui o primeiro passo para manter um projeto bem sucedido.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/octocat.png?raw=true" width="150px" height="125px"/>
 </p>
 
-<p align="center"><i>Octocat, GitHub's little mascot</i></p>
+<p align="center"><i>Octocat, a pequena mascote do GitHub</i></p>
 
   
 
 
-### Setting up a GitHub profile <a name="Profile"></a>
+### Configurando um perfil do GitHub <a name="Profile"></a>
 
-To set up a GitHub profile, simply head to the main page and click [Sign Up for GitHub](https://github.com/join). Here, you can create your personal account, with a username, email, and password as standard.
+Para configurar um perfil do GitHub, simplesmente vá para a página principal e clique em [Sign Up for GitHub](https://github.com/join). Aqui, você pode criar sua conta pessoal, com nome de usuário, e-mail e senha como padrão.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/github_signup.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Sign up for GitHub</i></p>
+<p align="center"><i>Cadastre-se no GitHub</i></p>
 
   
 
 
-The next step is to set up a personal plan. For now, simply select the 'Unlimited public repositories for free' plan, unless you are concerned about privacy, in which case select the private plan. If you intend to set up a project for an organisation, you can select that option too.
+O próximo passo é a criação de uma conta pessoal. Por enquanto, basta selecionar o plano 'Repositórios públicos ilimitados gratuitamente', a menos que você esteja preocupado com a privacidade, nesse caso, selecione o plano privado. Se você pretende criar um projeto para uma organização, também poderá selecionar essa opção.
 
   
 
