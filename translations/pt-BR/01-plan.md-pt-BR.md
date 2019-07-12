@@ -66,7 +66,7 @@
     - [Carl Malamud](https://twitter.com/carlmalamud)
     - [Code Is Science](https://twitter.com/codeisscience)
 
-- Organisations:
+- Organizações:
     
     - [Software Carpentry](https://software-carpentry.org/)
     - [Sustainable Software Institute](https://www.software.ac.uk/software-sustainability-institute)
@@ -77,9 +77,9 @@
     - [JOSS](http://joss.theoj.org)
     - [Free Software Foundation](https://www.fsf.org/)
     - [Open Source Initiative](https://opensource.org/)
-    - [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (note that their website seems to be broken, Jan 2019)
+    - [ Digital Freedom Foundation ](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) (observe que o site parece estar inativo, janeiro de 2019)
     - [Ada Initiative](https://adainitiative.org/)
 
-- Mailing lists:
+- Listas de email:
     
     - [Open science](https://lists.okfn.org/mailman/listinfo/open-science)
