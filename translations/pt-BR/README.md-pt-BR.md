@@ -25,51 +25,51 @@ Para o notedown:
 1. Certifique-se de que você está trabalhando no Linux ou no Debian
 2. Altere o diretório de trabalho: por exemplo, ` cd / mnt / c / users / pc / desktop / `
 3. Instale o notedown: `pip install notedown`
-4. Convert files: `notedown input.md > output.ipynb`
+4. Converta os arquivos: ` remarkown input.md > output.ipynb `
 
-**IMPORTANT** Please edit the **markdown** files, not the iPython/HTML files. These will be periodically converted and synchronised as needed.
+**IMPORTANTE** Por favor, edite os arquivos **markdown** e não os arquivos iPython/HTML. Estes serão periodicamente convertidos e sincronizados conforme necessário.
 
-### In markdown format
+### No formato markdown
 
-- [**MAIN CONTENT**](MAIN.md) - The main content for this Module. ([YouTube video](https://www.youtube.com/watch?v=BHrOEmKk5zM))
-- [**TASK 1**](Task_1.md) - How to set up your first repository on GitHub. ([YouTube video](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
-- [**TASK 2**](Task_2.md) - How to make your code citable using GitHub and Zenodo. ([YouTube video](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
-- [**TASK 3**](Task_3.md) - How to integrate Git with RStudio. ([YouTube video](https://www.youtube.com/watch?v=Q-6jfjSAspA))
+- [**CONTENTE**](MAIN.md) - O conteúdo principal deste Módulo. ([Vídeo do YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM))
+- [**TASK 1**](Task_1.md) - Como configurar seu primeiro repositório no GitHub. ([Vídeo do YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
+- [** TAREFA 2 **](Task_2.md) - Como tornar seu código passível de citação usando o GitHub e o Zenodo. ([Vídeo do YouTube](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
+- [** TAREFA 3 **](Task_3.md) - Como integrar o Git com o RStudio. ([Vídeo do YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA))
 
-### In iPython notebook format
+### No formato do iPython notebook
 
-Note: These are best viewed in Juypter for full functionality, as opposed to the GitHub viewer.
+Nota: Estes são melhor visualizados no Juypter para funcionalidade completa, ao contrário do visualizador do GitHub.
 
-- [**MAIN CONTENT**](MAIN.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) to view)
-- [**TASK 1**](Task_1.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) to view)
-- [**TASK 2**](Task_2.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) to view)
-- [**TASK 3**](Task_3.ipynb) (click [here](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) to view)
+- [** CONTEÚDO PRINCIPAL **](MAIN.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) ver)
+- [** TAREFA 1 **](Task_1.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) ver)
+- [** TAREFA 2 **](Task_2.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) ver)
+- [** TAREFA 3 **](Task_3.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) ver)
 
-## In PDF format
+## Em formato PDF
 
-- [**MAIN CONTENT**](MAIN.pdf)
-- [**TASK 1**](Task_1.pdf)
-- [**TASK 2**](Task_2.pdf)
-- [**TASK 3**](Task_3.pdf)
+- [**CONTEÚDO PRINCIPAL**](MAIN.pdf)
+- [**TAREFA 1**](Task_1.pdf)
+- [**TAREFA 2**](Task_2.pdf)
+- [**TAREFA 3**](Task_3.pdf)
 
-## In HTML format
+## Formato HTML
 
-- [**MAIN CONTENT**](MAIN.html)
-- [**TASK 1**](Task_1.html)
-- [**TASK 2**](Task_2.html)
-- [**TASK 3**](Task_3.html)
+- [**CONTEÚDO PRINCIPAL**](MAIN.html)
+- [**TAREFA 1**](Task_1.html)
+- [**TAREFA 2**](Task_2.html)
+- [**TAREFA 3**](Task_3.html)
 
-## Production files
+## Arquivos de produção
 
-1. [Plan](01-plan.md) 
+1. [Plano](01-plan.md) 
 2. [Design](02-design.md)
-3. [Recording and editing](03-recording.md)
-4. [Internal reviewing](04-quizzes.md)
+3. [Gravação e edição](03-recording.md)
+4. [Revisão interna](04-quizzes.md)
 
-## Key resources from [production toolkit](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)
+## Principais recursos do kit de ferramentas de produção [ ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/production_toolkit)
 
-- [Module design protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
-- [MOOC planning template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
-- [Script template](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
-- [Video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
-- [Writing a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
+- [Protocolo de design do módulo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MODULE_DESIGN_PROTOCOL.md)
+- [Modelo de planejamento de MOOC](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/MOOC_planning_template.md)
+- [Modelo de script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Script_template.md)
+- [Protocolo de gerenciamento de vídeo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md)
+- [Escrevendo um script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md)
