@@ -8,7 +8,7 @@ output:
 
 ## Sumário
 
-- [Introdução](#Introduction)
+- [Introdução](#Introdução)
 - [O que é um Software de código-fonte aberto](#What_OSS)
 - [Princípios do Software de Código-fonte aberto](#Principles)
 - [A comunidade Open Source, governança e contribuições](#OS_Community)
@@ -463,20 +463,20 @@ No entanto, sua jornada Open Source não para por aqui! Este foi apenas o começ
   
 
 
-### Development Team <a name="Development_team"></a>
+### Equipe de desenvolvimento <a name="Development_team"></a>
 
-- [Alex Morley](https://twitter.com/alex__morley), Open Sourceror, University of Oxford, UK.
-- [Kevin Moerman](https://twitter.com/KMMoerman), Open Sourceror, MIT, USA.
-- [Tania Allard](https://twitter.com/ixek), Open Sourceress, Data Enchantress, University of Leeds, UK.
-- [Simon Worthington](https://twitter.com/mrchristian99), Book Liberationist, TIB, Germany.
-- [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Italy.
-- [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Denmark.
-- [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Naturalis Biodiversity Center, the Netherlands.
-- [Julien Colomb](https://twitter.com/j_colomb), Open Ninja, Berlin.
-- [Jon Tennant](https://twitter.com/protohedgehog), Dinosaur Whisperer.
+- [Alex Morley](https://twitter.com/alex__morley), Open Sourceror, Universidade de Oxford, Reino Unido.
+- [Kevin Moerman](https://twitter.com/KMMoerman), Open Sourceror, MIT, EUA.
+- [Tania Allard](https://twitter.com/ixek), Open Sourceress, Data Enchantress, Universidade de Leeds, Reino Unido.
+- [Simon Worthington](https://twitter.com/mrchristian99), Book Liberationist, TIB, Alemanha.
+- [Paola Masuzzo](https://twitter.com/pcmasuzzo), Open Source Batman, Itália.
+- [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Dinamarca.
+- [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Centro de Biodiversidade Naturalis, Holanda.
+- [Julien Colomb](https://twitter.com/j_colomb), Open Ninja, Berlim.
+- [Jon Tennant](https://twitter.com/protohedgehog), O Encantador de Dinossauros.
 
-**Know a way this content can be improved?**
+**Sabe como esse conteúdo pode ser melhorado?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
