@@ -429,14 +429,14 @@ No entanto, sua jornada Open Source não para por aqui! Este foi apenas o começ
     
     - [rOpenSci](http://ropensci.org), que promove o ambiente estatístico R de fonte aberta para pesquisa transparente e reprodutível.
     
-    - To gain more hands on experience with OSS, the [Software Carpentry](https://software-carpentry.org/) community holds regular workshops to improve lab-based computing skills ([Wilson et al., 2017](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf)).
+    - Para ganhar mais experiência prática com programas de código aberto, a comunidade [Software Carpentry](https://software-carpentry.org/) realiza workshops regulares para melhorar as habilidades de computação baseadas em laboratório ([Wilson et al., 2017](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf)).
 
   
 
 
-### Further reading <a name="Reading"></a>
+### Leitura adicional <a name="Reading"></a>
 
-*These references here are just the beginning. They include some of the most useful general overviews of the Open Source landscape in research. However, if you want to be find something more specific to your own research field, then that path is there for you to explore!*
+*Estas referências são apenas o início. Incluem algumas das visões gerais mais úteis do panorama do código aberto na pesquisa. Contudo, se você quiser encontrar algo mais específico para o seu campo específico de pesquisa, esse caminho está aí para você explorar!*
 
 - The Future of Research in Free/Open Source Software Development [(Scacchi, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf).
 
