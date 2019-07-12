@@ -381,24 +381,24 @@ A tarefa 2 irá guiá-lo através do processo de vinculação de um repositório
 
 ## Colaborando e contribuindo através da Código Aberto <a name="Collaborating"></a>
 
-Muitas vezes, o Software de Código Aberto é desenvolvido de forma pública, descentralizada e colaborativa entre múltiplos colaboradores. O objetivo é aumentar a diversidade e o escopo de um projeto e seu design, a fim de se tornar mais benéfico e sustentável. Tal abordagem foi comparada a um modelo de "bazar" por Eric Raymond, um dos primeiros defensores do programa de código-fonte aberto (OSS). One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
+Muitas vezes, o Software de Código Aberto é desenvolvido de forma pública, descentralizada e colaborativa entre múltiplos colaboradores. O objetivo é aumentar a diversidade e o escopo de um projeto e seu design, a fim de se tornar mais benéfico e sustentável. Tal abordagem foi comparada a um modelo de "bazar" por Eric Raymond, um dos primeiros defensores do programa de código-fonte aberto (OSS). Um dos mais importantes princípios orientadores disto é o da **produção entre os pares**, que depende de comunidades auto-organizadas para regular o desenvolvimento de conteúdo, coordenado para um objetivo ou resultado compartilhado.
 
-OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.
+Os projetos de software de código aberto dependem fortemente da colaboração voluntária, o que muitas vezes implica em um fluxo constante de novos participantes para se tornarem produtivos e sustentáveis. ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Criar a atmosfera social certa para um projeto, e um ambiente de engajamento acolhedor são muitas vezes cruciais para colaborações bem sucedidas em programas de código-fonte aberto.
 
   
 
 
 ## Onde ir a partir daqui <a name="Future_OSS"></a>
 
-Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.
+Esperemos que agora você tenha percebido a importância do software como uma pedra angular da ciência moderna, assim como a relevância que o programa de código-fonte aberto desempenha neste contexto.
 
-The **learning outcomes** from this should be:
+Os **resultados da aprendizagem** a partir disso devem ser:
 
-1. You will now be able to define the characteristics of OSS, and some of the ethical, legal, economic and research impact arguments for and against it.
+1. Você agora será capaz de definir as características do software de código aberto, além de alguns dos argumentos éticos, legais, econômicos e de impacto na pesquisa a favor e contra ele.
 
-2. Based on community standards, you will now be able to describe the quality requirements of sharing and re-using open code.
+2. Com base nos padrões da comunidade, você poderá descrever os requisitos de qualidade de compartilhamento e reutilização de código aberto.
 
-3. You will now be able to use a range of research tools that utilise OSS.
+3. Agora, você poderá usar uma série de ferramentas de pesquisa que utilizam o programa de código-fonte aberto.
 
 4. You will now be able to transform code designed for their personal use into code that is accessible and re-usable by others.
 
