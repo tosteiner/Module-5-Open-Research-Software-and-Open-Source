@@ -93,12 +93,12 @@ Este é possivelmente o aspecto mais confuso e desconcertante do GitHub. Aqui es
 * **Push**: Adicionar alterações confirmadas à Head do seu repositório remoto.
 * **Merge (Mesclar)**: Combinar as alterações feitas em um branch com a master branch após a conclusão.
 * **Pull**: Atualizar seu repositório buscando [fetch] e mesclando [merge] os commits mais recentes.
-* **Pull request**: A request to merge an updated branch into the master branch.
-* **Issue**: Suggested improvements, tasks, or questions related to a repository.
+* **Pull request**: Um pedido para mesclar um branch atualizado no master branch.
+* **Issue**: Sugestões de melhorias, tarefas ou perguntas relacionadas a um repositório.
 
-Whew! Don't worry about memorising *all* of these for now. Like any new skill, familiarity comes with experience.
+Ufa! Não se preocupe em memorizar *todos esses termos* por enquanto. Como qualquer nova habilidade, a familiaridade vem com a experiência.
 
-You can probably see how some of these are fairly similar to things like save, copy, paste - standard workflow operations, but adapted for a software management process. There are a [few more](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html) too, but this should do for getting started.
+Provavelmente, é possível ver como algumas dessas funções são semelhantes a outras conhecidas, tais como salvar, copiar, colar, ou seja, tratam-se de operações de um fluxo de trabalho padrão, porém, adaptadas para um processo de gerenciamento de software. Para saber mais, também há um [glossário](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html), mas isto deve servir para começar.
 
 If you are interested, most of these terms come from the underlying [Git system](https://git-scm.com). Git was built to allow developers to manage different versions of source code in a distributed manner, which is great. It has lots of features and the ability to do lots of complex stuff, written by a [very clever guy](https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/). However, the [user interface was not designed with new users in mind](https://xkcd.com/1597/), so it can be hard to learn.
 
