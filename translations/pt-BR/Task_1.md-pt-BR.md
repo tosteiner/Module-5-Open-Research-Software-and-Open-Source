@@ -82,17 +82,17 @@ Este é possivelmente o aspecto mais confuso e desconcertante do GitHub. Aqui es
 * **Branch**: Uma versão independente e paralela de um repositório. As alterações não afetam o ramo principal.
 * **Master**: A ramificação principal e padrão de um repositório.
 * **Clean**: Nenhum commit pendente no branch.
-* **Stage**: Add updates ready to be committed to a branch.
-* **Commit**: A revision to a repository, like a versioned 'save' function.
-* **Commit message**: A description of changes accompanying a commit.
-* **Check**: A status check.
-* **Fetch**: Nothing to do with dogs. Refers to getting the latest changes from an online repository without merging them.
-* **Index**: The 'tree' which acts as a staging area.
-* **Working Directory**: The 'tree' where the files are kept.
+* **Stage**: Adicionar atualizações prontas para serem confirmadas em uma ramificação.
+* **Commit**: Uma revisão para um repositório, como uma função 'save' (salvar) com controle de versão.
+* **Mensagem de commit**: Uma descrição das alterações que acompanham um commit.
+* **Check**: Uma verificação de status.
+* **Fetch**: Nada a ver com cães. Refere-se a obter as últimas alterações de um repositório on-line sem mesclá-las.
+* **Index**: A 'árvore' que atua como uma área de preparação.
+* **Working Directory (Diretório de Trabalho)**: A 'árvore' onde os arquivos são mantidos.
 * **Head**: The 'tree' which indicates the last commits made.
-* **Push**: Add committed changes to the head of your remote repository.
-* **Merge**: Combining the changes made in one branch back with the master branch upon completion.
-* **Pull**: Update your repository by fetching and merging the newest commits.
+* **Push**: Adicionar alterações confirmadas à Head do seu repositório remoto.
+* **Merge (Mesclar)**: Combinar as alterações feitas em um branch com a master branch após a conclusão.
+* **Pull**: Atualizar seu repositório buscando [fetch] e mesclando [merge] os commits mais recentes.
 * **Pull request**: A request to merge an updated branch into the master branch.
 * **Issue**: Suggested improvements, tasks, or questions related to a repository.
 
