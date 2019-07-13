@@ -71,17 +71,17 @@ O próximo passo é a criação de uma conta pessoal. Por enquanto, basta seleci
   
 
 
-### The GitHub language <a name="Language"></a>
+### O idioma GitHub <a name="Language"></a>
 
-This is possibly the most confusing and off-putting aspect of GitHub. Here are some of the most commonly used terms and their definitions:
+Este é possivelmente o aspecto mais confuso e desconcertante do GitHub. Aqui estão alguns dos termos mais usados e suas definições:
 
-* **Initialise**: Create an empty repository.
-* **Checkout**: Create a working copy of a local repository.
-* **Clone**: Copy the repository into a local directory on your computer.
-* **Fork**: Create a personal offshoot of a repository to work on it in parallel.
-* **Branch**: An independent and parallel version of a repository. Changes do not affect the master branch.
-* **Master**: The main and default branch for a repository.
-* **Clean**: No commits pending on the branch.
+* **Initialise (Inicialização)**: Criar um repositório vazio.
+* **Checkout**: Criar uma cópia de trabalho de um repositório local.
+* **Clone**: Copiar o repositório para um diretório local no seu computador.
+* **Fork**: Criar um desdobramento pessoal de um repositório para trabalhar em paralelo.
+* **Branch**: Uma versão independente e paralela de um repositório. As alterações não afetam o ramo principal.
+* **Master**: A ramificação principal e padrão de um repositório.
+* **Clean**: Nenhum commit pendente no branch.
 * **Stage**: Add updates ready to be committed to a branch.
 * **Commit**: A revision to a repository, like a versioned 'save' function.
 * **Commit message**: A description of changes accompanying a commit.
