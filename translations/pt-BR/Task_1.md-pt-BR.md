@@ -100,13 +100,13 @@ Ufa! Não se preocupe em memorizar *todos esses termos* por enquanto. Como qualq
 
 Provavelmente, é possível ver como algumas dessas funções são semelhantes a outras conhecidas, tais como salvar, copiar, colar, ou seja, tratam-se de operações de um fluxo de trabalho padrão, porém, adaptadas para um processo de gerenciamento de software. Para saber mais, também há um [glossário](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitglossary.html), mas isto deve servir para começar.
 
-Se você estiver interessado, a maioria desses termos vem basicamente do [Git system](https://git-scm.com). O Git foi construído para permitir que desenvolvedores gerenciem versões diferentes do código-fonte de maneira distribuída, o que é ótimo. Tem muitos recursos e a capacidade de fazer muitas coisas complexas, escritas por um [ cara muito inteligente](https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/). However, the [user interface was not designed with new users in mind](https://xkcd.com/1597/), so it can be hard to learn.
+Se você estiver interessado, a maioria desses termos vem basicamente do [Git system](https://git-scm.com). O Git foi construído para permitir que desenvolvedores gerenciem versões diferentes do código-fonte de maneira distribuída, o que é ótimo. Tem muitos recursos e a capacidade de fazer muitas coisas complexas, escritas por um [ cara muito inteligente](https://www.linuxfoundation.org/blog/2015/04/10-years-of-git-an-interview-with-git-creator-linus-torvalds/). No entanto, a interface de usuário [não foi projetada para usuários novos iniciantes ](https://xkcd.com/1597/), por isso pode ser difícil de aprender.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git.png?raw=true" width="150px"/>
 </p>
 
-<p align="center"><i>Unbeatable guide to using Git. (Source: XKCD)</i></p>
+<p align="center"><i>Guia imbatível para usar o Git. (Source: XKCD)</i></p>
 
   
 
