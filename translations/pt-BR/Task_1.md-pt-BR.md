@@ -177,25 +177,25 @@ Felizmente, quando você inicia um novo repositório no GitHub, você tem a opç
 
 Se não há uma licença como você quer, é possível adicionar uma nova manualmente conforme a sua necessidade. Para fazer isso, basta clicar em "Criar novo arquivo" no repositório, copiar e colar um texto de licença existente nele. Nomeie o arquivo, por exemplo, como `LICENSE.txt` ou `LICENSE.md` para torná-lo claro e mantê-lo na pasta principal do repositório (ou seja, a raiz). Certifique-se de adicionar uma mensagem de confirmação (commit message) clara e está pronto!
 
-> **Helping hand**: This MOOC uses a different combination of licenses for code content and non-code content. Here you can find an example of the [MIT License](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/LICENSE.md) that we apply for all code and software generated as part of the MOOC production.
+> **Mão amiga**: Este curso usa uma combinação diferente de licenças para o conteúdo de código e para o conteúdo que não é código. Aqui você pode encontrar um exemplo da licença [MIT](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/LICENSE.md) que aplicamos para todos os códigos e software gerados como parte da produção deste curso.
 
   
 
 
-### Creating a README file <a name="Readme"></a>
+### Criando um arquivo README <a name="Readme"></a>
 
-When you initialise your new repository, there should be an option to do so with a `README` file. Just like Alice in Wonderland, these do exactly what they say - provide key information about the project. These are typically the first thing outside contributors will see when they come to your repository, so making them informative and welcoming is key.
+Quando você iniciar seu novo repositório, deve haver uma opção para fazê-lo com um arquivo `README`. Assim como Alice no País das Maravilhas, eles fazem exatamente o que dizem - fornecem informações importantes sobre o projeto. Essas são normalmente a primeira coisa que os colaboradores externos verão quando chegam ao seu repositório, portanto, torná-las informativas e receptivas é essencial.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/readme.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the README file for this module</i></p>
+<p align="center"><i>Parte do arquivo README para este módulo</i></p>
 
   
 
 
-The file will originally be in markdown (`.md`) format. This is a lightweight markup language with a plain text format. To learn some basic markdown, see [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). But for now, we can just use plain text.
+O arquivo estará originalmente no formato markdown (`.md`). Esta é uma linguagem de marcação leve em formato de texto simples. Para aprender o básico em markdown, veja [este folheto](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Mas por enquanto, podemos apenas usar texto simples.
 
-There are several things you will want to include in your `README` file:
+Há várias coisas que você vai precisar incluir no seu arquivo `README` :
 
 * What is this project about and what does it do.
 * Why should people care, and why is it useful.
