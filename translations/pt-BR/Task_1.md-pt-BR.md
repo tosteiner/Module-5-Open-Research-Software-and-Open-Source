@@ -315,22 +315,22 @@ Então, agora você está pronto para lançar seu projeto, começar a anunciá-l
 * [ ] O Projeto tem um nome memorizável e informativo
 * [ ] O projeto tem um arquivo `LICENSE` que é uma cópia exata de uma licença Open Source
 * [ ] Documentação completa, incluindo arquivos `README`, `CONTRIBUTING` e `CODE_OF_CONDUCT`
-* [ ] Project has at least one clearly labelled issue
-* [ ] Any code included at this stage is clearly structured and annotated
+* [ ] O projeto tem pelo menos uma questão (issue) claramente identificada/rotulada
+* [ ] Qualquer código incluído nesta fase está claramente estruturado e anotado
 
-**CONGRATULATIONS!**
+**PARABÉNS!**
 
-You have now launched an Open Source research project! Hopefully, from here on out, your work will act to benefit the wider community, forge new collaborations, and create new and fantastic opportunities for you all. Try and think about ways in which these skills can be applied to future projects, and how they might also have helped with some in the past.
+Você acaba de lançar um projeto de pesquisa em código aberto! Esperamos que, de agora em diante, seu trabalho possa agir para beneficiar a comunidade em geral, forjar novas colaborações e criar novas e fantásticas oportunidades para todos vocês. Tente pensar em como essas habilidades podem ser aplicadas em projetos futuros e como elas também ajudaram alguns no passado.
 
-From now on, it is all up to you! Some advice is to:
+A partir de agora, tudo depende de você! Alguns conselhos são para:
 
-* Write clean code;
-* Have a well-structured project;
-* Make frequent commits with clean messages;
-* Keep projects well-documented;
-* Have clear contributing guidelines;
-* Make use of the description and tag functions;
-* Don't fork someone else's repository unless you intend to work on them;
+* Escreva um código claro;
+* Tenha um projeto bem estruturado;
+* Faça commits frequentes com mensagens claras;
+* Mantenha os projetos bem documentados;
+* Tenha claras diretrizes de contribuição;
+* Faça uso das funções de descrição e tag;
+* Não bifurque (fork) o repositório de outra pessoa a menos que você pretenda trabalhar nele;
 * Make sure to contribute to other people's projects too.
 
 **Know a way this content can be improved?**
