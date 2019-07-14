@@ -106,39 +106,39 @@ Se você estiver interessado, a maioria desses termos vem basicamente do [Git sy
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git.png?raw=true" width="150px"/>
 </p>
 
-<p align="center"><i>Guia imbatível para usar o Git. (Source: XKCD)</i></p>
+<p align="center"><i>Guia imbatível para usar o Git. (Fonte: XKCD)</i></p>
 
   
 
 
-### Creating a new repository <a name="Create_new"></a>
+### Criando um novo repositório <a name="Create_new"></a>
 
-On your GitHub profile, click the 'Create new repository'. The first step is to create a name as the brand for your project. Ideally, it should be memorable and give some indication of what the project does.
+No seu perfil do GitHub, clique em "Create new repository" (Criar novo repositório). O primeiro passo é criar um nome como marca para o seu projeto. De preferência, deve ser fácil de memorizar e dar alguma indicação sobre o que se trata o projeto.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/new_repo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Create a new repository</i></p>
+<p align="center"><i>Criar um novo repositório</i></p>
 
   
 
 
-Make sure not to duplicate names, infringe upon other trademarks, or name it anything that could be considered to be offensive.
+Certifique-se de não duplicar nomes, infringir outras marcas registradas ou nomeá-las como algo que possa ser considerado ofensivo.
 
   
 
 
-## The foundational steps <a name="Foundation"></a>
+## Os passos fundamentais <a name="Foundation"></a>
 
-Any GitHub repository requires 4 key elements to get started and to begin developing a welcoming community:
+Qualquer repositório GitHub requer 4 elementos chave para ser iniciado e começar a desenvolver uma comunidade acolhedora:
 
-1. An Open Source license;
-2. A `README` file;
-3. Contributing guidelines; and
-4. A Code of Conduct.
+1. Licenças de código aberto
+2. Um arquivo `README`;
+3. Diretrizes de contribuição; e
+4. Um Código de Conduta
 
-These are critical aspects and best practices of any project for users to understand their legal rights, their expectations, the purpose of the project, and to improve the overall user experience.
+Estes são aspectos críticos e as melhores práticas de qualquer projeto para que os usuários entendam seus direitos legais, suas expectativas, o propósito do projeto e para melhorar a experiência geral do usuário.
 
-All four of these files should be kept in the root directory for your project repository. It is convention to use markdown file formats (`.md`) for most of these files (though the license file is most often plain text (`.txt`)), and capitalise all file names. Instead of spaces in file names, make sure to use underscores `_` .
+Todos esses quatro arquivos devem ser mantidos no diretório raiz do seu repositório de projetos. É conveniente usar formatos de arquivo markdown (`.md`) para a maioria desses arquivos (embora o arquivo de licença seja, na maioria das vezes, texto simples (`.txt`)) e capitalize todos os nomes de arquivo. Instead of spaces in file names, make sure to use underscores `_` .
 
 So you should end up with a foundational file selection like this:
 
