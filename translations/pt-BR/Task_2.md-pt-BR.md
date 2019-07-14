@@ -141,9 +141,9 @@ Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](h
 
 Isto às vezes é chamado de atribuição de um DOI, inclusive requer alguns bits extras de informações sobre o repositório no Zenodo. No Zenodo, clique na guia [Upload](https://zenodo.org/deposit) no menu principal e seu novo repositório carregado deve estar lá. Role a página para baixo e preencha as informações extras conforme necessário, e, os campos obrigatórios são marcados com um asterisco vermelho, em seguida, clique em 'Publicar'.
 
-**Note**: Only after this extra information has been added will your DOI become live. It may also take a short time for the DOI to become active. Example DOI shown below (for the Open Scholarship Strategy again).
+**Nota**: Somente depois que esta informação extra for adicionada, seu DOI se tornará ativo. Também pode demorar um pouco para que o DOI se torne ativo. Exemplo DOI mostrado abaixo (para a Open Scholarship Strategy).
 
-> **Pro-tip**: Copy the URL for the DOI into the README file for your GitHub repo to make cross-linking even easier, as well as present a clear highlighted DOI badge for users to see and make use of your DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
+> **Dica profissional**: Copie a URL do DOI para o arquivo README do seu repositório GitHub a fim de tornar ainda mais fácil a interconexão, assim como você deve exibir em destaque um emblema DOI para que os usuários possam ver e usar o seu DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437   .)
 
