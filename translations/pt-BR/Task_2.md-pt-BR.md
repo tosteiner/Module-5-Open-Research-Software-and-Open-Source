@@ -95,38 +95,38 @@ Se você chegou até aqui, isso significa que o Zenodo está agora autorizado a 
   
 
 
-## Check repository settings <a name="Check"></a>
+## Verificação das configurações do repositório <a name="Check"></a>
 
-Now you have set up a new webhook between Zenodo and your repository. In GitHub, click on the settings for your repository, and the Webhooks tab on the left hand side menu. This should display the new Zenodo webhook configured to Zenodo. Note, it may take a little time for the webhook listing to show up.
+Agora você configurou um novo webhook entre o Zenodo e seu repositório. No GitHub, clique nas configurações do seu repositório e na aba Webhooks no menu do lado esquerdo. Isso deve exibir o novo webhook Zenodo configurado para o Zenodo. Observe, pode demorar um pouco para a listagem do webhook aparecer.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/webhooks.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that webhooks are enabled for your GitHub repository. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Verifique se os webhooks estão habilitados para o seu repositório GitHub. Exemplo aqui usando a Open Scholarship Strategy</i></p>
 
   
 
 
-## Create a new release <a name="Release"></a>
+## Crie uma nova versão <a name="Release"></a>
 
-The first time you archive a repository is known as the 'first release'. Each time you create a new version of that repository and archive it, you create a new release. This can be tracked in the 'releases' tab for your repository on GitHub (top center).
+A primeira vez que você arquiva um repositório é conhecido como a 'primeira versão'. Cada vez que você criar uma nova versão desse repositório e arquivá-lo, você cria uma nova versão. Isso pode ser rastreado na guia 'releases' do seu repositório no GitHub (centro superior).
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/first_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check that the repository first release was successful. Example here using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Verifique se a primeira liberação do repositório foi bem-sucedida. Exemplo aqui usando a Open Scholarship Strategy</i></p>
 
   
 
 
-For the first archived version of your repository, click 'Create a new release' back in Zenodo. Fill in the form and give some details as to what the release entails. For the first release, make sure to call it v1.0.0, as is standard practice.
+Para a primeira versão arquivada do seu repositório, clique em "Create a new release" (Criar uma nova versão) no Zenodo. Preencha o formulário e dê alguns detalhes sobre o que a versão implica. Para a primeira versão, certifique-se de chamá-la v1.0.0, como é prática padrão.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/create_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Create a new release. Example here using the Open Scholarship Strategy, for which a first release already exists</i></p>
+<p align="center"><i>Criar uma nova versão. Exemplo aqui usando a Open Scholarship Strategy, para a qual já existe uma primeira versão</i></p>
 
   
 
 
-Finally, click 'publish release', and your archive will be published and versioned on GitHub.
+Finalmente, clique em 'publish release' (publicar lançamento), e seu arquivo será publicado e versionado no GitHub.
 
 To view your release on Zenodo you need to visit the [Upload](https://zenodo.org/deposit) tab. To finish the archiving a few more details are needed on Zenodo.
 
