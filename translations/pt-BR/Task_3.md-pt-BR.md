@@ -12,20 +12,20 @@ Não se esqueça de que você pode participar das discussões no nosso fórum ab
 
 Tempo estimado para conclusão: 30 minutos
 
-Estimate time saving once complete: Virtually infinite
+Estimativa de economia de tempo depois de concluída: praticamente infinita
 
-**NOTE** A video guide version of this task is now available on [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA).
+**NOTA** Uma versão guia de vídeo desta tarefa está disponível no [YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA).
 
-## Table of contents
+## Sumário
 
-* [Getting started](#Getting_started) 
+* [Como começar](#Getting_started) 
   * [Git](#Git)
   * [R Studio](#Rstudio)
-* [Step one: Download all the things](#one)
-* [Step two: Configure Git inside RStudio](#two)
-* [Step three: Why did I just do that?](#three)
-* [Step four: The perfect marriage between Git and R](#four)
-* [Step five: Getting content with content](#five)
+* [Primeiro passo: faça o download de todas as coisas](#one)
+* [Segundo passo: Configure o Git dentro do RStudio](#two)
+* [Terceiro passo: Por que eu fiz isso?](#three)
+* [Quarto passo: O casamento perfeito entre Git e R](#four)
+* [Quinto passo: Obtendo conteúdo com conteúdo](#five)
 * [Step six: A brave commitment](#six)
 * [Step seven: PUSH!](#seven)
 
