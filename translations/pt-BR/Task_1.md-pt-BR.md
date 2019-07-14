@@ -284,15 +284,15 @@ Se você estiver interessado, o [cite.research-software.org](https://cite.resear
 
 ## Mantendo suas questões atualizadas <a name="Issues"></a>
 
-Issues are not necessarily problems with a project, but also suggestions for improvement, things to develop in the future, and comments and feedback about the project to work through. They can be openly shared and discussed with contributors as needed, sort of like a forum.
+As questões (issues) não são necessariamente problemas com um projeto, mas sim sugestões de melhorias, pontos a serem desenvolvidos no futuro, comentários e feedback sobre o projeto a ser implementado. Podem ser abertamente compartilhados e discutidos com os colaboradores caso seja necessário, como se fosse um fórum.
 
-If you are a project lead, it is important to maintain a list of issues that make it clear to contributors what aspects of the project need attention. It is also important to engage with as many issues as possible from others in a positive manner, to show that you take their contributions seriously.
+Se você é um líder de projeto, é importante manter uma lista de questões que deixam claro para os colaboradores quais aspectos do projeto precisam de atenção. Também é importante envolver-se com o maior número possível de questões de outras pessoas de maneira positiva, para mostrar que você leva a sério suas contribuições.
 
-Key elements for issues include:
+Os principais elementos para as questões (issues) incluem:
 
-* An informative title and description;
-* Coloud-coded labels/tags to help categorise and filter;
-* Milestones to associate issues with specific features or project phases;
+* Um título informativo e descrição;
+* Rótulos / tags codificadas para ajudar a categorizar e filtrar;
+* Marcos para associar questões a recursos específicos ou fases do projeto;
 * Assignees indicate who is responsible for working on an issue;
 * Comments for providing feedback.
 
