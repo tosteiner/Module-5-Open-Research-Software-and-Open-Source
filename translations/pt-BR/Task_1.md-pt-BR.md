@@ -255,20 +255,20 @@ Um código de conduta é importante para definir as regras básicas para o compo
 
 Um código de conduta não só fornece expectativas de comportamento, mas também descreve a quem e quando estas se aplicam, além de indicar o que fazer caso ocorra uma violação do código e quais serão os itens de ação para tal. Por conseguinte, os pontos de contato precisam ser claramente explicitados no código de conduta. Normalmente, isso deve ser feito de maneira particular, como um endereço de e-mail.
 
-> **Pro-tip**: In case a violation needs to be reported about the person who receives those reports, make sure to include an option to contact a secondary party.
+> **Sugestão**: No caso de uma violação precisar ser relatada sobre a pessoa que recebe essas denúncias, certifique-se de incluir uma opção para contatar uma parte secundária.
 
-To add a code of conduct, you can create your own from scratch by adding a new markdown file, or use existing templates such as the [Contributor Covenant](https://contributor-covenant.org/). Name your file `CODE_OF_CONDUCT.md`, and make sure it is visible in the `README` file.
+Para adicionar um código de conduta, você pode criar o seu próprio do zero, adicionando um novo arquivo em markdown, ou pode usar modelos existentes, como o [Contributor Covenant (Convênio de colaboradores)](https://contributor-covenant.org/). Nomeie seu arquivo `CODE_OF_CONDUCT.md` e verifique se ele está visível no arquivo `README`.
 
-> **Helping hand**: This MOOC also has a [Code of Conduct](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CODE_OF_CONDUCT.md) based on the Contributor Covenant. As you can see, it includes information on expected standards of behaviour, responsibilities of those in the community, and enforcement of the CoC including contact details. Feel free again to re-use and adapt this to your project as you see fit.
+> **Dica**: Este curso também tem um [Código de Conduta](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CODE_OF_CONDUCT.md) baseado no Convênio de Colaboradores. Como você pode ver, inclui informações sobre os padrões de comportamento esperados, as responsabilidades das pessoas na comunidade e a aplicação do Código de Conduta, incluindo detalhes de contato. Novamente, sinta-se livre para reutilizar e adaptar isso ao seu projeto como preferir.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/code_of_conduct.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the CODE OF CONDUCT file for this module, based on the Contributor Covenant</i></p>
+<p align="center"><i>Parte do arquivo CÓDIGO DE CONDUTA para este módulo, com base no Convênio de Colaboradores.</i></p>
 
   
 
 
-Making sure to enforce the code of conduct is important, as it shows that not only do you value the code, but you respect the influence that it has on your community. It is important to treat each member of the community with the respect, courtesy, and importance that they deserve. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
+Certificar-se de aplicar o código de conduta é importante, pois mostra que você não apenas valoriza o código, mas respeita a influência que ele tem em sua comunidade. It is important to treat each member of the community with the respect, courtesy, and importance that they deserve. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
 
   
 
