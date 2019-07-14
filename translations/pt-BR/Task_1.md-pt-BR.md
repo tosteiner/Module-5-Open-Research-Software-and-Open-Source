@@ -303,18 +303,18 @@ Os principais elementos para as questões (issues) incluem:
   
 
 
-Within issues it is possible to use @ mentions to notify other contirbutors about the issue, and to get the right people engaged in an effective manner. GitHub has an internal system of notifications, just like Facebook or Twitter, and can also send emails to people who are mentioned in the issue tracker. This can all be customised for individuals within the user settings.
+Dentro das questões (issues), é possível usar @ e mencionar nomes de participantes do projeto para notificar outros colaboradores sobre o assunto, assim como fazer com que as pessoas certas se envolvam de forma efetiva. O GitHub possui um sistema interno de notificações, como o Facebook ou Twitter, e ainda pode enviar e-mails para pessoas que são mencionadas no rastreador de problemas (issue tracker). Tudo isso pode ser personalizado para indivíduos dentro das configurações do usuário.
 
   
 
 
-## Checklist for launching your project <a name="Checklist"></a>
+## Lista de verificação para iniciar seu projeto <a name="Checklist"></a>
 
-So now you are ready to launch your project, begin advertising it, and getting contributions! Before continuing, make sure that you have:
+Então, agora você está pronto para lançar seu projeto, começar a anunciá-lo e obter contribuições! Antes de continuar, certifique-se de que:
 
-* [ ] Project has a memorable and informative name
-* [ ] Project has a `LICENSE` file that is an exact copy of an Open Source license
-* [ ] Complete documentation including a `README`, `CONTRIBUTING`, and `CODE_OF_CONDUCT` files
+* [ ] O Projeto tem um nome memorizável e informativo
+* [ ] O projeto tem um arquivo `LICENSE` que é uma cópia exata de uma licença Open Source
+* [ ] Documentação completa, incluindo arquivos `README`, `CONTRIBUTING` e `CODE_OF_CONDUCT`
 * [ ] Project has at least one clearly labelled issue
 * [ ] Any code included at this stage is clearly structured and annotated
 
