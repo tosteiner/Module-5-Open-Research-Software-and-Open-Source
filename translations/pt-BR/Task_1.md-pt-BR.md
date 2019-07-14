@@ -268,7 +268,7 @@ Para adicionar um código de conduta, você pode criar o seu próprio do zero, a
   
 
 
-Certificar-se de aplicar o código de conduta é importante, pois mostra que você não apenas valoriza o código, mas respeita a influência que ele tem em sua comunidade. It is important to treat each member of the community with the respect, courtesy, and importance that they deserve. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
+Certificar-se de aplicar o código de conduta é importante, pois mostra que você não apenas valoriza o código, mas respeita a influência que ele tem em sua comunidade. É importante tratar cada membro da comunidade com o devido respeito, cortesia e a importância que merecem. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
 
   
 
