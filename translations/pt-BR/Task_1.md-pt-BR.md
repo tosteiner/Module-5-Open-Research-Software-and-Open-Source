@@ -268,21 +268,21 @@ Para adicionar um código de conduta, você pode criar o seu próprio do zero, a
   
 
 
-Certificar-se de aplicar o código de conduta é importante, pois mostra que você não apenas valoriza o código, mas respeita a influência que ele tem em sua comunidade. É importante tratar cada membro da comunidade com o devido respeito, cortesia e a importância que merecem. Should a violation occur, or a repeat offender makes consistent violations, it is best to refer to the [Open Source Guide](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) to see how to enforce the code of conduct.
+Certificar-se de aplicar o código de conduta é importante, pois mostra que você não apenas valoriza o código, mas respeita a influência que ele tem em sua comunidade. É importante tratar cada membro da comunidade com o devido respeito, cortesia e a importância que merecem. Caso ocorra uma infração ou um reincidente cometa violações sistemáticas, é melhor se referir ao seguinte [Guia de código aberto](https://opensource.guide/code-of-conduct/#enforcing-your-code-of-conduct) para ver como aplicar o código de conduta.
 
   
 
 
-### Making your code citable <a name="Citation"></a>
+### Tornando seu código citável <a name="Citation"></a>
 
-If you want to make your code citable from the start, you should store the metadata needed for a citation from the start, by creating a `[codemeta.json](https://codemeta.github.io)` file or a `[CITATION.cff](https://citation-file-format.github.io)` file. Both will allow tooling that is currently being developed to automatically create citation information, rather than asking you to type it in a form later.
+Se você quiser tornar seu código passível de ser citado, desde o início você deve armazenar os metadados necessários para uma citação, criando um arquivo `[codemeta.json](https://codemeta.github.io)` ou um `[CITATION.cff](https: //citation-file-format.github.io)` arquivo. Ambos permitirão que as ferramentas em desenvolvimento atualmente criem automaticamente informações de citação, sem a necessidade de solicitar que você as digite em um formulário mais tarde.
 
-If you're interested, [cite.research-software.org](https://cite.research-software.org) provides further background information about software citation in academia.
+Se você estiver interessado, o [cite.research-software.org](https://cite.research-software.org) fornece mais informações básicas sobre a citação de software na academia.
 
   
 
 
-## Keeping your issues up to date <a name="Issues"></a>
+## Mantendo suas questões atualizadas <a name="Issues"></a>
 
 Issues are not necessarily problems with a project, but also suggestions for improvement, things to develop in the future, and comments and feedback about the project to work through. They can be openly shared and discussed with contributors as needed, sort of like a forum.
 
