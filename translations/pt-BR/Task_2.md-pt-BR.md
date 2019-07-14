@@ -139,7 +139,7 @@ Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](h
 
 ## Obtendo um DOI <a name="DOI"></a>
 
-This is sometimes referred to as DOI 'minting', and requires a couple of extra bits of information about the repository on Zenodo. On Zenodo click the [Upload](https://zenodo.org/deposit) tab in the main menu, and your newly uploaded repository should be there. Scroll down the page and fill in the extra information as needed, required fields are marked with a red asterisk, and then click 'Publish'.
+Isto às vezes é chamado de atribuição de um DOI, inclusive requer alguns bits extras de informações sobre o repositório no Zenodo. No Zenodo, clique na guia [Upload](https://zenodo.org/deposit) no menu principal e seu novo repositório carregado deve estar lá. Role a página para baixo e preencha as informações extras conforme necessário, e, os campos obrigatórios são marcados com um asterisco vermelho, em seguida, clique em 'Publicar'.
 
 **Note**: Only after this extra information has been added will your DOI become live. It may also take a short time for the DOI to become active. Example DOI shown below (for the Open Scholarship Strategy again).
 
