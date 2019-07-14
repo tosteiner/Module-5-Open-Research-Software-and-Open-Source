@@ -212,18 +212,18 @@ Lembre-se de que nem todos que chegam ao seu projeto serão especialistas ou ent
 
 Quando o arquivo `README` estiver incluído no diretório raiz, o GitHub exibirá automaticamente isso na página inicial do seu repositório. Isso significa que é a primeira coisa que as pessoas costumam ver, então faça valer a pena!
 
-> **Helping hand**: Here, you can find the `README` file used for this [MOOC module](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md). This includes information on the status, rationale, learning outcomes, development team, key documents, and license to help. You can copy and adapt this structure for your own projects as needed.
+> **Mão amiga**: Aqui, você pode encontrar o arquivo `README` usado para este módulo [MOOC](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md). Isso inclui informações sobre o status, a lógica, os resultados do aprendizado, a equipe de desenvolvimento, os principais documentos e a licença para ajudar. Você pode copiar e adaptar essa estrutura para seus próprios projetos, conforme necessário.
 
   
 
 
-### Creating contributing guidelines <a name="Contributing"></a>
+### Criando diretrizes de contribuição <a name="Contributing"></a>
 
-Contributing guidelines are designed to communicate to potential contributors a short guide on how to engage with your project and community. You want to make sure to be welcoming, and indicate that you are eager for participants to engage with your project. Whenever a participant opens a new pull request or creates a new issue, they will see a link to your contribution file.
+As diretrizes de contribuição são projetadas para comunicar aos possíveis colaboradores um breve guia sobre como se engajar com o projeto e a comunidade. Se você quer ter certeza de que está sendo receptivo, pode indicar o quanto anseia que os participantes se envolvam com o seu projeto. Sempre que um participante abrir um novo pull request (solicitação) ou cria uma nova questão (issue), eles verão um link para o seu arquivo de contribuição.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/contributing.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Part of the `CONTRIBUTING` guidelines for this module</i></p>
+<p align="center"><i>Parte das diretrizes de "CONTRIBUIÇÃO" para este módulo</i></p>
 
   
 
