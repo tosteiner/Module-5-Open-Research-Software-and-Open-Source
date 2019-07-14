@@ -157,18 +157,18 @@ Seu repositório GitHub agora está arquivado no Zenodo, e com um DOI que pode s
 
 Fornecer um arquivo de longo prazo e um DOI para o seu trabalho é necessário para que outros possam citá-lo corretamente, pois isso fornece metadados básicos de citação. Para a Ciência Aberta é importante poder citar o software que você usa em sua pesquisa, detalhar inclusive o fluxo de trabalho integrado permite que isso aconteça em conformidade com as melhores práticas para a citação de pesquisa. Além disso, essa prática é importante para elevar o padrão de software (e projetos relacionados) ao padrão de outros resultados de pesquisa.
 
-> **Dica**: A sua pesquisa é financiada por um subsídio da União Europeia ou alguma outra agência de financiamento? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
+> **Dica**: A sua pesquisa é financiada por um subsídio da União Europeia ou alguma outra agência de financiamento? Agora você pode conectar diretamente o seu projeto arquivado ao seu financiamento, atualizando a seção de concessão de verbas nos metadados contidos no registro do projeto no Zenodo. Isso ajuda imensamente a aumentar sua capacidade de descoberta!
 
   
 
 
-## Checklist for citing your project <a name="Checklist"></a>
+## Lista de verificação para citar seu projeto <a name="Checklist"></a>
 
-So now you have a sustainably archived GitHub repository in Zenodo that is ready to be re-used and cited! Before continuing, make sure that you have:
+Então, agora você tem um repositório do GitHub arquivado de forma sustentável no Zenodo e que está pronto para ser reutilizado e citado! Antes de continuar, certifique-se de que:
 
-- [ ] Linked your GitHub project to Zenodo. If you see a complete copy of your GitHub repository in Zenodo then things are working.
-- [ ] Zenodo and GitHub integrated setup works nicely. For example have all the author names, and correct project title come across to Zenodo. If not, or if authors just have nicknames you can edit these details in Zenodo.
-- [ ] Project has a first release, with a DOI. You should have a DOI displayed on your projects Zenodo page. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
+- [ ] Vinculou seu projeto do GitHub ao Zenodo. Se você visualizar uma cópia completa do seu repositório GitHub no Zenodo, então as coisas estão funcionando.
+- [ ] A configuração integrada do Zenodo e do GitHub está funcionando bem. Por exemplo, tem todos os nomes dos autores e o título correto do projeto aparece no Zenodo. Caso contrário, ou se os autores tiverem apenas apelidos, você poderá editar esses detalhes no Zenodo.
+- [ ] O projeto tem uma primeira versão, com um DOI. Você deve ter um DOI exibido em sua página Zenodo de projetos. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
 
 ### Recursos adicionais<a name="Resources"></a>
 
