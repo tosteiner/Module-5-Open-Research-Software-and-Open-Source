@@ -18,21 +18,21 @@ Estimativa de economia de tempo após a conclusão: Inimaginável ..
 
 ## Sumário
 
-* [Primeiros Passos](#Getting_started) 
-  * [Configurando um perfil do GitHub](#Profile)
-  * [O idioma do GitHub](#Language)
-  * [Criando um novo repositório](#Create_new)
-* [Os passos fundamentais](#Foundation) 
-  * [Escolhendo uma licença](#License)
+* [Primeiros Passos](#Começando) 
+  * [Configurando um perfil do GitHub](#Perfil)
+  * [O idioma do GitHub](#Idioma)
+  * [Criando um novo repositório](#Crie um novo)
+* [Os passos fundamentais](#Fundação) 
+  * [Escolhendo uma licença](#Licença)
   * [Criando um arquivo README](#Readme)
-  * [Criando diretrizes de contribuição](#Contributing)
-  * [Criando um código de conduta](#Conduct)
-  * [Tornando seu código citável](#Citation)
-* [Mantendo suas questões atualizadas](#Issues)
-* [Lista de verificação para iniciar seu projeto](#Check-list)
+  * [Criando diretrizes de contribuição](#Contribuições)
+  * [Criando um código de conduta](#Conduta)
+  * [Tornando seu código citável](#Referência)
+* [Mantendo suas questões atualizadas](#Questões)
+* [Lista de verificação para iniciar seu projeto](#Lista de verificação)
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task1.png?raw=true" alt="Task 1 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
+  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task1.png?raw=true" alt="Fluxo de trabalho da tarefa 1" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
 <p align="center"><i>O fluxo de trabalho da Tarefa 1. Mantenha isso acessível e ao seu alcance enquanto executa a tarefa!</i></p>
@@ -331,10 +331,10 @@ A partir de agora, tudo depende de você! Alguns conselhos são para:
 * Tenha claras diretrizes de contribuição;
 * Faça uso das funções de descrição e tag;
 * Não bifurque (fork) o repositório de outra pessoa a menos que você pretenda trabalhar nele;
-* Make sure to contribute to other people's projects too.
+* Certifique-se de contribuir também para os projetos de outras pessoas.
 
-**Know a way this content can be improved?**
+**Sabe como esse conteúdo pode ser melhorado?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
