@@ -63,34 +63,34 @@ Agora acesse o [zenodo.org](https://zenodo.org). Zenodo é uma plataforma onde v
   
 
 
-Se você já tem uma conta Zenodo, isso é fácil. If not, follow the steps to create one — you can even login using your GitHub account or ORCID profile to make things simpler, as Zenodo has a built in integration for it. This might be easier than creating yet another research account and profile.
+Se você já tem uma conta Zenodo, isso é fácil. Se não, siga os passos para criar um - você pode até mesmo fazer o login usando sua conta do GitHub ou o perfil ORCID para simplificar as coisas, já que o Zenodo construiu uma integração para isso. Isso pode ser mais fácil do que criar outra conta e perfil de pesquisa.
 
   
 
 
-## Authorise GitHub to connect with Zenodo <a name="Authorise"></a>
+## Autorize o GitHub a se conectar com o Zenodo <a name="Authorise"></a>
 
-On the Zenodo website authorise it to connect to your GitHub account in the '[Using GitHub](https://zenodo.org/account/settings/github/)' section. Here, Zenodo will redirect you to GitHub to ask for permissions to use '[webhooks](https://developer.github.com/webhooks/)' on your repositories. You want to authorise Zenodo here with the permissions it needs to form those links.
+No site Zenodo, autorize-o a se conectar à sua conta do GitHub na seção '[Using GitHub](https://zenodo.org/account/settings/github/)'. Aqui, o Zenodo irá redirecioná-lo para o GitHub para solicitar permissões para usar '[webhooks](https://developer.github.com/webhooks/)' nos seus repositórios. Você pode autorizar o Zenodo aqui com as permissões necessárias para formar esses links.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo_github.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Authorize Zenodo to connect with GitHub</i></p>
+<p align="center"><i>Autorizando o Zenodo a se conectar com o GitHub</i></p>
 
   
 
 
-If you are trying to give Zenodo access to an organisational repository, you (or an administrator) will need to make sure that Zenodo is granted third party access permissions. GitHub will send an authorisation email that needs confirming. At this point, back in the settings of your repository on GitHub, you also need to make sure that the repository is set to 'public', not private.
+Se você estiver tentando dar acesso ao Zenodo a um repositório organizacional, você (ou administrador) precisará ter certeza de que o Zenodo tem permissão de acesso a terceiros. O GitHub enviará um email de autorização que precisa ser confirmado. Neste ponto, de volta às configurações do seu repositório no GitHub, você também precisa ter certeza de que o repositório está configurado para 'público', não privado.
 
   
 
 
-## Select the repository to archive <a name="Archive"></a>
+## Selecione o repositório para arquivar <a name="Archive"></a>
 
-If you have got this far, this means that Zenodo is now authorised to configure the repository webhooks that it needs to archive the repository and issue it a DOI. To do this, on the Zenodo website navigate to the [GitHub repository listing page](https://zenodo.org/account/settings/github/) and simply click the 'on' button next to your repository.
+Se você chegou até aqui, isso significa que o Zenodo está agora autorizado a configurar os webhooks de repositórios necessários para arquivamento do repositório e emissão de um DOI. Para fazer isso, no site Zenodo, navegue até a página de listagem do repositório [GitHub](https://zenodo.org/account/settings/github/) e simplesmente clique no botão 'on' próximo ao seu repositório.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/enabled_repos.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Enable individual GitHub repositories to be preserved in Zenodo</i></p>
+<p align="center"><i>Habilitar repositórios individuais do GitHub para serem preservados no Zenodo</i></p>
 
   
 
