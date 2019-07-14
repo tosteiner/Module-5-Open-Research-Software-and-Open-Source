@@ -293,12 +293,12 @@ Os principais elementos para as questões (issues) incluem:
 * Um título informativo e descrição;
 * Rótulos / tags codificadas para ajudar a categorizar e filtrar;
 * Marcos para associar questões a recursos específicos ou fases do projeto;
-* Assignees indicate who is responsible for working on an issue;
-* Comments for providing feedback.
+* Os representantes indicam quem é responsável por trabalhar em uma questão;
+* Comentários para fornecer feedback.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/issues.png?raw=true" width="800" /></p>
 
-<p align="center"><i>The issue tracker for the Open Scholarship Strategy project</i></p>
+<p align="center"><i>O rastreador de problemas (issue tracker) do projeto Open Scholarship Strategy</i></p>
 
   
 
