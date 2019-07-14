@@ -14,20 +14,20 @@ Tempo estimado para conclusão: 45 a 60 minutos.
 
 ## Sumário
 
-- [Prefácio](#Foreword)
-- [Configurar um repositório do GitHub](#Setup)
-- [Escolha o seu repositório GitHub](#Choose)
+- [Prefácio](#Prefácio)
+- [Configurar um repositório do GitHub](#Configuração)
+- [Escolha o seu repositório GitHub](#Escolher)
 - [Login para Zenodo](#Login)
-- [Autorize o GitHub a se conectar com o Zenodo](#Authorise)
-- [Selecione o repositório para arquivamento](#Archive)
-- [Verificação das configurações do repositório](#Check)
-- [Crie uma nova versão](#Release)
+- [Autorize o GitHub a se conectar com o Zenodo](#Autorizar)
+- [Selecione o repositório para arquivamento](#Arquivamento)
+- [Verificação das configurações do repositório](#Verificação)
+- [Crie uma nova versão](#Lançamento)
 - [Obtendo um DOI](#DOI)
 - [Lista de verificação para citar seu projeto](#Checklist)
-- [Recursos adicionais](#Resources)
+- [Recursos adicionais](#Recursos)
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Task 2 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
+  <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Fluxo de trabalho da tarefa 2" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
 <p align="center"><i>O fluxo de trabalho da Tarefa 2. Mantenha isso acessível e ao seu alcance enquanto executa a tarefa!</i></p>
@@ -128,16 +128,16 @@ Para a primeira versão arquivada do seu repositório, clique em "Create a new r
 
 Finalmente, clique em 'publish release' (publicar lançamento), e seu arquivo será publicado e versionado no GitHub.
 
-To view your release on Zenodo you need to visit the [Upload](https://zenodo.org/deposit) tab. To finish the archiving a few more details are needed on Zenodo.
+Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](https://zenodo.org/deposit) . Para concluir o arquivamento, mais alguns detalhes são necessários no Zenodo.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/upload_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Check the new release has been uploaded. Example here shown using the Open Scholarship Strategy</i></p>
+<p align="center"><i>Verifique se a nova versão foi carregada. Exemplo aqui mostrado usando a Open Scholarship Strategy</i></p>
 
   
 
 
-## Getting a DOI <a name="DOI"></a>
+## Obtendo um DOI <a name="DOI"></a>
 
 This is sometimes referred to as DOI 'minting', and requires a couple of extra bits of information about the repository on Zenodo. On Zenodo click the [Upload](https://zenodo.org/deposit) tab in the main menu, and your newly uploaded repository should be there. Scroll down the page and fill in the extra information as needed, required fields are marked with a red asterisk, and then click 'Publish'.
 
@@ -145,7 +145,7 @@ This is sometimes referred to as DOI 'minting', and requires a couple of extra b
 
 > **Pro-tip**: Copy the URL for the DOI into the README file for your GitHub repo to make cross-linking even easier, as well as present a clear highlighted DOI badge for users to see and make use of your DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437   .)
 
 The GitHub/Zenodo integration will now assign a DOI to each version/release of a project repository. This enables users to refer to and cite specific versions of projects. Also, the list of authors for the citation is automatically determined by the GitHub user account names used by the repository - this means no-one gets left out. Author details can be edited later on Zenodo. DOIs used in Zenodo are registered through the [DataCite](https://www.datacite.org/) service.
 
@@ -170,12 +170,12 @@ So now you have a sustainably archived GitHub repository in Zenodo that is ready
 - [ ] Zenodo and GitHub integrated setup works nicely. For example have all the author names, and correct project title come across to Zenodo. If not, or if authors just have nicknames you can edit these details in Zenodo.
 - [ ] Project has a first release, with a DOI. You should have a DOI displayed on your projects Zenodo page. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
 
-### Additional resources <a name="Resources"></a>
+### Recursos adicionais<a name="Resources"></a>
 
-[Making your code citable](https://guides.github.com/activities/citable-code/) - GitHub Guides.
+[Tornando seu código citável](https://guides.github.com/activities/citable-code/) - Guias do GitHub.
 
-**Know a way this content can be improved?**
+**Sabe como esse conteúdo pode ser melhorado?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
