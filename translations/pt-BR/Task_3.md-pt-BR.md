@@ -33,11 +33,11 @@ Estimativa de economia de tempo depois de concluída: praticamente infinita
 
 Parabéns por ter chegado tão longe! Se você está lendo isso, você sobreviveu aos pull requests, web-hooks, e, provavelmente pode até nos dizer o que significa o F em FOSS (*não* Frustração ...) Esperamos que você tenha superado qualquer ceticismo ou relutância em relação aos benefícios do GitHub e do Software de Código Aberto, ou seja, você está pronto para dar o próximo passo.
 
-Before starting this Task, please make sure you have already completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), so that you are more familiar with GitHub and some standard Open Source practices.
+Se você completou [ as tarefas 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [ 2 ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), nós também temos uma Tarefa BÔNUS</strong> para você, caso queira aperfeiçoar suas habilidades ainda mais.
 
-This task will teach you how to integrate the version control software, Git, with the popular coding environment, RStudio. And yes, it is Git as in gif or God, not Jit as in the wrong way of pronouncing things.
+Esta tarefa ensinará como integrar o software de controle de versão, Git, ao popular ambiente de codificação RStudio. E sim, é Git como em 'gif', não 'Jit', a pronúncia incorreta da palavra.
 
-If you are one of those researchers who thinks that having code spread across multiple hard-drives that are waiting to break, Dropbox, Google Drive, or any other non-specialist software, this task is just for you. If you have ever experienced the mind-numbing process of having multiple 'final' versions of a paper bouncing between different co-authors, this is also for you.
+Se você é um daqueles pesquisadores que pensa que ter seu código espalhado por vários discos rígidos prestes a quebrar, Dropbox, Google Drive ou qualquer outro software não especializado, essa tarefa é exatamente para você. Se você já experimentou o processo mental de ter múltiplas versões 'finais' de um trabalho que circula entre diferentes coautores, isto também é para você.
 
 All of us are guilty of these sorts of things once in a while, but there are ways to do it that are better for you, future you, and those who might benefit from your work.
 
