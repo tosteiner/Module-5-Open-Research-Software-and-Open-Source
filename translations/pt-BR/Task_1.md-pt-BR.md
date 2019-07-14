@@ -140,29 +140,29 @@ Estes são aspectos críticos e as melhores práticas de qualquer projeto para q
 
 Todos esses quatro arquivos devem ser mantidos no diretório raiz do seu repositório de projetos. É conveniente usar formatos de arquivo markdown (`.md`) para a maioria desses arquivos (embora o arquivo de licença seja, na maioria das vezes, texto simples (`.txt`)) e capitalize todos os nomes de arquivo. Ao invés de espaços em nomes de arquivos, certifique-se de usar sublinhados `_` .
 
-So you should end up with a foundational file selection like this:
+Então você deve se deparar com uma seleção de arquivos fundamentais como esta:
 
-1. `LICENSE.md`
+1. `LICENÇA.md`
 2. `README.md`
-3. `CONTRIBUTING.md`
-4. `CODE_OF_CONDUCT.md`
+3. `CONTRIBUIÇÃO.md`
+4. `CÓDIGO_DE_CONDUTA.md`
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/foundation.png?raw=true" width="800" /></p>
 
-<p align="center"><i>The basic repository structure</i></p>
+<p align="center"><i>A estrutura básica do repositório</i></p>
 
   
 
 
-### Choosing a license <a name="License"></a>
+### Escolhendo uma licença <a name="License"></a>
 
-Choosing an appropriate license is what will differentiate your Open Source repository from publicly available software. While you are not obliged to choose a license, doing so guarantees that others will be able to modify, share, re-use, and build upon your project within a legal framework.
+Escolher uma licença apropriada é o que diferencia seu repositório Open Source do software disponível publicamente. Embora você não seja obrigado a escolher uma licença, isso garante que outras pessoas poderão modificar, compartilhar, reutilizar e desenvolver seu projeto dentro de uma estrutura legal.
 
-To start with, you want to check [Choose A License](https://choosealicense.com/) to find a license that best suits your intentions for the repository.
+Para começar, você quer verificar [Escolha uma Licença](https://choosealicense.com/) para encontrar uma licença que melhor se encaixa em suas intenções para o repositório.
 
-The three primary ones to choose from are:
+Os três principais para escolher são:
 
-* **MIT License**: A permissive license that lets people do whatever they want with your code as long as they provide appropriate attribution to you, and do not hold you liable.
+* **Licença MIT (MIT License)**: Uma licença de permissão que possibilita que as pessoas façam o que quiserem com o seu código, desde que forneçam a atribuição adequada para você e não o responsabilizem.
 * **Apache License 2.0**: Similar permissions to the MIT License, but also provides an express grant of patent rights from contributors to users.
 * **GNU General Public License (GPL) v3**: A [copyleft](https://en.wikipedia.org/wiki/Copyleft) license that requires anyone who redistributes your code, or a derivative work, to make the source available under the same terms as the original license; also provides an express grant of patent rights from contributors to users.
 
