@@ -242,16 +242,16 @@ O arquivo `CONTRIBUIÇÃO` deve incluir informações sobre:
 
 > **Dica**: Considere começar com uma breve nota de agradecimento para as pessoas que estão pensando em contribuir - assim, depois de clicarem no arquivo vão aprender mais no fim das contas! Se houver outros métodos de reconhecimento que você tenha em mente, inclua-os aqui também.
 
-Aqui, você está essencialmente tentando incentivar as pessoas a se oferecerem voluntariamente para fazer avançar seu projeto. Certifique-se de ser acolhedor e amigável, além de ser preciso sobre como as pessoas podem se engajar. When writing this, make sure to think about it from the user perspective - how can you make their life easier when submitting pull requests and opening issues to make the whole project run more smoothly.
+Aqui, você está essencialmente tentando incentivar as pessoas a se oferecerem voluntariamente para fazer avançar seu projeto. Certifique-se de ser acolhedor e amigável, além de ser preciso sobre como as pessoas podem se engajar. Ao escrever isso, certifique-se de pensar sobre o assunto a partir da perspectiva do usuário - como você pode tornar sua vida mais fácil ao enviar solicitações (pull requests) e abertura de questões (issues) para fazer todo o projeto ser executado de forma mais eficiente.
 
-> **Helping hand**: The [Contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) for this MOOC module include some very specific things: an introduction to using Git and GitHub, tips for getting started, contact information, how to alter the content and repor issues, a link to the `README` file, and information on the preferred content and code styles. Feel free to copy and adapt this for your own project as needed.
+> **Dica**: O item [Diretrizes de contribuição](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) para este módulo MOOC incluem algumas coisas muito específicas: uma introdução ao uso do Git e do GitHub, dicas para começar, informações de contato, como alterar o conteúdo e relatar problemas, um link para o `Arquivo README` e informações sobre o conteúdo preferido e os estilos de código. Sinta-se à vontade para copiar e adaptar isso para o seu próprio projeto, conforme necessário.
 
   
 
 
-### Creating a Code of Conduct <a name="Conduct"></a>
+### Criando um Código de Conduta <a name="Conduct"></a>
 
-A code of conduct is important for setting the ground rules for expected behaviour and participation for project contributors, and is an easily referenced document for showing that your project team takes constructive dialogues seriously. Therefore, it is a critical element for creating and maintaining a healthy community that engages in a constructive and productive manner within a positive social atmosphere.
+Um código de conduta é importante para definir as regras básicas para o comportamento esperado e a participação dos contribuidores do projeto, e é um documento de fácil referência para mostrar que a equipe do projeto leva a sério diálogos construtivos. Por conseguinte, é um elemento essencial para a criação e manutenção de uma comunidade saudável que se envolve de forma construtiva e produtiva num ambiente social positivo.
 
 A code of conduct not only provides expectations of behaviour, but also describes who those expectations apply to, when they apply, what to do should a violation of the code occur, and what the action items for this will be. As such, points of contact need to be made clear in the code of conduct. Typically, this should be in a private way such as an email address.
 
