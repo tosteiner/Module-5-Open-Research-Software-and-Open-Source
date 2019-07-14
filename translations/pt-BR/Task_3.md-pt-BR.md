@@ -1,16 +1,16 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: padrão
+  pdf_document: padrão
 ---
 
-# Task 3: How to integrate Git with R Studio
+# Tarefa 3: Como integrar o Git ao R Studio
 
-This task is designed for students and researchers who want to implement a system of version control within a standard R-based workflow. This can be applied to a range of software development, data analysis and project management tasks. Your future research self will thank your for the convenience.
+Esta tarefa é projetada para estudantes e pesquisadores que desejam implementar um sistema de controle de versão dentro de um fluxo de trabalho padrão baseado em R. Isto pode ser aplicado a uma série de tarefas de desenvolvimento de software, análise de dados e gestão de projetos. Sua pesquisa futura irá agradecer-lhe a conveniência.
 
 Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
-Estimated time to complete: 30 minutes
+Tempo estimado para conclusão: 30 minutos
 
 Estimate time saving once complete: Virtually infinite
 
