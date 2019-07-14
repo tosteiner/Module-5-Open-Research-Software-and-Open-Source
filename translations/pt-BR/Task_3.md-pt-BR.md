@@ -26,12 +26,12 @@ Estimativa de economia de tempo depois de concluída: praticamente infinita
 * [Terceiro passo: Por que eu fiz isso?](#three)
 * [Quarto passo: O casamento perfeito entre Git e R](#four)
 * [Quinto passo: Obtendo conteúdo com conteúdo](#five)
-* [Step six: A brave commitment](#six)
-* [Step seven: PUSH!](#seven)
+* [Sexto passo: Um esforço corajoso](#six)
+* [Sétimo passo: FORÇA!](#seven)
 
-## Getting started <a name="Getting_started"></a>
+## Primeiros Passos<a name="Getting_started"></a>
 
-Congratulations on making it this far! If you're reading this, you've survived pull requests, web-hooks, and can probably even tell us know what the F in FOSS stands for (*not* Frustration...) Hopefully, you have overcome any scepticism or reluctance towards the benefits of GitHub and Open Source Software, and are ready to take the next step.
+Parabéns por ter chegado tão longe! Se você está lendo isso, você sobreviveu aos pull requests, web-hooks, e, provavelmente pode até nos dizer o que significa o F em FOSS (*não* Frustração ...) Esperamos que você tenha superado qualquer ceticismo ou relutância em relação aos benefícios do GitHub e do Software de Código Aberto, ou seja, você está pronto para dar o próximo passo.
 
 Before starting this Task, please make sure you have already completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), so that you are more familiar with GitHub and some standard Open Source practices.
 
