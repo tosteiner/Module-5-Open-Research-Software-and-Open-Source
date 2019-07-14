@@ -198,19 +198,19 @@ O arquivo estará originalmente no formato markdown (`.md`). Esta é uma linguag
 Há várias coisas que você vai precisar incluir no seu arquivo `README` :
 
 * Do que se trata este projeto e o que faz.
-* Why should people care, and why is it useful.
-* How can someone get started contributing to the project.
-* Who can be contacted in case someone needs help.
-* A link to the license, contributing guidelines, and code of conduct.
-* A description of the project structure.
-* Who is involved, and what are their roles.
-* The current status of the project.
+* Por que as pessoas deveriam se importar e por que isso é útil.
+* Como alguém pode começar a contribuir com o projeto.
+* Quem pode ser contatado no caso de alguém precisar de ajuda.
+* Um link para a licença, diretrizes de contribuição e código de conduta.
+* Uma descrição da estrutura do projeto.
+* Quem está envolvido e quais são os papéis desempenhados.
+* O status atual do projeto.
 
-> **Pro-tip**: Later on as your project develops, you might want to add FAQs based on community feedback, or a tutorial to help users understand how your project works.
+> **Sugestão**: Mais tarde, à medida em que o projeto for sendo desenvolvido, você poderá adicionar perguntas frequentes com base no feedback da comunidade ou um tutorial para ajudar os usuários a entender como o seu projeto funciona.
 
-Remember that not everyone coming to your project will be an expert, or understand what it is you are doing and why. Having a well-documented `README` file will enhance the user experience for people with a range of prior knowledge.
+Lembre-se de que nem todos que chegam ao seu projeto serão especialistas ou entenderão o que você está fazendo e por quê. Ter um arquivo `README` bem documentado aprimorará a experiência do usuário para pessoas com vários conhecimentos prévios.
 
-When the `README` file is included in the root directory, GitHub will automatically display this on the homepage of your repository. This means it is the first thing people will often see, so make it count!
+Quando o arquivo `README` estiver incluído no diretório raiz, o GitHub exibirá automaticamente isso na página inicial do seu repositório. Isso significa que é a primeira coisa que as pessoas costumam ver, então faça valer a pena!
 
 > **Helping hand**: Here, you can find the `README` file used for this [MOOC module](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md). This includes information on the status, rationale, learning outcomes, development team, key documents, and license to help. You can copy and adapt this structure for your own projects as needed.
 
