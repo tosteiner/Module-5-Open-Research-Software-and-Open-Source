@@ -175,7 +175,7 @@ Felizmente, quando você inicia um novo repositório no GitHub, você tem a opç
   
 
 
-If they don't have one you want, you can add one you like manually. To do this, simply click 'Create new file' in the repository, and copy and paste an existing license text in. Name the file something like `LICENSE.txt` or `LICENSE.md` to make it clear, and keep it in the main repository folder (i.e., the root). Make sure to add a clean commit message, and you're done!
+Se não há uma licença como você quer, é possível adicionar uma nova manualmente conforme a sua necessidade. Para fazer isso, basta clicar em "Criar novo arquivo" no repositório, copiar e colar um texto de licença existente nele. Nomeie o arquivo, por exemplo, como `LICENSE.txt` ou `LICENSE.md` para torná-lo claro e mantê-lo na pasta principal do repositório (ou seja, a raiz). Certifique-se de adicionar uma mensagem de confirmação (commit message) clara e está pronto!
 
 > **Helping hand**: This MOOC uses a different combination of licenses for code content and non-code content. Here you can find an example of the [MIT License](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/LICENSE.md) that we apply for all code and software generated as part of the MOOC production.
 
