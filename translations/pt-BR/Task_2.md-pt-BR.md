@@ -47,23 +47,23 @@ Descubra como configurar um repositório do GitHub neste outro guia [Tarefa 1: C
 
 ## Escolha o seu repositório GitHub <a name="Choose"></a>
 
-Once on your GitHub project listings page at [github.com](https://github.com) head to the 'Repositories' tab. Select which repository you would like to archive, and open it up.
+Uma vez que estiver na sua página de listagem de projetos do [github.com](https://github.com) acesse a aba 'Repositories' no topo da página do github. Selecione qual repositório você gostaria de arquivar e abra-o.
 
   
 
 
-## Login to Zenodo <a name="Login"></a>
+## Login para Zenodo <a name="Login"></a>
 
-Now head over to [zenodo.org](https://zenodo.org). Zenodo is a platform where you can permanently archive your code and other project elements. Zenodo does this by assigning projects a **Digital Object Identifier** (DOI), which also helps to make the work more citable. This is different to GitHub, which acts as a place where the actual work on a project takes place, rather than long-term archiving of it. At GitHub, content can be modified, deleted, rewritten, and irreversibly changed, which makes it a bit concerning to be used for longer lasting referencing purposes. Zenodo offers more security and permanence for research outputs.
+Agora acesse o [zenodo.org](https://zenodo.org). Zenodo é uma plataforma onde você pode arquivar permanentemente seu código e outros elementos do projeto. Zenodo faz isso através da atribuição de um **Digital Object Identifier** (DOI) para um projeto, o qual também auxilia na facilidade de citar um trabalho. Isso é diferente do GitHub, o qual atua como um local onde o trabalho real em um projeto acontece, em vez de arquivá-lo a longo prazo. No GitHub, o conteúdo pode ser modificado, apagado, reescrito e irreversivelmente alterado, o que o torna um pouco relativo a ser usado para fins de referência mais duradouros. Zenodo oferece mais segurança e permanência para os resultados da pesquisa.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Sign up for Zenodo</i></p>
+<p align="center"><i>Inscreva-se no Zenodo</i></p>
 
   
 
 
-If you already have a Zenodo account, this is easy. If not, follow the steps to create one — you can even login using your GitHub account or ORCID profile to make things simpler, as Zenodo has a built in integration for it. This might be easier than creating yet another research account and profile.
+Se você já tem uma conta Zenodo, isso é fácil. If not, follow the steps to create one — you can even login using your GitHub account or ORCID profile to make things simpler, as Zenodo has a built in integration for it. This might be easier than creating yet another research account and profile.
 
   
 
