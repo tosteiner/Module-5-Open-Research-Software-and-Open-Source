@@ -240,9 +240,9 @@ O arquivo `CONTRIBUIÇÃO` deve incluir informações sobre:
 * Como contatar os responsáveis pelo projeto.
 * Links para qualquer documentação ou sites externos.
 
-> **Pro-tip**: Consider starting off with a short thank you note for people taking the time to consider contributing - they have clicked on the file to learn more after all! If there are other methods of recognition that you have in mind, make sure to include them in here too.
+> **Dica**: Considere começar com uma breve nota de agradecimento para as pessoas que estão pensando em contribuir - assim, depois de clicarem no arquivo vão aprender mais no fim das contas! Se houver outros métodos de reconhecimento que você tenha em mente, inclua-os aqui também.
 
-Here, you are essentially trying to encourage people to volunteer their time to advance your project. Make sure to be welcoming and friendly, and be precise about how people can engage. When writing this, make sure to think about it from the user perspective - how can you make their life easier when submitting pull requests and opening issues to make the whole project run more smoothly.
+Aqui, você está essencialmente tentando incentivar as pessoas a se oferecerem voluntariamente para fazer avançar seu projeto. Certifique-se de ser acolhedor e amigável, além de ser preciso sobre como as pessoas podem se engajar. When writing this, make sure to think about it from the user perspective - how can you make their life easier when submitting pull requests and opening issues to make the whole project run more smoothly.
 
 > **Helping hand**: The [Contributing guidelines](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/CONTRIBUTING.md) for this MOOC module include some very specific things: an introduction to using Git and GitHub, tips for getting started, contact information, how to alter the content and repor issues, a link to the `README` file, and information on the preferred content and code styles. Feel free to copy and adapt this for your own project as needed.
 
