@@ -143,15 +143,15 @@ Isto às vezes é chamado de atribuição de um DOI, inclusive requer alguns bit
 
 **Nota**: Somente depois que esta informação extra for adicionada, seu DOI se tornará ativo. Também pode demorar um pouco para que o DOI se torne ativo. Exemplo DOI mostrado abaixo (para a Open Scholarship Strategy).
 
-> **Dica profissional**: Copie a URL do DOI para o arquivo README do seu repositório GitHub a fim de tornar ainda mais fácil a interconexão, assim como você deve exibir em destaque um emblema DOI para que os usuários possam ver e usar o seu DOI. You only need to do this once with your first release DOI as it acts as a 'concept DOI' and is linked to all subsequent release DOIs.
+> **Dica profissional**: Copie a URL do DOI para o arquivo README do seu repositório GitHub a fim de tornar ainda mais fácil a interconexão, assim como você deve exibir em destaque um emblema DOI para que os usuários possam ver e usar o seu DOI. Você só precisa fazer isso uma vez com a sua primeira publicação de um DOI, pois, trata-se de uma espécie de "conceito" e está vinculado a todos os DOIs posteriores ao lançamento.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg)](https://doi.org/10.5281/zenodo.1323437   .)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg )](https://doi.org/10.5281/zenodo.1323437   .)
 
-The GitHub/Zenodo integration will now assign a DOI to each version/release of a project repository. This enables users to refer to and cite specific versions of projects. Also, the list of authors for the citation is automatically determined by the GitHub user account names used by the repository - this means no-one gets left out. Author details can be edited later on Zenodo. DOIs used in Zenodo are registered through the [DataCite](https://www.datacite.org/) service.
+A integração do GitHub / Zenodo irá agora atribuir um DOI a cada versão / release de um repositório de projetos. Isto permite aos usuários referenciarem e citarem versões específicas de projetos. Além disso, a lista de autores para a citação é automaticamente determinada pelos nomes da conta de usuário do GitHub usados pelo repositório - isso significa que ninguém fica de fora. Detalhes sobre o autor podem ser editados posteriormente no Zenodo. Os DOIs usados no Zenodo são registrados através do serviço [DataCite](https://www.datacite.org/).
 
-> **Pro-tip**: Create a 'human-readable' version of this citation in your project's README file. This will be helpful to researchers who might not be familiar with using DOIs to create citations, and make it easier for others to cite your software and acknowledge your work. An example of this could be: Jon Tennant. (2018, July 30). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. <http://doi.org/10.5281/zenodo.1323437>
+> **Dica**: Crie uma versão 'legível para humanos' desta citação no arquivo README do seu projeto. Isso será útil para investigadores que talvez não estejam familiarizados com a utilização de DOIs para criar referências e facilitar a outros citar o seu software e reconhecer o seu trabalho. Um exemplo disso poderia ser: Jon Tennant. (2018, 30 de julho). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. [ http://doi.org/10.5281/zenodo.1323437 ](http://doi.org/10.5281/zenodo.1323437)
 
-**CONGRATULATIONS!!**
+**PARABÉNS!!!**
 
 Your GitHub repository is now archived in Zenodo, and with a DOI that can be versioned to reflect updates to the repository version through time. You should be able to see details of this on the GitHub Zenodo page for your repository. This also means that your archived projects can get picked up by other indexing services and search engines that use DOIs too.
 
