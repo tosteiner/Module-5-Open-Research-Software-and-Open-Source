@@ -197,7 +197,7 @@ O arquivo estará originalmente no formato markdown (`.md`). Esta é uma linguag
 
 Há várias coisas que você vai precisar incluir no seu arquivo `README` :
 
-* What is this project about and what does it do.
+* Do que se trata este projeto e o que faz.
 * Why should people care, and why is it useful.
 * How can someone get started contributing to the project.
 * Who can be contacted in case someone needs help.
