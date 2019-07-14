@@ -251,9 +251,9 @@ Aqui, você está essencialmente tentando incentivar as pessoas a se oferecerem 
 
 ### Criando um Código de Conduta <a name="Conduct"></a>
 
-Um código de conduta é importante para definir as regras básicas para o comportamento esperado e a participação dos contribuidores do projeto, e é um documento de fácil referência para mostrar que a equipe do projeto leva a sério diálogos construtivos. Por conseguinte, é um elemento essencial para a criação e manutenção de uma comunidade saudável que se envolve de forma construtiva e produtiva num ambiente social positivo.
+Um código de conduta é importante para definir as regras básicas para o comportamento esperado e a participação dos contribuidores do projeto, e é um documento de fácil referência para mostrar que a equipe do projeto leva a sério diálogos construtivos. Portanto, é um elemento fundamental para criar e manter uma comunidade saudável que se envolve de forma construtiva e produtiva dentro de uma atmosfera social positiva.
 
-A code of conduct not only provides expectations of behaviour, but also describes who those expectations apply to, when they apply, what to do should a violation of the code occur, and what the action items for this will be. As such, points of contact need to be made clear in the code of conduct. Typically, this should be in a private way such as an email address.
+Um código de conduta não só fornece expectativas de comportamento, mas também descreve a quem e quando estas se aplicam, além de indicar o que fazer caso ocorra uma violação do código e quais serão os itens de ação para tal. Por conseguinte, os pontos de contato precisam ser claramente explicitados no código de conduta. Normalmente, isso deve ser feito de maneira particular, como um endereço de e-mail.
 
 > **Pro-tip**: In case a violation needs to be reported about the person who receives those reports, make sure to include an option to contact a secondary party.
 
