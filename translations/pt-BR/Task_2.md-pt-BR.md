@@ -153,9 +153,9 @@ A integração do GitHub / Zenodo irá agora atribuir um DOI a cada versão / re
 
 **PARABÉNS!!!**
 
-Your GitHub repository is now archived in Zenodo, and with a DOI that can be versioned to reflect updates to the repository version through time. You should be able to see details of this on the GitHub Zenodo page for your repository. This also means that your archived projects can get picked up by other indexing services and search engines that use DOIs too.
+Seu repositório GitHub agora está arquivado no Zenodo, e com um DOI que pode ser versionado para refletir as atualizações para a versão do repositório ao longo do tempo. Você deve poder ver os detalhes disso na página do Zenodo do GitHub para o seu repositório. Isso também significa que seus projetos arquivados podem ser recuperados por outros serviços de indexação e motores de busca que também usam DOIs.
 
-Providing a long-term archive and a DOI for your work is required for others to be able to properly cite it, as this provides basic citation metadata. For Open Science, it is important to be able to cite the software that you use in your research, and this integrated workflow enables that to happen, in line with best practices for research citation. Furthermore, this practice is important in elevating the standard of software (and related projects) to that of the standard of other research outputs.
+Fornecer um arquivo de longo prazo e um DOI para o seu trabalho é necessário para que outros possam citá-lo corretamente, pois isso fornece metadados básicos de citação. Para a Ciência Aberta é importante poder citar o software que você usa em sua pesquisa, detalhar inclusive o fluxo de trabalho integrado permite que isso aconteça em conformidade com as melhores práticas para a citação de pesquisa. Além disso, essa prática é importante para elevar o padrão de software (e projetos relacionados) ao padrão de outros resultados de pesquisa.
 
 > **Pro-tip**: Is your research funded by an EU grant? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
 
