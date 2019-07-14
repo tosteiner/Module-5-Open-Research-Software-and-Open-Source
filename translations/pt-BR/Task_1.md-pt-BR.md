@@ -138,7 +138,7 @@ Qualquer repositório GitHub requer 4 elementos chave para ser iniciado e começ
 
 Estes são aspectos críticos e as melhores práticas de qualquer projeto para que os usuários entendam seus direitos legais, suas expectativas, o propósito do projeto e para melhorar a experiência geral do usuário.
 
-Todos esses quatro arquivos devem ser mantidos no diretório raiz do seu repositório de projetos. É conveniente usar formatos de arquivo markdown (`.md`) para a maioria desses arquivos (embora o arquivo de licença seja, na maioria das vezes, texto simples (`.txt`)) e capitalize todos os nomes de arquivo. Instead of spaces in file names, make sure to use underscores `_` .
+Todos esses quatro arquivos devem ser mantidos no diretório raiz do seu repositório de projetos. É conveniente usar formatos de arquivo markdown (`.md`) para a maioria desses arquivos (embora o arquivo de licença seja, na maioria das vezes, texto simples (`.txt`)) e capitalize todos os nomes de arquivo. Ao invés de espaços em nomes de arquivos, certifique-se de usar sublinhados `_` .
 
 So you should end up with a foundational file selection like this:
 
