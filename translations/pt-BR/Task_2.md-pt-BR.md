@@ -157,7 +157,7 @@ Seu repositório GitHub agora está arquivado no Zenodo, e com um DOI que pode s
 
 Fornecer um arquivo de longo prazo e um DOI para o seu trabalho é necessário para que outros possam citá-lo corretamente, pois isso fornece metadados básicos de citação. Para a Ciência Aberta é importante poder citar o software que você usa em sua pesquisa, detalhar inclusive o fluxo de trabalho integrado permite que isso aconteça em conformidade com as melhores práticas para a citação de pesquisa. Além disso, essa prática é importante para elevar o padrão de software (e projetos relacionados) ao padrão de outros resultados de pesquisa.
 
-> **Pro-tip**: Is your research funded by an EU grant? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
+> **Dica**: A sua pesquisa é financiada por um subsídio da União Europeia ou alguma outra agência de financiamento? Now you can directly connect your archived project to your grant by updating the grant section of the metadata on the project's Zenodo record. This massively helps to increase its discoverability!
 
   
 
