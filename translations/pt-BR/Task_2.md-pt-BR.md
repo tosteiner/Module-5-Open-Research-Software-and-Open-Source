@@ -168,7 +168,7 @@ Então, agora você tem um repositório do GitHub arquivado de forma sustentáve
 
 - [ ] Vinculou seu projeto do GitHub ao Zenodo. Se você visualizar uma cópia completa do seu repositório GitHub no Zenodo, então as coisas estão funcionando.
 - [ ] A configuração integrada do Zenodo e do GitHub está funcionando bem. Por exemplo, tem todos os nomes dos autores e o título correto do projeto aparece no Zenodo. Caso contrário, ou se os autores tiverem apenas apelidos, você poderá editar esses detalhes no Zenodo.
-- [ ] O projeto tem uma primeira versão, com um DOI. Você deve ter um DOI exibido em sua página Zenodo de projetos. This first DOI is called the 'concept DOI' and is the master DOI linking to all subsequent release DOIs. Copy this DOI link and embed it in your GitHub projects README page. You're done!
+- [ ] O projeto tem uma primeira versão, com um DOI. Você deve ter um DOI exibido em sua página Zenodo de projetos. Este primeiro DOI é chamado de 'conceito DOI' e é o 'DOI mestre' que se vincula a todos os outros de versões subsequentes. Copie este link DOI e incorpore-o em sua página README de projetos no GitHub. Você terminou!
 
 ### Recursos adicionais<a name="Resources"></a>
 
