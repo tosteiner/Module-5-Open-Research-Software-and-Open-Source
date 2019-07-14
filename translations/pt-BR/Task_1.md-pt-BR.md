@@ -228,17 +228,17 @@ As diretrizes de contribuição são projetadas para comunicar aos possíveis co
   
 
 
-Sticking with the all caps file names, the next step is to create a `CONTRIBUTING` file. Click 'Create new file', and make sure to save it in markdown format as before. This file will tell other users how they can engage with and participate in your project. This is the first step towards establishing a community around your project, so make it engaging, concise, and informative.
+Mantendo os nomes dos arquivos em letras maiúsculas, o próximo passo é criar um arquivo e nomeá-lo como `CONTRIBUIÇÃO`. Clique em "Create new file" (Criar novo arquivo) e salve-o no formato de marcação conforme o que foi explicado anteriormente. Esse arquivo informará a outros usuários como eles podem se envolver e participar do seu projeto. Este é o primeiro passo para estabelecer uma comunidade em torno do seu projeto, para torná-lo envolvente, conciso e informativo.
 
-The `CONTRIBUTING` file should include information on:
+O arquivo `CONTRIBUIÇÃO` deve incluir informações sobre:
 
-* What sort of contributions you are looking for.
-* How to suggest updates or new features.
-* How to interact with the project using GitHub's functions (e.g., the pull request protocol).
-* How to file a bug report or create an issue.
-* The ultimate goal, vision, or roadmap for the project.
-* How to contact those in charge of the project.
-* Links to any external documentation or websites.
+* Que tipo de contribuições você está procurando?
+* Como sugerir atualizações ou novos recursos.
+* Como interagir com o projeto usando as funções do GitHub (por exemplo, o protocolo pull request).
+* Como arquivar um relatório de bug ou criar uma questão (issue).
+* O objetivo final, visão ou o roteiro para o projeto.
+* Como contatar os responsáveis pelo projeto.
+* Links para qualquer documentação ou sites externos.
 
 > **Pro-tip**: Consider starting off with a short thank you note for people taking the time to consider contributing - they have clicked on the file to learn more after all! If there are other methods of recognition that you have in mind, make sure to include them in here too.
 
