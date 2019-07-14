@@ -19,33 +19,33 @@ Tempo estimado para conclusão: 45 a 60 minutos.
 - [Escolha o seu repositório GitHub](#Choose)
 - [Login para Zenodo](#Login)
 - [Autorize o GitHub a se conectar com o Zenodo](#Authorise)
-- [Select the repository to archive](#Archive)
-- [Check repository settings](#Check)
-- [Create a new release](#Release)
-- [Getting a DOI](#DOI)
-- [Checklist for citing your project](#Checklist)
-- [Additional resources](#Resources)
+- [Selecione o repositório para arquivamento](#Archive)
+- [Verificação das configurações do repositório](#Check)
+- [Crie uma nova versão](#Release)
+- [Obtendo um DOI](#DOI)
+- [Lista de verificação para citar seu projeto](#Checklist)
+- [Recursos adicionais](#Resources)
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/Task2.png?raw=true" alt="Task 2 workflow" width="600" height="861" style="margin-right: 30px; margin-left: 10px;" onmouseover="this.width='1200'; this.height='1722'" onmouseout="this.width='600'; this.height='861'">
 </p>
 
-<p align="center"><i>The workflow for Task 2. Keep this handy as you work through the task!</i></p>
+<p align="center"><i>O fluxo de trabalho da Tarefa 2. Mantenha isso acessível e ao seu alcance enquanto executa a tarefa!</i></p>
 
   
 
 
-## Foreword <a name="Foreword"></a>
+## Prefácio<a name="Foreword"></a>
 
-Although the integration of GitHub and Zenodo makes it really easier to work with these tools nowadays (January 2019), it is important to stress that there are alternatives to GitHub (Gitlab, Bitbucket,...) and alternatives to Zenodo (Other repositories might be more suited to your community, you might ask your colleagues). For instance, one can work with Gitlab and manually upload each new versions to your university repository, getting a DOI. The principles (working with a version control system online, and archiving major versions in a repository which provides a persistent unique identifier) can be applied in different workflow.
+Embora a integração do GitHub e Zenodo torne realmente mais fácil trabalhar com estas ferramentas atualmente (Janeiro de 2019), é importante salientar que existem alternativas para o GitHub (Gitlab, Bitbucket,...) e alternativas para o Zenodo (Outros repositórios podem ser mais adequados à sua comunidade, você pode perguntar aos seus colegas). Por exemplo, pode-se trabalhar com o Gitlab e carregar manualmente cada nova versão para o repositório da sua universidade, obtendo um DOI. Os princípios (trabalhando com um sistema de controle de versão online e arquivando as versões principais em um repositório que fornece um identificador único persistente) podem ser aplicados em diferentes fluxo de trabalho.
 
-## Set up a GitHub repository <a name="Setup"></a>
+## Configurar um repositório GitHub <a name="Setup"></a>
 
-> **Pro-tip**: Make sure to include a LICENSE and README file in your repository. This will indicate to people the purpose of the project, and how they can engage with it in the future.
+> **Dica**: Certifique-se de incluir um arquivo LICENSE e README no seu repositório. Isso indicará às pessoas o objetivo do projeto e como elas podem se envolver com ele no futuro.
 
-Find out how to set up a GitHub repository in this other guide [Task 1: Building a GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) which is also part of 'Module 5: Open Research Software and Open Source'.
+Descubra como configurar um repositório do GitHub neste outro guia [Tarefa 1: Construindo um repositório do GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) que também faz parte do 'Módulo 5: Software de Pesquisa Aberta e Open Source'.
 
-## Choose your GitHub repository <a name="Choose"></a>
+## Escolha o seu repositório GitHub <a name="Choose"></a>
 
 Once on your GitHub project listings page at [github.com](https://github.com) head to the 'Repositories' tab. Select which repository you would like to archive, and open it up.
 
