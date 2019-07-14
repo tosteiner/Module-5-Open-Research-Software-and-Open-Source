@@ -163,14 +163,14 @@ Para começar, você quer verificar [Escolha uma Licença](https://choosealicens
 Os três principais para escolher são:
 
 * **Licença MIT (MIT License)**: Uma licença de permissão que possibilita que as pessoas façam o que quiserem com o seu código, desde que forneçam a atribuição adequada para você e não o responsabilizem.
-* **Apache License 2.0**: Similar permissions to the MIT License, but also provides an express grant of patent rights from contributors to users.
-* **GNU General Public License (GPL) v3**: A [copyleft](https://en.wikipedia.org/wiki/Copyleft) license that requires anyone who redistributes your code, or a derivative work, to make the source available under the same terms as the original license; also provides an express grant of patent rights from contributors to users.
+* **Licença Apache 2.0**: Tem permissões semelhantes à Licença MIT, mas também fornece uma concessão expressa de direitos de patentes de colaboradores para usuários.
+* **GNU General Public License (GPL) v3**: A [copyleft](https://en.wikipedia.org/wiki/Copyleft) licença que requer a qualquer pessoa a redistribuição do seu código, ou uma obra derivada, para tornar a fonte disponível sob os mesmos termos que a licença original; além disso, fornece uma concessão expressa de direitos de patente dos colaboradores aos usuários.
 
-Thankfully, when you start a new repository on GitHub, you are given the option to select an existing license from a drop-down menu. You should always (with very few exceptions) use an existing license, since this is what potential users and contributors will see before they choose to use or contribute to your software.
+Felizmente, quando você inicia um novo repositório no GitHub, você tem a opção de selecionar uma licença existente em um menu suspenso. Você deve sempre (com pouquíssimas exceções) usar uma licença existente, pois é isso que os usuários e colaboradores em potencial poderão ver antes de optarem por usar ou contribuir com seu software.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/license.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Choosing an example license</i></p>
+<p align="center"><i>Escolhendo uma licença de exemplo</i></p>
 
   
 
