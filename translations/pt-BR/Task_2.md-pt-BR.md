@@ -1,24 +1,24 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: padrão
+  pdf_document: padrão
 ---
 
-# Task 2: How to make your code citable using GitHub and Zenodo
+# Tarefa 2: Como tornar seu código passível de ser citado usando o GitHub e o Zenodo
 
-This task is designed for students and researchers who want to create and re-use GitHub-based projects/repositories in the academic literature.
+Esta tarefa é projetada para estudantes e pesquisadores que desejam criar e reutilizar projetos / repositórios baseados no GitHub na literatura acadêmica.
 
 Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
-Estimated time to complete: 45-60 minutes.
+Tempo estimado para conclusão: 45 a 60 minutos.
 
-## Table of contents
+## Sumário
 
-- [Foreword](#Foreword)
-- [Set up a GitHub repository](#Setup)
-- [Choose your GitHub repository](#Choose)
-- [Login to Zenodo](#Login)
-- [Authorise GitHub to connect with Zenodo](#Authorise)
+- [Prefácio](#Foreword)
+- [Configurar um repositório do GitHub](#Setup)
+- [Escolha o seu repositório GitHub](#Choose)
+- [Login para Zenodo](#Login)
+- [Autorize o GitHub a se conectar com o Zenodo](#Authorise)
 - [Select the repository to archive](#Archive)
 - [Check repository settings](#Check)
 - [Create a new release](#Release)
