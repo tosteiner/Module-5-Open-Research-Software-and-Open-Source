@@ -48,25 +48,25 @@ Todos nós somos culpados por este tipo de situação de vez em quando, no entan
 
 Então, o que é o Git e como ele é diferente do GitHub? O Git é um sistema de controle de versão, permite salvar e rastrear cópias do seu trabalho durante todo o processo de desenvolvimento. Também funciona com itens que não são de código, como este curso, e, a maioria dos quais foi escrito em markdown no RStudio e integrado a um fluxo de trabalho no Git / GitHub.
 
-Isso é importante, uma vez que toda a investigação passa por mudanças e, frequentemente, queremos saber quais foram as alterações efetuadas. Você excluiu algum texto que agora considera importante? O controle de versão salvará isso para você. Seu código funcionou perfeitamente no passado, mas agora está completamente incompreensível? Controle de versão It's a great way to avoid that chaotic state where you have multiple copies of the same file, but without a stupid and annoying file naming convention. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` will be a thing of the past.
+Isso é importante, uma vez que toda a investigação passa por mudanças e, frequentemente, queremos saber quais foram as alterações efetuadas. Você excluiu algum texto que agora considera importante? O controle de versão salvará isso para você. Seu código funcionou perfeitamente no passado, mas agora está completamente incompreensível? Controle de versão É uma ótima maneira de evitar esse estado caótico em que você tem várias cópias do mesmo arquivo, mas, sem uma convenção de nomenclatura de arquivos difícil e chata. `FINAL_Revisado_2.2_supervisor_edits_ver1.7_scream.txt` será uma coisa do passado.
 
-GitHub is the platform that allows you to seamlessly share code from your workspace (e.g., laptop) to be hosted in an online space. So, sort of like the public interface to GitHub. The advantages of Git/GitHub are:
+O GitHub é a plataforma que permite que você compartilhe código de maneira fácil a partir do seu espaço de trabalho (por exemplo, laptop) para ser hospedado em um espaço online. Então, como a interface pública para o GitHub. As vantagens do Git/GitHub são:
 
-1. You get to keep copies of all your work through time;
-2. You can compare work through different copies through time, which helps to spot bugs or errors;
-3. Other people can collaborate openly with your work;
-4. You have both a local and an online copy of your work that remain in sync;
-5. It is fully transparent as to who made a contribution, why they made it, and when; and
-6. You can have multiple people working on the same project at once in parallel.
+1. Você consegue manter cópias de todo o seu trabalho ao longo do tempo;
+2. Você pode comparar o trabalho através de diferentes cópias ao longo do tempo, o que ajuda a detectar falhas ou erros;
+3. Outras pessoas podem colaborar abertamente com o seu trabalho;
+4. Você tem uma cópia local e online do seu trabalho que permanece em sincronização;
+5. É totalmente transparente quanto a quem fez uma contribuição, por que eles fizeram e quando; e
+6. Você pode ter várias pessoas trabalhando no mesmo projeto de uma vez em paralelo.
 
-While this was primarily designed for source code, it should be instantly obvious how this becomes a powerful tool for virtually all research workflows.
+Embora isso tenha sido projetado principalmente para o código-fonte, deve ser imediatamente óbvio como isso se torna uma ferramenta poderosa para praticamente todos os fluxos de trabalho de pesquisa.
 
   
 
 
 ### RStudio <a name="Rstudio"></a>
 
-RStudio is a popular coding environment for researchers who use the statistical programming language, R. It comes with a text editor, so you don't have to install another and switch between. It also includes a graphical user interface (GUI) to Git and GitHub, which we will be using here.
+O RStudio é um ambiente de codificação popular para pesquisadores que usam a linguagem de programação estatística, R. Ele vem com um editor de texto, para que você não tenha que instalar outro e alternar entre eles. Inclui também uma interface gráfica de usuário (GUI) para Git e GitHub, que nós vamos usar aqui.
 
 Isn't it nice when brilliant Open Source tools integrate seamlessly like that. This should help to make your daily use of Git much simpler.
 
