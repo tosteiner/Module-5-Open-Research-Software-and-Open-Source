@@ -98,15 +98,15 @@ Para usuários de Mac, [acesse este link ](http://git-scm.com/download/mac)ou ad
 
 Se você quiser, também pode baixar a versão [local do GitHub](https://desktop.github.com/) e usá-lo através da GUI simples. Está disponível no Windows, no Mac e no Linux, e pode tornar sua vida um pouco mais fácil, especialmente se você quiser usar uma plataforma diferente para o RStudio.
 
-> **Pro-tip:** You see when installing Git it says 'Use Git Bash as shell for Git projects?' This is the place where you can use the command-line to access Git from outside of RStudio. It's a powerful beast. Try the following two commands to get started:
+> **Dica:** Ao instalar o Git, você verá a indicação da frase 'Use Git Bash as shell for Git projects?'. Portanto, esse é o local onde você pode usar a linha de comando para acessar o Git de fora do RStudio. É uma ferramenta poderosa. Tente os dois comandos a seguir para começar:
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
+`git config --global user.name 'SEU NOME DE USUÁRIO'`   
+`git config --global user.email 'SEU E-MAIL'`   
 
 
-## Step two: Configure Git inside RStudio <a name="two"></a>
+## Segundo passo: Configure o Git dentro do RStudio <a name="two"></a>
 
-Right, that's the easy bit done. Next, go into RStudio, and in the tabs at the top go to Go to **Tools > Global Options > Git/SVN**. SVN is just another version control system like Git, and we don't need to worry about that here.
+Certo, essa é a parte fácil. Next, go into RStudio, and in the tabs at the top go to Go to **Tools > Global Options > Git/SVN**. SVN is just another version control system like Git, and we don't need to worry about that here.
 
 In the place where it says *Git executable*, add the pathway here to the git.exe file that you just downloaded in the previous step. Make sure the box here that says **Enable version control interface for RStudio projects** is ticked. This now has tied version control to future projects in RStudio, to provide a really powerful additional dimension to collaborative or solo work.
 
