@@ -39,16 +39,16 @@ Esta tarefa ensinará como integrar o software de controle de versão, Git, ao p
 
 Se você é um daqueles pesquisadores que pensa que ter seu código espalhado por vários discos rígidos prestes a quebrar, Dropbox, Google Drive ou qualquer outro software não especializado, essa tarefa é exatamente para você. Se você já experimentou o processo mental de ter múltiplas versões 'finais' de um trabalho que circula entre diferentes coautores, isto também é para você.
 
-All of us are guilty of these sorts of things once in a while, but there are ways to do it that are better for you, future you, and those who might benefit from your work.
+Todos nós somos culpados por este tipo de situação de vez em quando, no entanto, existem maneiras melhores de fazer isso que serão úteis para o seu futuro e para aqueles que poderão se beneficiar do seu trabalho.
 
   
 
 
-### Getting Git <a name="Git"></a>
+### Obtendo o Git <a name="Git"></a>
 
-So, what is Git, and how is it different to GitHub? Git is a version control system, which enables you to save and track time-stamped copies of your work throughout the development process. It also works with non-code items too, like this MOOC, the majority of which was written in markdown in RStudio, and integrated with a Git/GitHub workflow.
+Então, o que é o Git e como ele é diferente do GitHub? O Git é um sistema de controle de versão, permite salvar e rastrear cópias do seu trabalho durante todo o processo de desenvolvimento. Também funciona com itens que não são de código, como este curso, e, a maioria dos quais foi escrito em markdown no RStudio e integrado a um fluxo de trabalho no Git / GitHub.
 
-This is important, as all research goes through changes and sometimes we want to know what those things were. Did you delete some text that you now think is important? Version control will save that for you. Did your code work perfectly in the past, but is now buggy beyond belief? Version control. It's a great way to avoid that chaotic state where you have multiple copies of the same file, but without a stupid and annoying file naming convention. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` will be a thing of the past.
+Isso é importante, uma vez que toda a investigação passa por mudanças e, frequentemente, queremos saber quais foram as alterações efetuadas. Você excluiu algum texto que agora considera importante? O controle de versão salvará isso para você. Seu código funcionou perfeitamente no passado, mas agora está completamente incompreensível? Controle de versão It's a great way to avoid that chaotic state where you have multiple copies of the same file, but without a stupid and annoying file naming convention. `FINAL_Revised_2.2_supervisor_edits_ver1.7_scream.txt` will be a thing of the past.
 
 GitHub is the platform that allows you to seamlessly share code from your workspace (e.g., laptop) to be hosted in an online space. So, sort of like the public interface to GitHub. The advantages of Git/GitHub are:
 
