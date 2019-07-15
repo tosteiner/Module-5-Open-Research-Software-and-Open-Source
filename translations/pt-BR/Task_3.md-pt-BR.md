@@ -119,28 +119,28 @@ No lugar onde está escrito *Git executable*, adicione o caminho para o arquivo 
   
 
 
-Next, hit the button in this window that says *Create RSA Key*, This is a private key that is used for authentication between different systems, and saves you from having to type in your password over and over. Here, it will pop up a new window with a public key, that you want to copy to your clipboard.
+Em seguida, pressione o botão nesta janela em que está escrito *Create RSA Key*, esta é uma chave privada que é usada para autenticação entre diferentes sistemas, e evita que você tenha que digitar sua senha várias vezes. Aqui, ele irá abrir uma nova janela com uma chave pública, que você deseja copiar para a área de transferência.
 
-Head over to GitHub, go to your profile settings, and the *SSH and GPG keys* tab. Click *New SSH key*. Here, paste in the key from RStudio, and call it something imaginative like 'RStudio'.
+Vá para o GitHub, acesse as configurações do seu perfil e a guia *SSH e GPG keys*. Clique em *New SSH key*. Aqui, cole na chave do RStudio e renomeie como 'RStudio'.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/ssh_key.png?raw=true" width="800px"/>
 </p>
 
-<p align="center"><i>Inside GitHub where you will want to enter the key you just generated in RStudio</i></p>
+<p align="center"><i>Dentro do GitHub onde você deseja entrar com a chave que acabou de gerar no RStudio</i></p>
 
   
 
 
-OK, now hold on to your butts, we're going into the command line. Don’t worry if you’ve never used the shell before because it’s quite similar to using R, or any other coding system. The main difference here though is that instead of calling functions like in R, you call commands.
+Ok, agora mantenham-se firmes, vamos para a linha de comando. Não se preocupe se você nunca usou o shell antes, porque é bastante semelhante ao uso de R ou qualquer outro sistema de codificação. A principal diferença aqui é que em vez de chamar funções como em R, você chama comandos.
 
-So back in RStudio, go to **Tools > Shell**, and it will open up a command prompt window. If you already played with the Git Bash above, you should have done this step already. Enter the following two commands:
+Então, volte ao RStudio, vá para **Tools > Shell**, e se abrirá uma janela de notificação de comando. Se você já utilizou o Git Bash anteriormente, então deve ter feito este passo. Digite os dois comandos a seguir:
 
-`git config --global user.name 'YOUR USERNAME'`   
-`git config --global user.email 'YOUR EMAIL'`   
+`git config --global user.name 'SEU NOME DE USUÁRIO'`   
+`git config --global user.email 'SEU E-MAIL'`   
 
 
-Hopefully it does not have to be said to substitute in your own GitHub username and email here. You can access this at any point just by finding the 'Shell' within Windows. Or, if you right click on any folder on your Desktop that is linked to a GitHub repo, you can open up the Shell instantly and Bash away.
+Espero que não seja necessário substituir seu nome de usuário e seu e-mail do GitHub aqui. Você pode acessar isso a partir de qualquer ponto apenas encontrando o 'Shell' no Windows. Or, if you right click on any folder on your Desktop that is linked to a GitHub repo, you can open up the Shell instantly and Bash away.
 
 What this stage has done is configure Git, which is software that runs on your desktop, to GitHub, which is a repository website.
 
