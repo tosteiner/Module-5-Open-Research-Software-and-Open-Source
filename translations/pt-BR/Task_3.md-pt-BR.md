@@ -68,22 +68,22 @@ Embora isso tenha sido projetado principalmente para o código-fonte, deve ser i
 
 O RStudio é um ambiente de codificação popular para pesquisadores que usam a linguagem de programação estatística, R. Ele vem com um editor de texto, para que você não tenha que instalar outro e alternar entre eles. Inclui também uma interface gráfica de usuário (GUI) para Git e GitHub, que nós vamos usar aqui.
 
-Isn't it nice when brilliant Open Source tools integrate seamlessly like that. This should help to make your daily use of Git much simpler.
+Não é bacana quando ferramentas de código aberto geniais se integram perfeitamente como essa? Isso deve ajudar a tornar seu uso diário do Git muito mais simples.
 
-If at any point you need to install new packages for R, simply use the following command:
+Se em algum momento você precisar instalar novos pacotes para R, simplesmente use o seguinte comando:
 
-`install.packages("PACKAGE NAME", dependencies = TRUE)`
+`install.packages ("PACKAGE NAME", dependencies = TRUE)`
 
-Replacing `PACKAGE NAME` with the, er, package name. Some examples you can play with that might come in useful include `knitr`, `devtools` or `ggplot2`.
+Substituindo `PACKAGE NAME` pelo nome do pacote er. Alguns exemplos que você pode experimentar que talvez venham a ser úteis incluem: `knitr`, `devtools` ou `ggplot2`.
 
   
 
 
-## Step one: Download all the things <a name="one"></a>
+## Primeiro passo: faça o download de todas as coisas <a name="one"></a>
 
-1. You should already have a GitHub account by now if you have followed the previous tasks. If not, [sign up here](https://github.com/). Free unlimited repositories for all!
-2. Download and install the latest version of [R](https://www.r-project.org/). Also available for [Mac](https://cloud.r-project.org/) and [Linux](https://cloud.r-project.org/bin/linux/).
-3. Download and install the latest version of [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, hey, looks it Open Source! Swish.
+1. Você já deve ter uma conta no GitHub se você seguiu as tarefas anteriores. Se não, [inscreva-se aqui](https://github.com/). Repositórios ilimitados gratuitos para todos!
+2. Baixe e instale a versão mais recente do [R](https://www.r-project.org/). Também disponível para [Mac](https://cloud.r-project.org/) e [Linux](https://cloud.r-project.org/bin/linux/).
+3. Baixe e instale a versão mais recente do [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, Ei, parece que é Código Aberto! Impressionante.
 4. Download and install the latest version of [Git](https://gitforwindows.org/). **Make sure to Select “Use Git from the Windows Command Prompt” during installation.**
 
 > **Pro-tip**: To update all of your R packages in one, simply execute the following code `update.packages(ask = FALSE, checkBuilt = TRUE)`
