@@ -18,16 +18,16 @@ Estimativa de economia de tempo depois de concluída: praticamente infinita
 
 ## Sumário
 
-* [Como começar](#Getting_started) 
+* [Como começar](#Começando) 
   * [Git](#Git)
-  * [R Studio](#Rstudio)
-* [Primeiro passo: faça o download de todas as coisas](#one)
-* [Segundo passo: Configure o Git dentro do RStudio](#two)
-* [Terceiro passo: Por que eu fiz isso?](#three)
+  * [R Studio](#RStudio)
+* [Primeiro passo: faça o download de todas as coisas](#um)
+* [Segundo passo: Configure o Git dentro do RStudio](#dois)
+* [Terceiro passo: Por que eu fiz isso?](#três)
 * [Quarto passo: O casamento perfeito entre Git e R](#four)
-* [Quinto passo: Obtendo conteúdo com conteúdo](#five)
-* [Sexto passo: Um esforço corajoso](#six)
-* [Sétimo passo: FORÇA!](#seven)
+* [Quinto passo: Obtendo conteúdo com conteúdo](#cinco)
+* [Sexto passo: Um esforço corajoso](#seis)
+* [Sétimo passo: FORÇA!](#sete)
 
 ## Primeiros Passos<a name="Getting_started"></a>
 
@@ -140,16 +140,16 @@ Então, volte ao RStudio, vá para **Tools > Shell**, e se abrirá uma janela de
 `git config --global user.email 'SEU E-MAIL'`   
 
 
-Espero que não seja necessário substituir seu nome de usuário e seu e-mail do GitHub aqui. Você pode acessar isso a partir de qualquer ponto apenas encontrando o 'Shell' no Windows. Or, if you right click on any folder on your Desktop that is linked to a GitHub repo, you can open up the Shell instantly and Bash away.
+Espero que não seja necessário substituir seu nome de usuário e seu e-mail do GitHub aqui. Você pode acessar isso a partir de qualquer ponto apenas encontrando o 'Shell' no Windows. Ou, se você clicar com o botão direito do mouse em qualquer pasta da sua área de trabalho que esteja ligada a um repositório GitHub, poderá abrir o Shell instantaneamente e fazer o Bash de forma instantânea.
 
-What this stage has done is configure Git, which is software that runs on your desktop, to GitHub, which is a repository website.
+O que esse estágio fez foi configurar o Git, que é um software que roda em sua área de trabalho, para o GitHub, que é um site de repositório.
 
-Restart R Studio. Whew, that was tough. Next.
+Reinicie o R Studio. Uau, isso foi difícil. Próximo.
 
   
 
 
-## Step three: Why did I just do that? <a name="three"></a>
+## Terceiro passo: Por que eu fiz isso? <a name="three"></a>
 
 OK, hold your breathe, we're going to pause here just to learn some basic Git commands. Some of the key ones you could do with learning are:
 
@@ -170,7 +170,7 @@ It won't actually do anything for now, but in the future will add all files in y
   
 
 
-## Step four: The perfect marriage between Git and R <a name="four"></a>
+## Quarto passo: O casamento perfeito entre Git e R <a name="four"></a>
 
 Now, in Task 1, you should have learned how to build your very first GitHub repository. If you haven't done that, we can wait here while you go and do that. If you have already, or have an existing GitHub repository, we can move on.
 
@@ -186,11 +186,11 @@ What we are going to do now, is integrate that repository with Git. Steady now.
 
 What you just did was tell RStudio to associate a new project in R with specific repository on GitHub.
 
-## **Step four: Alternative**
+## **Passo 4: Alternativo**
 
 If you still haven't built your first repository on GitHub, we can do something slightly different here. In RStudio, click *New project* and then *New Directory*. Call it what you want and change the directory as needed, make sure to tick *Create a git repository*, and then click *Create Project*. This creates an `.Rproj` file, which you can manage in the usual way through RStudio, including adding `README.md`and `LICENSE.md` files as discussing in Task 1.
 
-## Step five: Getting content with content <a name="five"></a>
+## Quinto passo: Obtendo conteúdo com conteúdo <a name="five"></a>
 
 Remember that `README` file we created a while back? Well, it's time to write it. Thinking back to Task 1, there were some specific things that we said make a good `README` file. Do you remember what any of them were? Just to refresh your memory, these were:
 
@@ -216,7 +216,7 @@ Remember that your `README` file is in markdown (.md) format. For a refresher on
   
 
 
-## Step six: A brave commitment <a name="six"></a>
+## Sexto passo: Um esforço corajoso <a name="six"></a>
 
 OK, so now you should have a nicely edited `README` file. Now we are going to 'commit' this to the project using Git. This is basically the equivalent of saving this version of your project, with a record of what changes were made. Successive commits produce a history that can be examined at a later time, allowing you to work with confidence.
 
@@ -241,7 +241,7 @@ Now when you click 'Commit', another window will pop up, telling you how many fi
   
 
 
-## Step seven: PUSH! <a name="seven"></a>
+## Sétimo passo: FORÇA! <a name="seven"></a>
 
 Click the *Push* button in the top right of the new window. A new window will pop up now. What this is doing is synchronising the files changed on your local repository with the `README` file to the online version of the project on GitHub.
 
@@ -256,7 +256,7 @@ Close that window down, and the next one. Go to your project on GitHub, refresh,
   
 
 
-**OPTIONAL ADVANCED/AWESOME STEP**
+**ETAPA OPCIONAL AVANÇADA/ESPETACULAR**
 
 Alright, so you just pushed some content to your first repo, awesome! Now let's put it into practice for a real project. Like, the one you are participating in right now. Let's try this out:
 
@@ -284,7 +284,7 @@ Alright, so you just pushed some content to your first repo, awesome! Now let's 
 11.     Have a cup of tea, coffee, or wine to celebrate!
       
 
-**CONGRATULATIONS**
+**PARABÉNS!**
 
 You just integrated Git with R Studio, and made your first change to a version controlled project. Your life will now never be the same, and your research workflow will probably be more rapid, agile, and collaborative than ever. Good luck going back to Word.
 
@@ -311,24 +311,24 @@ From now on, it is all up to you! Some advice is to:
 
 Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
 
-## List of participants who completed the ADVANCED version of this task
+## Lista de participantes que completaram a versão AVANÇADA desta tarefa
 
-* Brendan Palmer,CRF-C, University College Cork
+* Brendan Palmer, CRF-C, Universidade College Cork
 * Lisa Matthias, Freie Universität Berlin
-* Hollie Marshall, University of Leicester 
-* Eric D. Wilkey, Western University, Canada
-* José-Raúl Canay-Pazos, Universidade de Santiago de Compostela, Spain
-* Encarnación Martínez Álvarez, Spain
-* Alberto Albz Marocchino, Italy
-* Iratxe Rubio, Basque Centre for Climate Change BC3
-* Gabriele Orlandi, Paris School of Advanced Studies in Social Sciences (EHESS), France
-* Hande Sodacı, Turkey
-* Luke W. Johnston, Aarhus University, Denmark
-* Philippe Joly, WZB and HU-Berlin
-* Paul Griffiths, NCAS and U. Cambridge
-* Harin Lee, Goldsmiths, University of London
-* Luis Camacho, Catholic University, Perú
-* Tom Cridford, Imperial College London
-* Nithiya Streethran, University of Stavanger 
+* Hollie Marshall, Universidade de Leicester 
+* Eric D. Wilkey, Western University, Canadá
+* José-Raúl Canay-Pazos, Universidade de Santiago de Compostela, Espanha
+* Encarnación Martínez Álvarez, Espanha
+* Alberto Albz Marocchino, Itália
+* Iratxe Rubio, Centro Basco para Mudança Climática BC3
+* Gabriele Orlandi, Escola de Estudos Avançados em Ciências Sociais de Paris (EHESS), França
+* Hande Sodacı, Turquia
+* Luke W. Johnston, Universidade de Aarhus, Dinamarca
+* Philippe Joly, WZB e HU-Berlim
+* Paul Griffiths, NCAS e U. Cambridge
+* Harin Lee, Goldsmiths, Universidade de Londres
+* Luis Camacho, Universidade Católica, Perú
+* Tom Cridford, Academia Imperial Londres
+* Nithiya Streethran, Universidade de Stavanger 
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
