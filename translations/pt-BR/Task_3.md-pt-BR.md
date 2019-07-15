@@ -84,19 +84,19 @@ Substituindo `PACKAGE NAME` pelo nome do pacote er. Alguns exemplos que você po
 1. Você já deve ter uma conta no GitHub se você seguiu as tarefas anteriores. Se não, [inscreva-se aqui](https://github.com/). Repositórios ilimitados gratuitos para todos!
 2. Baixe e instale a versão mais recente do [R](https://www.r-project.org/). Também disponível para [Mac](https://cloud.r-project.org/) e [Linux](https://cloud.r-project.org/bin/linux/).
 3. Baixe e instale a versão mais recente do [Rstudio](https://www.rstudio.com/products/rstudio/#Desktop). Oh, Ei, parece que é Código Aberto! Impressionante.
-4. Download and install the latest version of [Git](https://gitforwindows.org/). **Make sure to Select “Use Git from the Windows Command Prompt” during installation.**
+4. Baixe e instale a versão mais recente do [Git](https://gitforwindows.org/). **Certifique-se de selecionar “Usar Git do Prompt de Comando do Windows” durante a instalação.**
 
-> **Pro-tip**: To update all of your R packages in one, simply execute the following code `update.packages(ask = FALSE, checkBuilt = TRUE)`
+> **Dica**: Para atualizar todos os seus pacotes R em um só, simplesmente execute o seguinte código `update.packages(ask = FALSE, checkBuilt = TRUE)`
 
-For now, just choose all the usual default options for each install. Depending on which Operating System (e.g., Mac, Windows, Linux), this might be different for each of you. For now, and for the rest of this task, we're going to stick with doing things the easy-ish Windows way (but also provide some instructions for using the command line).
+Por enquanto, basta escolher todas as opções padrão usuais para cada instalação. Dependendo de qual sistema operacional (por exemplo, Mac, Windows, Linux), isso pode ser diferente para cada um de vocês. Por enquanto, e para o restante desta tarefa, continuaremos fazendo as coisas da maneira mais fácil do Windows (mas também forneceremos algumas instruções para usar a linha de comando).
 
-For Linux or Debian users, simply use the following command to install Git:
+Para usuários Linux ou Debian, simplesmente use o seguinte comando para instalar o Git:
 
 `sudo apt-get install git-core`
 
-For Mac users, [this link](http://git-scm.com/download/mac), or purchase a new laptop with a different operating system.
+Para usuários de Mac, [acesse este link ](http://git-scm.com/download/mac)ou adquira um novo laptop com um sistema operacional diferente.
 
-If you want, you can also download the [local version of GitHub](https://desktop.github.com/) and use it through the simple GUI. It's available on Windows and Mac and Linux, and can make your life a little easier, especially if you want to use a different platform to RStudio.
+Se você quiser, também pode baixar a versão [local do GitHub](https://desktop.github.com/) e usá-lo através da GUI simples. Está disponível no Windows, no Mac e no Linux, e pode tornar sua vida um pouco mais fácil, especialmente se você quiser usar uma plataforma diferente para o RStudio.
 
 > **Pro-tip:** You see when installing Git it says 'Use Git Bash as shell for Git projects?' This is the place where you can use the command-line to access Git from outside of RStudio. It's a powerful beast. Try the following two commands to get started:
 
