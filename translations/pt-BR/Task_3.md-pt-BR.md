@@ -106,15 +106,15 @@ Se você quiser, também pode baixar a versão [local do GitHub](https://desktop
 
 ## Segundo passo: Configure o Git dentro do RStudio <a name="two"></a>
 
-Certo, essa é a parte fácil. Next, go into RStudio, and in the tabs at the top go to Go to **Tools > Global Options > Git/SVN**. SVN is just another version control system like Git, and we don't need to worry about that here.
+Certo, essa é a parte fácil. Em seguida, entre no RStudio e acesse as abas no topo, vá para **Tools > Global Options > Git/SVN**. O SVN é apenas outro sistema de controle de versão como o Git, mas não precisamos nos preocupar com isso aqui.
 
-In the place where it says *Git executable*, add the pathway here to the git.exe file that you just downloaded in the previous step. Make sure the box here that says **Enable version control interface for RStudio projects** is ticked. This now has tied version control to future projects in RStudio, to provide a really powerful additional dimension to collaborative or solo work.
+No lugar onde está escrito *Git executable*, adicione o caminho para o arquivo git.exe que você acabou de baixar na etapa anterior. Marque a caixa de seleção abaixo na opção **Enable version control interface for RStudio projects**. Agora, este projeto tem controle de versão vinculado a projetos futuros no RStudio, de forma a viabilizar uma dimensão adicional realmente poderosa ao trabalho colaborativo ou individual.
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/git_svn.png?raw=true" width="400px"/>
 </p>
 
-<p align="center"><i>The Global Options window inside RStudio</i></p>
+<p align="center"><i>A janela de opções globais dentro do RStudio</i></p>
 
   
 
