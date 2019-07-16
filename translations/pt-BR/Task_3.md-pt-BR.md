@@ -300,16 +300,16 @@ De agora em diante, tudo depende de você! Alguns conselhos são para:
 
 * Execute o comando 'Push' frequentemente Se os outros estiverem trabalhando remotamente no mesmo projeto, você deverá manter-se atualizado com as alterações. Certifique-se de efetuar as alterações frequentemente no GitHub para ter certeza de que estão todos em sincronia.
 
-* Experiment and explore! This task really only scratches the surface, and there are many different functions, tools, and ways this can be used. Really, it is up to you to find out how to use this information to improve your research workflow, and ultimately collaborate on better, more open and reliable research!
+* Experimente e explore! Esta tarefa realmente só racha a superfície, existem muitas funções, ferramentas e maneiras diferentes de usá-la. Realmente, cabe a você descobrir como usar essas informações para melhorar o seu fluxo de trabalho de pesquisa e, finalmente, colaborar em uma pesquisa melhor, mais aberta e confiável!
 
-* To learn more about issues, branches, merge conflicts, pull requests, and other advanced aspects of using Git and RStudio, check out this [awesome guide](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham.
+* Para saber mais sobre issues (questões e problemas), branches (ramificações), merge conflicts (conflitos de mesclagem), pull requests (solicitações de extração) e outros aspectos avançados do uso do Git e do RStudio, confira este [incrível guia](http://r-pkgs.had.co.nz/git.html) de Hadley Wickham.
 
   
 
 
-**Know a way this content can be improved?**
+**Sabe como esse conteúdo pode ser melhorado?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
 ## Lista de participantes que completaram a versão AVANÇADA desta tarefa
 
