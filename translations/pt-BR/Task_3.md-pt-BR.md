@@ -260,19 +260,19 @@ Feche essa janela e a próxima. Vá para o seu projeto no GitHub, atualize e ver
 
 Muito bem, então você acabou de transferir alguns conteúdos para o seu primeiro repositório, fantástico! Agora vamos colocá-lo em prática para um projeto real. Como o que está participando agora. Vamos tentar o seguinte:
 
-1. Go to the repository for this project on [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
+1. Vá para o repositório deste projeto no [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
 
-2. Fork the repository to your own GitHub account. The URL for this should be: `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
+2. Bifurque o repositório utilizando o comando 'Fork 'em sua própria conta do GitHub. A URL para isso deve ser: `https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source.git`
 
-3. Head into RStudio, go to **File > New Project**, choose *Version Control*, select *Git*, and then paste the forked repository URL found in your copy of the repository. You now have your own versioned copy of this whole module. Neat. Save this somewhere on your local machine.
+3. Dirija-se ao RStudio, vá para File (Arquivo) **> New Project (Novo Projeto)**, escolha *Version Control (Controle de Versão)*, selecione *Git* e cole o URL do repositório bifurcado localizado na sua cópia do repositório. Agora você tem sua própria cópia de uma versão deste módulo inteiro. Tudo pronto. Salve isso em algum lugar na sua máquina local.
 
-4. Now, you need to tell Git that a different version of this project exists. Open up the *Shell*, and enter the command: `git remote add upstream https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
+4. Agora, você precisa dizer ao Git que existe uma versão diferente deste projeto. Abra o *Shell* e insira o comando: `git remote add upstream https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source`
 
-5. What you just did was name the original branch here `upstream`, just to keep things simple for now. Now, create a new **branch** to document your changes to this independent of the main branch. Enter the command: `git checkout -b proposed-changes master`
+5. O que você acabou de fazer foi nomear o branch original aqui em `upstream`, apenas para manter as coisas simples por enquanto. Agora, crie um novo **branch** para documentar suas alterações para este independente do branch principal (main branch). Digite o comando: `git checkout -b proposed-changes master`
 
-6. You just created a new branch called `proposed-changes` where you can now edit all of the content and files to your heart's delight. Hopefully, the structure of this project is simple enough for you to navigate around. All of the raw files for the MOOC can be found in the `content_development` folder, and this is `Task_3.md`.
+6. Você acabou de criar uma nova ramificação chamada `proposed-changes` onde agora é possível editar todo o conteúdo e arquivos para o deleite do seu coração. Espero que a estrutura deste projeto seja simples o suficiente para você navegar. Todos os arquivos brutos para este curso podem ser encontrados na pasta `content_development` , e esta é `Task_3.md`.
 
-7. If you scroll to the bottom of `Task_3.md`, you should see a place where you can edit in your name and affiliation. Add these in, and then go through the commit procedure detailed above. If you see anything else that needs editing too, feel free to add them in too!
+7. Se você rolar para a parte inferior do `Task_3.md`, você verá um lugar onde você pode editar em seu nome e afiliação. Add these in, and then go through the commit procedure detailed above. If you see anything else that needs editing too, feel free to add them in too!
 
 8. Now, you want to push the changes back to the original branch. Use the following command in your *Shell*: `git push origin proposed-changes`
 
