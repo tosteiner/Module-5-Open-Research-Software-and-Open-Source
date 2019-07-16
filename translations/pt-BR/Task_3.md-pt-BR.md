@@ -192,16 +192,16 @@ Se você ainda não construiu seu primeiro repositório no GitHub, podemos fazer
 
 ## Quinto passo: Obtendo conteúdo com conteúdo <a name="five"></a>
 
-Lembra-se de que `arquivos README` foram criados há algum tempo? Bem, agora é a hora de escrever isso. Lembrando-nos da Tarefa 1, havia algumas coisas específicas que dissemos fazer parte de um bom arquivo `README`. Você se lembra de quais elementos eram? Just to refresh your memory, these were:
+Lembra-se de que `arquivos README` foram criados há algum tempo? Bem, agora é a hora de escrever isso. Lembrando-nos da Tarefa 1, havia algumas coisas específicas que dissemos fazer parte de um bom arquivo `README`. Você se lembra de quais elementos eram? Apenas para refrescar sua memória, são:
 
-* What is this project about and what does it do.
-* Why should people care, and why is it useful.
-* How can someone get started contributing to the project.
-* Who can be contacted in case someone needs help.
-* A link to the license, contributing guidelines, and code of conduct.
-* A description of the project structure.
-* Who is involved, and what are their roles.
-* The current status of the project.
+* Sobre o que é este projeto e o que ele faz.
+* Por que as pessoas deveriam se importar e por que isso é útil.
+* Como alguém pode começar a contribuir com o projeto.
+* Quem pode ser contatado no caso de alguém precisar de ajuda.
+* Um link para a licença, diretrizes de contribuição e código de conduta.
+* Uma descrição da estrutura do projeto.
+* Quem está envolvido e quais são os papéis desempenhados.
+* O status atual do projeto.
 
 So, in RStudio, open that file try adding just a bit of information about this for your project. If you are doing this for an actual project, try and make it useful. If you are just tinkering for now, you can add what you want.
 
