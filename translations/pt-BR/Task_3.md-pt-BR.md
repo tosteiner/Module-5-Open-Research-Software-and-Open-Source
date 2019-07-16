@@ -172,19 +172,19 @@ Na verdade, ele não fará nada por enquanto, mas no futuro adicionará todos os
 
 ## Quarto passo: O casamento perfeito entre Git e R <a name="four"></a>
 
-Now, in Task 1, you should have learned how to build your very first GitHub repository. If you haven't done that, we can wait here while you go and do that. If you have already, or have an existing GitHub repository, we can move on.
+Agora, na Tarefa 1, você deve ter aprendido a construir seu primeiro repositório do GitHub. Se você não fez isso, podemos esperar aqui enquanto você faz isso. Se você já tiver, ou tem um repositório GitHub existente, podemos continuar.
 
-So, you should have a repository on GitHub, complete with a `README` file, a `LICENSE` file and some other bits and bobs.
+Portanto, você deve ter um repositório no GitHub, completo com um arquivo `README` , um arquivo `LICENSE` e alguns outros arquivos que fazem parte do projeto.
 
-What we are going to do now, is integrate that repository with Git. Steady now.
+O que vamos fazer agora é integrar esse repositório com o Git. Mantenha-se firme agora.
 
-1. Firstly, go to **Project > Create Project > Version Control > Git**.
-2. Back on GitHub, you should see a bit where there is a https:// URL. That is the link to your repository, and it gives you the option to clone it in your desktop. For now, just copy that link, switch back to RStudio, and paste it into the 'Repository URL' as indicated.
-3. Give the project a directory name, like test, Jim, or whatever you want.
-4. Next, browse for the place on your desktop where you want this project to live, its subdirectory.
-5. Click 'Create Project', and let the magic be done!
+1. Primeiramente, vá para **Project (Projeto)> Create Project (Criar Projeto)> Version Control (Controle de Versão)> Git**.
+2. Volte ao GitHub, você deve procurar onde há uma URL https://. Esse é o link para o seu repositório, e ele dá a opção de cloná-lo em sua área de trabalho. Por enquanto, basta copiar esse link, voltar para o RStudio e colá-lo no 'URL do repositório' (Repository URL), conforme indicado.
+3. Dê ao projeto um nome de diretório, como teste, Jim ou o que você quiser.
+4. Em seguida, procure o local em sua área de trabalho onde você deseja que este projeto resida, seu subdiretório.
+5. Clique em 'Criar Projeto' (Create Project) e deixe a mágica acontecer!
 
-What you just did was tell RStudio to associate a new project in R with specific repository on GitHub.
+O que você acabou de fazer foi dizer ao RStudio para associar um novo projeto em R com um repositório específico no GitHub.
 
 ## **Passo 4: Alternativo**
 
