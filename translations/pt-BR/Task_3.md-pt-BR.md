@@ -251,7 +251,7 @@ Para fazer isso no Shell, use o seguinte comando:
 
 Algumas vezes aqui será solicitado que você adicione seu nome de usuário e senha do GitHub, o que deve ser feito se solicitado.
 
-Feche essa janela e a próxima. Go to your project on GitHub, refresh, and check that the `README` file is still there in all its newly edited glory. You should see the commit message you made next to the file too.
+Feche essa janela e a próxima. Vá para o seu projeto no GitHub, atualize e verifique se o arquivo `README` ainda está lá em toda a sua glória recém editada. You should see the commit message you made next to the file too.
 
   
 
