@@ -272,33 +272,33 @@ Muito bem, então você acabou de transferir alguns conteúdos para o seu primei
 
 6. Você acabou de criar uma nova ramificação chamada `proposed-changes` onde agora é possível editar todo o conteúdo e arquivos para o deleite do seu coração. Espero que a estrutura deste projeto seja simples o suficiente para você navegar. Todos os arquivos brutos para este curso podem ser encontrados na pasta `content_development` , e esta é `Task_3.md`.
 
-7. Se você rolar para a parte inferior do `Task_3.md`, você verá um lugar onde você pode editar em seu nome e afiliação. Add these in, and then go through the commit procedure detailed above. If you see anything else that needs editing too, feel free to add them in too!
+7. Se você rolar para a parte inferior do `Task_3.md`, você verá um lugar onde você pode editar em seu nome e afiliação. Adicione-os e, em seguida, passe pelo procedimento de confirmação (commit) detalhado acima. Se você notar algo mais que precise ser editado, sinta-se à vontade para adicioná-lo também!
 
-8. Now, you want to push the changes back to the original branch. Use the following command in your *Shell*: `git push origin proposed-changes`
+8. Agora, você quer fazer com que as mudanças voltem para o brach original. Use o seguinte comando em seu *Shell*: `git push origin proposed-changes`
 
-9. Go back to GitHub and find your fork here. Click the little green button, and create a pull request. This is essentially a review to integrate the changes made into the original branch for this MOOC project.
+9. Volte para o GitHub e encontre seu fork aqui. Clique no botão verde e crie um pull request. Esta é essencialmente uma revisão para integrar as alterações feitas no branch original para este projeto do curso.
 
-10.     The owners in charge of the MOOC project will now get a notification of this, review it, and confirm it if everything went to plan! We will review it, and if it all went okay, your name will now appear for all eternity as someone who completed this advanced task.
+10.     Os proprietários encarregados do projeto do curso agora receberão uma notificação, revisarão e confirmarão se tudo saiu conforme o planejado! Vamos revisá-lo e, se tudo correr bem, seu nome aparecerá por toda a eternidade como alguém que completou essa tarefa avançada.
       
 
-11.     Have a cup of tea, coffee, or wine to celebrate!
+11.     Tome uma xícara de chá, café ou vinho para comemorar!
       
 
 **PARABÉNS!**
 
-You just integrated Git with R Studio, and made your first change to a version controlled project. Your life will now never be the same, and your research workflow will probably be more rapid, agile, and collaborative than ever. Good luck going back to Word.
+Você acabou de integrar o Git com o R Studio e fez sua primeira alteração em um projeto de versão controlada. Sua vida nunca mais será a mesma e seu fluxo de trabalho de pesquisa provavelmente será mais rápido, ágil e mais colaborativo do que nunca. Boa sorte voltando ao Word.
 
-The great thing is that this doesn't have to just be used for code. You can use it for plain text, markdown, html, and, well, R code. The possibilities are limitless - what you have just learned is a new form of openly collaborative project management that works for an enormous range of tasks.
+O melhor é que isso não precisa ser usado apenas para código. Você pode usá-lo para texto simples, markdown, html e, bem, código R. As possibilidades são ilimitadas - o que você acabou de aprender é uma nova forma de gerenciamento de projeto abertamente colaborativo que funciona para uma enorme variedade de tarefas.
 
-From now on, it is all up to you! Some advice is to:
+De agora em diante, tudo depende de você! Alguns conselhos são para:
 
-* Make frequent commits. Treat Git like your puppy, in that it requires constant and special attention. Just a pat on the head every now and then is enough to keep it satisfied, but it'll be happiest with sustained servicing.
+* Faça commits frequentes. Trate o Git como seu filhote, pois requer atenção constante e especial. Apenas um tapinha na cabeça de vez em quando é suficiente para mantê-lo satisfeito, mas será mais feliz com manutenção sustentada.
 
-* The best way to do this is to make a commit each time you work on a specific problem. For example, writing a paragraph, running an analysis, or fixing a bug.
+* A melhor maneira de fazer isso é fazer um commit toda vez que você trabalha em um problema específico. Por exemplo, escrevendo um parágrafo, executando uma análise ou corrigindo um erro.
 
-* Push often. Don't let those commits build up, otherwise you run more risk of getting into merge conflicts. Seeing as these can be the stuff of nightmares, just make sure to push often.
+* Execute o comando 'Push' frequentemente Não deixe que os commits se acumulem, caso contrário, você corre mais risco de entrar em conflitos de mesclagem. Visto que estes podem representar o material dos pesadelos, não se esqueça de executar o comando 'Push' com frequência.
 
-* Pull often. If others are working remotely on the same project, you will want to stay up to date with their changes. Make sure to frequently pull in their changes from GitHub to make sure you are all in sync.
+* Execute o comando 'Push' frequentemente Se os outros estiverem trabalhando remotamente no mesmo projeto, você deverá manter-se atualizado com as alterações. Certifique-se de efetuar as alterações frequentemente no GitHub para ter certeza de que estão todos em sincronia.
 
 * Experiment and explore! This task really only scratches the surface, and there are many different functions, tools, and ways this can be used. Really, it is up to you to find out how to use this information to improve your research workflow, and ultimately collaborate on better, more open and reliable research!
 
