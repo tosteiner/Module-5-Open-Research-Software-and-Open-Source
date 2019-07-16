@@ -151,7 +151,7 @@ Reinicie o R Studio. Uau, isso foi difícil. Próximo.
 
 ## Terceiro passo: Por que eu fiz isso? <a name="three"></a>
 
-OK, hold your breathe, we're going to pause here just to learn some basic Git commands. Some of the key ones you could do with learning are:
+OK, mantenha sua respiração, vamos fazer uma pausa aqui apenas para aprender alguns comandos básicos do Git. Some of the key ones you could do with learning are:
 
 * **Add**: This is where you submit files to the staging area before being committed.
 
