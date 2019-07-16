@@ -151,21 +151,21 @@ Reinicie o R Studio. Uau, isso foi difícil. Próximo.
 
 ## Terceiro passo: Por que eu fiz isso? <a name="three"></a>
 
-OK, mantenha sua respiração, vamos fazer uma pausa aqui apenas para aprender alguns comandos básicos do Git. Some of the key ones you could do with learning are:
+OK, mantenha sua respiração, vamos fazer uma pausa aqui apenas para aprender alguns comandos básicos do Git. Alguns dos principais comandos que você pode fazer para aprender são:
 
-* **Add**: This is where you submit files to the staging area before being committed.
+* **Add (Adicionar)**: É onde você envia os arquivos para a área de preparação antes de ser submetido.
 
-* **Commit** This is like 'saving' your work by creating a new version or copy.
+* **Commit** É como 'salvar' seu trabalho criando uma nova versão ou cópia.
 
-* **Push**: This is how you send files from your local project to the online repository.
+* **Push**: É assim que você envia os arquivos do seu projeto local para o repositório online.
 
-* **Pull**: This is how you get files from your online repository to your local project.
+* **Pull**: É assim que você obtém os arquivos do seu repositório online para o seu projeto local.
 
-Back in RStudio, type in the following into the *Terminal*, or by opening up a new Shell:
+Volte ao RStudio, digite o seguinte no *Terminal*, ou abrindo um novo Shell:
 
-`git add .`
+`git add.`
 
-It won't actually do anything for now, but in the future will add all files in your current working directory (that's what the `.` does) to staging ready for a commit.
+Na verdade, ele não fará nada por enquanto, mas no futuro adicionará todos os arquivos em seu diretório de trabalho atual (isso é o que o `` faz) para a preparação e deixar tudo pronto para executar o comando commit.
 
   
 
