@@ -230,28 +230,28 @@ Vamos apenas ficar com a segunda opção por enquanto. Este painel Git mostra qu
 
 Selecione o arquivo `README` na janela do Git, que deve aparecer automaticamente se você tiver feito qualquer edição. Isso adiciona esse arquivo à área de "teste", que é como o espaço de pré-salvamento para o seu trabalho. Clique em "Commit" e uma nova janela deve aparecer.
 
-Here, you have a chance to review your changes, and write a nice commit message. Type in something brief, but informative about the changes that you have made in this version or snapshot of your work. You want this to be enough information so that if you or someone else looks back on it, you'll know why you made this commit and the changes associated with it. These are like safety nets for your project in case you need to fall back for some reason.
+Aqui, você tem a chance de revisar suas alterações e escrever uma boa mensagem de confirmação. Digite algo breve, mas informativo sobre as alterações que você fez nesta versão ou uma imagem de captura de tela do seu trabalho. Você vai querer que essa informação seja suficiente para que, caso você ou outra pessoa olhe para trás, saiba por que você fez esse commit e as mudanças associadas a ele. Estes são como redes de segurança para o seu projeto, caso você precise voltar por algum motivo.
 
-> **Pro-tip**: Here, you will see a list of all the changes you have made since your last commit. Older removed lines are in red, and newly added lines are in green. Double check these to make sure that the edits you have made are the ones you intended to make. This is really helpful for spotting typos, stray edits, and any other little mistakes you might have accidentally introduced. Safety first.
+> **Dica**: Aqui, você verá uma lista de todas as alterações feitas desde o último commit. As linhas removidas mais antigas estão em vermelho e as linhas recém-adicionadas estão em verde. Verifique novamente para garantir que as edições feitas são aquelas que você pretendia fazer. Isso é realmente útil para identificar erros de digitação, edições erradas e quaisquer outros pequenos erros que você possa ter introduzido acidentalmente. Segurança Primeiro
 
-**Note** If you are colour-blind and can't see which lines have been added or removed, you can use the line numbers in the two columns on the left of the window as a guide. Here, the number in the first column identifies the older version, and the number in the second column identifies the new version.
+**Nota** Se você é daltônico e não pode ver quais linhas foram adicionadas ou removidas, você pode usar os números de linha nas duas colunas à esquerda da janela como um guia. Aqui, o número na primeira coluna identifica a versão mais antiga e o número na segunda coluna identifica a nova versão.
 
-Now when you click 'Commit', another window will pop up, telling you how many files you have changed and the number of lines within that file you have changed. Close that little window down.
+Agora, quando você clicar em "Commit", outra janela será exibida, informando quantos arquivos você alterou e o número de linhas dentro desse arquivo que você alterou. Feche essa janelinha.
 
   
 
 
 ## Sétimo passo: FORÇA! <a name="seven"></a>
 
-Click the *Push* button in the top right of the new window. A new window will pop up now. What this is doing is synchronising the files changed on your local repository with the `README` file to the online version of the project on GitHub.
+Clique no botão *Push* no canto superior direito da nova janela. Uma nova janela irá aparecer agora. Isto irá sincronizar os arquivos alterados no seu repositório local com o arquivo `README` para a versão online do projeto no GitHub.
 
-To do this from the Shell, use the following command:
+Para fazer isso no Shell, use o seguinte comando:
 
 `git push -u origin master`
 
-Some times here you will be prompted to add your username and password from GitHub, which you should do if asked.
+Algumas vezes aqui será solicitado que você adicione seu nome de usuário e senha do GitHub, o que deve ser feito se solicitado.
 
-Close that window down, and the next one. Go to your project on GitHub, refresh, and check that the `README` file is still there in all its newly edited glory. You should see the commit message you made next to the file too.
+Feche essa janela e a próxima. Go to your project on GitHub, refresh, and check that the `README` file is still there in all its newly edited glory. You should see the commit message you made next to the file too.
 
   
 
