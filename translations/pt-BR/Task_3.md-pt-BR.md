@@ -203,32 +203,32 @@ Lembra-se de que `arquivos README` foram criados há algum tempo? Bem, agora é 
 * Quem está envolvido e quais são os papéis desempenhados.
 * O status atual do projeto.
 
-So, in RStudio, open that file try adding just a bit of information about this for your project. If you are doing this for an actual project, try and make it useful. If you are just tinkering for now, you can add what you want.
+Então, no RStudio, abra esse arquivo e adicione apenas algumas informações em seu projeto. Se você está fazendo isso para um projeto real, tente torná-lo útil. Se você está apenas manipulando neste momento, pode adicionar o que quiser.
 
-Remember that your `README` file is in markdown (.md) format. For a refresher on some of the simple syntax markdown uses, check this [handy cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Lembre-se de que seu arquivo `README` está no formato markdown (.md). Para aprender o básico em markdown, veja [este folheto](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 <p align="center">
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/markdown.png?raw=true" width="600px"/>
 </p>
 
-<p align="center"><i>Screenshot of what this module looks in markdown, during development. Meta.</i></p>
+<p align="center"><i>Captura de tela do que este módulo parece em markdown, durante o desenvolvimento. Meta.</i></p>
 
   
 
 
 ## Sexto passo: Um esforço corajoso <a name="six"></a>
 
-OK, so now you should have a nicely edited `README` file. Now we are going to 'commit' this to the project using Git. This is basically the equivalent of saving this version of your project, with a record of what changes were made. Successive commits produce a history that can be examined at a later time, allowing you to work with confidence.
+OK, agora você deve ter um arquivo `README` bem editado. Agora vamos fazer um "commit" disso para o projeto usando o Git. Isso é basicamente o equivalente a salvar essa versão do seu projeto, com um registro de quais alterações foram feitas. Os commits sucessivos produzem um histórico que pode ser examinado posteriormente, permitindo que você trabalhe com confiança.
 
-There are a few ways of doing this.
+Existem algumas maneiras de fazer isso.
 
-1. Go to **Tools > Version Control > Commit**
-2. In the environment pane in RStudio, there should be a new 'Git' tab. Handy.
-3. In your console pane, there should now be a new 'Terminal', which you can run Git command lines through.
+1. Vá para **Tools (Ferramentas)> Version Control (Controle de Versão)> Commit**
+2. No painel de ambiente do RStudio, deve haver uma nova guia 'Git'. Prático
+3. Em seu painel de console, deve haver agora um novo 'Terminal', no qual você pode executar as linhas de comando do Git.
 
-Let's just stick with the second option for now. This Git pane shows you which files have been changed and includes buttons for the most important Git commands we saw earlier.
+Vamos apenas ficar com a segunda opção por enquanto. Este painel Git mostra quais arquivos foram alterados e inclui botões para os comandos Git mais importantes que vimos anteriormente.
 
-Select the `README` file in the Git window, which should show up automatically if you have made any edits to it. This adds that file to the 'staging' area, which is sort of like the pre-saving space for your work. Click 'Commit' and a new window should pop up.
+Selecione o arquivo `README` na janela do Git, que deve aparecer automaticamente se você tiver feito qualquer edição. Isso adiciona esse arquivo à área de "teste", que é como o espaço de pré-salvamento para o seu trabalho. Clique em "Commit" e uma nova janela deve aparecer.
 
 Here, you have a chance to review your changes, and write a nice commit message. Type in something brief, but informative about the changes that you have made in this version or snapshot of your work. You want this to be enough information so that if you or someone else looks back on it, you'll know why you made this commit and the changes associated with it. These are like safety nets for your project in case you need to fall back for some reason.
 
