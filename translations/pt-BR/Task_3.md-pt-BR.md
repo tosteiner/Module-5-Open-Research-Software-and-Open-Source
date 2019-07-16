@@ -188,11 +188,11 @@ O que você acabou de fazer foi dizer ao RStudio para associar um novo projeto e
 
 ## **Passo 4: Alternativo**
 
-If you still haven't built your first repository on GitHub, we can do something slightly different here. In RStudio, click *New project* and then *New Directory*. Call it what you want and change the directory as needed, make sure to tick *Create a git repository*, and then click *Create Project*. This creates an `.Rproj` file, which you can manage in the usual way through RStudio, including adding `README.md`and `LICENSE.md` files as discussing in Task 1.
+Se você ainda não construiu seu primeiro repositório no GitHub, podemos fazer algo um pouco diferente aqui. No RStudio, clique em *New project* e, em seguida, em *New Directory*. Atribua o nome que quiser e altere o diretório conforme necessário, certifique-se de marcar a opção *Create a git repository (Criar um repositório git)* e, em seguida, clique em *Create Project*. Isso cria um arquivo `.Rproj` , que você pode gerenciar da maneira usual no RStudio, incluindo a adição de `arquivos README.md`e `LICENSE.md` como discutido na Tarefa 1.
 
 ## Quinto passo: Obtendo conteúdo com conteúdo <a name="five"></a>
 
-Remember that `README` file we created a while back? Well, it's time to write it. Thinking back to Task 1, there were some specific things that we said make a good `README` file. Do you remember what any of them were? Just to refresh your memory, these were:
+Lembra-se de que `arquivos README` foram criados há algum tempo? Bem, agora é a hora de escrever isso. Lembrando-nos da Tarefa 1, havia algumas coisas específicas que dissemos fazer parte de um bom arquivo `README`. Você se lembra de quais elementos eram? Just to refresh your memory, these were:
 
 * What is this project about and what does it do.
 * Why should people care, and why is it useful.
