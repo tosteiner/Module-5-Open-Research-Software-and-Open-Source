@@ -251,14 +251,14 @@ Para fazer isso no Shell, use o seguinte comando:
 
 Algumas vezes aqui será solicitado que você adicione seu nome de usuário e senha do GitHub, o que deve ser feito se solicitado.
 
-Feche essa janela e a próxima. Vá para o seu projeto no GitHub, atualize e verifique se o arquivo `README` ainda está lá em toda a sua glória recém editada. You should see the commit message you made next to the file too.
+Feche essa janela e a próxima. Vá para o seu projeto no GitHub, atualize e verifique se o arquivo `README` ainda está lá em toda a sua glória recém editada. Você deve visualizar a mensagem de submissão (commit) que criou ao lado do arquivo também.
 
   
 
 
 **ETAPA OPCIONAL AVANÇADA/ESPETACULAR**
 
-Alright, so you just pushed some content to your first repo, awesome! Now let's put it into practice for a real project. Like, the one you are participating in right now. Let's try this out:
+Muito bem, então você acabou de transferir alguns conteúdos para o seu primeiro repositório, fantástico! Agora vamos colocá-lo em prática para um projeto real. Como o que está participando agora. Vamos tentar o seguinte:
 
 1. Go to the repository for this project on [GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source)
 
