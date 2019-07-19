@@ -39,30 +39,30 @@ Este vídeo virá na Introdução, antes dos resultados de aprendizado, e mostra
 ## Brief layout
 
 1. Sessão Introdutória (Jon)
-2. Sessão Intermediária, contendo 6 relatos entre 30-120 segundos de cada apresentador (todos)
+2. Sessão do Meio, contendo 6 relatos entre 30-120 segundos de cada apresentador (todos)
 3. Conclusões (Jon)
 
 ## Introdução - Jon
 
-"Welcome to Module 5 of the Open Science MOOC, on Open Research Software and Open Source. In this module, we will learn about the importance of open source software in modern research. The module will help to equip us the relevant knowledge and tools to transform software into something that can be openly accessed and re-used by others.
+Bem-vindo(a) ao Módulo 5 do curso Ciência Aberta: Software de Pesquisa e código-fonte aberto. Neste módulo, aprenderemos sobre a importância de softwares de código aberto em pesquisas modernas. Este módulo nos dará conhecimento relevante e ferramentas para transformar softwares em algo que possa ser acessado abertamente e reutilizado por outros.
 
-This video will answer a key question: Why is Open Source Software important for you and your research? To help with this, we have spoken with 6 researchers across the world who use Open Source Software in their daily practices, and can testify to the great impact it can have on their research workflows. Because Open Source is just as much about the people as it is the technology."
+Este vídeo irá responder à pergunta-chave: Por que Softwares de Código Aberto são importantes para você e sua pesquisa? Para nos ajudar, conversamos com 6 pesquisadores ao redor do mundo que utilizam Softwares de Código Aberto em suas atividades diárias e podem testemunhar para o grande impacto que eles tem em seus fluxos de trabalho. Porque Código Aberto é sobre as pessoas, assim como é sobre tecnologia."
 
-## Middle (body) - All
+## Meio (corpo) - Todos
 
-[Per presenter]
+[Por apresentador]
 
-- Intro - name, discipline, affiliation.
-- When you became interested in OSS.
-- A specific example of how using OSS has impacted you and your research.
-- Name the software and specific outcomes from using it. Use names of others if needed.
-- Finish each story relating to the overall impact it has had on your research.
+- Introdução - nome, disciplina, afiliação.
+- Quando você se interessou por OSS.
+- Um exemplo específico de como OSS impactou sua você e sua pesquisa.
+- O nome do software e resultados específicos de sua utilização. Utilize o nome de outros, se necessário.
+- Encerre cada história relatando o impacto abrangente que o OSS teve em sua pesquisa.
 
-## Conclusions - Jon
+## Conclusões - Jon
 
-"So there we have it, 6 awesome stories from some talented researchers about the transformation that Open Source Software can have on our research practices. These tools have the potential to make our lives as researchers much easier, making our research more efficient, cost-effective, and transparent.
+"Então, ai está, 6 histórias incríveis de pesquisadores talentosos sobre a transformação que os Softwares de Código Aberto podem tem em nossas práticas diárias. Essas ferramentas tem potencial para fazer nossas vidas como pesquisadores muito mais fáceis, tornando nossas pesquisas mais eficientes, econômicas e transparentes.
 
-In the rest of this module, we will learn a little more about the principles and community behind Open Source Software, how to make our own good software for re-use, and also how to cite any software we use in our own research. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
+No resto deste módulo, aprenderemos um pouco mais sobre os principios da comunidade por trás dos Softwares de Código Aberto, como fazer nosso próprio software para reutiliza-lo e também como citar qualquer software que utilizarmos em nossa própria pesquisa. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
 
 Hopefully, by the end of the module, you will be able to apply these skills and knowledge to make your daily activities as a researcher more efficient. The next part of this module is just what is Open Source Software - enjoy!"
 
