@@ -66,7 +66,7 @@ No resto deste módulo, aprenderemos um pouco mais sobre os principios da comuni
 
 Espero que, até o fim do módulo, você seja capaz de aplicar essa habilidades e conhecimentos para fazer suas atividades e diárias como pesquisador, mais eficientes. A próxima parte deste módulo é exatamente o que é Software de Código Aberto - aproveite!"
 
-## Post-recording tasks
+## Pós-produção
 
 - Crie uma transcrição e arquivo de legendas (para tradução)
 - Adicione slides de início e fim
@@ -91,4 +91,4 @@ Assinado:
 - Heidi Seibold
 - Konrad Förstner
 - Ina Smith
-- Abigail Cabunoc Mayes
+- Ina Smith
