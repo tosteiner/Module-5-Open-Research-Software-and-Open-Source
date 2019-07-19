@@ -44,7 +44,7 @@ Este vídeo virá na Introdução, antes dos resultados de aprendizado, e mostra
 
 ## Introdução - Jon
 
-Bem-vindo(a) ao Módulo 5 do curso Ciência Aberta: Software de Pesquisa e código-fonte aberto. Neste módulo, aprenderemos sobre a importância de softwares de código aberto em pesquisas modernas. Este módulo nos dará conhecimento relevante e ferramentas para transformar softwares em algo que possa ser acessado abertamente e reutilizado por outros.
+Bem-vindo(a) ao Módulo 5 do MOOC Ciência Aberta: Software de Pesquisa e Código Aberto. Neste módulo, aprenderemos sobre a importância de softwares de código aberto em pesquisas modernas. Este módulo nos dará conhecimento relevante e ferramentas para transformar softwares em algo que possa ser acessado abertamente e reutilizado por outros.
 
 Este vídeo irá responder à pergunta-chave: Por que Softwares de Código Aberto são importantes para você e sua pesquisa? Para nos ajudar, conversamos com 6 pesquisadores ao redor do mundo que utilizam Softwares de Código Aberto em suas atividades diárias e podem testemunhar para o grande impacto que eles tem em seus fluxos de trabalho. Porque Código Aberto é sobre as pessoas, assim como é sobre tecnologia."
 
