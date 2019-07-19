@@ -1,7 +1,7 @@
 # Módulo 5: questionários e atividades
 
-1. Primeiro rascunho para retorno ao design instrucional
-2. Acompanhamento do feedback / retorno
+1. Primeiro rascunho para feedback ao design instrucional
+2. Acompanhamento do feedback
 3. Determinar a regularidade dos questionários
 4. Exame final
 5. Revisão das atividades 
@@ -9,9 +9,9 @@
 
 ## Perguntas
 
-#### Ao contrário do software proprietário, Open Source (OS) significa que qualquer um pode mudar um projeto de Software Open Source, assim como na Wikipédia... Isso é bem perigoso. Verdadeiro ou falso...
+#### Ao contrário do software proprietário, Open Source (OS) significa que qualquer um pode mudar um projeto de Software Open Source, assim como na Wikipédia... Isso é bem perigoso. Verdadeiro ou falso?
 
-- Verdadeiro
+- [ ] Verdadeiro
 - [X] Falso
 
 **Resposta:** Este é um mal-entendido comum. A Wikipédia é uma ótima maneira de entender a inovação colaborativa, mas não é um grande eufemismo para software de código aberto. Primeiramente, a maioria dos projetos open source são gerenciados por "ditadores benevolentes" que têm o controle total sobre o que entra em seu projeto. Os colaboradores oferecem alterações a estes mantenedores e, após uma análise cuidadosa, eles permitirão que a alteração seja feita. Em segundo lugar, o software de código aberto deve executar a tarefa para a qual foi projetado. Se não o fizer, a comunidade rapidamente descobrirá isso. A comunidade da Wikipédia também tem guardiões (Qual é o nome deles? veja https://en.wikipedia.org/wiki/Wikipedia:Quality_control e https://en.wikipedia.org/wiki/Wikipedia:Editorial_oversight_and_control, lembre-se de que a Wikipédia também possui código aberto) e a avaliação de qualidade para assegurar que as entradas na Wikipédia sejam de alta e crescente qualidade. Diferentes comunidades têm diferentes abordagens de construção de conteúdos. É importante entender o aspecto social e político dos projetos de código aberto. Contribuidores de código aberto se baseiam em sua reputação. Se você apresentar muitas boas ideias, suas ações serão bastante valorizadas na comunidade do projeto. Esta é a sua recompensa: resolveu o seu problema e ainda recebe reconhecimento de seus amigos da comunidade por isso. Da mesma forma, os responsáveis pela manutenção de um programa não querem ser associados a softwares ruins que são problemáticos ou não são úteis aos outros. Por isso, como as pessoas querem ver os problemas resolvidos, e, além disso, desejam ser respeitadas por seus pares, os projetos de código aberto fiscalizam suas mudanças com muito cuidado. (Fonte: [opensource.com](https://opensource.com/open-source-myths))
