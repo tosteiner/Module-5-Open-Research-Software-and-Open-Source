@@ -23,7 +23,7 @@
 - [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Na verdade é o contrário: o código aberto é seguro porque qualquer um pode encontrar as falhas. Se você perguntar a especialistas em segurança como Bruce Schneier, a ( qual o país?) Agência Nacional de Segurança, ou qualquer profissional de segurança da informação, eles dirão que manter o seu funcionamento interno em segredo é uma ótima maneira de resolver um problema de segurança. A razão é simples: um desenvolvedor não é tão inteligente quanto todos os desenvolvedores. Como disse o criador do Linux, Linus Torvalds: "Mil olhos fazem todos os erros superficiais." Em outras palavras, o código aberto submete qualquer um ao escrutínio coletivo da comunidade -- já que eles têm tanto a perder com seus problemas de segurança quanto você. Todos trabalham juntos para tornar as coisas mais seguras. (Fonte: [opensource.com](https://opensource.com/open-source-myths))
+** Resposta: ** Na verdade é o contrário: o código aberto é seguro porque qualquer um pode encontrar as falhas. Se você perguntar a especialistas em segurança como Bruce Schneier; a Agência (qual o país?) Nacional de Segurança; ou qualquer profissional de segurança da informação, eles dirão que manter o seu funcionamento interno em segredo é uma ótima maneira de obter um problema de segurança. A razão é simples: um desenvolvedor não é tão inteligente quanto todos os desenvolvedores juntos. Como disse o criador do Linux, Linus Torvalds: "Mil olhos tornam superficiais todos os erros." Em outras palavras, o código aberto submete qualquer um ao escrutínio coletivo da comunidade -- já que eles têm tanto a perder com seus problemas de segurança quanto você. Todos trabalham juntos para tornar as coisas mais seguras. (Fonte: [opensource.com](https://opensource.com/open-source-myths))
 
 * * *
 
@@ -31,8 +31,8 @@
 
 Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar código fonte aberto e o conteúdo sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
 
-- Verdadeiro
-- [X] Falso
+- [X] Verdadeiro
+- [] Falso
 
 **Resposta:** Verdadeiro. Licenças de código aberto são essencialmente termos de uso e não itens a serem comprados, como pode ser o caso do software proprietário. Existem vários modelos de licença de código aberto, em que cada modelo de licença tem termos específicos para o uso e modificação de código.
 
