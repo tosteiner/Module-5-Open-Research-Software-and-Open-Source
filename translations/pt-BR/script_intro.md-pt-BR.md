@@ -1,4 +1,4 @@
-# Script
+# Roteiro
 
 Título do Curso: Ciência Aberta **MOOC**
 
@@ -20,7 +20,7 @@ Abertura: Logo principal da MOOC, logo do módulo da MOOC, título do vídeo.
 
 Apresentadores:
 
-- [Jon Tennant](https://twitter.com/protohedgehog) - HOST
+- [Jon Tennant](https://twitter.com/protohedgehog) - APRESENTADOR
 - [Peter Murray-Rust](https://twitter.com/petermurrayrust)
 - [Heidi Seibold](https://twitter.com/HeidiBaya)
 - [Konrad Foerstner](https://twitter.com/konradfoerstner)
@@ -28,7 +28,7 @@ Apresentadores:
 - [Ina Smith](https://twitter.com/ismonet)
 - [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
 
-## Background
+## Objetivo
 
 O objetivo desse vídeo é explicar aos estudantes *porque* eles devem fazer este módulo. Quais as vantagens de aprender com estes materiais, no sentido de como isto irá afetar suas práticas diárias. Para isso, é necessário que sejam histórias pessoais: Como OSS (Softwares de Código Aberto) lhe afetaram, porque são importantes para você e como é uma experiência no mundo real. Então, por exemplo, "Utilizando Softwares de Código Aberto, eu fui capaz de colaborar remotamente com o pesquisador X do país Y, o que me levou ao compartilhamento de códigos de pesquisa e dados resultando na publicação da revista Z."
 
@@ -36,7 +36,7 @@ Este vídeo virá na Introdução, antes dos resultados de aprendizado, e mostra
 
 É importante ressaltar, eu quero que este vídeo seja completamente diferente como uma palestra universitária, onde a aprendizado é raso e unidirecional, do professor para o aluno. Eu quero que seja pessoal, natural e envolvente - vocês todos são membros da comunidade, e eu vejo isso mais como algo cara a cara. Então, menos cabeças instrutoras empinadas e mais cabeças casuais. O que eu quero produzir, é algo inspirador que faça com as pessoas pensem "Ok, isso parece útil para mim e eu deveria completar esse módulo".
 
-## Brief layout
+## Organização breve
 
 1. Sessão Introdutória (Jon)
 2. Sessão do Meio, contendo 6 relatos entre 30-120 segundos de cada apresentador (todos)
@@ -62,31 +62,31 @@ Este vídeo irá responder à pergunta-chave: Por que Softwares de Código Abert
 
 "Então, ai está, 6 histórias incríveis de pesquisadores talentosos sobre a transformação que os Softwares de Código Aberto podem tem em nossas práticas diárias. Essas ferramentas tem potencial para fazer nossas vidas como pesquisadores muito mais fáceis, tornando nossas pesquisas mais eficientes, econômicas e transparentes.
 
-No resto deste módulo, aprenderemos um pouco mais sobre os principios da comunidade por trás dos Softwares de Código Aberto, como fazer nosso próprio software para reutiliza-lo e também como citar qualquer software que utilizarmos em nossa própria pesquisa. As well as this, we have three practical tasks, that will help us firstly set up your own project in GitHub, and then how to archive this project in Zenodo, and finally how to integrate Git with the programming language, R.
+No resto deste módulo, aprenderemos um pouco mais sobre os principios da comunidade por trás dos Softwares de Código Aberto, como fazer nosso próprio software para reutiliza-lo e também como citar qualquer software que utilizarmos em nossa própria pesquisa. Também teremos três atividades práticas que irão nos ajudar a configurar seu próprio projeto no GitHub, como arquivá-lo no Zenodo e, enfim, como integrar o Git com a linguagem de programação R.
 
-Hopefully, by the end of the module, you will be able to apply these skills and knowledge to make your daily activities as a researcher more efficient. The next part of this module is just what is Open Source Software - enjoy!"
+Espero que, até o fim do módulo, você seja capaz de aplicar essa habilidades e conhecimentos para fazer suas atividades e diárias como pesquisador, mais eficientes. A próxima parte deste módulo é exatamente o que é Software de Código Aberto - aproveite!"
 
 ## Post-recording tasks
 
-- Create a transcript and subtitle file (for translations)
-- Add start and end slides
-- Add screen information for each presenter
-- Edit videos together for continuity
-- Add statements between presenters in middle parts if needed *or* add a brief pause with a slide of information between each presenter (name, discipline, software name, affiliation)
+- Crie uma transcrição e arquivo de legendas (para tradução)
+- Adicione slides de início e fim
+- Adicione informações na tela para cada apresentador
+- Edite seus vídeos juntos para haver continuidade
+- Adicione informações entre os apresentadores nas partes intermediárias se necessário *ou* adicione uma breve pausa com um slide de informações entre cada apresentador (nome, disciplina, nome do software, afiliação)
 
-## Licensing statement
+## Declaração de Licenciamento
 
-I/we grant the Open Science MOOC the right to re-use the content that I/we provide for the project. Specifically, I/we give permission to:
+Eu/nós damos ao MOOC Ciência Aberta o direito de reutilizar o conteúdo que eu/nós fornecemos para o projeto. Especificamente, eu/nós damos permissão para:
 
-- Use the material for educational purposes for the project
+- O uso do material para propósitos educacionais do projeto
 
-- Publish the educational videos to the MOOC platform(s), and share any relevant ones on social media
+- A publicação de vídeos educacionais para a(s) plataforma(s) do MOOC e compartilhamento das relevantes em redes sociais
 
-- Release the content under a Creative Commons CC BY 4.0 International license
+- Utilização do conteúdo sobre a licença internacional de Creative Commons CC BY 4.0
 
-Signed:
+Assinado:
 
-[please add names here]
+[por favor, adicione os nomes aqui]
 
 - Heidi Seibold
 - Konrad Förstner
