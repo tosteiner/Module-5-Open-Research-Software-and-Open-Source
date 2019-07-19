@@ -1,10 +1,10 @@
-# Module 5: Recording and editing
+# Módulo 5: Gravação e edição
 
-1. Record either on location, online, or within studio 
-2. Preference to non-'floating head' styles 
-3. Edit all audio/visual material 
+1. Grave no local, on-line ou em estúdio 
+2. Preferência a estilos de fontes não-flutuantes 
+3. Edite todo material audiovisual 
 
-## Confirmed:
+## Confirmados:
 
 * [Peter Murray-Rust](https://twitter.com/petermurrayrust)
 * [Heidi Seibold](https://twitter.com/HeidiBaya)
@@ -15,6 +15,6 @@
 
 ## Script
 
-See [Script](script_intro.md) for details.
+Veja o [Script](script_intro.md) para mais detalhes.
 
-For further information, please see the [video management protocol](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) and the information on how to [write a script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
+Para informação adicional, por favor consulte o [protocolo para gerenciamento de vídeos](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) e veja as informações sobre como [escrever um script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
