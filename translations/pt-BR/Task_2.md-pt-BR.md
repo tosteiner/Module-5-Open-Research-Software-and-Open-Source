@@ -43,43 +43,43 @@ Embora a integração do GitHub e Zenodo torne realmente mais fácil trabalhar c
 
 > **Dica**: Certifique-se de incluir um arquivo LICENSE (Licença) e README (Leia-me) em seu repositório. Isso indicará às pessoas o objetivo do projeto e como elas podem interagir com ele no futuro.
 
-Descubra como configurar um repositório do GitHub neste outro guia [Tarefa 1: Construindo um repositório do GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) que também faz parte do 'Módulo 5: Software de Pesquisa Aberta e Open Source'.
+Descubra como configurar um repositório do GitHub neste outro guia [Tarefa 1: Construindo um repositório do GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) que também faz parte do "Módulo 5: Software de Pesquisa Aberta e Código Aberto".
 
-## Escolha o seu repositório GitHub <a name="Choose"></a>
+## Escolha o seu repositório no GitHub <a name="Choose"></a>
 
 Uma vez que estiver na sua página de listagem de projetos do [github.com](https://github.com) acesse a aba 'Repositories' no topo da página do github. Selecione qual repositório você gostaria de arquivar e abra-o.
 
   
 
 
-## Login para Zenodo <a name="Login"></a>
+## Conecte-se ao Zenodo<a name="Login"></a>
 
-Agora acesse o [zenodo.org](https://zenodo.org). Zenodo é uma plataforma onde você pode arquivar permanentemente seu código e outros elementos do projeto. Zenodo faz isso através da atribuição de um **Digital Object Identifier** (DOI) para um projeto, o qual também auxilia na facilidade de citar um trabalho. Isso é diferente do GitHub, o qual atua como um local onde o trabalho real em um projeto acontece, em vez de arquivá-lo a longo prazo. No GitHub, o conteúdo pode ser modificado, apagado, reescrito e irreversivelmente alterado, o que o torna um pouco relativo a ser usado para fins de referência mais duradouros. Zenodo oferece mais segurança e permanência para os resultados da pesquisa.
+Agora acesse o [zenodo.org](https://zenodo.org). O Zenodo é uma plataforma em que você pode arquivar permanentemente seu código e outros elementos do projeto. O Zenodo faz isso através da atribuição de um **Digital Object Identifier** (DOI) para um projeto, o qual também auxilia na facilidade de citar um trabalho. Isso é diferente do GitHub, que funciona como um local onde o trabalho real acontece, em vez de um arquivamento a longo prazo. No GitHub, o conteúdo pode ser modificado, apagado, reescrito e irreversivelmente alterado, o que o torna relativo a ser usado para fins de referência mais duradouros. O Zenodo oferece mais segurança e permanência para os resultados da pesquisa.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Inscreva-se no Zenodo</i></p>
+<p align="center"><i>Cadastre-se no Zenodo</i></p>
 
   
 
 
-Se você já tem uma conta Zenodo, isso é fácil. Se não, siga os passos para criar um - você pode até mesmo fazer o login usando sua conta do GitHub ou o perfil ORCID para simplificar as coisas, já que o Zenodo construiu uma integração para isso. Isso pode ser mais fácil do que criar outra conta e perfil de pesquisa.
+Se você já possui uma conta Zenodo, isto será fácil. Se não, siga os passos para criar uma - você pode até mesmo fazer o login usando sua conta do GitHub ou o perfil ORCID para simplificar as coisas, já que o Zenodo construiu uma integração para isso. Isso pode ser mais fácil do que criar outra conta e perfil de pesquisa.
 
   
 
 
-## Autorize o GitHub a se conectar com o Zenodo <a name="Authorise"></a>
+## Autorize o GitHub para conectar-se ao Zenodo <a name="Authorise"></a>
 
-No site Zenodo, autorize-o a se conectar à sua conta do GitHub na seção '[Using GitHub](https://zenodo.org/account/settings/github/)'. Aqui, o Zenodo irá redirecioná-lo para o GitHub para solicitar permissões para usar '[webhooks](https://developer.github.com/webhooks/)' nos seus repositórios. Você pode autorizar o Zenodo aqui com as permissões necessárias para formar esses links.
+No site Zenodo, autorize-o a se conectar à sua conta do GitHub na seção '[Using GitHub](https://zenodo.org/account/settings/github/)'. Aqui, o Zenodo irá redirecioná-lo para o GitHub para solicitar permissões para usar '[webhooks](https://developer.github.com/webhooks/)' em seus repositórios. Você pode autorizar o Zenodo aqui com as permissões necessárias para formar estes links.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/zenodo_github.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Autorizando o Zenodo a se conectar com o GitHub</i></p>
+<p align="center"><i>Autorizando o Zenodo a conectar-se ao GitHub</i></p>
 
   
 
 
-Se você estiver tentando dar acesso ao Zenodo a um repositório organizacional, você (ou administrador) precisará ter certeza de que o Zenodo tem permissão de acesso a terceiros. O GitHub enviará um email de autorização que precisa ser confirmado. Neste ponto, de volta às configurações do seu repositório no GitHub, você também precisa ter certeza de que o repositório está configurado para 'público', não privado.
+Se você estiver tentando dar ao Zenodo acesso a um repositório organizacional, você (ou um administrador) precisará ter certeza de que o Zenodo tem permissão para acesso de terceiros. O GitHub enviará um email de autorização que precisa ser confirmado. Neste ponto, de volta às configurações do seu repositório no GitHub, você também precisa ter certeza de que o repositório está configurado para 'público', não privado.
 
   
 
