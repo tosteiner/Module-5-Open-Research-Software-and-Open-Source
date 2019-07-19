@@ -29,7 +29,7 @@
 
 #### O código aberto é licenciado por padrão (?). Verdadeiro ou falso?
 
-Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar código fonte aberto e o conteúdo sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
+Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar conteúdo e código aberto sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
 
 - [X] Verdadeiro
 - [] Falso
