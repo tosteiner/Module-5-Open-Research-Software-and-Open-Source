@@ -33,12 +33,12 @@
     - Tarefa 2: Integre um projeto do GitHub com Zenodo
     - Tarefa 3: Integrando Git e R Studio
     3. Encontre recursos (vídeos, ilustrações, capturas de vídeo, podcasts, exercícios, questionários, apresentações)
-    - Completed (including 2 quizzes)
-    4. Write concise, engaging video (and audio) scripts
-    - Completed
-    5. Review all learning resources, adjusting as needed
-    - In preparation
-    6. Finalise all scripts
-    - Completed
-    7. Copyright strategy
-    - Completed
+    - Concluído (incluindo 2 questionários)
+    4. Escreva roteiros de vídeo (e áudio) concisos e interessantes
+    - Concluídos
+    5. Revise todos os recursos de aprendizado, fazendo ajustes quando for necessário
+    - Em preparação
+    6. Finalize todos os roteiros
+    - Concluído
+    7. Estratégia de Direitos Autorais
+    - Concluído
