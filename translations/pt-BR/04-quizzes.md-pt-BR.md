@@ -42,19 +42,19 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 
 #### O código aberto deve ser gratuito.
 
-- Verdadeiro
+- [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Falso. O termo "livre" no software de código aberto livre refere-se à liberdade e não ao custo monetário. Ou, tal como Richard Stallmann rotulou: "Pense livre como em liberdade de expressão, não cerveja livre." Leia mais sobre o assunto, e a distinção entre Software Livre de Código Aberto (FOSS) e Software Livre e Livre de Código Aberto (FLOSS) em (gnu.org)
+** Resposta: ** Falso. O termo "livre" no software de código aberto livre refere-se à liberdade e não ao custo monetário. Ou, tal como Richard Stallmann rotulou: "Pense livre como em liberdade de expressão, não cerveja livre de custos." Leia mais sobre o assunto, e a distinção entre Software Livre de Código Aberto (FOSS) e Software Livre e Livre de Código Aberto (FLOSS) em ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
 
 * * *
 
 #### As grandes empresas de software não usam o código aberto - verdadeiro ou falso?
 
-- Verdadeiro
+- [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Este mito deveria ser uma coisa do passado. O uso corporativo de código aberto é muito difundido: Em 2018, um estudo mostra que, em média, os entrevistados de empresas de todos os portes usaram software de código aberto em 92% de seus aplicativos. Veja [ tidelift.com ](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) e [ opensourcesurvey.org. ](https://opensourcesurvey.org/2017/) para mais detalhes.
+** Resposta: ** Este mito deveria ser uma coisa do passado. O uso corporativo de código aberto é muito difundido: Um estudo de 2018 mostra que, em média, os entrevistados de empresas de todos os portes usaram software de código aberto em 92% de seus aplicativos. Veja [ tidelift.com ](https://blog.tidelift.com/open-source-is-everywhere-survey-results-part-1) e [opensourcesurvey.org.](https://opensourcesurvey.org/2017/) para mais detalhes.
 
 * * *
 
