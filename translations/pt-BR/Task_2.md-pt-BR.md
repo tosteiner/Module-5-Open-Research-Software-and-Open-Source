@@ -41,7 +41,7 @@ Embora a integração do GitHub e Zenodo torne realmente mais fácil trabalhar c
 
 ## Configure um repositório no GitHub <a name="Setup"></a>
 
-> **Dica**: Certifique-se de incluir um arquivo LICENSE e README no seu repositório. Isso indicará às pessoas o objetivo do projeto e como elas podem se envolver com ele no futuro.
+> **Dica**: Certifique-se de incluir um arquivo LICENSE (Licença) e README (Leia-me) em seu repositório. Isso indicará às pessoas o objetivo do projeto e como elas podem interagir com ele no futuro.
 
 Descubra como configurar um repositório do GitHub neste outro guia [Tarefa 1: Construindo um repositório do GitHub](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) que também faz parte do 'Módulo 5: Software de Pesquisa Aberta e Open Source'.
 
