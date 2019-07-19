@@ -8,7 +8,7 @@ output:
 
 ## Sumário
 
-- [Introdução](#Introdução)
+- [Introdução](#Introduction)
 - [O que é um Software de código-fonte aberto](#What_OSS)
 - [Princípios do Software de Código-fonte aberto](#Principles)
 - [A comunidade Open Source, governança e contribuições](#OS_Community)
@@ -30,13 +30,13 @@ Bem-vindo ao **Módulo 5** do curso Ciência Aberta: ** Software de Pesquisa e c
 
 Este módulo tem sido desenvolvido [ em aberta ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) colaboração por uma equipe internacional de [ aficionados em código aberto](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Todos os conteúdos aqui apresentados foram desenvolvidos de forma aberta, por meio de feedback interativo e colaboração da comunidade em geral. Compreende uma série de vídeos, infográficos, leituras baseadas em texto e tarefas práticas para que você se envolva profundamente com o tema.
 
-Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
+Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #module5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
 ### Para quem é este módulo?
 
 Este módulo é projetado principalmente para pesquisadores computacionais no nível de graduação e pós-graduação, bem como cientistas de dados iniciantes e qualquer outro pesquisador que use código analítico ou software. Em um ambiente de pesquisa moderno, isso abrange praticamente qualquer pessoa que usa um computador para o trabalho.
 
-> "Um artigo sobre resultados computacionais é publicidade, não educacional. O conhecimento real é o ambiente de software completo, código e dados, que produziram o resultado." - J. Buckheit e DL Donoho, 1995.
+> "Um artigo sobre resultados computacionais é publicidade, não educacional. O conhecimento real é o ambiente de software completo, códigos e dados, que produziu o resultado." - J. Buckheit e DL Donoho, 1995.
 
 O software e a tecnologia sustentam grande parte da pesquisa moderna, que agora é quase inevitavelmente computacional de uma forma ou de outra - mecanismos de pesquisa, plataformas de redes sociais, software analítico e publicação digital. Com isso, há uma demanda cada vez maior por softwares de código aberto mais sofisticados, combinados com uma crescente disposição dos pesquisadores em colaborar abertamente em novas ferramentas.
 
