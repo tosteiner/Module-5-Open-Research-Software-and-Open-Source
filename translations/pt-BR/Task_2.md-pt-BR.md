@@ -84,24 +84,24 @@ Se você estiver tentando dar ao Zenodo acesso a um repositório organizacional,
   
 
 
-## Selecione o repositório para arquivar <a name="Archive"></a>
+## Selecione o repositório para arquivamento<a name="Archive"></a>
 
-Se você chegou até aqui, isso significa que o Zenodo está agora autorizado a configurar os webhooks de repositórios necessários para arquivamento do repositório e emissão de um DOI. Para fazer isso, no site Zenodo, navegue até a página de listagem do repositório [GitHub](https://zenodo.org/account/settings/github/) e simplesmente clique no botão 'on' próximo ao seu repositório.
+Se você chegou até aqui, isso significa que o Zenodo está agora autorizado a configurar os webhooks de repositórios necessários para arquivamento do repositório e emissão de um DOI. Para fazer isso, no site do Zenodo, navegue até a página de listagem do repositório [GitHub](https://zenodo.org/account/settings/github/) e clique no botão 'on' próximo ao seu repositório.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/enabled_repos.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Habilitar repositórios individuais do GitHub para serem preservados no Zenodo</i></p>
+<p align="center"><i>Habilite repositórios individuais do GitHub para serem preservados no Zenodo</i></p>
 
   
 
 
-## Verificação das configurações do repositório <a name="Check"></a>
+## Verifique as configurações do repositório<a name="Check"></a>
 
-Agora você configurou um novo webhook entre o Zenodo e seu repositório. No GitHub, clique nas configurações do seu repositório e na aba Webhooks no menu do lado esquerdo. Isso deve exibir o novo webhook Zenodo configurado para o Zenodo. Observe, pode demorar um pouco para a listagem do webhook aparecer.
+Agora você configurou um novo webhook entre o Zenodo e seu repositório. No GitHub, clique nas configurações do seu repositório e na aba Webhooks no menu do lado esquerdo. Isso deve exibir o novo webhook do Zenodo configurado para a conexão Zenodo-Github. Perceba que pode demorar um pouco para a listagem do webhook aparecer.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/webhooks.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Verifique se os webhooks estão habilitados para o seu repositório GitHub. Exemplo aqui usando a Open Scholarship Strategy</i></p>
+<p align="center"><i>Verifique se os webhooks estão habilitados para o seu repositório GitHub. Exemplo utilizando a Open Scholarship Strategy</i></p>
 
   
 
