@@ -4,23 +4,23 @@ output:
   pdf_document: padrão
 ---
 
-# Tarefa 2: Como tornar seu código passível de ser citado usando o GitHub e o Zenodo
+# Tarefa 2: Como tornar seu código apto a ser citado usando o GitHub e o Zenodo
 
-Esta tarefa é projetada para estudantes e pesquisadores que desejam criar e reutilizar projetos / repositórios baseados no GitHub na literatura acadêmica.
+Esta tarefa é projetada para estudantes e pesquisadores que desejam criar e reutilizar projetos/repositórios baseados no GitHub na literatura acadêmica.
 
 Não se esqueça de que você pode participar das discussões no nosso fórum aberto no [** canal do Slack **](https://osmooc.herokuapp.com/). Por favor, apresente-se no #módulo5opensource e conte-nos um pouco sobre quem você é, qual a sua formação e como chegou aqui!
 
-Tempo estimado para conclusão: 45 a 60 minutos.
+Tempo estimado de conclusão: 45 a 60 minutos.
 
 ## Sumário
 
 - [Prefácio](#Prefácio)
-- [Configurar um repositório do GitHub](#Configuração)
-- [Escolha o seu repositório GitHub](#Escolher)
-- [Login para Zenodo](#Login)
-- [Autorize o GitHub a se conectar com o Zenodo](#Autorizar)
+- [Configure um repositório no GitHub](#Configuração)
+- [Escolha o seu repositório no GitHub](#Escolher)
+- [Conecte-se ao Zenodo](#Login)
+- [Autorize o GitHub para conectar-se ao Zenodo](#Autorizar)
 - [Selecione o repositório para arquivamento](#Arquivamento)
-- [Verificação das configurações do repositório](#Verificação)
+- [Verifique as configurações do repositório](#Verificação)
 - [Crie uma nova versão](#Lançamento)
 - [Obtendo um DOI](#DOI)
 - [Lista de verificação para citar seu projeto](#Checklist)
@@ -37,9 +37,9 @@ Tempo estimado para conclusão: 45 a 60 minutos.
 
 ## Prefácio<a name="Foreword"></a>
 
-Embora a integração do GitHub e Zenodo torne realmente mais fácil trabalhar com estas ferramentas atualmente (Janeiro de 2019), é importante salientar que existem alternativas para o GitHub (Gitlab, Bitbucket,...) e alternativas para o Zenodo (Outros repositórios podem ser mais adequados à sua comunidade, você pode perguntar aos seus colegas). Por exemplo, pode-se trabalhar com o Gitlab e carregar manualmente cada nova versão para o repositório da sua universidade, obtendo um DOI. Os princípios (trabalhando com um sistema de controle de versão online e arquivando as versões principais em um repositório que fornece um identificador único persistente) podem ser aplicados em diferentes fluxo de trabalho.
+Embora a integração do GitHub e Zenodo torne realmente mais fácil trabalhar com estas ferramentas atualmente (Janeiro de 2019), é importante salientar que existem alternativas para o GitHub (Gitlab, Bitbucket,...) e alternativas para o Zenodo (Outros repositórios podem ser mais adequados à sua comunidade, você pode perguntar aos seus colegas). Por exemplo, pode-se trabalhar com o Gitlab e carregar manualmente cada nova versão para o repositório da sua universidade, obtendo um DOI. Os princípios (trabalhando com um sistema de controle de versão online e arquivando as versões principais em um repositório que fornece um identificador único persistente) podem ser aplicados em diferentes fluxos de trabalho.
 
-## Configurar um repositório GitHub <a name="Setup"></a>
+## Configure um repositório no GitHub <a name="Setup"></a>
 
 > **Dica**: Certifique-se de incluir um arquivo LICENSE e README no seu repositório. Isso indicará às pessoas o objetivo do projeto e como elas podem se envolver com ele no futuro.
 
