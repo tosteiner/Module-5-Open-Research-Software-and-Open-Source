@@ -1,9 +1,9 @@
-## Module 5: Design
+## Módulo 5: Design
 
-1. Identify key resources (including those already gathered)
+1. Identifique os principais recursos (incluindo aqueles já coletados)
     
     - [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/) 
-    - [Journal of Open Source Software](https://joss.theoj.org/)
+    - [Jornal of Open Source Software](https://joss.theoj.org/)
     - [InsideDNA](https://insidedna.me/) 
     - [Galaxy](https://galaxyproject.org/)
     - [Google Compute Engine](https://cloud.google.com/compute/) 
