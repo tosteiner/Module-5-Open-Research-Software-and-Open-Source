@@ -1,24 +1,24 @@
 # Script
 
-Course title: **Open Science MOOC**
+Título do Curso: Ciência Aberta **MOOC**
 
-Module title: **Open Source and Open Research Software**
+Título do Módulo: ** Ciência Aberta e Software de Pesquisa Aberta **
 
-Video title: **Why Open Source is important for researchers**
+Título do Vídeo: **Porque Ciência Aberta é importante para pesquisadores**
 
-Location: Dependent on presenter
+Local: Depende do Apresentador
 
-Recording device: Depending on what is available, either webcam, mobile phone, or camera. If Jon can get to you on location, then we can use professional equipment.
+Forma de gravação: De acordo com o disponível, seja webcam, celular ou câmera. Se Jon puder chegar até seu local, então será possível usar equipamento profissional.
 
-Proposed style: Monologue
+Estilo proposto: Monólogo
 
-Content visualisations: None (optional)
+Recursos visuais: Nenhum (opcional)
 
-Format: Informal, casual, outside of classroom/lab
+Formato: Informal, casual, fora da sala de aula / trabalho
 
-Opening: MOOC main logo, MOOC module logo, title of this video.
+Abertura: Logo principal da MOOC, logo do módulo da MOOC, título do vídeo.
 
-Presenters:
+Apresentadores:
 
 - [Jon Tennant](https://twitter.com/protohedgehog) - HOST
 - [Peter Murray-Rust](https://twitter.com/petermurrayrust)
@@ -30,19 +30,19 @@ Presenters:
 
 ## Background
 
-The intention of this video is to explain to learners *why* they should be doing this module. What the advantage of learning this material is, in terms of how it will affect their daily research practices. For this, it has to be personal stories: How OSS has impacted you, why it is important to you, and a real world experience of it. So, for example, "Using Open Source Software, I was able to remotely collaborate with researcher X in country Y, which led to the sharing of research code and data and ultimately a publication in journal Z."
+O objetivo desse vídeo é explicar aos estudantes *porque* eles devem fazer este módulo. Quais as vantagens de aprender com estes materiais, no sentido de como isto irá afetar suas práticas diárias. Para isso, é necessário que sejam histórias pessoais: Como OSS (Softwares de Código Aberto) lhe afetaram, porque são importantes para você e como é uma experiência no mundo real. Então, por exemplo, "Utilizando Softwares de Código Aberto, eu fui capaz de colaborar remotamente com o pesquisador X do país Y, o que me levou ao compartilhamento de códigos de pesquisa e dados resultando na publicação da revista Z."
 
-This video will come in at the Introduction just before the learning outcomes, and really nail why people should be taking this module by prociding a real human component and narrative.
+Este vídeo virá na Introdução, antes dos resultados de aprendizado, e mostrará o porquê dos estudantes de estarem vendo este módulo, propondo um componente humano e narrativo.
 
-Now, importantly, I want this video to be completely distinct from something like a formal university lecture, where the learning is plain and uni-directional from teacher to learner. I want it to be personal, natural, and engaging - you are all members of the community, and I see this ss more peer-to-peer. So less floating heads and instructional, and more casual. What I want produce ultimately is something inspirational that gets people to go 'OK, this sounds useful to me and I should take and complete this module'.
+É importante ressaltar, eu quero que este vídeo seja completamente diferente como uma palestra universitária, onde a aprendizado é raso e unidirecional, do professor para o aluno. Eu quero que seja pessoal, natural e envolvente - vocês todos são membros da comunidade, e eu vejo isso mais como algo cara a cara. Então, menos cabeças instrutoras empinadas e mais cabeças casuais. O que eu quero produzir, é algo inspirador que faça com as pessoas pensem "Ok, isso parece útil para mim e eu deveria completar esse módulo".
 
 ## Brief layout
 
-1. Introductory section (Jon)
-2. Middle section, comprising 6 short 30-120 second statements from each presenter (all)
-3. Conclusions (Jon)
+1. Sessão Introdutória (Jon)
+2. Sessão Intermediária, contendo 6 relatos entre 30-120 segundos de cada apresentador (todos)
+3. Conclusões (Jon)
 
-## Introduction - Jon
+## Introdução - Jon
 
 "Welcome to Module 5 of the Open Science MOOC, on Open Research Software and Open Source. In this module, we will learn about the importance of open source software in modern research. The module will help to equip us the relevant knowledge and tools to transform software into something that can be openly accessed and re-used by others.
 
