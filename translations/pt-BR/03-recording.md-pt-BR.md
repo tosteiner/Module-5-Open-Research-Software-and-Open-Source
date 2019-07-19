@@ -13,8 +13,8 @@
 * [Ina Smith](https://twitter.com/ismonet)
 * [Abby Cabunoc Mayes](https://twitter.com/abbycabs)
 
-## Script
+## Roteiro
 
-Veja o [Script](script_intro.md) para mais detalhes.
+Veja [Roteiro](script_intro.md) para detalhes.
 
-Para informação adicional, por favor consulte o [protocolo para gerenciamento de vídeos](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) e veja as informações sobre como [escrever um script](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
+Para mais informações veja o [vídeo do protocolo de gerenciamento](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Video_management_protocol.md) e as informações de como [escrever um roteiro](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/production_toolkit/Writing_a_script.md).
