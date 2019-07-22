@@ -130,12 +130,12 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### Os artigos em acesso aberto não são revisados por colegas. Verdadeiro ou falso?
+#### Os artigos em acesso aberto não são revisados pelos pares. Verdadeiro ou falso?
 
 - [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Sim, isso é um equívoco. Os artigos em acesso aberto são submetidos à mesma rigorosa revisão por pares que os artigos publicados segundo o modelo tradicional de publicação por assinatura.
+** Resposta: ** Sim, isso é um equívoco. Os artigos em acesso aberto são submetidos à mesma rigorosa revisão pelos pares que os artigos publicados segundo o modelo tradicional de publicação por assinatura.
 
 * * *
 
@@ -166,9 +166,9 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 - [X] Verdadeiro
 - [] Falso
 
-** Resposta: ** Está certo! Artigos em acesso aberto podem ser baixados, impressos e distribuídos para todos os seus amigos.
+** Resposta: ** Isso mesmo! Artigos em acesso aberto podem ser baixados, impressos e distribuídos para todos os seus amigos.
 
-### 6. Publicar em revistas de acesso livre facilita a divulgação de sua pesquisa por meio das mídias sociais. Verdadeiro ou falso?
+### 6. Publicar em revistas de acesso aberto facilita a divulgação de sua pesquisa por meio das mídias sociais. Verdadeiro ou falso?
 
 - [X] Verdadeiro
 - [] Falso
