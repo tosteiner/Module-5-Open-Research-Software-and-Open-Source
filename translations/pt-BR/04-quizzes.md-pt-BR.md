@@ -130,7 +130,7 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-#### Os artigos em acesso aberto não são revisados por pares. Verdadeiro ou falso?
+#### Os artigos em acesso aberto não são revisados por colegas. Verdadeiro ou falso?
 
 - [ ] Verdadeiro
 - [X] Falso
