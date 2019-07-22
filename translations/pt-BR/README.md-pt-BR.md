@@ -18,7 +18,7 @@ Qualquer um pode se juntar ao nosso [canal aberto no Slack](https://osmooc.herok
 
 ## Conteúdo principal
 
-Estes são os arquivos de conteúdo do rascunho. O conteúdo é totalmente acessível e pode ser usado para fins de aprendizado, individualmente ou em grupo, e pode ser compartilhado e reutilizado como você desejar. No entanto, eles ainda não foram integrados em uma plataforma formal do MOOC. No momento, eles estão sendo escritos no formato markdown e depois são convertidos usando a ferramenta [notedown](https://github.com/aaren/notedown) para transformá-los no formato iPython notebook. Versões PDF e HTML são criadas usando [pandoc](https://pandoc.org/demos.html) e o [markdown para o pacote PDF](https://atom.io/packages/markdown-pdf) para [Atom](https://atom.io/).
+Estes são os arquivos do conteúdo do rascunho. O conteúdo é totalmente acessível e pode ser usado para fins de aprendizado, individualmente ou em grupo, e pode ser compartilhado e reutilizado como você desejar. No entanto, eles ainda não foram integrados em uma plataforma formal do MOOC. No momento, eles estão sendo escritos no formato markdown e depois são convertidos usando a ferramenta [notedown](https://github.com/aaren/notedown) para transformá-los no formato iPython notebook. Versões PDF e HTML são criadas usando [pandoc](https://pandoc.org/demos.html) e o [markdown para o pacote PDF](https://atom.io/packages/markdown-pdf) para [Atom](https://atom.io/).
 
 Para o notedown:
 
@@ -27,7 +27,7 @@ Para o notedown:
 3. Instale o notedown: `pip install notedown`
 4. Converta os arquivos: ` remarkown input.md > output.ipynb `
 
-**IMPORTANTE** Por favor, edite os arquivos **markdown** e não os arquivos iPython/HTML. Estes serão periodicamente convertidos e sincronizados conforme necessário.
+**IMPORTANTE** Por favor, edite os arquivos **markdown** e não os arquivos iPython/HTML. Esses serão periodicamente convertidos e sincronizados conforme necessário.
 
 ### No formato markdown
 
