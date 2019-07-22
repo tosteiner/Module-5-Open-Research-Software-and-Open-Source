@@ -195,7 +195,7 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 
 * * *
 
-### Você pode obter informações sobre as políticas de acesso aberto dos financiadores em qual site?
+### Em qual site você pode obter informações sobre as políticas de acesso aberto dos financiadores?
 
 - [] SHERPA / ROMEO
 - [] SHERPA / FACT
