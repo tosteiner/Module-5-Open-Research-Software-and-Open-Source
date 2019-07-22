@@ -151,7 +151,7 @@ Reinicie o R Studio. Uau, isso foi difícil. Próximo.
 
 ## Terceiro passo: Por que eu fiz isso? <a name="three"></a>
 
-OK, mantenha sua respiração, vamos fazer uma pausa aqui apenas para aprender alguns comandos básicos do Git. Alguns dos principais comandos que você pode fazer para aprender são:
+OK, mantenha sua respiração, vamos fazer uma pausa aqui apenas para aprender alguns comandos básicos do Git. Alguns dos principais comandos dos quais você se beneficiaria em aprender são:
 
 * **Add (Adicionar)**: É onde você envia os arquivos para a área de preparação antes de ser submetido.
 
@@ -298,7 +298,7 @@ De agora em diante, tudo depende de você! Alguns conselhos são para:
 
 * Execute o comando 'Push' frequentemente Não deixe que os commits se acumulem, caso contrário, você corre mais risco de entrar em conflitos de mesclagem. Visto que estes podem representar o material dos pesadelos, não se esqueça de executar o comando 'Push' com frequência.
 
-* Execute o comando 'Push' frequentemente Se os outros estiverem trabalhando remotamente no mesmo projeto, você deverá manter-se atualizado com as alterações. Certifique-se de efetuar as alterações frequentemente no GitHub para ter certeza de que estão todos em sincronia.
+* Execute o comando 'Pull' frequentemente Se os outros estiverem trabalhando remotamente no mesmo projeto, você deverá manter-se atualizado com as alterações. Certifique-se de efetuar as alterações frequentemente no GitHub para ter certeza de que estão todos em sincronia.
 
 * Experimente e explore! Esta tarefa realmente só racha a superfície, existem muitas funções, ferramentas e maneiras diferentes de usá-la. Realmente, cabe a você descobrir como usar essas informações para melhorar o seu fluxo de trabalho de pesquisa e, finalmente, colaborar em uma pesquisa melhor, mais aberta e confiável!
 
