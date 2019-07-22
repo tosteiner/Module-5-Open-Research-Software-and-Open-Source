@@ -31,8 +31,8 @@ Para o notedown:
 
 ### No formato markdown
 
-- [**CONTENTE**](MAIN.md) - O conteúdo principal deste Módulo. ([Vídeo do YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM))
-- [**TASK 1**](Task_1.md) - Como configurar seu primeiro repositório no GitHub. ([Vídeo do YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
+- [**CONTEÚDO PRINCIPAL**](MAIN.md) - O conteúdo principal deste Módulo. ([Vídeo do YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM))
+- [**TAREFA 1**](Task_1.md) - Como configurar seu primeiro repositório no GitHub. ([Vídeo do YouTube](https://www.youtube.com/watch?v=AnftV9HBPSc&t=4s))
 - [** TAREFA 2 **](Task_2.md) - Como tornar seu código passível de citação usando o GitHub e o Zenodo. ([Vídeo do YouTube](https://www.youtube.com/watch?v=pjsbBQYOOaE&t=4s))
 - [** TAREFA 3 **](Task_3.md) - Como integrar o Git com o RStudio. ([Vídeo do YouTube](https://www.youtube.com/watch?v=Q-6jfjSAspA))
 
@@ -40,10 +40,10 @@ Para o notedown:
 
 Nota: Estes são melhor visualizados no Juypter para funcionalidade completa, ao contrário do visualizador do GitHub.
 
-- [** CONTEÚDO PRINCIPAL **](MAIN.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) ver)
-- [** TAREFA 1 **](Task_1.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) ver)
-- [** TAREFA 2 **](Task_2.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) ver)
-- [** TAREFA 3 **](Task_3.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) ver)
+- [**CONTEÚDO PRINCIPAL**](MAIN.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.ipynb) para ver)
+- [** TAREFA 1 **](Task_1.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.ipynb) para ver)
+- [** TAREFA 2 **](Task_2.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.ipynb) para ver)
+- [** TAREFA 3 **](Task_3.ipynb) (clique [ aqui ](https://nbviewer.jupyter.org/github/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.ipynb) para ver)
 
 ## Em formato PDF
 
