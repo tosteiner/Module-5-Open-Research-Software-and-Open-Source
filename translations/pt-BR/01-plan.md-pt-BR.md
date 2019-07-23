@@ -7,7 +7,7 @@
 - Cientistas de dados
 - Qualquer outro pesquisador que usa código / software analítico
 
-### Refine os objetivos e resultados de aprendizagem
+### Refinamento dos objetivos e resultados de aprendizagem
 
 - O aluno será capaz de definir as características do software de pesquisa de código aberto, e os argumentos de impacto ético, legal, econômico e de pesquisa a favor e contra ele.
 - Com base nos padrões da comunidade, os alunos poderão descrever os requisitos de qualidade de compartilhamento e reutilização de código aberto.
