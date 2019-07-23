@@ -31,7 +31,7 @@ Estimativa de economia de tempo depois de concluída: praticamente infinita
 
 ## Primeiros Passos<a name="Getting_started"></a>
 
-Parabéns por ter chegado tão longe! Se você está lendo isso, você sobreviveu aos pull requests, web-hooks, e, provavelmente pode até nos dizer o que significa o F em FOSS (*não* Frustração ...) Esperamos que você tenha superado qualquer ceticismo ou relutância em relação aos benefícios do GitHub e do Software de Código Aberto, ou seja, você está pronto para dar o próximo passo.
+Parabéns por ter chegado tão longe! Se você está lendo isso, você sobreviveu aos pull requests, web-hooks, e, provavelmente pode até nos dizer o que significa o F em FOSS (*não* Frustração ...) Espera-se que você tenha superado qualquer ceticismo ou relutância em relação aos benefícios do GitHub e do Software de Código Aberto, e que esteja pronto para dar o próximo passo.
 
 Se você completou [ as tarefas 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [ 2 ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), nós também temos uma Tarefa BÔNUS</strong> para você, caso queira aperfeiçoar suas habilidades ainda mais.
 
@@ -57,7 +57,7 @@ O GitHub é a plataforma que permite que você compartilhe código de maneira f�
 3. Outras pessoas podem colaborar abertamente com o seu trabalho;
 4. Você tem uma cópia local e online do seu trabalho que permanece em sincronização;
 5. É totalmente transparente quanto a quem fez uma contribuição, por que eles fizeram e quando; e
-6. Você pode ter várias pessoas trabalhando no mesmo projeto de uma vez em paralelo.
+6. Você pode ter várias pessoas de uma vez trabalhando paralelamente no mesmo projeto.
 
 Embora isso tenha sido projetado principalmente para o código-fonte, deve ser imediatamente óbvio como isso se torna uma ferramenta poderosa para praticamente todos os fluxos de trabalho de pesquisa.
 
@@ -211,7 +211,7 @@ Lembre-se de que seu arquivo `README` está no formato markdown (.md). Para apre
   <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/markdown.png?raw=true" width="600px"/>
 </p>
 
-<p align="center"><i>Captura de tela do que este módulo parece em markdown, durante o desenvolvimento. Meta.</i></p>
+<p align="center"><i>Captura de tela do visual deste módulo em markdown, durante o desenvolvimento. Meta.</i></p>
 
   
 
@@ -230,7 +230,7 @@ Vamos apenas ficar com a segunda opção por enquanto. Este painel Git mostra qu
 
 Selecione o arquivo `README` na janela do Git, que deve aparecer automaticamente se você tiver feito qualquer edição. Isso adiciona esse arquivo à área de "teste", que é como o espaço de pré-salvamento para o seu trabalho. Clique em "Commit" e uma nova janela deve aparecer.
 
-Aqui, você tem a chance de revisar suas alterações e escrever uma boa mensagem de confirmação. Digite algo breve, mas informativo sobre as alterações que você fez nesta versão ou uma imagem de captura de tela do seu trabalho. Você vai querer que essa informação seja suficiente para que, caso você ou outra pessoa olhe para trás, saiba por que você fez esse commit e as mudanças associadas a ele. Estes são como redes de segurança para o seu projeto, caso você precise voltar por algum motivo.
+Aqui, você tem a chance de revisar suas alterações e escrever uma boa mensagem de confirmação. Digite algo breve, mas informativo sobre as alterações que você fez nesta versão ou uma imagem de captura de tela do seu trabalho. Você vai querer que essa informação seja suficiente para que, caso você ou outra pessoa volte a olhar o projeto, saiba por que você fez esse commit e as mudanças associadas a ele. Estes são como redes de segurança para o seu projeto, caso você precise voltar por algum motivo.
 
 > **Dica**: Aqui, você verá uma lista de todas as alterações feitas desde o último commit. As linhas removidas mais antigas estão em vermelho e as linhas recém-adicionadas estão em verde. Verifique novamente para garantir que as edições feitas são aquelas que você pretendia fazer. Isso é realmente útil para identificar erros de digitação, edições erradas e quaisquer outros pequenos erros que você possa ter introduzido acidentalmente. Segurança Primeiro
 
