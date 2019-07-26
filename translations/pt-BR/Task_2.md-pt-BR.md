@@ -108,11 +108,11 @@ Agora você configurou um novo webhook entre o Zenodo e seu repositório. No Git
 
 ## Crie uma nova versão <a name="Release"></a>
 
-A primeira vez que você arquiva um repositório é conhecido como a 'primeira versão'. Cada vez que você criar uma nova versão desse repositório e arquivá-lo, você cria uma nova versão. Isso pode ser rastreado na guia 'releases' do seu repositório no GitHub (centro superior).
+A primeira vez que você arquiva um repositório é conhecido como a 'primeira versão'. Cada vez que você criar uma nova versão desse repositório e o arquiva, você cria uma nova versão. Isso pode ser rastreado na guia 'releases' (versões) do seu repositório no GitHub (centro superior).
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/first_release.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Verifique se a primeira liberação do repositório foi bem-sucedida. Exemplo aqui usando a Open Scholarship Strategy</i></p>
+<p align="center"><i>Verifique se a primeira liberação do repositório foi bem-sucedida. Exemplo aqui usando a Estratégia de Open Scholarship</i></p>
 
   
 
@@ -126,7 +126,7 @@ Para a primeira versão arquivada do seu repositório, clique em "Create a new r
   
 
 
-Finalmente, clique em 'publish release' (publicar lançamento), e seu arquivo será publicado e versionado no GitHub.
+Finalmente, clique em 'publish release' (publicar versão), e seu arquivo será publicado e versionado no GitHub.
 
 Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](https://zenodo.org/deposit) . Para concluir o arquivamento, mais alguns detalhes são necessários no Zenodo.
 
@@ -137,7 +137,7 @@ Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](h
   
 
 
-## Obtendo um DOI <a name="DOI"></a>
+## Obtendo um DOI<a name="DOI"></a>
 
 Isto às vezes é chamado de atribuição de um DOI, inclusive requer alguns bits extras de informações sobre o repositório no Zenodo. No Zenodo, clique na guia [Upload](https://zenodo.org/deposit) no menu principal e seu novo repositório carregado deve estar lá. Role a página para baixo e preencha as informações extras conforme necessário, e, os campos obrigatórios são marcados com um asterisco vermelho, em seguida, clique em 'Publicar'.
 
