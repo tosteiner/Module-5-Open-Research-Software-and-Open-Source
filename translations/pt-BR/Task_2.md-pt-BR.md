@@ -139,17 +139,17 @@ Para ver sua versão no Zenodo, você precisa visitar a guia [Upload (Enviar)](h
 
 ## Obtendo um DOI<a name="DOI"></a>
 
-Isto às vezes é chamado de atribuição de um DOI, inclusive requer alguns bits extras de informações sobre o repositório no Zenodo. No Zenodo, clique na guia [Upload](https://zenodo.org/deposit) no menu principal e seu novo repositório carregado deve estar lá. Role a página para baixo e preencha as informações extras conforme necessário, e, os campos obrigatórios são marcados com um asterisco vermelho, em seguida, clique em 'Publicar'.
+Isto às vezes é chamado de atribuição de um DOI, inclusive requer algumas informações extras sobre o repositório no Zenodo. No Zenodo, clique na guia [Upload](https://zenodo.org/deposit) no menu principal e seu novo repositório carregado deve estar lá. Role a página para baixo e preencha as informações extras conforme necessário, e, os campos obrigatórios são marcados com um asterisco vermelho, em seguida, clique em 'Publish' (Publicar).
 
 **Nota**: Somente depois que esta informação extra for adicionada, seu DOI se tornará ativo. Também pode demorar um pouco para que o DOI se torne ativo. Exemplo DOI mostrado abaixo (para a Open Scholarship Strategy).
 
-> **Dica profissional**: Copie a URL do DOI para o arquivo README do seu repositório GitHub a fim de tornar ainda mais fácil a interconexão, assim como você deve exibir em destaque um emblema DOI para que os usuários possam ver e usar o seu DOI. Você só precisa fazer isso uma vez com a sua primeira publicação de um DOI, pois, trata-se de uma espécie de "conceito" e está vinculado a todos os DOIs posteriores ao lançamento.
+> **Dical**: Copie a URL do DOI para o arquivo README do seu repositório GitHub a fim de tornar ainda mais fácil a interconexão, assim como você deve exibir em destaque um emblema DOI para que os usuários possam ver e usar o seu DOI. Você só precisa fazer isso uma vez com a sua primeira publicação de um DOI, pois, trata-se de uma espécie de "conceito" e está vinculado a todos os DOIs posteriores ao lançamento.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323437.svg )](https://doi.org/10.5281/zenodo.1323437   .)
 
 A integração do GitHub / Zenodo irá agora atribuir um DOI a cada versão / release de um repositório de projetos. Isto permite aos usuários referenciarem e citarem versões específicas de projetos. Além disso, a lista de autores para a citação é automaticamente determinada pelos nomes da conta de usuário do GitHub usados pelo repositório - isso significa que ninguém fica de fora. Detalhes sobre o autor podem ser editados posteriormente no Zenodo. Os DOIs usados no Zenodo são registrados através do serviço [DataCite](https://www.datacite.org/).
 
-> **Dica**: Crie uma versão 'legível para humanos' desta citação no arquivo README do seu projeto. Isso será útil para investigadores que talvez não estejam familiarizados com a utilização de DOIs para criar referências e facilitar a outros citar o seu software e reconhecer o seu trabalho. Um exemplo disso poderia ser: Jon Tennant. (2018, 30 de julho). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. [ http://doi.org/10.5281/zenodo.1323437 ](http://doi.org/10.5281/zenodo.1323437)
+> **Dica**: Crie uma versão 'que humanos consigam ler' desta citação no arquivo README do seu projeto. Isso será útil para investigadores que talvez não estejam familiarizados com a utilização de DOIs para criar referências e facilitar a outros citar o seu software e reconhecer o seu trabalho. Um exemplo disso poderia ser: Jon Tennant. (2018, 30 de julho). Foundations for Open Scholarship Strategy Development: First formal release (Version 1.2). Zenodo. [ http://doi.org/10.5281/zenodo.1323437 ](http://doi.org/10.5281/zenodo.1323437)
 
 **PARABÉNS!!!**
 
@@ -162,7 +162,7 @@ Fornecer um arquivo de longo prazo e um DOI para o seu trabalho é necessário p
   
 
 
-## Lista de verificação para citar seu projeto <a name="Checklist"></a>
+## Lista de verificação para citar seu projeto<a name="Checklist"></a>
 
 Então, agora você tem um repositório do GitHub arquivado de forma sustentável no Zenodo e que está pronto para ser reutilizado e citado! Antes de continuar, certifique-se de que:
 
