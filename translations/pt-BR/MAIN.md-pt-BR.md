@@ -103,7 +103,7 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
 
 - **Redistribuição gratuita**: A licença não deve restringir qualquer parte da venda ou cessão do software como componente de uma distribuição agregada que contenha programas de várias fontes diferentes. A licença não deve exigir royalties ou outras taxas pela venda.
     
-    - **Código Fonte**: O programa deve incluir código-fonte, bem como permitir a sua distribuição na forma compilada. Quando um produto não é distribuído com código fonte, deve haver um processo de obtenção do mesmo por um custo de reprodução não superior a um valor razoável, preferencialmente através da Internet, sem encargos. O código fonte deve ser a forma preferida pela qual um programador pode modificar o software. Deliberadamente um código-fonte ocultado não é permitido. Formas intermediárias como a saída de um pré-processador ou tradutor não são permitidas.
+    - **Código Fonte**: O programa deve incluir código-fonte, bem como permitir a sua distribuição na forma compilada. Quando um produto não é distribuído com código fonte, deve haver um processo de obtenção do mesmo por um custo de reprodução não superior a um valor razoável, preferencialmente através da Internet, sem encargos. O código fonte deve ser a forma principal pela qual um programador pode modificar o software. Código-fonte ocultado deliberadamente não é permitido. Formas intermediárias como a saída de um pré-processador ou tradutor não são permitidas.
     
     - **Obras Derivadas**: A licença deve permitir modificações e a criação de obras derivadas, assim como deve permitir a sua distribuição nos mesmos termos que a licença do software original.
     
@@ -111,7 +111,7 @@ A [iniciativa de Código-fonte aberto](https://opensource.org/) é um dos pionei
     
     - **Sem discriminação contra pessoas ou grupos**: A licença não deve discriminar nenhuma pessoa ou grupo de pessoas.
     
-    - **Sem discriminação contra as áreas de atuação**: A licença não deve restringir ninguém de fazer uso do programa em um campo específico de atuação. Por exemplo, não pode restringir o programa de ser usado em qualquer tipo de negócio, ou para pesquisa genética.
+    - **Sem discriminação contra as áreas de atuação**: A licença não deve restringir ninguém de fazer uso do programa em um campo específico de atuação. Por exemplo, não pode restringir o programa de ser usado em qualquer tipo de negócio, ou de ser usado para alguma pesquisa genética.
     
     - **Distribuição da Licença**: Os direitos associados ao programa devem se aplicar a todos àqueles para quem o programa é redistribuído sem a necessidade de execução de uma licença adicional por essas partes.
     
