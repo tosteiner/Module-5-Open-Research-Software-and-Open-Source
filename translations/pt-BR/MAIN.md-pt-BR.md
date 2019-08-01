@@ -155,14 +155,14 @@ O princípio central da reutilização é o que separa o Software de Código-fon
 
 A grande diferença entre o software livre e o programa de código-fonte aberto (OSS) é que o primeiro deve distribuir versões atualizadas sob a mesma licença que o original, enquanto as versões mais recentes do software de código-fonte aberto podem ser distribuídas sob diferentes licenças. FOSS combina o melhor dos dois mundos.
 
-Estas definições passaram a ser amplamente adotadas, tanto pelos governos internacionais como por grandes organizações como a [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) e a [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). As principais organizações no espaço FLOSS incluem o [Instituto de Sustentabilidade de Software do Reino Unido](https://www.software.ac.uk/), que produz recursos valiosos, como o recente [ Guia de Depósito de Software para Pesquisadores](https://softwaresaved.github.io/software-deposit-guidance/).
+Estas definições passaram a ser amplamente adotadas, tanto pelos governos internacionais como por grandes organizações como a [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) e a [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). As principais organizações no espaço FLOSS incluem o Instituto de Sustentabilidade de Software<a />, do Reino Unido, que produz recursos valiosos, como o recente [ Guia de Depósito de Software para Pesquisadores](https://softwaresaved.github.io/software-deposit-guidance/).</p> 
 
 ### Para projetos individuais
 
-Um projeto de código aberto típico tem os seguintes tipos de papéis formais:
+Um projeto típico de código aberto tem os seguintes tipos de papéis formais:
 
 - **Autor**: É a pessoa que criou o projeto
-- **Proprietário**: A pessoa/s que possui propriedade administrativa sobre a organização ou o repositório 
+- **Proprietário**: A/s pessoa/s que possui propriedade administrativa sobre a organização ou o repositório 
 - **Mantenedores**: Colaboradores responsáveis por conduzir a visão e gerenciar os aspectos organizacionais do projeto. (Eles também podem ser autores ou proprietários do projeto.)
 - **Colaboradores**: O usuário que já contribuiu para o projeto.
 - **Membros da Comunidade**: Pessoas que trabalham no projeto. Eles podem ser ativos em conversas, criar novas questões para discussão ou expressar sua opinião sobre as futuras melhorias do projeto.
