@@ -126,9 +126,9 @@ Tudo isto pode ser um pouco complexo para memorizar. No entanto, pode ser resumi
   
 
 
-## Uma lista de verificação do código-fonte aberto
+## Uma checklist do código-fonte aberto
 
-Há várias plataformas e ferramentas existentes que apoiam o programa de código-fonte aberto e a colaboração. O [Manual de Treinamento em Ciência Aberta](https://open-science-training-handbook.gitbook.io/book/) fornece uma lista de verificação para avaliar a "abertura" do software de pesquisa existente, com base na Definição de Código Aberto acima:
+Há várias plataformas e ferramentas existentes que apoiam o programa de código-fonte aberto e a colaboração. O [Manual de Treinamento em Ciência Aberta](https://open-science-training-handbook.gitbook.io/book/) fornece uma checklist para avaliar a "abertura" do software de pesquisa existente, com base na Definição de Código Aberto acima:
 
 - [] O software está disponível para download e instalação?
 
@@ -138,7 +138,7 @@ Há várias plataformas e ferramentas existentes que apoiam o programa de códig
 
 - [] O código-fonte está disponível para inspeção?
 
-- [] O histórico completo do código-fonte está disponível para verificação por meio de um histórico de versões disponíveis publicamente?
+- [] O histórico completo do código-fonte está disponível para verificação por meio de um histórico de versões disponível publicamente?
 
 - Há descrição adequada das dependências do programa (hardware e software)? Essas dependências exigem um esforço mínimo razoável para a sua obtenção e uso?
 
@@ -149,7 +149,7 @@ Verifique, confira, confirme, e está feito! Simples assim.
 
 ## A comunidade de código-fonte aberto e sua governança <a name="OS_Community"></a>
 
-Existem dois campos principais dentro da comunidade de software livre: o movimento ** do software livre** e o movimento **do programa de código-fonte aberto**. Ambos têm diferentes ideologias baseadas nas liberdades dos usuários e nas aplicações práticas do software. Frequentemente, o termo "FLOSS" é usado para reconciliar esses dois campos políticos, e significa "Livre/Libre e Software de Código-Fonte Aberto"; Libre em francês e espanhol significa "livre" no contexto da liberdade. **F/OSS**, **FLOSS** ou simplesmente **FOSS**, isto é, **Free and Open Source Software**, em inglês, referem-se a um programa que é duplamente livre e de código-fonte aberto.
+Existem dois campos principais dentro da comunidade de software livre: o **movimento do software livre** e o **movimento do programa de código-fonte aberto**. Ambos têm diferentes ideologias baseadas nas liberdades dos usuários e nas aplicações práticas do software. Frequentemente, o termo "FLOSS" é usado para reconciliar esses dois campos políticos, e significa "Livre/Libre e Software de Código-Fonte Aberto"; Libre em francês e espanhol significa "livre" no contexto da liberdade. **F/OSS**, **FLOSS** ou simplesmente **FOSS**, isto é, **Free and Open Source Software**, em inglês, referem-se a um programa que é duplamente livre e de código-fonte aberto.
 
 O princípio central da reutilização é o que separa o Software de Código-fonte aberto (OSS) do 'Software Livre'. Software de código livre e aberto (FOSS) é um termo inclusivo para descrever um programa que pode ser classificado ao mesmo tempo como livre e de código-fonte aberto. Um bom exemplo de FOSS é o sistema operacional [Ubuntu Linux](https://www.ubuntu.com/).
 
