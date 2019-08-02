@@ -331,4 +331,4 @@ Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o 
 * Tom Cridford, Academia Imperial Londres
 * Nithiya Streethran, Universidade de Stavanger 
 
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0 Dedicação ao Domínio Público](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
