@@ -66,14 +66,14 @@ Para configurar um perfil do GitHub, simplesmente vá para a página principal e
   
 
 
-O próximo passo é a criação de uma conta pessoal. Por enquanto, basta selecionar o plano 'Repositórios públicos ilimitados gratuitamente', a menos que você esteja preocupado com a privacidade, nesse caso, selecione o plano privado. Se você pretende criar um projeto para uma organização, também poderá selecionar essa opção.
+O próximo passo é a criação de uma conta pessoal. Por enquanto, basta selecionar o plano 'Repositórios públicos ilimitados gratuitos', a menos que você esteja preocupado com a privacidade, nesse caso, selecione o plano privado. Se você pretende criar um projeto para uma organização, também poderá selecionar essa opção.
 
   
 
 
 ### O idioma GitHub <a name="Language"></a>
 
-Este é possivelmente o aspecto mais confuso e desconcertante do GitHub. Aqui estão alguns dos termos mais usados e suas definições:
+Este é possivelmente o aspecto mais confuso e desencorajador do GitHub. Aqui estão alguns dos termos mais usados e suas definições:
 
 * **Initialise (Inicialização)**: Criar um repositório vazio.
 * **Checkout**: Criar uma cópia de trabalho de um repositório local.
