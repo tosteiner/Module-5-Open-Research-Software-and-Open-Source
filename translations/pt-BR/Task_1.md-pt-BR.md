@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  html_document: padrão
+  pdf_document: padrão
 ---
 
 # Tarefa 1: Como configurar um repositório no GitHub
@@ -89,7 +89,7 @@ Este é possivelmente o aspecto mais confuso e desconcertante do GitHub. Aqui es
 * **Fetch**: Nada a ver com cães. Refere-se a obter as últimas alterações de um repositório on-line sem mesclá-las.
 * **Index**: A 'árvore' que atua como uma área de preparação.
 * **Working Directory (Diretório de Trabalho)**: A 'árvore' onde os arquivos são mantidos.
-* **Head**: The 'tree' which indicates the last commits made.
+* **Head**: A 'árvore' que indica os últimos commits feitos.
 * **Push**: Adicionar alterações confirmadas à Head do seu repositório remoto.
 * **Merge (Mesclar)**: Combinar as alterações feitas em um branch com a master branch após a conclusão.
 * **Pull**: Atualizar seu repositório buscando [fetch] e mesclando [merge] os commits mais recentes.
@@ -337,4 +337,4 @@ A partir de agora, tudo depende de você! Alguns conselhos são para:
 
 Está na hora de fazer um teste com as suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0 Dedicação ao Domínio Público](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
