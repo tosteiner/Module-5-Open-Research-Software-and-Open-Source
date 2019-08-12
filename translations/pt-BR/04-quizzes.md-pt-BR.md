@@ -29,7 +29,7 @@
 
 #### O código aberto é licenciado por padrão (?). Verdadeiro ou falso?
 
-Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar conteúdo e código aberto sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
+Acredito que a pergunta pode ser um pouco enganadora. Ao invés disso, se pergunte: Qualquer pessoa pode usar código fonte aberto e o conteúdo sem mencionar os detentores dos direitos autorais originais / o copyright não se aplica.
 
 - [X] Verdadeiro
 - [] Falso
@@ -45,7 +45,7 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 - [ ] Verdadeiro
 - [X] Falso
 
-** Resposta: ** Falso. O termo "livre" no software de código aberto livre refere-se à liberdade e não ao custo monetário. Ou, tal como Richard Stallmann rotulou: "Pense livre como em liberdade de expressão, não cerveja livre de custos." Leia mais sobre o assunto, e a distinção entre Software Livre de Código Aberto (FOSS) e Software Livre e Livre de Código Aberto (FLOSS) em ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
+** Resposta: ** Falso. O termo "livre" no software de código aberto livre refere-se à liberdade e não ao custo monetário. Ou, tal como Richard Stallmann rotulou: "Pense livre como em liberdade de expressão, não como cerveja gratuita." Leia mais sobre o assunto, e a distinção entre Software Livre de Código Aberto (FOSS) e Software Livre e Livre de Código Aberto (FLOSS) em ([gnu.org](https://www.gnu.org/philosophy/floss-and-foss.en.html))
 
 * * *
 
@@ -60,9 +60,9 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 
 #### Quem fundou a Free Software Foundation?
 
-- [] Lawrence Lessig
+- [ ] Lawrence Lessig
 - [X] Richard Stallman
-- [] Bill Gates
+- [ ] Bill Gates
 - [ ] Linus Torvalds
 
 **Resposta:** A Free Software Foundation (FSF) foi fundada por **Richard Stallman** em 4 de outubro de 1985 para apoiar o movimento do software livre, que promove a liberdade universal de estudar, distribuir, criar e modificar software de computador, preferencialmente com a organização de softwares distribuídos nos termos copyleft ("share alike"), tais como a GNU General Public License. * Fonte: * [ Wikipédia ](https://en.wikipedia.org/wiki/Free_Software_Foundation)
@@ -72,8 +72,8 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 #### Qual das seguintes opções é uma licença de software livre?
 
 - [X] GPL
-- [] OSD
-- [] OSL
+- [ ] OSD
+- [ ] OSL
 - [ ] GPS
 
 **Resposta:** A GNU General Public License (GNU GPL ou GPL) é uma licença de software livre amplamente utilizada, que garante aos usuários a liberdade de executar, estudar, compartilhar e modificar o software. * Fonte: * [ Wikipédia ](https://en.wikipedia.org/wiki/GNU_General_Public_License)
@@ -84,8 +84,8 @@ Um fornecedor de código aberto pode cobrar por uma licença de software e ainda
 
 - [ ] Libre software
 - [ ] Shareware
-- [X] Software livre e gratuito
-- [] Adware
+- [X] Software livre
+- [ ] Adware
 
 ** Resposta: ** Software livre e gratuito é um software que pode ser livremente utilizado, modificado e redistribuído com apenas uma restrição: qualquer versão redistribuída do software deve ser disponibilizada com os termos originais de uso livre, modificação e distribuição (conhecido como copyleft). A definição de software livre é estipulada como parte do Projeto GNU e pela Free Software Foundation. O software livre pode ser empacotado e distribuído mediante o pagamento de uma taxa; o "livre" refere-se à capacidade de reutilizá-lo, modificá-lo ou mantê-lo inalterado, como parte de outro pacote de software. Como parte da capacidade de modificar, os usuários de software livre também podem acessar e estudar o código-fonte.
 
