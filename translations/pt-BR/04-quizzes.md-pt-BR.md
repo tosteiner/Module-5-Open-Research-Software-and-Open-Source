@@ -96,7 +96,7 @@ O conceito de software livre é uma criação de Richard Stallman, chefe do Proj
 #### O que significa o forking?
 
 - [ ] O forking se dá quando um programa de código aberto é desenvolvido publicamente pela comunidade.
-- [ ] Forking é o ato de esfaquear o frango cozido até que fique preso ao seu utensílio de refeição.
+- [ ] Forking é o ato de espetar o frango cozido até que fique preso ao seu utensílio de refeição.
 - [ ] Forking consiste em um projeto de hardware de código fonte proprietário que é usado como base para criar algo diferente.
 - [X] Forking é quando o software de código aberto é desenvolvido em algo diferente.
 
