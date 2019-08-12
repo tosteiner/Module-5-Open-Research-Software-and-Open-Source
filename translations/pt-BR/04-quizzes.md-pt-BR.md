@@ -1,4 +1,4 @@
-# Módulo 5: questionários e atividades
+# Módulo 5: Questionários e atividades
 
 1. Primeiro rascunho para feedback ao design instrucional
 2. Acompanhamento do feedback
