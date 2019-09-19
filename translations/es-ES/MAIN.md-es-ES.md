@@ -6,10 +6,10 @@ output:
 
 # Módulo 5: Open Research Software y Open Source
 
-## Tabla de contenido
+## Contenidos del módulo
 
 - [Introducción](#Introduction)
-- [¿Qué es el software de código abierto?](#What_OSS)
+- [Qué es el software de código abierto](#What_OSS)
 - [Principios del software de código abierto](#Principles)
 - [La comunidad de código abierto, la gobernanza y las contribuciones.](#OS_Community)
 - [Plataformas y herramientas existentes para software de código abierto](#Platforms)
