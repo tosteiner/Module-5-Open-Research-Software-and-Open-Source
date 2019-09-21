@@ -36,11 +36,11 @@ No te olvides que puedes participar en las discusiones en nuestro [**canal Slack
 
 Este módulo está diseñado principalmente para investigadores computacionales a nivel de licenciatura y posgrado, así como para científicos iniciándose en datos y cualquier otro investigador que utilice un código o software analítico. En un entorno de investigación de hoy en día, esto cubre casi completamente a cualquiera que use una computadora para su trabajo.
 
-> "Un artículo sobre el resultado computacional es publicidad, no beca. La beca actual es el entorno de software completo, el código y los datos que produjeron el resultado ". - J. Buckheit y DL Donoho, 1995.
+> "Un artículo sobre el resultado computacional es publicidad, no erudición. La actual erudición es el entorno de software completo, el código y los datos que produjeron el resultado ". - J. Buckheit y DL Donoho, 1995.
 
 El software y la tecnología sustentan gran parte de la investigación moderna, que ahora es casi inevitablemente computacional de una u otra forma: motores de búsqueda, plataformas de redes sociales, software analítico y publicación digital. Con esto, existe una demanda cada vez mayor de software de código abierto más sofisticado, combinado con una creciente disposición de los investigadores a colaborar abiertamente en nuevas herramientas.
 
-El poder de Open Source radica en que reduce las barreras para la colaboración y la adopción, lo que permite que las ideas y la tecnología se propaguen más rápidamente. Este módulo presentará las herramientas necesarias para transformar el software en algo que otros puedan acceder y reutilizar abiertamente.
+El poder del Código Abierto radica en que reduce las barreras para la colaboración y la adopción, lo que permite que las ideas y la tecnología se propaguen más rápidamente. Este módulo presentará las herramientas necesarias para transformar el software en algo que otros puedan acceder y reutilizar abiertamente.
 
 <img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/open_research_software_open_source.png?raw=true" width="800" />
 
