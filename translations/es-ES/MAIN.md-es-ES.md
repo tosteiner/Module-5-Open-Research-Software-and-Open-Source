@@ -34,7 +34,7 @@ No te olvides que puedes participar en las discusiones en nuestro [**canal Slack
 
 ### ¿Para quién es este módulo?
 
-Este módulo está diseñado principalmente para investigadores computacionales a nivel de licenciatura y posgrado, así como para científicos de datos en ciernes y cualquier otro investigador que utilice un código o software analítico. En un entorno de investigación de hoy en día, esto cubre prácticamente a cualquiera que use una computadora para su trabajo.
+Este módulo está diseñado principalmente para investigadores computacionales a nivel de licenciatura y posgrado, así como para científicos iniciándose en datos y cualquier otro investigador que utilice un código o software analítico. En un entorno de investigación de hoy en día, esto cubre casi completamente a cualquiera que use una computadora para su trabajo.
 
 > "Un artículo sobre el resultado computacional es publicidad, no beca. La beca actual es el entorno de software completo, el código y los datos que produjeron el resultado ". - J. Buckheit y DL Donoho, 1995.
 
