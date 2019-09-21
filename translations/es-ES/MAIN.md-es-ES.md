@@ -17,16 +17,16 @@ output:
 - [Comenzando con OSS - Preguntas frecuentes](#FAQ)
 - [Haciendo buen software para su reutilización.](#Reuse)
 - [Licencia de código abierto](#Licensing)
-- [Cita del software](#Citation)
+- [Citación de software](#Citation)
 - [Usando GitHub y Zenodo](#GitHub_Zenodo)
 - [Colaborando a través de Open Source](#Collaborating)
 - [A dónde ir desde aquí](#Future_OSS)
 
-**NOTA** que una versión en audio de este está disponible para descargar a través de [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) y [de YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM).
+**NOTA** una versión en audio de esto está disponible para descargar a través de [Soundcloud](https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software) y [de YouTube](https://www.youtube.com/watch?v=BHrOEmKk5zM).
 
 ## Introducción <a name="Introduction"></a>
 
-Bienvenido a **Módulo 5** de Open Science MOOC: **Open Research Software y Open Source**.
+Bienvenido al **Módulo 5** de Open Science MOOC: **Open Research Software y Open Source**.
 
 Este módulo se ha desarrollado [en el Open](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source) mediante la colaboración de un equipo internacional de [afficianados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-)Código abierto. Todo lo que ve aquí se ha desarrollado a través de comentarios interactivos y la colaboración de la comunidad en general. Comprende una serie de videos, infografías, lectura basada en texto y tareas prácticas en las que puedes hundir los dientes.
 
