@@ -30,7 +30,7 @@ Bienvenido al **Módulo 5** de Open Science MOOC: **Open Research Software y Ope
 
 Este módulo se ha desarrollado mediante la "Open" colaboración de un equipo internacional "Open Source" [aficionados](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-). Todo lo que ve aquí se ha desarrollado a través de "open" comentarios interactivos y la colaboración de la comunidad en general. Comprende una serie de videos, infografías, lectura basada en texto y tareas prácticas a las que puedes hincar el diente.
 
-No te olvides que puedes participar en las discusiones en nuestro [**canal Slack**](https://osmooc.herokuapp.com/). ¡Por favor, preséntese en # module5opensource, y cuéntenos un poco sobre quién es usted, su historial y cómo terminó aquí!
+No te olvides que puedes participar en las discusiones en nuestro [**canal Slack**](https://osmooc.herokuapp.com/). ¡Por favor, preséntate en # module5opensource, y cuéntanos un poco sobre quién eres, tu trayectoria académica y cómo terminastes aquí!
 
 ### ¿Para quién es este módulo?
 
