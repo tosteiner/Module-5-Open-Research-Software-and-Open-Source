@@ -11,7 +11,7 @@ output:
 - [介紹](#Introduction)
 - [什麼是開源軟件](#What_OSS)
 - [開源軟件原理](#Principles)
-- [開源社區，治理和貢獻](#OS_Community)
+- [The Open Source community and its governance](#OS_Community)
 - [開源軟件的現有平台和工具](#Platforms)
 - [用於研究的開源軟件](#Research)
 - [OSS入門 - 常見問題解答](#FAQ)
@@ -90,7 +90,7 @@ OSS適用於更廣泛的開放科學計劃，因為它有助於使完整的研�
 
 常用的OSS包括 [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) 互聯網瀏覽器和 [LibreOffice](https://www.libreoffice.org/) 全辦公套件。 LibreOffice類似於流行的Microsoft Office，包括文字處理器，電子表格管理器和幻燈片演示軟件，但完全免費且開源。
 
-一些人認為，開放源碼軟件運動代表了新自由主義和私有化的反向運動，通過蔑視信息的構建和再利用中的規則和規範，以及通過盡可能少地利用軟件大量提供軟件來實現現代資本主義的潛在轉變。 請參閱 [自由/開源軟件運動：阻力還是變化？](http://www.redalyc.org/html/742/74212712006/) 由Panayiota Georgopoulou提供有關此主題的更多信息。
+一些人認為，開放源碼軟件運動代表了新自由主義和私有化的反向運動，通過蔑視信息的構建和再利用中的規則和規範，以及通過盡可能少地利用軟件大量提供軟件來實現現代資本主義的潛在轉變。 See [The free/open source software movement: Resistance or change?](https://doi.org/10.15448/1984-7289.2009.1.5569) by Panayiota Georgopoulou for more on this topic.
 
   
 
@@ -149,17 +149,21 @@ OSS適用於更廣泛的開放科學計劃，因為它有助於使完整的研�
 
 ## 開源社區及其治理 <a name="OS_Community"></a>
 
-自由軟件社區中有兩個主要陣營： **自由軟件運動**和 **OSS運動**。 兩者都有不同的意識形態，這些意識形態基於用戶自由和軟件的實際應用。 通常，“FLOSS”一詞用於調和這兩個政治陣營，意為“自由/自由和開源軟件”; Libre在自由的背景下是“免費”的法語和西班牙語。
+There are two main camps within the free/libre and open source software (FLOSS) community: The **free software movement**, and the **open source software movement** (OSS). 兩者都有不同的意識形態，這些意識形態基於用戶自由和軟件的實際應用。 The term 'FLOSS' is used as a overaching neutral term to refer to both; libre being French and Spanish for 'free' in the context of freedom.
 
-重用的核心原則是將OSS與“自由軟件”區分開來。 免費和開源軟件（FOSS）是一個包容性術語，用於描述可分為免費和開源的軟件。 FOSS的一個很好的例子是 [Ubuntu Linux](https://www.ubuntu.com/) 操作系統。
+In a similar way that people active in the open science movement are heterogeneous in their assumptions and aims, different opinions exist in the FLOSS community as well. Recalling module 1, two of the schools of thought in open science were the *Pragmatic school* and the *Democratic school*. While the former is driven by the assumption that research could be more efficient if scientists worked together, the latter wants to set straight an unequal distribution of knowledge. They probably both end up sharing their research, but each with different intentions.
 
-自由軟件和OSS之間的最大區別在於，前者必須在與原始版本相同的許可下分發更新版本，而較新版本的OSS可以在不同許可下分發。 FOSS結合了兩全其美。
+This is roughly comparable to the OSS and the free software movement: The latter evolved around 1983 to protect what they call the four essential freedoms of a program's user. These include the freedom to run, copy, distribute, study, change and improve a program. Software that respects these freedoms with an appropriate license is considered 'free'. The four freedoms are seen as vital for a society as a whole in the sense that they only enable sharing, cooperation and ultimately freedom in general. In this sense the free software movement is a social movement that creates an ethical imperative.
 
-這些定義現在已被國際政府以及一些大型組織廣泛採用，如 [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) 和 [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home)。 FLOSS領域的主要組織包括英國 [軟件可持續發展研究所](https://www.software.ac.uk/)，他們提供寶貴的資源，例如最近的 [研究人員軟件存款指南](https://softwaresaved.github.io/software-deposit-guidance/)。
+The open source software movement, which splintered off in 1998, focuses on the practical advantages and does not campaign for principles. It is concerned with developing high-quality software, for which everyone's ability to obtain, modify and contribute back the source code is considered highly beneficial.
+
+Among multiple conclusions they arrive at, access to a program's source code is a shared one. Software thus may be considered *free*, *open source*, or both, according to agreed-on definitions by the Free Software Foundation ([FSF](https://www.gnu.org/philosophy/free-sw.html)) and the Open Source Initiative ([OSI](https://opensource.org/osd)). The FSF argues that free software is a subset of OSS, with only a [fraction](https://www.gnu.org/philosophy/free-open-overlap.html) being open source but nonfree.
+
+Thus, highlighting a particular license status of software in use—open source or free—is mostly about different philosophies, not about software not having the other status as well. Each movement has its share of problems explaining their term: *free* means more than being gratis and *open source* means more than having access to the source code. The [FSF](https://www.gnu.org/philosophy/open-source-misses-the-point.html) and the European counterpart [FSFE](https://fsfe.org/documents/whyfs.html) provide more information on this topic.
 
 ### 對於個別項目
 
-典型的開源項目具有以下類型的正式角色：
+A typical open source project has the following types of formal roles:
 
 - **作者**：創建項目的人
 - **所有者**：對組織或存儲庫具有管理所有權的人員 
@@ -167,48 +171,48 @@ OSS適用於更廣泛的開放科學計劃，因為它有助於使完整的研�
 - **貢獻者**：已經為項目做出貢獻的用戶。
 - **社區成員**：使用該項目的人員。 他們可能積極參與對話，創建新問題或表達他們對未來項目改進的意見。
 
-通常，角色通過 `README` 文件，Contributors文件或項目的單獨團隊頁面公開。
+Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
 
   
 
 
 ## 開源軟件的現有平台和工具 <a name="Platforms"></a>
 
-虛擬環境和機器作為高性能研究工作流程推動者正變得越來越流行，其中許多基於OSS（例如，操作系統，編程語言和數據處理框架）。 流行的服務包括 [Google Cloud](https://cloud.google.com/compute/) 和 [Amazon Web Services](https://aws.amazon.com/)，它們還有助於數據庫存儲和內容交付以及計算能力。 [InsideDNA](https://insidedna.me/) 是一個可重複研究生物信息學，基因組學和生命科學的計算平台。
+Virtual environments and machines are becoming increasingly popular as high-powered research workflow enablers, and many of these are built upon OSS (e.g., operating systems, programming languages, and data processing frameworks). Popular services include [Google Cloud](https://cloud.google.com/compute/) and [Amazon Web Services](https://aws.amazon.com/), which also assist with database storage and content delivery, as well as computational power. [InsideDNA](https://insidedna.me/) is a computing platform for reproducible research in bioinformatics, genomics and the life sciences.
 
-如所提及的 [以上](#What_OSS)，LibreOffice的提供了一種開源替代的Microsoft Office。 兩者幾乎完全兼容，只是使用不同的默認文件格式。 對於引文管理者來說， [Zotero](https://www.zotero.org/) 是最受歡迎的開源替代品，如Mendeley或EndNote等專有平台。
+As mentioned [above](#What_OSS), LibreOffice provides an Open Source alternative to Microsoft Office. The two are almost completely compatible, just with different default file formats. For citation managers, [Zotero](https://www.zotero.org/) is the most popular Open Source alternative to proprietary platforms such as Mendeley or EndNote.
 
-[Zotero](https://www.zotero.org/) 使用BibTeX（發音為'bib-tech'）格式，基於LaTeX（發音為'lay-tech'），並具有瀏覽器插件，使引文管理變得簡單。 通過將其與LibreOffice等其他軟件集成，現在可以在許多情況下擁有完全開源的研究工作流程。
+[Zotero](https://www.zotero.org/) uses the BibTeX (pronounced 'bib-tech') format, based on LaTeX (pronounced 'lay-tech'), and has browser plugins to make citation management simple. By integrating this with other software such as LibreOffice, it is now possible to have a fully Open Source research workflow in many cases.
 
 ### GitHub上 <a name="GitHub"></a>
 
 > 您是否知道整個項目是作為 [GitHub](https://github.com/OpenScienceMOOC/)的開放和協作社區工作而構建的？
 
-[GitHub](https://github.com/) 是軟件和非軟件內容（通常稱為“筆記本”）的流行託管站點，具有版本控制，項目管理和跟踪以及存儲服務的附加功能。 GitHub構建於OSS [Git](https://git-scm.com/)之上，使用戶能夠遠程工作以維護，共享和協作研究軟件和其他非基於軟件的項目。
+[GitHub](https://github.com/) is a popular hosting site for both software and non-software content (often called 'notebooks'), with added capabilities for version control, project management and tracking, and storage services. GitHub is built on top of the OSS [Git](https://git-scm.com/), which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.
 
-版本控製本質上是一個過程，它捕獲存儲庫中文件的快照，並跟踪對它們的修改。 它記錄了更改的時間，更改的內容以及執行更改的人員。 如果有多個人同時處理一個文件，則會檢測到任何重疊的更改，並且必須在繼續之前解決。 與項目開發時手動保存和記錄更改相比，這提供了更加簡化和自動化的過程。 它還避免了不可避免的混淆命名文件版本列表......
+Version control is essentially a process that takes snapshots of the files in a repository, and tracks modifications to them. It records when the changes were made, what they were, and who did them. If several people are working on one file at once, any overlapping changes are detected, and must be resolved prior to continuing. This provides a much more streamlined and automated process than manually saving and recording changes as projects develop. It also avoids the inevitable lists of confusing named file versions...
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/xkcd.png?raw=true" width="200" /></p>
 
-<p align="center"><i>GitHub幫助我們避免，呃，次優的文件命名約定（來源：XKCD）</i></p>
+<p align="center"><i>GitHub helps us to avoid, er, sub-optimal file naming conventions (source: XKCD)</i></p>
 
   
 
 
-GitHub的一個比較流行和有用的功能是 [問題跟踪器](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues)，用於組織OSS開發。 以上鍊接將您帶到問題跟踪器以開發此模塊！ 如果你認為這裡有一些可以改進的東西，或者你想評論，任何人都可以在那裡添加或貢獻一個問題！
+One of the more popular and useful functions of GitHub is the [issue tracker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues), which is used to organise OSS development. The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!
 
-其它類似的項目託管服務，包括 [到位桶](https://bitbucket.org/)， [GitLab](https://about.gitlab.com/)和 [的Launchpad](https://launchpad.net/)。 如果微軟最近對GitHub的收購對你有點不利，那麼這些都是很好的選擇。
+Other similar project hosting services include [BitBucket](https://bitbucket.org/), [GitLab](https://about.gitlab.com/), and [Launchpad](https://launchpad.net/). If the recent acquisition of GitHub by Microsoft is a bit off-putting to you, these are great alternatives.
 
-但是，我們也知道GitHub可以有很高的學習曲線。 這就是為什麼這個MOOC的第一個實際任務將教你如何設置你的第一個GitHub項目存儲庫！
+However, we also know that GitHub can have quite a high learning curve. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!
 
-**[轉到任務1：構建您的第一個GitHub存儲庫](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
+**[GO TO TASK 1: Building your first GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
 
   
 
 
 ## 用於研究的開源軟件 <a name="Research"></a>
 
-特別是在科學研究方面，開源軟件的使用和開發已經成為一種常態。 除了適用於消費者，行業或政府等普遍接受OSS的原因之外，還有很多原因。 其中包括：
+Especially in scientific research, Open Source Software usage and development has become practically the norm. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
 
 - 在分析軟件中實施的算法越來越多地成為學術出版物中描述的方法的組成部分。 因此，如果這些算法實現對外人關閉，那麼它與嚴格的同行評審完全不一致。
 
@@ -218,69 +222,70 @@ GitHub的一個比較流行和有用的功能是 [問題跟踪器](https://githu
 
 - OSS的發展往往依賴於志願者。 在科學研究的預算限制時期，這是一個明顯的優勢。
 
-由於這些原因和其他原因，開源工具在科學研究中非常常用。 這包括在許多研究人員都是業餘開發人員自己的領域中使用，並依賴於 [R](https://www.r-project.org/) 等工具進行統計分析和編寫腳本，在過去的十年中，這些工具幾乎完全取代了用於統計分析的商業軟件，如SPSS或JMP。很多領域。 在生物信息學等領域，涉及DNA測序平台輸出的大量文件處理，通用腳本語言，如 [Python](https://www.python.org/) 和基於它的常用庫（如 [biopython](http://biopython.org)）已成為至關重要的許多研究人員的工具包的一部分。
+For these and other reasons, Open Source tools are very commonly used in scientific research. This includes usage in fields where many researchers are amateur developers themselves and rely on tools such as [R](https://www.r-project.org/) for statistical analysis and scripting, which, in the last decade, has almost completely displaced commercial software for statistical analysis such as SPSS or JMP in a lot of fields. In fields such as bioinformatics, that involve a lot of file handling of the outputs of DNA sequencing platforms, general purpose scripting languages such as [Python](https://www.python.org/) and commonly used libraries built on top of it (such as [biopython](http://biopython.org)) have become a vital part of the toolkit of many researchers.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/python.png?raw=true" width="400" /></p>
 
-<p align="center"><i>蟒蛇</i></p>
+<p align="center"><i>Python</i></p>
 
   
 
 
-R和Python等工具本質上是編寫軟件的軟件。 雖然規劃是研究人員一個越來越普遍的活動，當然不是 *每* 科學家做到這一點。 離編程只有一步的步驟是將較長工作流程中各種分析工具的輸入和輸出鏈接在一起。 作為基因組學的一個例子，一個非常常見的工作流程是從高通量測序讀數開始，然後i）進行基本的質量控制檢查; ii）將讀數映射到參考基因組; iii）確定新數據與參考不一致的點。 這些步驟通常作為工作流執行，其中在Linux命令行環境中為三個步驟中的每一步運行不同的開源可執行文件。 雖然這可能不是一個非常開源的軟件開發，但它確實涉及開源工件（例如Linux shell腳本）的使用和生產，我們在本模塊中討論的原則適用於這些工件。
+Tools such as R and Python are essentially software for writing software. Although programming is an increasingly common activity among researchers, of course not *every* scientist does this. One step away from programming is the chaining together of the inputs and outputs of various analysis tools in longer workflows. As an example from genomics, a very common workflow is to start out with high-throughput sequencing reads and then i) do basic quality control checks; ii) map the reads against a reference genome; iii) identify the points where the new data are at variance with the reference. These steps are routinely executed as a workflow where a different Open Source executable is run in a Linux command-line environment for each of the three steps. Although this is arguably not quite open source software development, it does involve the usage and production of open source artifacts (such as Linux shell scripts) for which the principles that we discuss in this module are applicable.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/r.png?raw=true" width="200" /></p>
 
-<p align="center"><i>[R</i></p>
+<p align="center"><i>R</i></p>
 
   
 
 
-最後，OSS也用於科學研究，其原因更接近於那些推動OSS在更廣泛社會中採用的原因，即它很便宜。 例如，個人或組織可能決定從Microsoft Office切換到LibreOffice進行稿件編寫或電子表格處理，因為後者是免費的（如 [**'免費啤酒'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 和'言論自由'）。 同樣，可以簡單地通過成本考慮來選擇從ArcGIS切換到 [QGIS](https://www.qgis.org/en/site/) 以分析地理信息。   
+Lastly, OSS is also used in scientific research for reasons that more closely mirror those that drive the adoption of OSS in wider society, namely that it is cheap. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in [**'free beer'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and 'free speech'). Likewise, the choice to switch from ArcGIS to [QGIS](https://www.qgis.org/en/site/) for the analysis of geographic information might be prompted simply by cost considerations.   
 
 
 ## OSS入門 - 常見問題解答 <a name="FAQ"></a>
 
-**我正在使用X [例如Matlab，STATA，Excel]，我希望轉換到更開放的東西。 什麼是下一個步驟？**
+**I'm using X[e.g. Matlab,STATA,Excel] and I want to transition to something more open. What are the next steps?**
 
-即使您使用的是專有軟件，您通常仍可以共享源代碼/文檔等。 *最好的第一步是盡可能分享*。
+Even if you are using proprietary software, you can usually still share your source code/documents etc. *The best first step is sharing whatever you can*.
 
-**大！ 我可以把它們放在我的新github回購中。**
+**Great! I can put them in my new github repo.**
 
-如果這對你來說已經足夠了！ 如果不是大多數專有軟件，則有開源等價物。 和一個人一起去看看你的想法。
+If that's enough for you for now great! If not for most pieces of proprietary software there are Open Source equivalents. Have a go with one and see what you think.
 
-| 關閉                                                                              | 打開                                                                                                                                             |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| MATLAB                                                                          | Python，朱莉婭                                                                                                                                     |
-| STATA / SPSS                                                                    | [R                                                                                                                                             |
-| 微軟Office                                                                        | LibreOffice的                                                                                                                                   |
-| 數學                                                                              | JupyterLab                                                                                                                                     |
-| 測試你的新 [拉請求-PR-](https://help.github.com/articles/about-pull-requests/) 技能...... | ... 在這裡添加你自己的例子 [](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
+| 關閉                                                                                                      | 打開                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MATLAB                                                                                                  | Python，朱莉婭                                                                                                                                                        |
+| STATA / SPSS                                                                                            | [R                                                                                                                                                                |
+| 微軟Office                                                                                                | LibreOffice的                                                                                                                                                      |
+| 數學                                                                                                      | JupyterLab                                                                                                                                                        |
+| Max/MSP                                                                                                 | PureData                                                                                                                                                          |
+| Test out your new [Pull Request -PR-](https://help.github.com/articles/about-pull-requests/) Skills ... | ... by adding your own example [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md) |
 
-**涼！ 但是，如果我進行切換，我將陷入困境：需要多年才能學習新工具/沒有支持/使用有缺陷的軟件。**
+**Cool! But if I make the switch will I be stuck: taking ages to learn a new tool/ without support /with buggy software.**
 
-好問題！ 答案取決於它。 最好的辦法是找一個以前做過轉換的人，並從他們的經驗中學習。 或者只是進行谷歌搜索！ 有些OSS比封閉式對應物要好得多，有些則不然，所以值得仔細選擇。
+Good question! The answer is it depends. The best thing to do is find someone who's made the switch before and learn from their experience. Or just do a Google search! Some OSS is much better than their closed counterparts, some aren't, so it's worth choosing carefully.
 
 ## 製作好的軟件以便重複使用 <a name="Reuse"></a>
 
-最有可能在將來重新使用您的軟件的人是......你！ 因此，雖然共享總是優於不共享，但通過適當的文檔，您可以更輕鬆地創建自己和他人的生活。 文檔可以包含幾個內容，例如在代碼中包含有用的註釋和註釋，以幫助解釋執行特定操作的原因，而不是它要實現的目標。
+The most likely person who might want to re-use your software in the future is...you! So while sharing is always better than not sharing, you can make your own life, and that of others, much easier through appropriate documentation. Documentation can include several things, such as including helpful comments and annotations in the code that help to explain why a particular action was performed, rather than what it is intended to achieve.
 
-其中一個最重要的方面是包含一個信息豐富的 `README` 文件，幾乎每個OSS項目都有，有時甚至不止一個。 在每個目錄中包含一個這樣的文件是一個好習慣，其中包括文件列表，目錄以及目錄的用途。 `README` 文件通常只是純文本或markdown（再次，例如MOOC的所有文件！），並且可以包含有關如何安裝和運行軟件的關鍵信息，以前的依賴關係和要求，以及教程或例子。
+One of the most critical aspects of this is including an informative `README` file, that accompanies almost every OSS project, and some times even more than one. It can be a good practice to include one such file in every directory, that includes a list of files, a table of contents, and what the purpose of the directory is. The `README` file is typically just plain text or markdown (again, such as all of the ones for the MOOC!), and can include critical information for how to install and run software, previous dependencies and requirements, as well as tutorials or examples.
 
 > **你知道嗎** 術語 `README` 是一些次調皮地歸因於劉易斯·卡羅爾的愛麗絲夢遊著名的場景在仙境中的愛麗絲面對標有神奇的零食“吃我”“和”喝我“。 有效。
 
-這裡的目的是提供足夠的信息以最大化計算環境的重用和再現性，使得沒有項目經驗的人可以輕鬆訪問和重用軟件（[Sandve等，2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)）。 通過降低進入壁壘，您可以增加其他人重新使用您工作的機會，這是OSS的最終目標之一（[Ince et al。，2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf)）。
+The purpose here is to provide sufficient information to maximise the re-use and reproducibility of the computational environment, such that someone with no experience with the project can easily access and re-use the software ([Sandve et al., 2013](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)). By lowering the barriers to entry, you increase the chances of others being able to re-use your work, which is one of the ultimate goals of OSS ([Ince et al., 2012](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf)).
 
-這種擴展有助於使未來重複使用更加容易，是“容器”技術。 容器就像一個及時凍結的生態系統，代碼，數據和任何其他依賴關係都完美地保存，打包並保存在當前功能版本中。 這意味著將來任何人都可以進入並再次運行分析。 因此，它們通常適合重複使用，但這可能是由於其他人修改或理解而犧牲的，因為通常很多細節都可以隱藏在源代碼及其依賴項中。 研究中容器實現的常見示例包括 [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) （R語言的Docker容器）， [Binder](https://mybinder.readthedocs.io/en/latest/)和 [Code Ocean](https://codeocean.com/)。
+An extension of this that can help to make things even easier for future re-use is 'container' technology. Containers are like an ecosystem frozen in time, where the code, the data, any other dependencies, are all perfectly preserved, packaged and saved in the present functioning versions. This means that anyone in the future any one can come in and run the analyses again. As such, they are generally good for re-use, but this can come at the sacrifice of modification or understanding by others, as often a lot of details can be hidden within the source code and its dependencies. Common examples of container implementation in research include [Rocker](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf) (a Docker container for the R language), [Binder](https://mybinder.readthedocs.io/en/latest/), and [Code Ocean](https://codeocean.com/).
 
-**可持續軟件是很好的軟件。**
+**Sustainable software is good software.**
 
   
 
 
 ## 可重複計算研究的10條簡單規則
 
-根據 [Sandve et al。，（2013）](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF)，使計算研究更具可重複性的10條簡單規則是：
+The 10 simple rules for making computational research more reproducible, based on [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), are:
 
 1. 對於每個結果，跟踪它的生成方式。
 2. 避免手動數據操作步驟。
@@ -295,53 +300,53 @@ R和Python等工具本質上是編寫軟件的軟件。 雖然規劃是研究人
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/simple_rules.png?raw=true" width="800" /></p>
 
-<p align="center"><i>信息圖改編自Sandve等，（2013）。 隨意下載並打印出來，以便在研究期間保持方便！</i></p>
+<p align="center"><i>Infographic adapted from Sandve et al., (2013). Feel free to download this and print it out to keep handy during your research!</i></p>
 
   
 
 
-如果您按照這些步驟，以及 [**任務1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) 和 [**任務2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)，您應該沒問題！
+If you follow these steps, along with the processes in [**Task 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [**Task 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), you should be fine!
 
   
 
 
 ## 開源許可 <a name="Licensing"></a>
 
-開源許可證是一種專門為軟件和代碼設計的許可證，它明確了共享和重用的法律條件。 如所提及的 [以上](#What_OSS)，加入合適的許可的是什麼區別公開從OSS共享軟件。 例如，廣泛使用的 [MATLAB](https://www.mathworks.com/products/matlab.html) 是專有軟件， [Octave](https://www.gnu.org/software/octave/) 是一種公開許可的替代編程語言。
+An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
 
-目前有超過1,400個獨特的開源許可證，由於難以理解不同許可證之間的法律影響之間的差異而產生的複雜性。
+There are currently more than 1,400 unique Open Source licenses, a complexity born from the difficulty in understanding the differences between the legal implications across different license.
 
-一些更常見的許可證包括：
+Some of the more common licenses include:
 
 - [Berkeley Software Distribution（“BSD”）](https://en.wikipedia.org/wiki/BSD_licenses)，
 - [Apache](https://www.apache.org/licenses/LICENSE-2.0)，
 - [麻省理工學院（麻省理工學院）](https://opensource.org/licenses/MIT)，或
 - [GNU通用公共許可證（“GPL”）](https://www.gnu.org/licenses/gpl-3.0.en.html)。
 
-你不需要知道所有這些背後的所有法律因素，但至少知道哪些選項可供你使用是好的。
+You don't need to know all the legal itty gritty behind all of these, but it is good to at least know what options are avaiilable to you.
 
-有兩種方式可以對項目的貢獻獲得許可：
+There are two ways in which contributions to a project become licensed:
 
 1. *明確*，個人捐款具有明確指示的許可證，獨立於主項目;要么
 2. *隱含*，其中貢獻屬於主項目的原始許可代碼。
 
-值得慶幸的是，由於用戶友好的工具，例如 [選擇許可證](https://choosealicense.com/)，選擇開源許可證的過程相對簡單。 這些許可證中的每一個都允許其他用戶使用，複製，分發和構建您的工作，通常同時確保創作者的工作得到適當的認可。 在這裡，關鍵是為您的工作選擇合適的許可證，具體取決於您想要或不想要的，其他人使用它。
+Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/) or [Public License Selector](https://ufal.github.io/public-license-selector/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
 
   
 
 
 ## 軟件引用 <a name="Citation"></a>
 
-引文提供了學術研究中最重要的互動之一，形成了我們的參考和指標系統的基礎。 通常，這是由於諸如 [數字對象標識符](https://en.wikipedia.org/wiki/Digital_object_identifier) （DOI）之類的永久唯一標識符的幫助而執行的。 DOI是在 [句柄系統](https://en.wikipedia.org/wiki/Handle_System)實現的持久標識符，其根據目的滿足共同標準，例如用於識別學術信息。 這種識別對於跟踪研究的系譜和來源，重現性以及為創建軟件的人提供適當的信譽至關重要。 重要的是，軟件應該被認為是學術研究的合法輸出，引用正在成為一種越來越常見的方式來表明這一點。
+Citations provide one of the most important interactions in scholarly research, forming the basis of our referencing and metrics systems. Typically, this is performed thanks to the assistance of a permanent unique identifier such as a [Digital Object Identifiers](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI). A DOI is a persistent identifier, implemented in the [Handle System](https://en.wikipedia.org/wiki/Handle_System), that meets a common standard, depending on the purpose, such as for identifying academic information. Such identification is critical for tracking the genealogy and provenance of research, for reproducibility, as well as for giving appropriate credit to those who have created the software. Importantly, software should be considered a legitimate output from scholarly research, and citation is becoming an increasingly common way to indicate that.
 
-在2016年， [Smith等人，2016年](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) 撰寫了一篇關於軟件引用原則的研究論文，作為FORCE11軟件引用工作組的一部分。 與您想要引用您作為良好研究實踐的一部分使用的軟件的方式相同，重要的是使您的研究也很容易引用。 在引用用於您自己研究的任何軟件時，您應至少包括：
+In 2016, [Smith et al., 2016](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) wrote a research paper about the principles of software citation as part of the FORCE11 Software Citation Working Group. In the same way that you would want to cite software that you have used as part of good research practices, it is important to make your research easily citable too. When citing any software used for your own research, you should include at minimum:
 
 - 作者姓名，
 - 軟件名稱，
 - 版本號，和
 - 唯一標識符/定位符（DOI或URL）。
 
-由六個原則軟件引證的 [。Smith等人，（2016）](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) ，這裡提供：
+The six principles of software citation by [Smith et al., (2016)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf) are provided here:
 
 - **重要性**：軟件應被視為合法且可引用的研究產品。 軟件引用在學術記錄中應與其他研究產品（如出版物和數據）的引用一樣重要;它們應該包含在引用工作的元數據中，例如在期刊文章的參考列表中，不應該被省略或分開。 軟件的引用應與任何其他研究產品（如紙張或書籍）相同，即作者應引用適當的軟件產品集，就像它們引用適當的論文集一樣。
 
@@ -355,44 +360,44 @@ R和Python等工具本質上是編寫軟件的軟件。 雖然規劃是研究人
 
 - **特異性**：軟件引用應有助於識別和訪問所使用的特定軟件版本。 軟件標識應盡可能具體，例如使用版本號，修訂號或平台等變體。
 
-注意：有關“如何使您的軟件可用”的說明，請參閱下面的 [**使用GitHub和Zenodo**](#GitHub_Zenodo) 以及 [**任務2：鏈接GitHub和Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)。
+Note: For instructions on 'how to make your software citable' see the section [**Using GitHub and Zenodo**](#GitHub_Zenodo) below and [**Task 2: Linking GitHub and Zenodo**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md).
 
   
 
 
 ## 使用GitHub和Zenodo <a name="GitHub_Zenodo"></a>
 
-[GitHub](#GitHub) 是一個用於項目管理，內容存儲和版本控制的流行工具。 請注意，GitHub本身不是OSS。 然而，Git，它所基於的工具，是。 Git旨在幫助管理與軟件相關的項目的源代碼文件及其更新。 但是，它也可以擴展到其他非軟件項目;例如，這 [MOOC](https://github.com/OpenScienceMOOC/)！
+[GitHub](#GitHub) is a popular tool for project management, content storage, and version control. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this [MOOC](https://github.com/OpenScienceMOOC/)!
 
-然而，對GitHub進行研究只是第一步。 使其持久且可重複使用同樣重要，這就是為什麼擁有與之相關的數字對象標識符（DOI）可能很有用的原因。 最簡單的方法是通過名為 [Zenodo](https://zenodo.org/)的服務，這是一個由OpenAIRE和CERN創建的免費開源多學科存儲庫，可用於為各個GitHub存儲庫分配DOI。 有一個 [GitHub指南](https://guides.github.com/activities/citable-code/) 解釋了細節，其中涉及將GitHub存儲庫直接鏈接到Zenodo，以便當開發人員為他們的軟件創建正式版本時，Zenodo創建並存檔該版本的軟件。
+However, getting research onto GitHub is just the first step. It is equally important to make it persistent and re-usable, which is why having a Digital Object Identifier (DOI) associated with it can be useful. The simplest way to do this is through a service called [Zenodo](https://zenodo.org/), which is a free and open source multi-disciplinary repository created by OpenAIRE and CERN, and can be used to assign a DOI to individual GitHub repositories. There is a [GitHub Guide](https://guides.github.com/activities/citable-code/) that explains the details, which involve linking GitHub repositories directly through to Zenodo so that when developers create formal releases for their software, Zenodo creates and archives a that version of the software.
 
-使用Zenodo創建DOI並沒有什麼特別之處，除了 **免費**;也可以使用其他通用存儲庫，例如 [DataCite DOI Fabrica](https://doi.datacite.org/)，或您自己的機構存儲庫，例如 [Caltech](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata)。
+There's nothing special about using Zenodo for creating DOIs, other than its **free of cost**; other general repositories can also be used, such as [DataCite DOI Fabrica](https://doi.datacite.org/), or your own institutional repositories such as [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
 
-許多研究人員可能通常害怕共享不完整，錯誤或不完美的代碼。 但是，在OSS社區中，這種共享“原始”代碼的做法相當普遍。 公開共享代碼使其他人能夠重複使用和改進代碼，並且可以更深入地參與與之相關的任何研究。 這是同行合作的基本方面之一，也許最好的例子是傳統的研究手稿同行評審過程。
+A lot of researchers might typically be afraid of sharing code which is incomplete, buggy, or imperfect. However, in the OSS community, such a practice of sharing 'raw' code is fairly commonplace. Sharing code openly enables others to re-use and improve it, as well as to engage in a deeper way with any research associated with it. This is one of the fundamental aspects of peer-collaboration, perhaps best exemplified by the traditional process of research manuscript peer review.
 
-任務2將指導您完成將GitHub存儲庫鏈接到Zenodo以進行存檔的過程。
+Task 2 will guide you through the process of linking a GitHub repository to Zenodo for archiving.
 
 > **您知道嗎......** 為此MOOC製作的所有內容均作為 [Zenodo](https://zenodo.org/communities/open-science-mooc/)社區的一部分提供？
 
-**[轉到任務2：鏈接GitHub和Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
+**[GO TO TASK 2: Linking GitHub and Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
 
   
 
 
 ## 通過開源合作和貢獻 <a name="Collaborating"></a>
 
-通常，OSS是在多個貢獻者之間以公共，分散，協作的方式開發的。 其目的是增強項目及其設計的多樣性和範圍，以便變得更有益和可持續。 這種方法被著名的早期OSS支持者Eric Raymond稱為“市集”模型。 其中一個主要的指導原則是 **同伴製作**，它依靠自組織社區來規範內容的發展，協調共同的目標或結果。
+Often, OSS is developed in a public, decentralised, collaborative manner between multiple contributors. The purpose of this is to enhance the diversity and scope of a project and its design, in order to become more beneficial and sustainable. Such an approach was famously likened to a 'bazaar' model by Eric Raymond, an early OSS proponent. One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
 
-OSS項目在很大程度上依賴於志願者合作，這通常需要不斷變化的新移民才能變得富有成效和可持續（[Steinmacher et al。，2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)）。 為項目創造合適的社交氛圍和熱情的參與環境通常對OSS中成功的合作關係至關重要。
+OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.
 
   
 
 
 ## 從這往哪兒走 <a name="Future_OSS"></a>
 
-希望現在你已經看到了軟件作為現代科學基石的重要性，以及OSS在這方面的重要性。
+Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.
 
-這個 **學習成果** 應該是：
+The **learning outcomes** from this should be:
 
 1. 您現在可以定義OSS的特徵，以及支持和反對它的一些道德，法律，經濟和研究影響論點。
 
@@ -407,11 +412,11 @@ OSS項目在很大程度上依賴於志願者合作，這通常需要不斷變�
   
 
 
-**獎金任務**
+**BONUS TASK**
 
-如果你已經完成了 [任務1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) 和 [任務2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)，我們還有 **獎金任務** ，如果你想進一步提高你的技能。 [任務3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) 將向您介紹如何將Git與R Studio集成，從而更深入地將Git集成到典型的研究工作流程中。 建議您在繼續執行此任務之前完成前2個任務。
+If you have completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), we also have a **BONUS TASK** for you, if you want to take your skills a step further. [Task 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) will take you a step deeper into integrating Git into a typical research workflow by showing you how to integrate it with R Studio. It is recommended that you have completed the first 2 tasks before proceeding with this one.
 
-但是，您的開源之旅並不止於此！ 這只是一個開始，如果你想做或了解更多，那裡有一些令人難以置信的資源：
+However, your Open Source journey does not stop here! This was just the beginning, and there are some incredible resources out there if you would like to do or learn more:
 
 - 如果您對此感到特別鼓舞，您可以認可 [科學代碼宣言](http://sciencecodemanifesto.org/)，它基於代碼，版權，引用，信用和策展的五項原則。
 
@@ -436,7 +441,7 @@ OSS項目在很大程度上依賴於志願者合作，這通常需要不斷變�
 
 ### 進一步閱讀 <a name="Reading"></a>
 
-*這裡的這些參考僅僅是開始。 它們包括一些對研究中開源領域最有用的概述。 但是，如果您想要找到更適合您自己研究領域的東西，那麼您可以在那裡探索！*
+*These references here are just the beginning. They include some of the most useful general overviews of the Open Source landscape in research. However, if you want to be find something more specific to your own research field, then that path is there for you to explore!*
 
 - 自由/開源軟件開發研究的未來 [（Scacchi，2010）](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf)。
 
@@ -475,8 +480,8 @@ OSS項目在很大程度上依賴於志願者合作，這通常需要不斷變�
 - [Julien Colomb](https://twitter.com/j_colomb)，Open Ninja，Berlin。
 - [Jon Tennant](https://twitter.com/protohedgehog)，Dinosaur Whisperer。
 
-**知道這種內容可以改進的方式嗎？**
+**Know a way this content can be improved?**
 
-是時候將新的GitHub技能用於測試運行了！ 所有內容的開發主要發生 [這裡](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md)。 如果您對內容，佈局或其他任何內容有建議的改進，您可以製作它，然後在主持人驗證後它將自動成為MOOC內容的一部分！
+Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
