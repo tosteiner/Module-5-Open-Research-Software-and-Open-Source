@@ -153,17 +153,17 @@ Existem dois campos principais dentro da comunidade de software livre: o **movim
 
 Da mesma forma que as pessoas ativas no movimento da ciência aberta são heterogêneas em suas suposições e objetivos, também existem opiniões diferentes na comunidade do FLOSS. Recordando o módulo 1, duas das escolas de pensamento em ciência aberta eram a escola *pragmática* e a escola *democrática*. Enquanto o primeiro é impulsionado pelo pressuposto de que a pesquisa poderia ser mais eficiente se os cientistas trabalhassem juntos, o segundo quer corrigir uma distribuição desigual de conhecimento. Provavelmente, ambos acabam compartilhando suas pesquisas, mas, cada um com intenções diferentes.
 
-Isso é aproximadamente comparável ao OSS e ao movimento do software livre: o último evoluiu por volta de 1983 para proteger o que eles chamam de quatro liberdades essenciais do usuário de um programa. These include the freedom to run, copy, distribute, study, change and improve a program. Software that respects these freedoms with an appropriate license is considered 'free'. The four freedoms are seen as vital for a society as a whole in the sense that they only enable sharing, cooperation and ultimately freedom in general. In this sense the free software movement is a social movement that creates an ethical imperative.
+Isso é aproximadamente comparável ao OSS e ao movimento do software livre: o último evoluiu por volta de 1983 para proteger o que eles chamam de quatro liberdades essenciais do usuário de um programa. Isso inclui a liberdade de executar, copiar, distribuir, estudar, alterar e melhorar um programa. O software que respeita essas liberdades com uma licença apropriada é considerado 'livre'. As quatro liberdades são vistas como vitais para uma sociedade como um todo, no sentido de que apenas permitem o compartilhamento, a cooperação e, finalmente, a liberdade em geral. Nesse sentido, o movimento do software livre é um movimento social que cria um imperativo ético.
 
-The open source software movement, which splintered off in 1998, focuses on the practical advantages and does not campaign for principles. It is concerned with developing high-quality software, for which everyone's ability to obtain, modify and contribute back the source code is considered highly beneficial.
+O movimento do software de código aberto, que se fragmentou em 1998, concentra-se nas vantagens práticas e não faz campanha por princípios. Está preocupado com o desenvolvimento de software de alta qualidade, para o qual a capacidade de todos para obter, modificar e contribuir com o código-fonte é considerada altamente benéfica.
 
-Among multiple conclusions they arrive at, access to a program's source code is a shared one. Software thus may be considered *free*, *open source*, or both, according to agreed-on definitions by the Free Software Foundation ([FSF](https://www.gnu.org/philosophy/free-sw.html)) and the Open Source Initiative ([OSI](https://opensource.org/osd)). The FSF argues that free software is a subset of OSS, with only a [fraction](https://www.gnu.org/philosophy/free-open-overlap.html) being open source but nonfree.
+Entre várias conclusões que chegam, o acesso ao código-fonte de um programa é compartilhado. Assim, o software pode ser considerado *livre*, *código aberto*ou ambos, de acordo com as definições acordadas pela Free Software Foundation ([FSF](https://www.gnu.org/philosophy/free-sw.html)) e pela Open Source Initiative ([OSI](https://opensource.org/osd)). A FSF argumenta que o software livre é um subconjunto de OSS, com apenas um [fração](https://www.gnu.org/philosophy/free-open-overlap.html) sendo de código aberto, mas não livre.
 
-Thus, highlighting a particular license status of software in use—open source or free—is mostly about different philosophies, not about software not having the other status as well. Each movement has its share of problems explaining their term: *free* means more than being gratis and *open source* means more than having access to the source code. The [FSF](https://www.gnu.org/philosophy/open-source-misses-the-point.html) and the European counterpart [FSFE](https://fsfe.org/documents/whyfs.html) provide more information on this topic.
+Portanto, destacar um status de licença específico do software em uso - de código aberto ou gratuito - é principalmente sobre diferentes filosofias, não sobre o software não ter o outro status também. Cada movimento tem sua parcela de problemas para explicar seu termo: *livre* significa mais do que ser gratuito e *código aberto* significa mais do que ter acesso ao código-fonte. O FSF [](https://www.gnu.org/philosophy/open-source-misses-the-point.html) e a contrapartida europeia [FSFE](https://fsfe.org/documents/whyfs.html) fornecem mais informações sobre este tópico.
 
 ### Para projetos individuais
 
-A typical open source project has the following types of formal roles:
+Um projeto típico de código aberto tem os seguintes tipos de papéis formais:
 
 - **Autor**: É a pessoa que criou o projeto
 - **Proprietário**: A/s pessoa/s que possui propriedade administrativa sobre a organização ou o repositório 
@@ -171,7 +171,7 @@ A typical open source project has the following types of formal roles:
 - **Colaboradores**: O usuário que já contribuiu para o projeto.
 - **Membros da Comunidade**: Pessoas que trabalham no projeto. Eles podem ser ativos em conversas, criar novas questões para discussão ou expressar sua opinião sobre as futuras melhorias do projeto.
 
-Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
+Normalmente, as funções são divulgadas publicamente em um arquivo `README` , um arquivo de colaboradores ou uma página separada com informações sobre a equipe do projeto.
 
   
 
