@@ -126,7 +126,7 @@ Tudo isto pode ser um pouco complexo para memorizar. No entanto, pode ser resumi
   
 
 
-## Uma checklist do código-fonte aberto
+## Um checklist do código-fonte aberto
 
 Há várias plataformas e ferramentas existentes que apoiam o programa de código-fonte aberto e a colaboração. O [Manual de Treinamento em Ciência Aberta](https://open-science-training-handbook.gitbook.io/book/) fornece uma checklist para avaliar a "abertura" do software de pesquisa existente, com base na Definição de Código Aberto acima:
 
@@ -178,23 +178,23 @@ Normalmente, as funções são divulgadas publicamente em um arquivo `README` , 
 
 ## Plataformas e ferramentas de software com código-fonte aberto existentes <a name="Platforms"></a>
 
-Virtual environments and machines are becoming increasingly popular as high-powered research workflow enablers, and many of these are built upon OSS (e.g., operating systems, programming languages, and data processing frameworks). Popular services include [Google Cloud](https://cloud.google.com/compute/) and [Amazon Web Services](https://aws.amazon.com/), which also assist with database storage and content delivery, as well as computational power. [InsideDNA](https://insidedna.me/) is a computing platform for reproducible research in bioinformatics, genomics and the life sciences.
+Ambientes e máquinas virtuais estão se tornando cada vez mais populares como facilitadores do fluxo de trabalho de pesquisas de alta capacidade, e muitos deles são construídos sobre Softwares de Código-fonte Aberto (OSS) (por exemplo, sistemas operacionais, linguagens de programação e estruturas de processamento de dados). Os serviços populares incluem [Google Cloud](https://cloud.google.com/compute/) e [Amazon Web Services](https://aws.amazon.com/), os quais também auxiliam no armazenamento de bases de dados e na entrega de conteúdos, bem como no poder computacional. [InsideDNA](https://insidedna.me/) é uma plataforma computacional para a reprodutibilidade da pesquisa em bioinformática, genômica e ciências da vida.
 
-As mentioned [above](#What_OSS), LibreOffice provides an Open Source alternative to Microsoft Office. The two are almost completely compatible, just with different default file formats. For citation managers, [Zotero](https://www.zotero.org/) is the most popular Open Source alternative to proprietary platforms such as Mendeley or EndNote.
+Como mencionado [acima](#What_OSS), o LibreOffice é uma alternativa de código aberto ao Microsoft Office. Os dois são quase completamente compatíveis, apenas com diferentes formatos de arquivo padrão. Para os gerenciadores de referência, [Zotero](https://www.zotero.org/) é a alternativa mais popular de código aberto para plataformas proprietárias como Mendeley ou EndNote.
 
-[Zotero](https://www.zotero.org/) uses the BibTeX (pronounced 'bib-tech') format, based on LaTeX (pronounced 'lay-tech'), and has browser plugins to make citation management simple. By integrating this with other software such as LibreOffice, it is now possible to have a fully Open Source research workflow in many cases.
+[Zotero](https://www.zotero.org/) usa o formato BibTeX (pronuncia-se 'bib-tech'), baseado em LaTeX (pronuncia-se 'lay-tech'), e possui plugins de navegador para fazer o gerenciamento de referências e construir citações de forma simples. Ao integrar isso a outros softwares, como o LibreOffice, agora é possível ter um fluxo de trabalho de pesquisa totalmente em código-fonte aberto em muitos casos.
 
 ### GitHub<a name="GitHub"></a>
 
 > Você sabia que este projeto inteiro foi construído como um esforço comunitário aberto e colaborativo no [GitHub](https://github.com/OpenScienceMOOC/)?
 
-[GitHub](https://github.com/) is a popular hosting site for both software and non-software content (often called 'notebooks'), with added capabilities for version control, project management and tracking, and storage services. GitHub is built on top of the OSS [Git](https://git-scm.com/), which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.
+[GitHub](https://github.com/) é um site de hospedagem popular para conteúdo de software e não software (geralmente chamado de 'notebooks'), com recursos adicionais para controle de versão, gerenciamento e rastreamento de projetos e serviços de armazenamento. O GitHub é construído com base em programa de código-fonte aberto / Open Source Software (OSS) [Git](https://git-scm.com/), que permite aos usuários trabalhar remotamente para manter, compartilhar e colaborar em softwares de pesquisa e outros projetos não baseados em software.
 
-Version control is essentially a process that takes snapshots of the files in a repository, and tracks modifications to them. It records when the changes were made, what they were, and who did them. If several people are working on one file at once, any overlapping changes are detected, and must be resolved prior to continuing. This provides a much more streamlined and automated process than manually saving and recording changes as projects develop. It also avoids the inevitable lists of confusing named file versions...
+O controle de versão é essencialmente um processo que captura imagens instantâneas dos arquivos em um repositório e rastreia modificações neles. Ele registra quando as mudanças foram feitas, grava o estado em que estavam e quem as fez. Se várias pessoas estiverem trabalhando em um arquivo de uma vez, todas as alterações sobrepostas serão detectadas e deverão ser resolvidas antes de continuar. Isso proporciona um processo muito mais simplificado e automatizado do que salvar e registrar mudanças manualmente à medida em que os projetos se desenvolvem. Também evita as inevitáveis listas de versões de arquivos com nomes confusos...
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/xkcd.png?raw=true" width="200" /></p>
 
-<p align="center"><i>GitHub helps us to avoid, er, sub-optimal file naming conventions (source: XKCD)</i></p>
+<p align="center"><i>O GitHub nos ajuda a evitar, por exemplo, convenções de nomenclatura de arquivos abaixo do padrão ideal (fonte: XKCD)</i></p>
 
   
 
