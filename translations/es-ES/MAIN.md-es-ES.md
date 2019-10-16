@@ -51,18 +51,18 @@ El poder del Código Abierto radica en que reduce las barreras para la colaborac
 
 ### **Objetivos específicos de aprendizaje para este Módulo**:
 
-1. Aprende las características del software abierto; entender los **argumentos de impacto éticas, legales, económicos y de investigación favor y en contra del software Open Source**, y para entender mejor los requisitos de calidad de código abierto.
+1. Aprender las características del software abierto; entender los **argumentos éticos, legales, económicos y de impacto en la investigación a favor y en contra del Software de Código Abierto **, además de entender mejor los requisitos de calidad de código abierto.
 
 2. Ser capaz de convertir el código hecho para uso personal en un código abierto al que otros puedan acceder.
 
-3. Use software (herramientas) que utiliza contenido abierto y fomenta una colaboración más amplia.
+3. Usar software (herramientas) que utiliza contenido abierto y fomenta una colaboración más amplia.
 
   
 
 
-## ¿Qué es el software de código abierto? <a name="What_OSS"></a>
+## ¿Qué es el Software de Código Abierto? <a name="What_OSS"></a>
 
-Prácticamente todos los flujos de trabajo de investigación científica moderna se basan en una gama de herramientas de software, ya sea que operan en diferentes conjuntos de datos, con diferentes parámetros, y se aplican de manera iterativa de varias maneras (ciencia de datos) o que operan en diferentes entradas y utilizan modelos y métodos para predecir algún estado de salida ( Ciencia computacional). El software de código abierto (OSS) es un software de computadora en el que el código fuente completo está disponible bajo una licencia específica que permite a otros usuarios acceder, ver, modificar y redistribuir ese código para cualquier propósito. Debido a que OSS requiere una licencia de este tipo, por lo general se mantiene de forma gratuita de forma predeterminada. Esta licencia explícita es también lo que diferencia a OSS del software libre. Reutilizar OSS para análisis, simulación y visualización para investigación también suele ser más fácil y más flexible en comparación con el software propietario. A menudo, ya sea que lo sepamos o no, ya estamos usando OSS como parte de nuestros propios flujos de trabajo de investigación.
+Prácticamente todos los flujos de trabajo de investigación científica moderna se basan en una gama de herramientas de software, ya sea que operen en diferentes conjuntos de datos con diferentes parámetros y se apliquen de manera iterativa de varias maneras (ciencia de datos) o que operan en diferentes entradas y utilizan modelos y métodos para predecir algún estado de salida ( Ciencia computacional). El software de código abierto (OSS) es un software de computadora en el que el código fuente completo está disponible bajo una licencia específica que permite a otros usuarios acceder, ver, modificar y redistribuir ese código para cualquier propósito. Debido a que OSS requiere una licencia de este tipo, por lo general se mantiene de forma gratuita de forma predeterminada. Esta licencia explícita es también lo que diferencia a OSS del software libre. Reutilizar OSS para análisis, simulación y visualización para investigación también suele ser más fácil y más flexible en comparación con el software propietario. A menudo, ya sea que lo sepamos o no, ya estamos usando OSS como parte de nuestros propios flujos de trabajo de investigación.
 
 OSS encaja en el esquema más amplio de Open Science, ya que ayuda a hacer que el entorno de investigación completo, incluido el software que produjo los resultados de la investigación, sea totalmente accesible y reutilizable. Como tal, constituye un componente necesario para las mejores prácticas ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) y la repetibilidad y reproducibilidad de la investigación (tanto personalmente como por otros), junto con otros componentes, como el intercambio de datos ([Stodden, 2010](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
 
