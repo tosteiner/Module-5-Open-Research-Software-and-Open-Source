@@ -212,7 +212,7 @@ No entanto, também sabemos que o GitHub pode ter uma curva de aprendizagem bast
 
 ## Software de código aberto usado em pesquisa <a name="Research"></a>
 
-Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. Há várias razões para isso além daquelas que se aplicam à aceitação geral do programa de código-fonte aberto/Open Source Software (OSS), por exemplo, consumidores, indústria ou governo. Among these reasons are:
+Especialmente em pesquisa científica, o uso e desenvolvimento de Software de Código Aberto tornou-se praticamente uma norma. Há várias razões para isso além daquelas que se aplicam à aceitação geral do programa de código-fonte aberto/Open Source Software (OSS), por exemplo, consumidores, indústria ou governo. Entre essas razões estão:
 
 - Cada vez mais, os algoritmos implementados no software de análise são parte integrante dos métodos descritos nas publicações acadêmicas. Como tal, está completamente em conflito com a rigorosa revisão por pares se estas implementações de algoritmos forem restritas a pessoas de fora.
 
@@ -222,7 +222,7 @@ Especialmente em pesquisa científica, o uso e desenvolvimento de Software de C�
 
 - O desenvolvimento de programas de código-fonte aberto/Open Source Software (OSS) geralmente dependem de voluntários. Em um tempo de restrições orçamentárias para a pesquisa científica, essa é uma clara vantagem.
 
-For these and other reasons, Open Source tools are very commonly used in scientific research. This includes usage in fields where many researchers are amateur developers themselves and rely on tools such as [R](https://www.r-project.org/) for statistical analysis and scripting, which, in the last decade, has almost completely displaced commercial software for statistical analysis such as SPSS or JMP in a lot of fields. In fields such as bioinformatics, that involve a lot of file handling of the outputs of DNA sequencing platforms, general purpose scripting languages such as [Python](https://www.python.org/) and commonly used libraries built on top of it (such as [biopython](http://biopython.org)) have become a vital part of the toolkit of many researchers.
+Por essas e outras razões, as ferramentas de código aberto são muito usadas em pesquisas científicas. This includes usage in fields where many researchers are amateur developers themselves and rely on tools such as [R](https://www.r-project.org/) for statistical analysis and scripting, which, in the last decade, has almost completely displaced commercial software for statistical analysis such as SPSS or JMP in a lot of fields. In fields such as bioinformatics, that involve a lot of file handling of the outputs of DNA sequencing platforms, general purpose scripting languages such as [Python](https://www.python.org/) and commonly used libraries built on top of it (such as [biopython](http://biopython.org)) have become a vital part of the toolkit of many researchers.
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/python.png?raw=true" width="400" /></p>
 
