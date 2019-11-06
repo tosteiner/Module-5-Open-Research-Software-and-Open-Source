@@ -300,37 +300,37 @@ As 10 regras simples para tornar a pesquisa computacional mais reprodutível, ba
 
 <p align="center"><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/simple_rules.png?raw=true" width="800" /></p>
 
-<p align="center"><i>Infographic adapted from Sandve et al., (2013). Feel free to download this and print it out to keep handy during your research!</i></p>
+<p align="center"><i>Infográfico adaptado de Sandve et al., (2013). Sinta-se livre para fazer o download e imprimir isto a fim de se manter atualizado durante sua pesquisa!</i></p>
 
   
 
 
-If you follow these steps, along with the processes in [**Task 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [**Task 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), you should be fine!
+Se você seguir estas etapas ao longo dos processos na [**Tarefa 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [**Tarefa 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), você vai se sair bem!
 
   
 
 
 ## Licenças de código aberto <a name="Licensing"></a>
 
-An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
+Uma licença Open Source é um tipo de licença projetada especificamente para software e código que tornam explícito quais são as condições legais para compartilhamento e reutilização. Como mencionado [acima](#What_OSS), a adição de uma licença adequada é o que diferencia software compartilhado publicamente de um programa de código-fonte aberto. Por exemplo, o amplamente utilizado [MATLAB](https://www.mathworks.com/products/matlab.html) é um software proprietário, e [Octave](https://www.gnu.org/software/octave/) é uma linguagem de programação alternativa licenciada abertamente.
 
-There are currently more than 1,400 unique Open Source licenses, a complexity born from the difficulty in understanding the differences between the legal implications across different license.
+Existem atualmente mais de 1.400 licenças exclusivas de código aberto, uma complexidade resultante da dificuldade em entender as diferenças entre as implicações legais através de uma licença diferente.
 
-Some of the more common licenses include:
+Algumas das licenças mais comuns incluem:
 
 - [Berkeley Software Distribution ("BSD")](https://en.wikipedia.org/wiki/BSD_licenses),
 - [Apache](https://www.apache.org/licenses/LICENSE-2.0),
 - [MIT-style (Massachusetts Institute of Technology)](https://opensource.org/licenses/MIT), ou
 - [Licença Pública Geral GNU ("GPL")](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-You don't need to know all the legal itty gritty behind all of these, but it is good to at least know what options are avaiilable to you.
+Você não precisa conhecer todos os detalhes legais por trás de tudo isso, mas é bom pelo menos saber quais opções estão disponíveis para você.
 
-There are two ways in which contributions to a project become licensed:
+Existem duas maneiras pelas quais as contribuições para um projeto se tornam licenciadas:
 
 1. *Explicitamente*, em que a contribuição individual tem uma licença claramente indicada, independente do projeto principal; ou
 2. *Implicitamente*, em que a contribuição se enquadra no código de licenciamento original do projeto principal.
 
-Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/) or [Public License Selector](https://ufal.github.io/public-license-selector/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
+Felizmente, o processo de seleção de uma licença de código aberto é relativamente trivial, graças a ferramentas fáceis de usar, como [Escolha uma licença](https://choosealicense.com/) ou [Seletor de licença público](https://ufal.github.io/public-license-selector/). Cada uma dessas licenças permite que outros usuários usem, copiem, distribuam e desenvolvam seu trabalho, geralmente garantindo que os criadores sejam devidamente reconhecidos por seu trabalho. Aqui, a chave é selecionar uma licença apropriada para o seu trabalho, dependendo do que você quer, ou não quer, que outros façam com isso.
 
   
 
