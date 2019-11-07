@@ -373,29 +373,29 @@ No entanto, ter pesquisa no GitHub é apenas o primeiro passo. É igualmente imp
 
 Não há nada de especial sobre o uso do Zenodo para criar DOIs, além de sua **gratuidade**; outros repositórios gerais também podem ser usados, como o [DataCite DOI Fabrica](https://doi.datacite.org/), ou seus próprios repositórios institucionais, como o [Caltech's](https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata).
 
-A lot of researchers might typically be afraid of sharing code which is incomplete, buggy, or imperfect. However, in the OSS community, such a practice of sharing 'raw' code is fairly commonplace. Sharing code openly enables others to re-use and improve it, as well as to engage in a deeper way with any research associated with it. This is one of the fundamental aspects of peer-collaboration, perhaps best exemplified by the traditional process of research manuscript peer review.
+Muitos pesquisadores podem ter medo de compartilhar códigos incompletos, com erros ou imperfeitos. No entanto, na comunidade de software de código-fonte aberto /Open Source Software (OSS), essa prática de compartilhamento de código "bruto" é bastante comum. O compartilhamento aberto de código permite que outras pessoas o reutilizem e aprimorem, bem como se envolvam de maneira mais profunda com qualquer pesquisa associada a ele. Esse é um dos aspectos fundamentais da colaboração entre pares, talvez melhor exemplificado pelo processo tradicional de revisão por pares de manuscritos de pesquisa.
 
-Task 2 will guide you through the process of linking a GitHub repository to Zenodo for archiving.
+A tarefa 2 irá guiá-lo através do processo de vinculação de um repositório do GitHub ao Zenodo para arquivamento.
 
 > **Você sabia ...** Todo o conteúdo produzido para este curso está disponível como parte de uma comunidade no [Zenodo](https://zenodo.org/communities/open-science-mooc/)?
 
-**[GO TO TASK 2: Linking GitHub and Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
+**[IR PARA A TAREFA 2: Vinculando GitHub e Zenodo](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)**
 
   
 
 
 ## Colaborando e contribuindo através da Código Aberto <a name="Collaborating"></a>
 
-Often, OSS is developed in a public, decentralised, collaborative manner between multiple contributors. The purpose of this is to enhance the diversity and scope of a project and its design, in order to become more beneficial and sustainable. Such an approach was famously likened to a 'bazaar' model by Eric Raymond, an early OSS proponent. One of the major guiding principles of this is that of **peer production**, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.
+Muitas vezes, o Software de Código Aberto é desenvolvido de forma pública, descentralizada e colaborativa entre múltiplos colaboradores. O objetivo é aumentar a diversidade e o escopo de um projeto e seu design, a fim de se tornar mais benéfico e sustentável. Tal abordagem foi comparada a um modelo de "bazar" por Eric Raymond, um dos primeiros defensores do programa de código-fonte aberto (OSS). Um dos mais importantes princípios orientadores disto é o da **produção entre os pares**, que depende de comunidades auto-organizadas para regular o desenvolvimento de conteúdo, coordenado para um objetivo ou resultado compartilhado.
 
-OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.
+Os projetos de software de código aberto dependem fortemente da colaboração voluntária, o que muitas vezes implica em um fluxo constante de novos participantes para se tornarem produtivos e sustentáveis. ([Steinmacher et al., 2014](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf)). Criar a atmosfera social certa para um projeto e um ambiente de engajamento acolhedor são muitas vezes cruciais para colaborações bem sucedidas em programas de código-fonte aberto.
 
   
 
 
 ## Onde ir a partir daqui <a name="Future_OSS"></a>
 
-Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.
+Esperamos que agora você tenha percebido a importância do software como uma pedra angular da ciência moderna, assim como a relevância que o programa de código-fonte aberto desempenha neste contexto.
 
 The **learning outcomes** from this should be:
 
