@@ -397,7 +397,7 @@ Os projetos de software de código aberto dependem fortemente da colaboração v
 
 Esperamos que agora você tenha percebido a importância do software como uma pedra angular da ciência moderna, assim como a relevância que o programa de código-fonte aberto desempenha neste contexto.
 
-The **learning outcomes** from this should be:
+Os **resultados da aprendizagem** a partir disso devem ser:
 
 1. Você agora será capaz de definir as características do software de código aberto, além de alguns dos argumentos éticos, legais, econômicos e de impacto na pesquisa a favor e contra ele.
 
@@ -412,11 +412,11 @@ The **learning outcomes** from this should be:
   
 
 
-**BONUS TASK**
+**TAREFA BÔNUS**
 
-If you have completed [Task 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [Task 2](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), we also have a **BONUS TASK** for you, if you want to take your skills a step further. [Task 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) will take you a step deeper into integrating Git into a typical research workflow by showing you how to integrate it with R Studio. It is recommended that you have completed the first 2 tasks before proceeding with this one.
+Se você completou [ as tarefas 1](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) e [ 2 ](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md)</strong>, nós também temos uma ** Tarefa BÔNUS** para você, caso queira aperfeiçoar suas habilidades ainda mais. [a Tarefa 3](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) irá levá-lo a um passo adiante na integração do Git em um fluxo de trabalho de pesquisa comum, mostrando-lhe como integrá-lo com o R Studio. É recomendável que você tenha concluído as duas primeiras tarefas antes de prosseguir com esta.
 
-However, your Open Source journey does not stop here! This was just the beginning, and there are some incredible resources out there if you would like to do or learn more:
+No entanto, sua jornada de código aberto não para por aqui! Este foi apenas o começo, há alguns recursos incríveis se você quiser fazer ou aprender mais:
 
 - Se você se sentir particularmente inspirado por isso, poderá endossar o [Manifesto do Código Científico](http://sciencecodemanifesto.org/), que se baseia nos cinco princípios de código, direitos autorais, citação, crédito e curadoria.
 
@@ -441,7 +441,7 @@ However, your Open Source journey does not stop here! This was just the beginnin
 
 ### Leitura adicional <a name="Reading"></a>
 
-*These references here are just the beginning. They include some of the most useful general overviews of the Open Source landscape in research. However, if you want to be find something more specific to your own research field, then that path is there for you to explore!*
+*Estas referências são apenas o início. Incluem algumas das visões gerais mais úteis do panorama do código aberto na pesquisa. Contudo, se você quiser encontrar algo mais específico para o seu próprio campo de pesquisa, esse caminho está aí para você explorar!*
 
 - The Future of Research in Free/Open Source Software Development [(Scacchi, 2010)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf).
 
