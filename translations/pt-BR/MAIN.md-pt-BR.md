@@ -478,10 +478,10 @@ No entanto, sua jornada de código aberto não para por aqui! Este foi apenas o 
 - [Ivo Grigorov](https://twitter.com/OAforClimate), Open Source Robin, Dinamarca.
 - [Rutger Vos](https://twitter.com/rvosa), Open Sourceror, Centro de Biodiversidade Naturalis, Holanda.
 - [Julien Colomb](https://twitter.com/j_colomb), Open Ninja, Berlim.
-- [Jon Tennant](https://twitter.com/protohedgehog), O Encantador de Dinossauros.
+- [Jon Tennant](https://twitter.com/protohedgehog), Dinosaur Whisperer.
 
-**Know a way this content can be improved?**
+**Sabe como esse conteúdo pode ser melhorado?**
 
-Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+Hora de testar suas novas habilidades no GitHub! Todo o desenvolvimento de conteúdo acontece principalmente [aqui](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). Se você tiver uma sugestão de melhoria do conteúdo, layout, ou qualquer outra coisa, você pode fazer isso, e, então se tornará automaticamente parte do conteúdo do curso após a verificação de um moderador!
 
 [![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
